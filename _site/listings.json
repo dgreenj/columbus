@@ -1,0 +1,32 @@
+[
+  {
+    "listing": "/tposts.html",
+    "items": [
+      "/tposts/2025-10-23-visit-japan-web/visit-japan-web-checklist.html",
+      "/tposts/2025-10-14-git/gitcommands.html",
+      "/tposts/2025-10-22-ATT/phones.html",
+      "/tposts/2025-10-14-tailscale/tailscale.html"
+    ]
+  },
+  {
+    "listing": "/sposts.html",
+    "items": [
+      "/sposts/2025-10-22-hiroshima/hiroshima-trip.html",
+      "/sposts/2025-10-13-Klook/klook_1.html",
+      "/sposts/2025-10-13-flights/flights.html",
+      "/sposts/2025-10-12-prep/prep.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2025-10-18-travelers_note/travelers.html",
+      "/posts/2025-10-14-chop/tokyo_chopstick_shopping_guide.html",
+      "/posts/2025-10-12-denim/denim.html",
+      "/posts/2025-10-25-stationary/stationary.html",
+      "/posts/2025-10-10-Tsukiji/tsukiji.html",
+      "/posts/2025-10-10-ekiben/ekiben.html",
+      "/posts/2025-10-10-glitch_coffee/glitch.html"
+    ]
+  }
+]

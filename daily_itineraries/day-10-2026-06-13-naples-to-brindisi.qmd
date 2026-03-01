@@ -1,0 +1,127 @@
+---
+title: "Day 10: Naples to Brindisi"
+subtitle: "Scenic Train Through Puglia"
+date: "2026-06-13"
+day-of-week: "Friday"
+location: "Naples → Puglia (Brindisi)"
+categories: [itinerary, travel, naples, puglia]
+---
+
+## Overview
+
+**Journey to Puglia:** Long but scenic train ride through southern Italy, entering Puglia and arriving in Brindisi
+
+---
+
+## Morning: Naples Departure (8-10 AM)
+
+### Hotel Checkout
+
+- Final Naples breakfast
+- Settle bill
+- Get taxi or metro to Napoli Centrale
+
+### Napoli Centrale to Brindisi Train
+
+**See:** [Trains Research - Naples to Brindisi](../research/trains.qmd#route-3-naples-brindisi)
+
+**Train Details:**
+- Frecciarossa + possible regional connection
+- Duration: 5-6 hours
+- Check your booking for exact route/times
+- May change in Bari or Caserta
+
+**What to Bring:**
+- Snacks and water (long journey)
+- Entertainment (book, downloaded movies)
+- Charger/portable battery
+- Light jacket (AC on trains)
+
+---
+
+## The Journey: Train Through Puglia (10 AM-4 PM)
+
+**The Route (North to South):**
+
+**Leaving Campania:**
+- Caserta (Royal Palace visible from station)
+- Benevento area
+
+**Entering Puglia (at Foggia):**
+- Tavoliere plains
+- Endless olive groves
+- **Sit on LEFT side** after Foggia for Adriatic coast views
+
+**Through Puglia:**
+- Bari (possible connection, ~3.5h from Naples)
+- Polignano a Mare (dramatic cliffs visible from train)
+- Monopoli
+- Ostuni visible in distance (white city on hill)
+- **Brindisi** (final stop, ~5.5h from Naples)
+
+**This Journey IS the Tour:**
+- Watching Puglia unfold from train window
+- Olive groves to horizon
+- Whitewashed towns
+- Adriatic glimpses
+- Southern Italy landscape
+
+---
+
+## Afternoon: Arrive Brindisi (3-5 PM)
+
+### Brindisi Station
+
+**Arrival:**
+- Smaller station than Naples/Florence
+- 10-minute walk to historic center
+- Taxi stand available
+
+### To Hotel
+
+**Options:**
+1. **If tour starts today:** Meet tour group (check confirmation)
+2. **If tour starts tomorrow:** Check into Brindisi hotel, rest evening
+
+### Evening in Brindisi
+
+**If Staying Overnight:**
+- Explore small historic center
+- Roman columns by harbor
+- Seafood dinner (Adriatic fresh fish)
+- Early night (tour starts tomorrow)
+
+**If Meeting Tour Today:**
+- Follow tour instructions for meeting point/time
+- Likely orientation meeting and welcome dinner
+
+---
+
+## Tour Preparation
+
+**Puglia Tour Starts:**
+- Likely June 14 (tomorrow)
+- OR possibly this evening with orientation
+
+**Final Checks:**
+- Tour confirmation and itinerary
+- Meeting point/time understood
+- Contact number for tour guide
+- Luggage packed for 6 days
+- Comfortable shoes ready
+
+---
+
+## Notes
+
+**Train journey impressions:**
+
+**First views of Puglia:**
+
+**Excitement level for tour:**
+
+---
+
+**Previous:** [Day 9](day-09-2026-06-12-naples.qmd) | **Next:** [Day 11: Puglia Day 1](day-11-2026-06-14-puglia.qmd)
+
+**See Also:** [Puglia Overview](../regions/puglia.qmd) for region information

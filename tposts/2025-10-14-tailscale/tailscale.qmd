@@ -1,0 +1,151 @@
+---
+title: "Tailscale"
+author: "DJG"
+date: "10/13/25"
+image: tail.png
+categories: [utilities]
+lightbox: true
+format:
+  html:
+    theme: lux
+    toc: true
+---
+Great question! Since your Fedora Linux machine is already on Tailscale, routing through your exit node is straightforward.
+
+## Enable Exit Node on Fedora Linux
+
+### Quick Command
+
+```bash
+sudo tailscale up --exit-node=<exit-node-name>
+```
+
+Replace `<exit-node-name>` with your home machine's Tailscale name.
+
+---
+
+## Step-by-Step
+
+### 1. Find Your Exit Node Name
+
+```bash
+tailscale status
+```
+
+Look for your home machine in the list - it should show something like `exit-node` or your machine name.
+
+Or list available exit nodes:
+```bash
+tailscale exit-node list
+```
+
+### 2. Connect to Exit Node
+
+```bash
+sudo tailscale up --exit-node=your-home-machine-name
+```
+
+**Example:**
+```bash
+sudo tailscale up --exit-node=desktop-home
+```
+
+Or use the Tailscale IP:
+```bash
+sudo tailscale up --exit-node=100.x.x.x
+```
+
+### 3. Verify It's Working
+
+```bash
+curl ifconfig.me
+```
+
+This should show your home IP address, not your current location's IP.
+
+Or check Tailscale status:
+```bash
+tailscale status
+```
+
+Should show you're using the exit node.
+
+---
+
+## Disable Exit Node
+
+When you want to stop routing through exit node:
+
+```bash
+sudo tailscale up --exit-node=
+```
+
+(Empty value disables it)
+
+---
+
+## Make It Persistent
+
+If you want it to always use the exit node on boot:
+
+```bash
+sudo tailscale up --exit-node=your-home-machine --exit-node-allow-lan-access
+```
+
+The `--exit-node-allow-lan-access` flag lets you still access local network devices while using exit node.
+
+---
+
+## GUI Option (If Available)
+
+Some Linux distributions have Tailscale GUI. If you have it:
+1. Click Tailscale icon in system tray
+2. Look for "Use exit node" option
+3. Select your home machine
+
+But command line is usually fastest on Linux.
+
+---
+
+## Troubleshooting
+
+**"exit node is not advertising exit node capability"**
+- Make sure your home machine is actually advertising as exit node
+- On home machine: `sudo tailscale up --advertise-exit-node`
+
+**Permission denied**
+- Need sudo for tailscale commands
+
+**Can't connect**
+- Check: `tailscale status` - is everything connected?
+- Verify home machine is online and advertising as exit node
+
+**DNS issues**
+- Try: `sudo tailscale up --exit-node=your-node --accept-dns`
+
+---
+
+## Quick Reference
+
+```bash
+# Connect to exit node
+sudo tailscale up --exit-node=home-machine
+
+# Disconnect from exit node  
+sudo tailscale up --exit-node=
+
+# Check status
+tailscale status
+
+# List available exit nodes
+tailscale exit-node list
+
+# Check your public IP
+curl ifconfig.me
+```
+
+---
+
+That's it! On Linux it's actually simpler than Windows - just one command. Let me know if you run into any issues!
+
+Ready to jump back into Korea/Japan planning when you are.

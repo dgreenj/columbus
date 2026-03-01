@@ -1,0 +1,354 @@
+---
+title: "Day 2: Pisa to Florence"
+subtitle: "Arrival in Italy"
+date: "2026-06-05"
+day-of-week: "Thursday"
+location: "Pisa → Florence"
+categories: [itinerary, pisa, florence, arrival]
+---
+
+## Overview
+
+**First day in Italy!** Arrive in Pisa from overnight flight, quick exploration of the city, then afternoon train to Florence. This is a gentle landing - managing jet lag while getting our first taste of Italy.
+
+**Today's Goals:**
+- Clear customs and immigration
+- Brief Pisa sightseeing (Leaning Tower)
+- Train to Florence
+- Check into hotel
+- Stay awake until evening (fight jet lag)
+- First Italian dinner
+
+---
+
+## Morning: Arrival in Pisa
+
+### Airport Arrival (~8-11 AM)
+
+**After Clearing Customs:**
+1. Look for **ATM** in arrivals hall (withdraw €200-300 for immediate cash needs)
+2. Look for **PisaMover** signs (shuttle to train station)
+3. Or: If overnighting in Pisa, take taxi to hotel first
+
+**Currency Exchange:**
+- Skip airport exchange kiosks (terrible rates)
+- Use ATM for best rates
+- Credit cards work almost everywhere
+
+### To Pisa Centrale Station
+
+**PisaMover Shuttle:**
+- Automated people mover (like airport tram)
+- Duration: 8 minutes
+- Frequency: Continuous
+- From airport directly to Pisa Centrale train station
+- Free or minimal cost
+
+**At Pisa Centrale:**
+- Luggage storage available if needed (€6-12/bag)
+- Can leave bags and explore Pisa lighter
+
+---
+
+## Mid-Morning: Quick Pisa Tour (Optional)
+
+**Time Available:** 2-3 hours depending on flight arrival
+
+### Piazza dei Miracoli
+
+**From Station:** 20-minute walk or bus #LAM Rossa
+
+**The Complex:**
+- **Leaning Tower** - The icon (exterior views free, climb requires ticket/booking)
+- **Cathedral (Duomo)** - Stunning Romanesque architecture
+- **Baptistery** - Incredible acoustics
+- **Camposanto** - Monumental cemetery
+- **Opera Museum** - Skip unless time permits
+
+**Recommendations:**
+- **Don't climb tower** (takes time, requires advance booking)
+- **Do take photos** from Campo dei Miracoli lawn (mandatory tourist shot!)
+- **Do walk around** the complex (beautiful from all angles)
+- **Do visit Cathedral** if open (free entry, stunning interior)
+- **Time needed:** 1-1.5 hours for photos and cathedral
+
+### Beyond the Tower
+
+**If Extra Time:**
+- **Arno River** - Lovely walk along riverbanks
+- **Piazza dei Cavalieri** - Historic square, quieter than Leaning Tower area
+- **Local cafés** - Cappuccino and cornetto (Italian breakfast)
+
+**Recommendation:** Keep it light today - you're tired, Florence awaits.
+
+---
+
+## Midday: Train to Florence
+
+### Returning to Pisa Centrale
+
+**If You Stored Luggage:** Retrieve bags from station storage
+
+**If Luggage at Hotel:** Check out, taxi to station
+
+### Pisa → Firenze Train
+
+**See:** [Trains Research](../research/trains.qmd#route-1-pisa-florence) for details
+
+**Train Details:**
+- **Type:** Regionale (regional train, no reservation needed)
+- **Frequency:** Every 30 minutes
+- **Duration:** 50-70 minutes
+- **Price:** €10-12 one-way
+- **Buy ticket:** At station window or automated machines
+
+**Boarding:**
+- Check departure board (Partenze) for platform (binario)
+- **Validate ticket** before boarding (yellow machines on platform)
+- Board any regional train to "Firenze S.M.N." (Santa Maria Novella)
+- No assigned seats (first-come seating)
+- Store luggage in racks near doors
+
+**On the Train:**
+- Sit back and enjoy your first Italian train ride!
+- Tuscan countryside views
+- Short journey - don't stress
+
+---
+
+## Afternoon: Arrive Florence
+
+### Firenze Santa Maria Novella (SMN) Station
+
+**Arrival Time:** Varies, but likely 2-4 PM
+
+**At Station:**
+- Busy, central station
+- Announcements in Italian and English
+- Follow "Uscita" (Exit) signs
+- Emerge into Piazza della Stazione
+
+**Orientation:**
+- Duomo is visible ~10-minute walk northeast
+- Most hotels walkable from station
+- Taxis available if needed
+
+### To Hotel
+
+**Walking (Recommended):**
+- Use Google Maps offline
+- Florence is compact and walkable
+- Cobblestones - roll luggage carefully
+- 5-15 minutes depending on hotel location
+
+**Taxi (If Tired):**
+- White taxis at station taxi stand
+- ~€10-15 to most central hotels
+- Tell driver hotel name and address
+
+### Hotel Check-In
+
+**Typical Check-In:** 2-3 PM (may vary)
+
+**If Early:**
+- Most hotels store luggage before check-in
+- Can explore while waiting for room
+
+**At Check-In:**
+- Passport may be required for registration
+- Ask for: WiFi password, breakfast times, area map
+- Get recommendations for nearby restaurants
+
+**In Room:**
+- Quick shower (you'll feel human again!)
+- Change clothes
+- **Do NOT nap** - stay awake until evening (fight jet lag)
+- Unpack minimally (just what you need for tonight)
+
+---
+
+## Late Afternoon: Gentle Orientation
+
+### First Florence Walk (Light Activity)
+
+**Goal:** Stay awake, gentle exercise, orient yourself
+
+**Suggested Route (30-45 minutes):**
+1. Walk toward Duomo (you'll see it from almost anywhere)
+2. Piazza del Duomo - marvel at the scale
+3. Walk around Cathedral exterior (save climbing for tomorrow)
+4. Stroll to Piazza della Signoria
+5. Ponte Vecchio (famous medieval bridge)
+6. Back to hotel area
+
+**What to Notice:**
+- Narrow streets, tall buildings
+- Gelato shops everywhere
+- Small piazzas
+- Tourists mixed with locals
+- Italian being spoken around you (you're here!)
+
+**What NOT to Do:**
+- Don't enter museums (you're too tired)
+- Don't commit to long walks (pace yourself)
+- Don't shop seriously (just window browse)
+
+### Aperitivo (6-8 PM)
+
+**The Italian Tradition:**
+- Buy a drink (€8-12)
+- Free appetizers come with it (small plates, olives, chips, etc.)
+- Social hour before dinner
+
+**Where:**
+- Any bar with "aperitivo" sign
+- Santo Spirito piazza (Oltrarno) very local
+- Ask hotel for recommendation
+
+**Order:**
+- Aperol Spritz (classic)
+- Prosecco
+- Negroni (Florentine invention)
+- Or just a beer
+
+**Why:** Light food, stays awake, ease into Italian rhythm
+
+---
+
+## Evening: First Italian Dinner
+
+### Dinner (~7:30-9 PM)
+
+**Where to Eat:**
+
+**Option 1: Near Hotel (Easy)**
+- Ask hotel concierge for recommendation
+- Walk 5-10 minutes
+- Authentic trattoria
+
+**Option 2: Across River in Oltrarno**
+- More local, less touristy
+- Il Santo Bevitore, Osteria dell'Enoteca
+- 15-20 minute walk from center
+
+**What to Order:**
+- **Don't overthink it** - you're tired
+- Simple pasta (cacio e pepe, carbonara, pomodoro)
+- Glass of house wine (vino della casa)
+- Share a dessert or get gelato after
+- Save the big Florentine steak for when you're rested
+
+**Dining Tips:**
+- Coperto (cover charge) €1-3 is normal
+- Service slower than U.S. (relax, enjoy)
+- Ask for "il conto" when ready to pay
+- Tipping: Round up or 5-10%, not 20%
+
+### After Dinner
+
+**Gelato Walk:**
+- Find nearby gelateria
+- Get gelato (stracciatella, pistachio, nocciola are safe bets)
+- Stroll back toward hotel
+- Enjoy being in FLORENCE
+
+**Evening Reflection:**
+- Soak in the fact that you're in Italy
+- Tomorrow the real adventure begins
+- Early night tonight (jet lag is real)
+
+---
+
+## Bedtime (~9-10 PM)
+
+### Jet Lag Strategy
+
+**DO:**
+- Go to bed at reasonable Italian time (9-10 PM)
+- Take shower if it helps you sleep
+- Set alarm for tomorrow morning
+- Charge all devices
+- Lay out clothes for tomorrow
+
+**DON'T:**
+- Nap during day (pushes bedtime later)
+- Stay up super late (tempting but counterproductive)
+- Sleep with lights on
+- Use phone in bed (blue light prevents sleep)
+
+**Tomorrow:**
+- You'll likely wake early (jet lag)
+- Use that time! Early morning Florence is magical
+- Hit the ground running with museums
+
+---
+
+## Checklist for Today
+
+### Accomplished
+
+- [ ] Cleared immigration/customs in Pisa
+- [ ] Got cash from ATM
+- [ ] Saw Leaning Tower (quick visit)
+- [ ] Train to Florence successful
+- [ ] Checked into hotel
+- [ ] Stayed awake until evening
+- [ ] Had first Italian meal
+- [ ] Got gelato
+- [ ] In bed by 10 PM
+
+### For Tomorrow (Day 3)
+
+- [ ] Wake early, grab café breakfast
+- [ ] Duomo complex visit (book dome climb if not done)
+- [ ] Uffizi Gallery (check booking time)
+- [ ] Real exploring begins!
+
+---
+
+## Notes & Reflections
+
+### Pisa Impressions
+
+**The Leaning Tower:**
+
+**First thoughts on Italy:**
+
+### Florence Arrival
+
+**First impressions of Florence:**
+
+**Hotel/neighborhood:**
+
+**Dinner experience:**
+
+**Jet lag status:**
+
+**Overall feeling:**
+
+---
+
+## Important Reminders
+
+**Tomorrow (Day 3):**
+- **Uffizi Gallery** - Check your timed entry (likely need to book)
+- **Duomo Dome Climb** - Must book ahead for timed slot
+- Get café breakfast (cappuccino + cornetto = €3-5)
+- Wear comfortable shoes (lots of walking)
+- Bring water bottle (refill at fountains)
+- Camera charged
+
+---
+
+## Links & Resources
+
+- [Trains Research](../research/trains.qmd) - Pisa to Florence details
+- [Florence Overview](../regions/florence.qmd) - City context
+- [Accommodations](../research/accommodations.qmd) - Hotel info
+- [Restaurants](../research/restaurants.qmd) - Dining guide
+
+---
+
+**Previous Day:** [Day 1: Madison to Pisa](day-01-2026-06-04-madison-to-pisa.qmd)
+
+**Next Day:** [Day 3: Florence - Duomo & Uffizi](day-03-2026-06-06-florence.qmd)

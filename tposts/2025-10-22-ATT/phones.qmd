@@ -1,0 +1,18 @@
+---
+title: "AT&T International Plan"
+author: "DJG"
+date: 10-13-2025
+image: att.png
+categories: [phones]
+lightbox: true
+format:
+  html:
+    theme: lux
+    toc: true
+---
+
+Hi, it’s AT&T. It was my pleasure to help you today. Here’s some information we talked about for your account: 
+
+An international plan has been activated for travel from October 24 to November 16, allowing unlimited calls, texts, and data while abroad. Data roaming is confirmed as enabled for both lines. For help while roaming internationally, go to [att.com/international](http://att.com/international) or dial +1.314.925.6925 (free call) from your device.
+
+AI-Assisted content

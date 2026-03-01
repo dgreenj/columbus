@@ -1,0 +1,139 @@
+---
+title: "Korea Cultural & Historical Tour"
+subtitle: "Complete Itinerary - October 25-31, 2025"
+author: "DJG"
+date: "10/12/25"
+format:
+  html:
+    theme: lux
+    toc: true
+---
+
+# Korea Trip Overview
+
+**Dates:** October 24-31, 2025\
+**Duration:** 8 days\
+**Guide:** Jun\
+**Focus:** Travel, Korean War history, culture, Buddhism, and modern Seoul
+
+Experience Korea's rich history and vibrant culture through guided tours, cultural experiences, temple stays, and exploration of both historical sites and modern Seoul.
+
+## Trip Highlights
+
+-   Korean War historical sites and memorials
+-   DMZ (Demilitarized Zone) experience
+-   Traditional Buddhist temple stay
+-   Gyeongbokgung Palace and cultural sites
+-   Modern Seoul exploration and shopping
+-   Local markets and authentic dining
+
+------------------------------------------------------------------------
+
+## October 24 - Day 1
+
+**Location:** Travel Day **Theme:** Departure from Madison **Meals:** Flight meals
+
+### Activities
+
+-   Flight from Madison, WI to Chicago O'Hare
+-   Direct flight to Incheon, South Korea on Korean Air
+-   International travel day
+-   Cross International Date Line
+
+------------------------------------------------------------------------
+
+## October 25 - Day 2
+
+**Location:** Incheon **Theme:** Arriving at Incheon Airport **Meals:** Light dinner (optional)
+
+### Activities
+
+-   Arriving at Incheon Airport
+-   Transportation: Jun's car
+-   Incheon night view, light dinner (optional)
+-   Hotel: Holiday Inn (\$120 per night)
+
+------------------------------------------------------------------------
+
+## October 26 - Day 3
+
+**Location:** Incheon **Theme:** [Korean War](korean_war.qmd "Brief on the Korean War") **Meals:** Lunch, Dinner (cruise ship) **Sites:** [Korean War Sites](korean_war_sites.qmd "Korean War Sites List")
+
+### Activities
+
+-   General Douglas MacArthur Statue
+-   Memorial Hall for Incheon Landing Operation (Lunch)
+-   Incheon Yeon-An Pier, fish market
+-   Palmido (visiting Korea's first lighthouse, Korean war)
+-   Cruise ship (Dinner)
+
+------------------------------------------------------------------------
+
+## October 27 - Day 4
+
+**Location:** Gyeonggi-Do, North Seoul **Theme:** DMZ **Meals:** Lunch (Heyri Art Village), Dinner (Insadong)
+
+### Activities
+
+-   [DMZ](korean_war_sites.qmd "Korean War Sites Brief")
+-   Majang Reservoir Suspension Bridge
+-   [Heyri Art Village](heyri.qmd "Heyri Art Village Brief") (Lunch)
+-   Insadong Night View Tour (Dinner)
+-   Hotel: Hotel Sunbee Insadong (\$170.84 per night)
+
+------------------------------------------------------------------------
+
+## October 28 - Day 5
+
+**Location:** Seoul **Theme:** Korean Culture **Meals:** Dinner (Itaewon)
+
+### Activities
+
+-   National Museum of Korea
+-   Han River Relaxation
+-   Itaewon (Dinner)
+-   Transportation: Walk, Subway, Bus
+
+------------------------------------------------------------------------
+
+## October 29 - Day 6
+
+**Location:** Seoul **Theme:** Buddhism Experience **Meals:** Temple meals
+
+### Activities
+
+-   Gyeongbokgung Palace
+-   Craft-Art Museum
+-   2 days temple experience begins
+-   Hotel: Geumsunsa Temple Stay (KRW 320,000 for 4 people)
+-   Check-in before 2:30 PM
+-   Bring own toiletries, towels and tumbler
+
+------------------------------------------------------------------------
+
+## October 30 - Day 7
+
+**Location:** Seoul **Theme:** Shopping **Meals:** Local market dining
+
+### Activities
+
+-   Nam-san Mountain
+-   Skyview
+-   Local market
+-   Eyeglasses shopping
+-   Hotel: AWIK Hanok Stay (KRW 475,000 for 4-6 guests)
+
+------------------------------------------------------------------------
+
+## October 31 - Day 8
+
+**Location:** Seoul to Japan **Theme:** Trip to Japan **Meals:** Airport departure
+
+### Activities
+
+-   Gyeongbokgung Palace
+-   Craft-Art Museum
+-   Transportation: Subway to Airport
+-   Departure to Japan
+
+------------------------------------------------------------------------

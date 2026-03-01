@@ -1,0 +1,125 @@
+---
+title: "Day 11: Puglia - Tour Day 1"
+subtitle: "Tour Being Planned"
+date: "2026-06-14"
+day-of-week: "Saturday"
+location: "Puglia"
+categories: [itinerary, puglia, placeholder]
+status: "Placeholder - Tour Details TBD"
+---
+
+::: {.callout-warning}
+## Placeholder Page - Tour Being Finalized
+
+This day is part of our 6-day Puglia organized tour (June 14-19). Specific itinerary, accommodations, and activities will be updated once tour operator and schedule are confirmed.
+
+**Expected Update:** Late March/early April 2026
+:::
+
+---
+
+## Overview
+
+**First day of Puglia tour** exploring Italy's hidden gem - the heel of the boot.
+
+**Tour Duration:** 6 days (June 14-19)
+**Tour Status:** Being planned and finalized
+
+---
+
+## Expected Activities (Based on Typical Puglia Tours)
+
+**Possible Destinations:**
+- **Alberobello** - UNESCO trulli houses
+- **Lecce** - "Florence of the South" with baroque architecture
+- **Polignano a Mare** - Dramatic coastal town
+- **Ostuni** - The White City on a hilltop
+
+**Typical Day Structure:**
+- Morning departure from accommodation
+- Guided tour of historic site or town
+- Lunch (included or recommended restaurant)
+- Afternoon activity or free time
+- Evening return to accommodation
+- Dinner (included or independent)
+
+---
+
+## General Puglia Information
+
+**See:** [Puglia Overview](../regions/puglia.qmd) for comprehensive region information
+
+**What Makes Puglia Special:**
+- Unique trulli architecture (cone-shaped stone houses)
+- Baroque masterpieces in golden limestone
+- Adriatic coastal beauty
+- Authentic southern Italian culture
+- Exceptional food and wine (orecchiette pasta, burrata, Primitivo wine)
+- Far fewer tourists than Tuscany
+
+**Climate in June:**
+- High 80s°F (28-30°C)
+- Sunny and dry
+- Coastal breezes
+- Perfect for exploration
+
+---
+
+## What to Pack for Tour
+
+**Essentials:**
+- [ ] Comfortable walking shoes (cobblestones, hills)
+- [ ] Sun protection (hat, sunglasses, sunscreen)
+- [ ] Light layers (churches may require shoulders covered)
+- [ ] Camera
+- [ ] Water bottle
+- [ ] Small daypack
+- [ ] Cash for incidentals
+
+**Tour Will Likely Include:**
+- Transportation between sites
+- Professional guide
+- Some meals
+- Entrance fees to attractions
+
+---
+
+## When This Page Will Be Updated
+
+Once Puglia tour is confirmed, this page will include:
+- [ ] Exact daily itinerary
+- [ ] Departure time and meeting point
+- [ ] Specific destinations for the day
+- [ ] Accommodation details (hotel name, location, check-in)
+- [ ] Meals included vs. independent
+- [ ] Free time vs. guided activities
+- [ ] What to bring specifically for today
+
+---
+
+## Resources
+
+**General Puglia Information:**
+- [Puglia Overview](../regions/puglia.qmd)
+- [Puglia Tourism Official](https://www.viaggiareinpuglia.it/en)
+
+**Tour Research:**
+- [Tours Research Page](../research/tours.qmd#puglia-regional-tour)
+
+---
+
+## Temporary Notes
+
+**Use this space to add notes when tour is booked:**
+
+**Tour Operator:**
+
+**Accommodation Tonight:**
+
+**Activities Today:**
+
+**Highlights:**
+
+---
+
+**Previous:** [Day 10: Naples to Brindisi](day-10-2026-06-13-naples-to-brindisi.qmd) | **Next:** [Day 12: Puglia Day 2](day-12-2026-06-15-puglia.qmd)

@@ -1,0 +1,96 @@
+---
+title: "Getting Ready"
+date: "2025-10-12"
+author: "DJG"
+image: 1958_Japan.jpg
+categories: [planning, preparation, research]
+lightbox: true
+format:
+  html:
+    theme: lux
+    toc: true
+---
+
+## Why This Trip Feels Different
+
+We're heading to Korea and Japan in 2025, and honestly, the preparation for this trip has become almost as exciting as the trip itself. There's something special about the anticipation; we've never traveled east, nor have we been away from home for 3+ weeks.
+
+So, I decided to **build a website to document it all.** There's so much information, too much to keep track of any other way. And way too much to find easily. This way it's wherever the internet is.\
+\
+(Plus I need to keep my R / Quarto skills fresh!)
+
+## Building the Trip Website
+
+### The Idea
+
+So I fired up RStudio and started a Quarto website. It's become my favorite way to keep a great deal of information together and organized.
+
+The site lives at my domain, updates automatically when I push to GitHub, and has become this living, breathing document of our planning process.
+
+**What started as organizational necessity became something more:** a creative project, a research repository, and honestly, a way to channel pre-trip excitement into something productive.
+
+The site includes: - Day-by-day itineraries (still being refined) - Research briefs on places we want to visit - Historical context (because how can you visit Korea without understanding the Korean War?) - Shopping guides (stationery! denim!) - Food recommendations - Practical info about power adapters, transportation, money
+
+It's probably overkill. It's definitely overkill. But it's also becoming a valuable resource, and the process of building it has made me think more deeply about what we want from this trip.
+
+## Going Down Research Rabbit Holes
+
+### The Korean War
+
+I am really looking forward to touring the DMZ. My father was there while in Army shortly after the war ended. Incheon is important, too, as it was the turning point of the war. Did you know General MacArthur's amphibious assault was considered nearly impossible due to 30-foot tides? That it was precisely *because* it seemed impossible that it worked?
+
+This isn't just tourist prep. It's trying to understand a place before we arrive.
+
+### Heyri Art Village
+
+I'd never heard of Heyri until our friend mentioned it in passing. Now I've read everything I can find about this artists' community near the DMZ—370 artists living and working in architecturally unique buildings, creating beauty and culture just miles from the most militarized border in the world. Seems unlikely. That's why we have to see it!
+
+## Conversations with Friends in Korea
+
+### The Local Perspective
+
+We're incredibly fortunate to have good friends living in Seoul. They've planned the entire trip! We'll see places most tourists don't get to. We'll also experience Seoul and Incheon with two people who know it intimately.
+
+## The Wisconsin Quilt Museum Tour
+
+The Japan portion of our trip is with the Wisconsin Quilt Museum's art tour, led by Heidi Parkes. This adds a fascinating structure to the experience—we'll be diving deep into Japanese textile traditions, contemporary art, and cultural sites through a curated lens.
+
+## What I'm Learning About Travel Planning
+
+### 1. The Research IS Part of the Experience
+
+I used to think planning was just the necessary logistics before the "real" trip. But diving deep into the history, culture, and details has become its own journey. I'm arriving in Korea and Japan with context, questions, and genuine curiosity—not just a list of sights to check off.
+
+### 2. Documentation Helps Process Information
+
+Building the website forces me to synthesize what I'm learning. When I write a brief about the Korean War or create a guide to Tokyo stationery shops, I have to really understand it, organize it, make it coherent. It's active learning, not passive research.
+
+## The Website as Travel Companion
+
+One unexpected benefit: the website will travel with us. On our phones in Tokyo, trying to remember which subway line gets us to Nakameguro. In Seoul, double-checking the hours of a museum. At dinner, looking up Korean food terminology so we can order more confidently.
+
+It's become a living document—part guidebook, part journal, part research archive. And after the trip, it'll become a memory keeper, a place to add photos and stories and reflections.
+
+## What's Next
+
+There's still plenty to figure out. Like packing for three weeks.
+
+But the foundation is there. The research is mostly done (though I keep finding new things to add). The excitement is building. And the website is growing day by day.
+
+## Why I'm Writing This
+
+Partly to document the process. Partly because I think other people might enjoy reading about the journey-before-the-journey. Partly because writing helps me think.
+
+But mostly because this whole experience—the research, the website building, the conversations with friends, the planning—has reminded me that travel isn't just about the destination. It's about curiosity, connection, and the willingness to dive deep into something new.
+
+We're not just going to Korea and Japan. We're learning about Korea and Japan. We're building relationships, asking questions, preparing to show up as engaged visitors rather than passive tourists.
+
+And somehow, building a website about all of it has made the whole process richer, more intentional, more real.
+
+## See You on the Other Side
+
+By the time you read this (if anyone does), we might already be there. Or maybe we're still in the thick of planning. Either way, this is the story of how a trip to Korea and Japan became a web development project, a research deep-dive, and a reminder that sometimes the preparation is part of the adventure.
+
+------------------------------------------------------------------------
+
+*Follow along as we continue to plan, prepare, and eventually experience Korea and Japan. The journey is just beginning—and it started long before we board the plane.*

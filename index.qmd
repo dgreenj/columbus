@@ -1,0 +1,98 @@
+---
+title: "Italy Trip 2026"
+subtitle: "Florence, Naples & Puglia"
+author: "Dan Green"
+date: "2026-06-04"
+editor: visual
+---
+
+![](assets/images/italian_landscape.jpg){fig-align="center"}
+
+# The Journey
+
+We're embarking on a 17-day exploration of Italy's art, archaeology, and southern beauty—from the Renaissance masterpieces of Florence to the ancient ruins of Herculaneum, culminating in the sun-drenched landscapes of Puglia. This site serves as both our planning hub and travel journal, documenting an Italian adventure from Madison, Wisconsin to the heel of the boot and back.
+
+## Why Italy? Why These Regions?
+
+Italy offers layers of history that few places can match. Florence gave birth to the Renaissance, preserving centuries of artistic genius in its museums and churches. Naples guards some of the world's finest archaeological treasures from Pompeii and Herculaneum. And Puglia—Italy's hidden gem—beckons with its unique trulli houses, baroque architecture, and authentic southern Italian culture largely untouched by mass tourism.
+
+This trip combines three distinct Italian experiences:
+- **Florence**: Four days immersed in Renaissance art—Michelangelo's David, Botticelli's Birth of Venus, Brunelleschi's Dome, and countless treasures from humanity's creative peak
+- **Naples**: Two days exploring the archaeological wonders of Herculaneum and the vibrant, chaotic energy of southern Italy's largest city
+- **Puglia**: Six days discovering the lesser-known heel of Italy's boot, with its whitewashed hill towns, coastal beauty, and distinctive regional character
+
+## Trip Overview
+
+**June 4-5 (Days 1-2): Arrival**
+Fly from Madison to Pisa, overnight in Pisa, then train to Florence
+
+**June 6-9 (Days 3-6): Florence**
+Four full days exploring the Uffizi Gallery, Accademia, Duomo Complex, Bargello, Medici Chapels, Palazzo Pitti, Santa Croce, and the art-filled streets of the Renaissance capital
+
+**June 10-12 (Days 7-9): Naples & Herculaneum**
+High-speed train to Naples, guided tour of the exceptionally preserved ruins of Herculaneum, exploration of Naples' archaeological museum (MANN) and historic center
+
+**June 13 (Day 10): Journey to Puglia**
+Scenic train ride through the Apennines and down the Adriatic coast, entering Puglia and arriving in Brindisi
+
+**June 14-19 (Days 11-16): Puglia**
+Six-day tour exploring Puglia's highlights—Alberobello's UNESCO trulli houses, Lecce's baroque splendor, Polignano a Mare's dramatic coastline, Ostuni's white city, regional cuisine and wine
+
+**June 20 (Day 17): Departure**
+Return journey to Rome and flight home to Madison
+
+## What You'll Find Here
+
+### Top Navigation
+
+**Home** - This landing page with trip overview
+
+**Research** - Comprehensive travel logistics:
+- Flight options and bookings (Chicago/Madison to Pisa, Rome return)
+- Train schedules and routes (Pisa-Florence-Naples-Brindisi)
+- Accommodations by city
+- Museum booking requirements and strategies
+- Tour options (especially Herculaneum)
+- Restaurant recommendations
+- Packing list for June in Italy
+
+**Regions** - Overview pages for Florence, Naples, and Puglia with context, highlights, and practical information
+
+**Blog** - Detailed posts about specific attractions, museums, sites, and experiences. Grid layout for easy browsing.
+
+**Notes** - Personal observations, reflections, and travel journal entries during the trip
+
+### Left Sidebar Navigation
+
+**Pre-Trip Planning** - Quick access to all research and logistics pages
+
+**Daily Itineraries** - Organized by region with 17 day-by-day schedules:
+- Days 1-2: Arrival and Pisa
+- Days 3-6: Florence (with regional overview)
+- Days 7-9: Naples (with regional overview)
+- Day 10: Travel to Puglia
+- Days 11-16: Puglia (placeholders pending tour confirmation)
+- Day 17: Departure
+
+## Special Notes
+
+**Puglia Tour Status**: The Puglia portion (Days 11-16) is currently being planned. We have placeholder pages with general regional information that will be updated once tour details are confirmed. See the Puglia Overview page for current status.
+
+**Travel Logistics**: This trip involves careful coordination of flights, trains, and accommodations across multiple cities. The Research section contains detailed information on all bookings, schedules, and contingency plans.
+
+**Art Focus**: With four days in Florence and stops at the Uffizi, Accademia, Bargello, Medici Chapels, and more, this is an art-intensive trip. We've planned strategically to avoid museum fatigue while seeing the masterpieces that drew us to Italy.
+
+## Our Approach
+
+This journey balances structure and spontaneity. The Florence and Naples portions are carefully planned around museum reservations and train schedules, while still leaving time to wander, discover, and embrace the Italian pace of life. The Puglia tour will provide expert guidance through a less-familiar region. Throughout, we're prioritizing:
+
+- **Art and archaeology**: From Renaissance masterpieces to Roman ruins
+- **Authentic experiences**: Local food, markets, neighborhoods beyond tourist zones
+- **Flexibility**: Room for unexpected discoveries and recommendations from locals
+- **Documentation**: Photos, notes, and reflections to remember and share
+
+This website is both planning tool and travel journal—a living document that evolves from research to reality as we prepare for and experience Italy.
+
+---
+
+*Join us as we trace the arc of Italian history from Renaissance Florence through ancient Herculaneum to the sun-soaked landscapes of Puglia. Andiamo!* 🇮🇹

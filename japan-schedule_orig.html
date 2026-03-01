@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan & Jane Japan Trip Schedule</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+        }
+        
+        .legend-color {
+            width: 30px;
+            height: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .dan-only { background: #4ade80; }
+        .jane-only { background: #3b82f6; }
+        .together { background: #ef4444; }
+        
+        .day-card {
+            margin-bottom: 25px;
+            border: 2px solid #e5e7eb;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .day-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        .day-location {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+        
+        .schedule-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+        
+        .schedule-column {
+            padding: 20px;
+        }
+        
+        .schedule-column:first-child {
+            border-right: 2px solid #e5e7eb;
+        }
+        
+        .column-header {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .dan-header { color: #16a34a; }
+        .jane-header { color: #2563eb; }
+        
+        .event {
+            margin-bottom: 15px;
+            padding: 12px;
+            border-radius: 10px;
+            color: white;
+            font-weight: 500;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .event-time {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 0.95em;
+        }
+        
+        .event-description {
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+        
+        .full-width {
+            grid-column: 1 / -1;
+            border-right: none !important;
+        }
+        
+        .note {
+            background: #fef3c7;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 15px 20px;
+            border-left: 4px solid #f59e0b;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .schedule-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .schedule-column:first-child {
+                border-right: none;
+                border-bottom: 2px solid #e5e7eb;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🇯🇵 Dan & Jane's Japan Trip</h1>
+        <div class="subtitle">November 2-15, 2025</div>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color dan-only"></div>
+                <span>Dan Only</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color jane-only"></div>
+                <span>Jane Only</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color together"></div>
+                <span>Together</span>
+            </div>
+        </div>
+
+        <!-- Day 1 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 1 - Sunday, November 2
+                <div class="day-location">📍 Tokyo - Hotel East 21</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column full-width">
+                    <div class="event together">
+                        <div class="event-time">19:00 (7:00 PM)</div>
+                        <div class="event-description">Welcome Dinner - Sazanka Restaurant (21st Floor)<br>Japanese Kaiseki</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 2 - Monday, November 3
+                <div class="day-location">📍 Tokyo - Hotel East 21</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column">
+                    <div class="column-header dan-header">Dan's Schedule</div>
+                    <div class="event dan-only">
+                        <div class="event-time">09:00-11:30</div>
+                        <div class="event-description">Free Time<br>• Tomioka Shrine (5 min walk)<br>• Kiyosumi Gardens (10 min)<br>• Fukagawa Edo Museum</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">11:30-12:00</div>
+                        <div class="event-description">Lunch at Hotel</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">12:30-14:30</div>
+                        <div class="event-description">Japan Folk Crafts Museum</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">15:00-17:30</div>
+                        <div class="event-description">Fabric Shopping (Optional)<br>Okadaya & NUNO</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">18:00-19:00</div>
+                        <div class="event-description">Dinner</div>
+                    </div>
+                </div>
+                <div class="schedule-column">
+                    <div class="column-header jane-header">Jane's Schedule</div>
+                    <div class="event jane-only">
+                        <div class="event-time">09:00-11:30</div>
+                        <div class="event-description">Group Sewing with Heidi</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">11:30-12:00</div>
+                        <div class="event-description">Lunch at Hotel</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">12:30-14:30</div>
+                        <div class="event-description">Japan Folk Crafts Museum</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">15:00-17:30</div>
+                        <div class="event-description">Fabric Shopping<br>Okadaya & NUNO</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">18:00-19:00</div>
+                        <div class="event-description">Dinner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 3 - Tuesday, November 4
+                <div class="day-location">📍 Tokyo - Hotel East 21</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column full-width">
+                    <div class="event together">
+                        <div class="event-time">09:00-10:30</div>
+                        <div class="event-description">Meiji Jingu Shrine</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">11:00-12:30</div>
+                        <div class="event-description">Tsukiji Market (PYO Lunch)</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">13:00-16:30</div>
+                        <div class="event-description">Tea/Kimono Experience - Asakusa</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">16:30-17:30</div>
+                        <div class="event-description">Change Clothes</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">18:00-19:30</div>
+                        <div class="event-description">Dinner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 4 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 4 - Wednesday, November 5
+                <div class="day-location">📍 Tokyo - Hotel East 21</div>
+            </div>
+            <div class="note">📦 Luggage Transfer to Kyoto - Keep backpack with essentials for Days 5-6</div>
+            <div class="schedule-grid">
+                <div class="schedule-column">
+                    <div class="column-header dan-header">Dan's Schedule</div>
+                    <div class="event together">
+                        <div class="event-time">08:30</div>
+                        <div class="event-description">Luggage Drop-off</div>
+                    </div>
+                    <div class="event dan-only">
+                        <div class="event-time">09:00-11:30</div>
+                        <div class="event-description">Free Time<br>• Imperial Palace Gardens<br>• Senso-ji Temple<br>• Ueno Park & Museums</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">11:30-12:00</div>
+                        <div class="event-description">Lunch at Hotel<br>Japanese Bento Box</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">13:30-15:30</div>
+                        <div class="event-description">TeamLab Toyosu<br>Digital Art Experience</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">16:00-17:30</div>
+                        <div class="event-description">Tokyo Skytree</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">18:00-19:30</div>
+                        <div class="event-description">Dinner</div>
+                    </div>
+                </div>
+                <div class="schedule-column">
+                    <div class="column-header jane-header">Jane's Schedule</div>
+                    <div class="event together">
+                        <div class="event-time">08:30</div>
+                        <div class="event-description">Luggage Drop-off</div>
+                    </div>
+                    <div class="event jane-only">
+                        <div class="event-time">09:00-11:30</div>
+                        <div class="event-description">Group Sewing (09:00-10:00)<br>Workshop with Hikaru Noguchi (10:00-11:30)</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">11:30-12:00</div>
+                        <div class="event-description">Lunch at Hotel<br>Japanese Bento Box</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">13:30-15:30</div>
+                        <div class="event-description">TeamLab Toyosu<br>Digital Art Experience</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">16:00-17:30</div>
+                        <div class="event-description">Tokyo Skytree</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">18:00-19:30</div>
+                        <div class="event-description">Dinner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 5 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 5 - Thursday, November 6
+                <div class="day-location">📍 Tokyo/Fuji Yoshida - Hotel Regina</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column full-width">
+                    <div class="event together">
+                        <div class="event-time">09:40-12:00</div>
+                        <div class="event-description">Nezu Museum</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">12:30-13:15</div>
+                        <div class="event-description">Lunch</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">15:00-16:00</div>
+                        <div class="event-description">Sashiko Kan</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">18:00</div>
+                        <div class="event-description">Arrive Fuji Yoshida<br>Optional: Hot Spring "Onsen"</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 6 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 6 - Friday, November 7
+                <div class="day-location">📍 Fuji Yoshida/Kyoto - Princess Kyoto</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column">
+                    <div class="column-header dan-header">Dan's Schedule</div>
+                    <div class="event together">
+                        <div class="event-time">09:30-11:15</div>
+                        <div class="event-description">Kubota Itchiku Museum</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">12:00-12:30</div>
+                        <div class="event-description">Lunch</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">12:45-13:15</div>
+                        <div class="event-description">Oshino Hakkai</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">14:40</div>
+                        <div class="event-description">Bullet Train to Kyoto</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">19:00</div>
+                        <div class="event-description">Western-style Dinner at Hotel</div>
+                    </div>
+                    <div class="event dan-only">
+                        <div class="event-time">After Dinner</div>
+                        <div class="event-description">Free Time<br>Relax at hotel or explore nearby</div>
+                    </div>
+                </div>
+                <div class="schedule-column">
+                    <div class="column-header jane-header">Jane's Schedule</div>
+                    <div class="event together">
+                        <div class="event-time">09:30-11:15</div>
+                        <div class="event-description">Kubota Itchiku Museum</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">12:00-12:30</div>
+                        <div class="event-description">Lunch</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">12:45-13:15</div>
+                        <div class="event-description">Oshino Hakkai</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">14:40</div>
+                        <div class="event-description">Bullet Train to Kyoto</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">19:00</div>
+                        <div class="event-description">Western-style Dinner at Hotel</div>
+                    </div>
+                    <div class="event jane-only">
+                        <div class="event-time">19:00-21:00</div>
+                        <div class="event-description">Group Sewing Session</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 7 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 7 - Saturday, November 8
+                <div class="day-location">📍 Kyoto - Princess Kyoto</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column full-width">
+                    <div class="event together">
+                        <div class="event-time">08:30-10:15</div>
+                        <div class="event-description">Kiyomizu Temple</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">10:30-11:30</div>
+                        <div class="event-description">Sanju Sangendo</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">11:45-12:45</div>
+                        <div class="event-description">Lunch</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">13:00-14:00</div>
+                        <div class="event-description">Fushimi Inari Shrine</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">14:00+</div>
+                        <div class="event-description">Optional: Hike at Fushimi Inari OR Kyoto National Museum (14:15-16:15)</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">16:30</div>
+                        <div class="event-description">Nishiki Market Area</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">18:00</div>
+                        <div class="event-description">Optional Ramen Dinner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 8 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 8 - Sunday, November 9
+                <div class="day-location">📍 Himeji & Split Day</div>
+            </div>
+            <div class="note">⚠️ Group splits after Himeji Castle - Dan goes to Hiroshima, Jane returns to Kyoto with main group</div>
+            <div class="schedule-grid">
+                <div class="schedule-column">
+                    <div class="column-header dan-header">Dan's Schedule (Hiroshima)</div>
+                    <div class="event together">
+                        <div class="event-time">08:30-12:00</div>
+                        <div class="event-description">Depart Hotel → Himeji Castle<br>(Entire group together)</div>
+                    </div>
+                    <div class="event dan-only">
+                        <div class="event-time">12:46-13:42</div>
+                        <div class="event-description">Bullet Train to Hiroshima<br>Bento box lunch on train</div>
+                    </div>
+                    <div class="event dan-only">
+                        <div class="event-time">13:42-18:29</div>
+                        <div class="event-description">Hiroshima Excursion<br>• Peace Memorial Park<br>• Atomic Bomb Dome<br>• Museum</div>
+                    </div>
+                    <div class="event dan-only">
+                        <div class="event-time">18:29-20:13</div>
+                        <div class="event-description">Bullet Train Return to Kyoto</div>
+                    </div>
+                </div>
+                <div class="schedule-column">
+                    <div class="column-header jane-header">Jane's Schedule (Main Group)</div>
+                    <div class="event together">
+                        <div class="event-time">08:30-12:00</div>
+                        <div class="event-description">Depart Hotel → Himeji Castle<br>(Entire group together)</div>
+                    </div>
+                    <div class="event jane-only">
+                        <div class="event-time">13:00</div>
+                        <div class="event-description">Lunch in Himeji</div>
+                    </div>
+                    <div class="event jane-only">
+                        <div class="event-time">14:00</div>
+                        <div class="event-description">Depart Himeji</div>
+                    </div>
+                    <div class="event jane-only">
+                        <div class="event-time">16:00+</div>
+                        <div class="event-description">Return to Kyoto - Free Time</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 9 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 9 - Monday, November 10
+                <div class="day-location">📍 Kyoto - Princess Kyoto</div>
+            </div>
+            <div class="note">📦 Luggage Transfer to Tokyo - Keep backpack with essentials for Days 10-11<br>⚠️ Liquids, gels & sewing supplies must be flight-compliant sizes</div>
+            <div class="schedule-grid">
+                <div class="schedule-column full-width">
+                    <div class="event together">
+                        <div class="event-time">07:30</div>
+                        <div class="event-description">Luggage Drop-off in Lobby</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">09:00-10:15</div>
+                        <div class="event-description">Kinkakuji Golden Pavilion</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">10:30-11:20</div>
+                        <div class="event-description">Ryoanji Temple</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">11:45-12:40</div>
+                        <div class="event-description">Lunch</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">13:00-14:30</div>
+                        <div class="event-description">Nijo Castle</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">15:00-16:00</div>
+                        <div class="event-description">Arashiyama Bamboo Forest</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">16:45</div>
+                        <div class="event-description">Return to Hotel</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">17:40-18:00+</div>
+                        <div class="event-description">Walk to Dinner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 10 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 10 - Tuesday, November 11
+                <div class="day-location">📍 Kyoto/Niigata - Nikko Niigata</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column full-width">
+                    <div class="event together">
+                        <div class="event-time">08:00-11:05</div>
+                        <div class="event-description">Depart Hotel → Flight to Niigata</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">12:00-14:00</div>
+                        <div class="event-description">Northern Cultural Museum<br>Lunch 12:45-13:30</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">14:15-15:45</div>
+                        <div class="event-description">Tachikawa Weaving Factory</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">16:15-17:15</div>
+                        <div class="event-description">Niigata Ginka</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">17:30</div>
+                        <div class="event-description">Hotel Check-in</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">19:00</div>
+                        <div class="event-description">Dinner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 11 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 11 - Wednesday, November 12
+                <div class="day-location">📍 Niigata/Tokyo - Nikko Daiba Tokyo</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column full-width">
+                    <div class="event together">
+                        <div class="event-time">08:30-09:00</div>
+                        <div class="event-description">Depart → Hoshina Dyeing Studio</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">10:00-15:00</div>
+                        <div class="event-description">Akiko Ike Workshop<br>Lunch included in Echizenhama</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">15:30</div>
+                        <div class="event-description">Niigata Station (PYO Bento Box)</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">16:30-18:40</div>
+                        <div class="event-description">Bullet Train to Tokyo</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">19:00</div>
+                        <div class="event-description">Tokyo Station → Hotel</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 12 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 12 - Thursday, November 13
+                <div class="day-location">📍 Yokohama - Nikko Daiba Tokyo</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column full-width">
+                    <div class="event together">
+                        <div class="event-time">09:30-10:00</div>
+                        <div class="event-description">Depart Hotel → Yokohama</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">10:00-17:00</div>
+                        <div class="event-description">Yokohama Quilt Show<br>Enjoy on your own, PYO Lunch</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">17:00-18:00</div>
+                        <div class="event-description">Depart Yokohama → Dinner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 13 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 13 - Friday, November 14
+                <div class="day-location">📍 Tokyo - Nikko Daiba Tokyo</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column">
+                    <div class="column-header dan-header">Dan's Schedule</div>
+                    <div class="event dan-only">
+                        <div class="event-time">08:45-18:00</div>
+                        <div class="event-description">Full Day Independent Exploration<br><br>Options:<br>• Shibuya, Harajuku, Akihabara<br>• Tokyo National Museum<br>• Day trip to Kamakura or Nikko<br>• Tsukiji Outer Market<br>• Shinjuku Gyoen Gardens<br>• teamLab Borderless</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">19:00</div>
+                        <div class="event-description">Farewell Dinner at Hotel</div>
+                    </div>
+                </div>
+                <div class="schedule-column">
+                    <div class="column-header jane-header">Jane's Schedule</div>
+                    <div class="event jane-only">
+                        <div class="event-time">08:45-09:30</div>
+                        <div class="event-description">Depart Hotel</div>
+                    </div>
+                    <div class="event jane-only">
+                        <div class="event-time">09:30-12:00</div>
+                        <div class="event-description">Kusano Shizuka Japanese Embroidery Workshop</div>
+                    </div>
+                    <div class="event jane-only">
+                        <div class="event-time">13:00-14:00</div>
+                        <div class="event-description">Lunch</div>
+                    </div>
+                    <div class="event jane-only">
+                        <div class="event-time">14:30-16:00</div>
+                        <div class="event-description">Nippori Textile Town</div>
+                    </div>
+                    <div class="event jane-only">
+                        <div class="event-time">16:30-17:30</div>
+                        <div class="event-description">Ginza</div>
+                    </div>
+                    <div class="event together">
+                        <div class="event-time">19:00</div>
+                        <div class="event-description">Farewell Dinner at Hotel</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 14 -->
+        <div class="day-card">
+            <div class="day-header">
+                Day 14 - Saturday, November 15
+                <div class="day-location">📍 Departure Day</div>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-column full-width">
+                    <div class="event together">
+                        <div class="event-time">After Breakfast</div>
+                        <div class="event-description">Tour Ends<br>Departure preparations or extend stay</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

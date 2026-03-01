@@ -1,0 +1,15 @@
+{
+  "hash": "261928ddb494a604ab8c418d5ebc9399",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Quick View: The Analyst Exercise\"\nformat: \n    dashboard: \n        orientation: rows\ndate: 04/28/24\neditor: visual\npage-footer: false\n---\n\n\n## Row {height=\"5%\"}\n\nStock Analyst Exercise: Quick Reference\n\n## Row {height=\"30%\"}\n\nTimeline for Tasks:\n\n-   Tasks I & II: Complete by Tuesday, end of class (4:30 pm)\n\n-   Task III: Complete by Wednesday, end of class (4:30 pm)\n\n-   Task IV: Complete by Thursday, before lunch (12:00 pm)\n\n-   Task V: Complete by Thursday, end of class (4:30 pm)\n\n## Row (height=25%)\n\nPart I: About the Company\n\nTask: Provide a brief overview of the company.\n\nYour summary should be no more than 100 words, in your own words, and should include the company's name, industry, and a brief description of its products or services plus the sector into which the company belongs. Consider including recent news about the company in your summary. There is no need to mention company leadership in your summary unless there is something notable about them.\n\n### \n\nPart II: Reading the Company's Stock Quote\n\nTask: Find the values for:\n\n1.  Last or Closing Price\n\n2.  Average Volume\n\n3.  Bid\n\n4.  Ask\n\n5.  Beta\n\n6.  EPS\n\n7.  P/E Ratio\n\n8.  Five Year Growth Estimate (Future)\n\n## Row {height=\"25%\"}\n\nPart III: Analysis\n\nTask A: Fundamental Analysis\n\n1.  What is the Intrinsic Value of the Stock using the Original Model\n2.  What is the Intrinsic Value of the Stock using the Updated Model\n\nTask B: Technical Analysis\n\nIn no more than 100 words, describe the RSI or Candlestick patterns for the stock.\n\n### \n\nPart IV: What options position might you take with the stock?\n\nIn no more than 100 words, describe the options position(s) you might take with the stock.\n\n## Row {height=\"15%\"}\n\nPart V: Investment Decision\n\nTask A: Assume you do not own the stock. Would you BUY or PASS? Why?\n\nTask B: Assume you do own the stock. Would you SELL or HOLD? or BUY MORE Why?\n\n\n\n\n\n\\`\\`\\`{r, echo=exclude_footer, include=FALSE}\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

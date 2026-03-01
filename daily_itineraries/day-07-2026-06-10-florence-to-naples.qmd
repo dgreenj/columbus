@@ -1,0 +1,130 @@
+---
+title: "Day 7: Florence to Naples"
+subtitle: "High-Speed Train to Southern Italy"
+date: "2026-06-10"
+day-of-week: "Tuesday"
+location: "Florence → Naples"
+categories: [itinerary, travel, florence, naples]
+---
+
+## Overview
+
+**Travel day:** High-speed train from Florence to Naples (2.5 hours), settling into Naples, first taste of southern Italy
+
+---
+
+## Morning: Florence Checkout & Train (8 AM-12 PM)
+
+### Hotel Checkout
+
+- Final breakfast in Florence
+- Check room for forgotten items
+- Settle bill (verify charges)
+- Get taxi or walk to SMN station
+
+### Firenze SMN to Napoli Centrale
+
+**See:** [Trains Research](../research/trains.qmd#route-2-florence-naples)
+
+**Train Details:**
+- Frecciarossa or Italo high-speed
+- Duration: 2h 30m - 3h
+- Check your booking for exact time
+- Arrive station 20 min early
+
+**On Train:**
+- Comfortable, modern
+- Power outlets at seats
+- WiFi (sometimes unreliable)
+- Café car available
+- Sit on right (west) approaching Naples for Vesuvius views
+
+**Route:** Through Tuscany, Apennines, approaching Campania
+
+---
+
+## Midday: Arrive Naples (12-2 PM)
+
+### Napoli Centrale Station
+
+**Arrival:**
+- Busy, chaotic station
+- **Watch belongings** - pickpockets target tourists
+- Follow "Uscita" (exit) signs
+- Emergeinto Piazza Garibaldi
+
+### To Hotel
+
+**Taxi (Recommended):**
+- Official white taxis only
+- Agree on price or insist on meter (~€15-20 to most hotels)
+- Avoid touts offering "taxi"
+
+**Metro (If Adventurous):**
+- Line 1 or 2 depending on hotel location
+- €1.10 ticket
+- Watch bags
+
+### Hotel Check-In
+
+- Ask for restaurant recommendations
+- WiFi password
+- Safety tips for neighborhood
+- Map of area
+
+---
+
+## Afternoon: First Naples Impressions (2-6 PM)
+
+**Settle In:**
+- Quick shower, change
+- Orient yourself to neighborhood
+- Walk around immediate area
+
+**Explore:**
+- Find nearby café for espresso
+- Walk toward waterfront or centro storico
+- Get feel for Naples energy (very different from Florence!)
+
+**First Observations:**
+- Louder, more chaotic than Florence
+- More scooters, more traffic
+- Hanging laundry, narrow streets
+- Raw, authentic southern Italy
+
+---
+
+## Evening: First Naples Pizza! (7-10 PM)
+
+**Pizza is Essential Tonight**
+
+**See:** [Restaurants - Naples Pizza](../research/restaurants.qmd#pizza-essential)
+
+**Options:**
+- **Da Michele** (cash only, expect line, worth it)
+- **Sorbillo** (Via dei Tribunali)
+- **50 Kalò** (more upscale, reserve ahead)
+
+**What to Order:**
+- Margherita (the original, invented here in 1889)
+- Or Marinara (no cheese, just tomato, garlic, oregano)
+- Cost: €5-12 depending on place
+
+**After Pizza:**
+- Sfogliatella (shell-shaped pastry) for dessert
+- Or gelato
+- Spaccanapoli evening walk if energetic
+
+---
+
+## Prepare for Tomorrow
+
+**Herculaneum Tour:**
+- Check tour confirmation (meeting time/place)
+- Wear comfortable shoes
+- Bring: water, sun protection, camera
+- Set alarm (likely early departure)
+
+---
+
+**Previous:** [Day 6](day-06-2026-06-09-florence.qmd) | **Next:** [Day 8: Naples & Herculaneum](day-08-2026-06-11-naples-herculaneum.qmd)

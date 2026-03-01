@@ -1,0 +1,169 @@
+project:
+  type: website
+  resources:
+    - "*.xlsx"
+    - "*.pptx"
+    - "*.pdf"
+
+website:
+  title: "Italy Trip 2026"
+  subtitle: "Florence, Naples & Puglia"
+  description: "Travel website for June 2026 Italy trip"
+  favicon: "fav.jpg"
+
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        menu:
+          - text: "Flights"
+            href: research/flights.qmd
+          - text: "Trains"
+            href: research/trains.qmd
+          - text: "Accommodations"
+            href: research/accommodations.qmd
+          - text: "Tours"
+            href: research/tours.qmd
+          - text: "Museums"
+            href: research/museums.qmd
+          - text: "Restaurants"
+            href: research/restaurants.qmd
+          - text: "Packing List"
+            href: research/packing-list.qmd
+      - text: "Regions"
+        menu:
+          - text: "Florence"
+            href: regions/florence.qmd
+          - text: "Naples"
+            href: regions/naples.qmd
+          - text: "Puglia"
+            href: regions/puglia.qmd
+      - text: "Blog"
+        href: posts.qmd
+      - text: "Notes"
+        href: notes.qmd
+
+    right:
+      - icon: github
+        href: https://github.com/dgreenj/columbus
+
+  page-navigation: true
+
+  page-footer:
+    left: "Italy Trip 2026 - Columbus"
+    right:
+      - text: "Built with Quarto"
+        href: https://quarto.org
+
+  reader-mode: true
+
+  sidebar:
+    style: "docked"
+    background: light
+    search: true
+    logo: "images/italian_flag.jpg"
+    collapse-level: 2
+    pinned: true
+    contents:
+      - section: "Home"
+        contents:
+          - index.qmd
+
+      - text: "---"
+
+      - section: "Pre-Trip Planning"
+        contents:
+          - research/flights.qmd
+          - research/trains.qmd
+          - research/accommodations.qmd
+          - research/tours.qmd
+          - research/museums.qmd
+          - research/restaurants.qmd
+          - research/packing-list.qmd
+
+      - text: "---"
+
+      - section: "🇮🇹 Days 1-2: Arrival & Pisa (Jun 4-5)"
+        contents:
+          - daily_itineraries/day-01-2026-06-04-madison-to-pisa.qmd
+          - daily_itineraries/day-02-2026-06-05-pisa-to-florence.qmd
+
+      - text: "---"
+
+      - section: "🇮🇹 Days 3-6: Florence (Jun 6-9)"
+        contents:
+          - text: "Florence Overview"
+            href: regions/florence.qmd
+          - daily_itineraries/day-03-2026-06-06-florence.qmd
+          - daily_itineraries/day-04-2026-06-07-florence.qmd
+          - daily_itineraries/day-05-2026-06-08-florence.qmd
+          - daily_itineraries/day-06-2026-06-09-florence.qmd
+
+      - text: "---"
+
+      - section: "🇮🇹 Days 7-9: Naples (Jun 10-12)"
+        contents:
+          - text: "Naples Overview"
+            href: regions/naples.qmd
+          - daily_itineraries/day-07-2026-06-10-florence-to-naples.qmd
+          - daily_itineraries/day-08-2026-06-11-naples-herculaneum.qmd
+          - daily_itineraries/day-09-2026-06-12-naples.qmd
+
+      - text: "---"
+
+      - section: "🇮🇹 Day 10: Travel to Puglia (Jun 13)"
+        contents:
+          - daily_itineraries/day-10-2026-06-13-naples-to-brindisi.qmd
+
+      - text: "---"
+
+      - section: "🇮🇹 Days 11-16: Puglia Tour (Jun 14-19)"
+        contents:
+          - text: "Puglia Overview"
+            href: regions/puglia.qmd
+          - text: "Day 11 (Jun 14) - Placeholder"
+            href: daily_itineraries/day-11-2026-06-14-puglia.qmd
+          - text: "Day 12 (Jun 15) - Placeholder"
+            href: daily_itineraries/day-12-2026-06-15-puglia.qmd
+          - text: "Day 13 (Jun 16) - Placeholder"
+            href: daily_itineraries/day-13-2026-06-16-puglia.qmd
+          - text: "Day 14 (Jun 17) - Placeholder"
+            href: daily_itineraries/day-14-2026-06-17-puglia.qmd
+          - text: "Day 15 (Jun 18) - Placeholder"
+            href: daily_itineraries/day-15-2026-06-18-puglia.qmd
+          - text: "Day 16 (Jun 19) - Placeholder"
+            href: daily_itineraries/day-16-2026-06-19-puglia.qmd
+
+      - text: "---"
+
+      - section: "🇮🇹 Day 17: Departure (Jun 20)"
+        contents:
+          - daily_itineraries/day-17-2026-06-20-rome-departure.qmd
+
+      - text: "---"
+
+      - section: "Additional Resources"
+        contents:
+          - text: "All Blog Posts"
+            href: posts.qmd
+          - text: "Personal Notes"
+            href: notes.qmd
+
+format:
+  html:
+    theme: lux
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    link-external-newwindow: true
+    code-copy: true
+    code-overflow: wrap
+
+execute:
+  freeze: auto
+
+editor: visual

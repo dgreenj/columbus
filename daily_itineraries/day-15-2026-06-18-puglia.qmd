@@ -1,0 +1,46 @@
+---
+title: "Day 15: Puglia - Tour Day 5"
+subtitle: "Tour Being Planned"
+date: "2026-06-18"
+day-of-week: "Wednesday"
+location: "Puglia"
+categories: [itinerary, puglia, placeholder]
+status: "Placeholder - Tour Details TBD"
+---
+
+::: {.callout-warning}
+## Placeholder Page - Tour Being Finalized
+
+This day is part of our 6-day Puglia organized tour (June 14-19). Specific itinerary will be updated once tour is confirmed.
+
+**Expected Update:** Late March/early April 2026
+:::
+
+## Overview
+
+**Day 5 of Puglia tour.** Details to be added when tour operator and schedule are finalized.
+
+**See:** [Puglia Overview](../regions/puglia.qmd) for region information
+
+---
+
+## Expected Highlights
+
+Based on typical Puglia tours, this day might include visits to:
+- Historic towns (Alberobello, Lecce, Ostuni, Polignano a Mare)
+- UNESCO World Heritage sites
+- Baroque architecture
+- Coastal scenery
+- Wine/olive oil tastings
+- Regional cuisine experiences
+
+**This page will be updated with:**
+- Specific itinerary for today
+- Accommodation details
+- Meal plans
+- Activities and timing
+- Free time opportunities
+
+---
+
+**Previous:** [Day 14](day-14-2026-06-17-puglia.qmd) | **Next:** [Day 16](day-16-2026-06-19-puglia.qmd)

@@ -1,0 +1,17 @@
+{
+  "hash": "822e39485815020b9c774cee4bdb3e44",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Technical Analysis Graphs & Answers\"\nformat: \n    dashboard: \n        orientation: rows\ndate: 05/14/24\neditor: visual\npage-footer: false\n---\n\n\n## Rows 1\n\n::: {.card width=\"30%\"}\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<h1 id=\"answer-key\">Answer Key</h1>\n<p>On this page you will find</p>\n<ol>\n<li>\n<p>The answers for the intrinsic value calculations using the original and modernized formula plus and</p>\n</li>\n<li>\n<p>A single graph that combines candlesticks, Bollinger bands and the Relative Strength Index with some hints on buy sell points.</p>\n</li>\n</ol>\n<p>Note that the intrinsic value answers may differ slightly from your calculations.  This is due to when the data was gathered for this answer key.</p>\n\n```\n\n:::\n:::\n\n:::\n\n## Rows 2\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"SEIC\"\n```\n\n\n:::\n\n::: {.cell-output-display}\n![](answer_dash_files/figure-html/unnamed-chunk-2-1.png){width=768}\n:::\n\n::: {.cell-output-display}\n![](answer_dash_files/figure-html/unnamed-chunk-2-2.png){width=768}\n:::\n\n::: {.cell-output-display}\n![](answer_dash_files/figure-html/unnamed-chunk-2-3.png){width=768}\n:::\n:::\n",
+    "supporting": [
+      "answer_dash_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

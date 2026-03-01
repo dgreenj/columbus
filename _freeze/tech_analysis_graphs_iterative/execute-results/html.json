@@ -1,0 +1,17 @@
+{
+  "hash": "eb874016e8c9918f77d128ff61cb6802",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Untitled\"\n---\n\n\n",
+    "supporting": [
+      "tech_analysis_graphs_iterative_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

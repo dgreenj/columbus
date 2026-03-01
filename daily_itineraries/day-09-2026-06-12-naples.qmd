@@ -1,0 +1,106 @@
+---
+title: "Day 9: Naples Full Day"
+subtitle: "MANN Museum & City Exploration"
+date: "2026-06-12"
+day-of-week: "Thursday"
+location: "Naples"
+categories: [itinerary, naples, museums]
+---
+
+## Overview
+
+**Last full day in Naples:** MANN museum (if not done yesterday), Cappella Sansevero, city exploration, farewell to southern Italy
+
+---
+
+## Morning: Museums (9 AM-1 PM)
+
+**Priority 1: MANN Museum** (if not done yesterday)
+
+**See:** [Museums - MANN](../research/museums.qmd#mann)
+
+- Allow 2-3 hours
+- Highlights: Pompeii/Herculaneum treasures, Farnese Collection, Alexander Mosaic, Secret Cabinet
+- Now you understand context from seeing Herculaneum!
+
+**Priority 2: Cappella Sansevero**
+
+**See:** [Museums - Cappella Sansevero](../research/museums.qmd#cappella-sansevero)
+
+- **Book timed entry** if not done
+- Veiled Christ (one of world's most astonishing sculptures)
+- 30-45 minutes
+- No photography (seriously enforced)
+
+**Do Both if Possible:**
+- MANN morning (9-12)
+- Cappella Sansevero late morning/early afternoon (12:30-1:30)
+
+---
+
+## Afternoon: Spaccanapoli & Historic Center (2-6 PM)
+
+**Spaccanapoli:**
+- Ancient straight street through historic Naples
+- Follows 2,400-year-old Greek city plan
+- Churches, shops, street vendors, local life
+
+**Must-See:**
+- Gesù Nuovo (Baroque church)
+- Santa Chiara (monastery, beautiful cloister)
+- San Domenico Maggiore (Gothic church)
+
+**Experience:**
+- Street food vendors
+- Nativity workshops (Naples famous for presepi)
+- Hanging laundry, narrow alleys
+- Authentic Naples chaos
+
+**Via dei Tribunali:**
+- Parallel to Spaccanapoli
+- More pizza options
+- Underground Naples tours start here
+
+---
+
+## Late Afternoon: Waterfront (5-7 PM)
+
+**Lungomare (Waterfront Promenade):**
+- Via Partenope and Via Caracciolo
+- Vesuvius views across bay
+- Castel dell'Ovo (seaside castle)
+- Cleaner, prettier than centro storico
+- Escape from chaos
+
+**Activities:**
+- Sunset walk
+- Photos of Vesuvius
+- Gelato on promenade
+
+---
+
+## Evening: Farewell Naples (7-10 PM)
+
+**Final Dinner:**
+- Return to favorite pizzeria? (3rd pizza in 3 days?)
+- Or seafood on Lungomare
+- Trattoria in Quartieri Spagnoli
+
+**After Dinner:**
+- Final gelato/sfogliatella
+- Evening stroll
+- **Pack for Puglia train tomorrow**
+
+---
+
+## Prepare for Tomorrow
+
+**Train to Brindisi/Puglia:**
+- Check departure time (likely morning)
+- Pack completely tonight
+- Set alarm for checkout
+- Long train ride (5-6 hours) - bring entertainment, snacks
+
+---
+
+**Previous:** [Day 8](day-08-2026-06-11-naples-herculaneum.qmd) | **Next:** [Day 10: Naples to Brindisi](day-10-2026-06-13-naples-to-brindisi.qmd)

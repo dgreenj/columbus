@@ -1,0 +1,17 @@
+---
+title: "Japan Trip: Visual Itinerary"
+author: "DJG"
+date: 10/10/25
+format:
+  html:
+    theme: lux
+    toc: true
+---
+
+Heidi Parks [site](https://www.heidiparkes.com/japan-wmqfa-2025 "Website for tour members") for tour members.
+
+Wisconsin Quilt Museum original [website](https://www.wiquiltmuseum.com/products/japan-trip-nov-2025-heidi-parkes "Original Website").
+
+<iframe src="japan-schedule.html" width="100%" height="3000px" style="border:none;">
+
+</iframe>
