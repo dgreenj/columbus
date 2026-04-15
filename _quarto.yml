@@ -7,10 +7,7 @@ project:
 
 website:
   title: "Italy Trip 2026"
-  subtitle: "Florence, Naples & Puglia"
-  description: "Travel website for June 2026 Italy trip"
-  favicon: "fav.jpg"
-  llms-txt: true
+  description: "Florence, Naples & Puglia — June 5-20, 2026 travel planning site"
 
   navbar:
     background: primary

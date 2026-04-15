@@ -420,7 +420,7 @@ Tours often include some of these:
 Days 11-16 (June 14-19) have placeholder itinerary pages with general Puglia information. These will be updated with specific tour details once confirmed.
 
 **See:**
-- [Day 11 Placeholder](../daily_itineraries/day-11-2026-06-14-puglia.qmd)
+- [Day 11 Placeholder](../daily_itineraries/day-11-2026-06-15-puglia.qmd)
 - [Day 12 Placeholder](../daily_itineraries/day-12-2026-06-15-puglia.qmd)
 - [Day 13 Placeholder](../daily_itineraries/day-13-2026-06-16-puglia.qmd)
 - [Day 14 Placeholder](../daily_itineraries/day-14-2026-06-17-puglia.qmd)
@@ -437,8 +437,8 @@ When tour is confirmed, update:
 - [ ] [Tours page](../research/tours.qmd) with Puglia tour details
 - [ ] [Accommodations page](../research/accommodations.qmd) with hotel info
 - [ ] All 6 daily itinerary pages (days 11-16)
-- [ ] [Day 10](../daily_itineraries/day-10-2026-06-13-naples-to-brindisi.qmd) with tour meeting details
-- [ ] [Day 17](../daily_itineraries/day-17-2026-06-20-rome-departure.qmd) with Puglia departure logistics
+- [ ] [Day 10](../daily_itineraries/day-10-2026-06-14-naples-to-brindisi.qmd) with tour meeting details
+- [ ] [Day 17](../daily_itineraries/day-16-2026-06-20-brindisi-departure.qmd) with Puglia departure logistics
 - [ ] Remove "Placeholder" labels from sidebar navigation
 
 **See:** `docs/puglia-update-checklist.md` for complete update process (to be created).
