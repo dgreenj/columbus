@@ -11,9 +11,8 @@ toc: true
 Italian trains are efficient, comfortable, and one of the best ways to travel between cities. Our trip involves three major train journeys, all bookable through Trenitalia or Italo (Italy's two main rail operators).
 
 **Key Routes:**
-1. **Pisa → Florence** (June 5): Regional train, 1 hour
-2. **Florence → Naples** (June 10): High-speed Frecciarossa/Italo, 2.5 hours
-3. **Naples → Brindisi** (June 13): Scenic journey through Puglia, 5-6 hours
+1. **Florence → Naples** (June 11): High-speed Frecciarossa/Italo, 2.5 hours
+2. **Naples → Brindisi** (June 14): Scenic Intercity journey through Puglia, ~5.5 hours direct
 
 ## Booking Websites
 
@@ -26,54 +25,7 @@ Italian trains are efficient, comfortable, and one of the best ways to travel be
 
 ---
 
-## Route 1: Pisa → Florence (June 5)
-
-### Overview
-
-**Type:** Regional train (Regionale)
-**Duration:** 50-70 minutes
-**Frequency:** Every 30 minutes, ~52 trains per day
-**Price:** €10-€12 one way
-**Advance Booking:** Not required (fixed price)
-
-### Step-by-Step from Pisa Airport
-
-1. **PisaMover Shuttle**
-   - Automated people mover from airport to Pisa Centrale station
-   - Duration: 8 minutes
-   - Runs continuously
-   - Free or minimal cost
-
-2. **Pisa Centrale to Firenze SMN**
-   - Direct regional train (no changes)
-   - Departures every 30 minutes
-   - No seat reservations (general seating)
-   - Luggage racks available on train
-
-3. **Arrive Firenze SMN**
-   - Florence's main station (Santa Maria Novella)
-   - Located in historic center
-   - Easy walk or short taxi to most hotels
-
-### Schedule
-
-| First Train | Last Train |
-|-------------|------------|
-| 4:15 AM from Pisa Centrale | 9:01 PM (arrives Florence 10:26 PM) |
-
-**Recommended:** Take a mid-morning train after arrival from overnight flight to allow for customs, baggage claim, and coffee.
-
-### Tips
-
-- **No advance booking needed** - just buy ticket at station or online
-- Validate ticket before boarding (yellow machines on platform)
-- Sit on left side of train for views (though short journey)
-- Store luggage in designated areas
-- Announcements in Italian and English
-
----
-
-## Route 2: Florence → Naples (June 10)
+## Route 1: Florence → Naples (June 11)
 
 ### Overview
 
@@ -136,7 +88,7 @@ The route passes through:
 
 ---
 
-## Route 3: Naples → Brindisi (Puglia) (June 14)
+## Route 2: Naples → Brindisi (Puglia) (June 14)
 
 ### Overview
 
