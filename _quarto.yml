@@ -10,6 +10,7 @@ website:
   subtitle: "Florence, Naples & Puglia"
   description: "Travel website for June 2026 Italy trip"
   favicon: "fav.jpg"
+  llms-txt: true
 
   navbar:
     background: primary
@@ -43,8 +44,6 @@ website:
             href: regions/puglia.qmd
       - text: "Blog"
         href: posts.qmd
-      - text: "Notes"
-        href: notes.qmd
 
     right:
       - icon: github
@@ -85,62 +84,60 @@ website:
 
       - text: "---"
 
-      - section: "🇮🇹 Days 1-2: Arrival & Pisa (Jun 4-5)"
+      - section: "✈️ Days 1-2: Departure & Arrival (Jun 5-6)"
         contents:
-          - daily_itineraries/day-01-2026-06-04-madison-to-pisa.qmd
-          - daily_itineraries/day-02-2026-06-05-pisa-to-florence.qmd
+          - daily_itineraries/day-01-2026-06-05-madison-to-frankfurt.qmd
+          - daily_itineraries/day-02-2026-06-06-arrive-florence.qmd
 
       - text: "---"
 
-      - section: "🇮🇹 Days 3-6: Florence (Jun 6-9)"
+      - section: "🇮🇹 Days 3-6: Florence (Jun 7-10)"
         contents:
           - text: "Florence Overview"
             href: regions/florence.qmd
-          - daily_itineraries/day-03-2026-06-06-florence.qmd
-          - daily_itineraries/day-04-2026-06-07-florence.qmd
-          - daily_itineraries/day-05-2026-06-08-florence.qmd
-          - daily_itineraries/day-06-2026-06-09-florence.qmd
+          - daily_itineraries/day-03-2026-06-07-florence.qmd
+          - daily_itineraries/day-04-2026-06-08-florence.qmd
+          - daily_itineraries/day-05-2026-06-09-florence.qmd
+          - daily_itineraries/day-06-2026-06-10-florence.qmd
 
       - text: "---"
 
-      - section: "🇮🇹 Days 7-9: Naples (Jun 10-12)"
+      - section: "🇮🇹 Days 7-9: Naples (Jun 11-13)"
         contents:
           - text: "Naples Overview"
             href: regions/naples.qmd
-          - daily_itineraries/day-07-2026-06-10-florence-to-naples.qmd
-          - daily_itineraries/day-08-2026-06-11-naples-herculaneum.qmd
-          - daily_itineraries/day-09-2026-06-12-naples.qmd
+          - daily_itineraries/day-07-2026-06-11-florence-to-naples.qmd
+          - daily_itineraries/day-08-2026-06-12-naples-herculaneum.qmd
+          - daily_itineraries/day-09-2026-06-13-naples.qmd
 
       - text: "---"
 
-      - section: "🇮🇹 Day 10: Travel to Puglia (Jun 13)"
+      - section: "🇮🇹 Day 10: Travel to Puglia (Jun 14)"
         contents:
-          - daily_itineraries/day-10-2026-06-13-naples-to-brindisi.qmd
+          - daily_itineraries/day-10-2026-06-14-naples-to-brindisi.qmd
 
       - text: "---"
 
-      - section: "🇮🇹 Days 11-16: Puglia Tour (Jun 14-19)"
+      - section: "🇮🇹 Days 11-15: Puglia Tour (Jun 15-19)"
         contents:
           - text: "Puglia Overview"
             href: regions/puglia.qmd
-          - text: "Day 11 (Jun 14) - Placeholder"
-            href: daily_itineraries/day-11-2026-06-14-puglia.qmd
-          - text: "Day 12 (Jun 15) - Placeholder"
-            href: daily_itineraries/day-12-2026-06-15-puglia.qmd
-          - text: "Day 13 (Jun 16) - Placeholder"
-            href: daily_itineraries/day-13-2026-06-16-puglia.qmd
-          - text: "Day 14 (Jun 17) - Placeholder"
-            href: daily_itineraries/day-14-2026-06-17-puglia.qmd
-          - text: "Day 15 (Jun 18) - Placeholder"
-            href: daily_itineraries/day-15-2026-06-18-puglia.qmd
-          - text: "Day 16 (Jun 19) - Placeholder"
-            href: daily_itineraries/day-16-2026-06-19-puglia.qmd
+          - text: "Day 11 (Jun 15) - Placeholder"
+            href: daily_itineraries/day-11-2026-06-15-puglia.qmd
+          - text: "Day 12 (Jun 16) - Placeholder"
+            href: daily_itineraries/day-12-2026-06-16-puglia.qmd
+          - text: "Day 13 (Jun 17) - Placeholder"
+            href: daily_itineraries/day-13-2026-06-17-puglia.qmd
+          - text: "Day 14 (Jun 18) - Placeholder"
+            href: daily_itineraries/day-14-2026-06-18-puglia.qmd
+          - text: "Day 15 (Jun 19) - Placeholder"
+            href: daily_itineraries/day-15-2026-06-19-puglia.qmd
 
       - text: "---"
 
-      - section: "🇮🇹 Day 17: Departure (Jun 20)"
+      - section: "✈️ Day 16: Departure from Brindisi (Jun 20)"
         contents:
-          - daily_itineraries/day-17-2026-06-20-rome-departure.qmd
+          - daily_itineraries/day-16-2026-06-20-brindisi-departure.qmd
 
       - text: "---"
 
@@ -148,8 +145,6 @@ website:
         contents:
           - text: "All Blog Posts"
             href: posts.qmd
-          - text: "Personal Notes"
-            href: notes.qmd
 
 format:
   html:
