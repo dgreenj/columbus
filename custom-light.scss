@@ -1,0 +1,107 @@
+/*-- scss:defaults --*/
+
+// Hangar 6 Brand Colors
+$h6-green:    #006845;  // Primary — deep forest green (logo color)
+$h6-sage:     #bac5b9;  // Sage green/gray
+$h6-offwhite: #e8e7e5;  // Light gray / off-white
+$h6-teal:     #005670;  // Deep teal/navy
+$h6-burgundy: #651c32;  // Burgundy/wine
+$h6-gold:     #eebc4e;  // Gold/amber
+
+// Bootstrap overrides
+$primary:         $h6-green;
+$secondary:       $h6-sage;
+$success:         $h6-green;
+$info:            $h6-teal;
+$warning:         $h6-gold;
+$danger:          $h6-burgundy;
+
+$body-bg:         #ffffff;
+$body-color:      #212529;
+$link-color:      $h6-green;
+$link-hover-color: darken($h6-green, 10%);
+
+$navbar-bg:       $h6-green;
+$navbar-fg:       #ffffff;
+$navbar-hl:       $h6-gold;
+
+$sidebar-bg:      $h6-offwhite;
+
+// Typography — Hangar 6 uses Century Gothic / Gill Sans for sans-serif
+$font-family-sans-serif: "Century Gothic", "Gill Sans", "Avenir", "Trebuchet MS", sans-serif;
+$headings-font-family:   "Century Gothic", "Gill Sans", "Avenir", "Trebuchet MS", sans-serif;
+$headings-font-weight:   700;
+
+/*-- scss:rules --*/
+
+// Navbar brand/logo styling
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #ffffff !important;
+}
+
+// Sidebar styling
+.sidebar {
+  border-right: 2px solid $h6-sage;
+}
+
+.sidebar-title {
+  color: $h6-green;
+  font-weight: 700;
+}
+
+// Section headers in sidebar
+.sidebar-section .sidebar-section-item {
+  color: $h6-teal;
+}
+
+// Callout styling with brand colors
+.callout-tip {
+  border-left-color: $h6-green;
+}
+
+.callout-note {
+  border-left-color: $h6-teal;
+}
+
+.callout-warning {
+  border-left-color: $h6-gold;
+}
+
+.callout-important {
+  border-left-color: $h6-burgundy;
+}
+
+// Table header styling
+.table thead th {
+  background-color: $h6-green;
+  color: #ffffff;
+}
+
+// Page footer
+.nav-footer {
+  background-color: $h6-offwhite;
+  border-top: 2px solid $h6-sage;
+}
+
+// Back to top button
+#quarto-back-to-top {
+  background-color: $h6-green;
+  color: #ffffff;
+}
+
+// Active sidebar item
+.sidebar-item-container .active {
+  border-left: 3px solid $h6-green;
+  color: $h6-green;
+}
+
+// Section title in content
+h1, h2, h3 {
+  color: $h6-green;
+}
+
+h4, h5, h6 {
+  color: $h6-teal;
+}

@@ -148,7 +148,10 @@ website:
 
 format:
   html:
-    theme: lux
+    theme:
+      light:
+        - lux
+        - custom-light.scss
     css: styles.css
     toc: true
     toc-depth: 3
