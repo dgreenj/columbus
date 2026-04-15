@@ -421,11 +421,11 @@ Days 11-16 (June 14-19) have placeholder itinerary pages with general Puglia inf
 
 **See:**
 - [Day 11 Placeholder](../daily_itineraries/day-11-2026-06-15-puglia.qmd)
-- [Day 12 Placeholder](../daily_itineraries/day-12-2026-06-15-puglia.qmd)
-- [Day 13 Placeholder](../daily_itineraries/day-13-2026-06-16-puglia.qmd)
-- [Day 14 Placeholder](../daily_itineraries/day-14-2026-06-17-puglia.qmd)
-- [Day 15 Placeholder](../daily_itineraries/day-15-2026-06-18-puglia.qmd)
-- [Day 16 Placeholder](../daily_itineraries/day-16-2026-06-19-puglia.qmd)
+- [Day 12 Placeholder](../daily_itineraries/day-12-2026-06-16-puglia.qmd)
+- [Day 13 Placeholder](../daily_itineraries/day-13-2026-06-17-puglia.qmd)
+- [Day 14 Placeholder](../daily_itineraries/day-14-2026-06-18-puglia.qmd)
+- [Day 15 Placeholder](../daily_itineraries/day-15-2026-06-19-puglia.qmd)
+- [Day 16 Placeholder](../daily_itineraries/day-16-2026-06-20-brindisi-departure.qmd)
 
 ---
 
