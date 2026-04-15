@@ -10,7 +10,7 @@ editor: visual
 
 # The Journey
 
-We're embarking on a 17-day exploration of Italy's art, archaeology, and southern beauty—from the Renaissance masterpieces of Florence to the ancient ruins of Herculaneum, culminating in the sun-drenched landscapes of Puglia. This site serves as both our planning hub and travel journal, documenting an Italian adventure from Madison, Wisconsin to the heel of the boot and back.
+We're embarking on a 16-day exploration of Italy's art, archaeology, and southern beauty—from the Renaissance masterpieces of Florence to the ancient ruins of Herculaneum, culminating in the sun-drenched landscapes of Puglia. This site serves as both our planning hub and travel journal, documenting an Italian adventure from Madison, Wisconsin to the heel of the boot and back.
 
 ## Why Italy? Why These Regions?
 
@@ -23,8 +23,8 @@ This trip combines three distinct Italian experiences:
 
 ## Trip Overview
 
-**June 4-5 (Days 1-2): Arrival**
-Fly from Madison to Pisa, overnight in Pisa, then train to Florence
+**June 5-6 (Days 1-2): Departure & Arrival**
+Fly Madison → Chicago → Frankfurt overnight (Premium Economy), arriving Florence June 6 at 6:30pm via Air Dolomiti
 
 **June 6-9 (Days 3-6): Florence**
 Four full days exploring the Uffizi Gallery, Accademia, Duomo Complex, Bargello, Medici Chapels, Palazzo Pitti, Santa Croce, and the art-filled streets of the Renaissance capital
@@ -38,8 +38,8 @@ Scenic train ride through the Apennines and down the Adriatic coast, entering Pu
 **June 14-19 (Days 11-16): Puglia**
 Six-day tour exploring Puglia's highlights—Alberobello's UNESCO trulli houses, Lecce's baroque splendor, Polignano a Mare's dramatic coastline, Ostuni's white city, regional cuisine and wine
 
-**June 20 (Day 17): Departure**
-Return journey to Rome and flight home to Madison
+**June 20 (Day 16): Departure from Brindisi**
+Flight home from Brindisi (BDS → MUC → ORD → MSN) to Madison
 
 ## What You'll Find Here
 
@@ -48,8 +48,8 @@ Return journey to Rome and flight home to Madison
 **Home** - This landing page with trip overview
 
 **Research** - Comprehensive travel logistics:
-- Flight options and bookings (Chicago/Madison to Pisa, Rome return)
-- Train schedules and routes (Pisa-Florence-Naples-Brindisi)
+- Flight options and bookings (Chicago/Madison to Florence via Frankfurt, Brindisi return)
+- Train schedules and routes (Florence-Naples-Brindisi)
 - Accommodations by city
 - Museum booking requirements and strategies
 - Tour options (especially Herculaneum)
@@ -66,13 +66,13 @@ Return journey to Rome and flight home to Madison
 
 **Pre-Trip Planning** - Quick access to all research and logistics pages
 
-**Daily Itineraries** - Organized by region with 17 day-by-day schedules:
-- Days 1-2: Arrival and Pisa
+**Daily Itineraries** - Organized by region with 16 day-by-day schedules:
+- Days 1-2: Departure (Jun 5) and arrival Florence (Jun 6)
 - Days 3-6: Florence (with regional overview)
 - Days 7-9: Naples (with regional overview)
 - Day 10: Travel to Puglia
 - Days 11-16: Puglia (placeholders pending tour confirmation)
-- Day 17: Departure
+- Day 16: Departure from Brindisi
 
 ## Special Notes
 

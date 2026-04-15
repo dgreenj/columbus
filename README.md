@@ -6,25 +6,26 @@ A comprehensive travel planning and documentation website for our June 2026 Ital
 
 ### Trip Overview
 
-- **Dates:** June 5-20, 2026 (17 days)
+- **Dates:** June 5-20, 2026 (16 days)
 - **Destinations:** Florence, Naples, Puglia
 - **Framework:** Quarto static site generator
 - **Deployment:** GitHub Pages
 
 ### Trip Schedule
 
-- **Days 1-2 (Jun 5-6):** Madison →  → Florence
+- **Day 1 (Jun 5):** Madison → Chicago → Frankfurt (overnight flight, Premium Economy)
+- **Day 2 (Jun 6):** Arrive Florence via Frankfurt → Air Dolomiti (6:30pm FLR)
 - **Days 3-6 (Jun 6-9):** Florence (3 full days)
 - **Days 7-9 (Jun 10-12):** Naples + Herculaneum
 - **Day 10 (Jun 13):** Naples → Brindisi (Puglia)
 - **Days 11-16 (Jun 14-19):** Puglia tour (details TBD)
-- **Day 17 (Jun 20):** Departure from Rome
+- **Day 16 (Jun 20):** Departure from Brindisi (BDS → MUC → ORD → MSN)
 
 ### Website Structure
 
 ```
 columbus/
-├── daily_itineraries/    # 17 daily itinerary pages
+├── daily_itineraries/    # 16 daily itinerary pages
 ├── research/             # Travel logistics (flights, trains, tours, etc.)
 ├── regions/              # Florence, Naples, Puglia overviews
 ├── posts/                # Blog posts about attractions
@@ -37,7 +38,7 @@ columbus/
 
 ### Key Features
 
-- **Daily Itineraries:** Detailed day-by-day schedules for all 17 days
+- **Daily Itineraries:** Detailed day-by-day schedules for all 16 days
 - **Research Pages:** Comprehensive travel logistics including flights, trains, accommodations, tours, and museums
 - **Regional Guides:** Overview pages for Florence, Naples, and Puglia
 - **Blog Posts:** Detailed information about specific attractions and sites
