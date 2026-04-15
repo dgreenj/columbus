@@ -23,13 +23,20 @@ categories: [itinerary, travel, naples, puglia]
 
 ### Napoli Centrale to Brindisi Train
 
-**See:** [Trains Research - Naples to Brindisi](../research/trains.qmd#route-3-naples-brindisi)
+**See:** [Trains Research - Naples to Brindisi](../research/trains.qmd#route-3-naples-brindisi-puglia-june-14)
 
-**Train Details:**
-- Frecciarossa + possible regional connection
-- Duration: 5-6 hours
-- Check your booking for exact route/times
-- May change in Bari or Caserta
+**Recommended: Intercity (IC) train — direct, First Class available, ~5h 30min**
+
+| Option | Type | Duration | Class | Recommendation |
+|---|---|---|---|---|
+| **Intercity (IC)** | Express | ~5h 30m | **1st + 2nd Class** | ✅ Book this |
+| Frecciarossa + Regional | High-speed + slow | 5–6h | Business on FS only | Avoid — regional leg is slow |
+
+**First Class on IC:** Reserved seat, more legroom, quieter car.
+**Book at:** [trenitalia.com](https://www.trenitalia.com) — Naples Centrale → Brindisi, select IC
+**Why IC and not Frecciarossa:** The Frecce trains require a change at Bari onto a slow regional train. The IC goes all the way to Brindisi (and Lecce) without changing. For a 5.5-hour journey, staying on one train is worth it.
+
+**Note on date:** This journey is June 14 (Saturday). Trains may be busier on weekends — book ahead.
 
 **What to Bring:**
 - Snacks and water (long journey)

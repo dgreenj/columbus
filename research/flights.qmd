@@ -238,4 +238,30 @@ If you arrive late or want to ease into the trip, spending one night in Pisa is 
 
 ---
 
+## Intra-Italy Flights: Naples → Brindisi Area
+
+**Question:** Are there flights from Naples (NAP) to Brindisi (BDS) or nearby, as an alternative to the train?
+
+**Answer: No scheduled commercial flights exist between Naples and Brindisi.**
+
+The route is too short (~280 miles / 450 km) and the market too thin for commercial service. Here's the full picture:
+
+| Potential Route | Status | Notes |
+|---|---|---|
+| Naples NAP → Brindisi BDS | ❌ No service | No airlines fly this |
+| Naples NAP → Bari BRI | ❌ No service | Ground distance ~3h |
+| Naples NAP → Lecce | ❌ No service | |
+| Rome FCO → Brindisi BDS | ✅ ITA Airways, Ryanair | Requires backtracking 2.5h to Rome first |
+| Rome FCO → Bari BRI | ✅ ITA Airways | Same problem |
+
+**Verdict: Train is clearly the right choice.**
+
+Routing through Rome would add 2.5+ hours of backtracking plus airport time — making it 6–8 hours door-to-door vs. a 5.5-hour direct Intercity train with First Class.
+
+**One important note for this trip:** Our return flight home departs from **Brindisi (BDS)** on June 20 (LH 1895 → Munich). So we need to be in Brindisi for the night of June 19 regardless. Getting there by train from Naples on June 14 (Day 10) is both the practical and scenic choice.
+
+See [Trains Research](trains.qmd#route-3-naples-brindisi-puglia-june-14) for full Intercity train details.
+
+---
+
 **Next Steps:** See [Trains](trains.qmd) for onward travel from Pisa to Florence and beyond.

@@ -136,26 +136,50 @@ The route passes through:
 
 ---
 
-## Route 3: Naples → Brindisi (Puglia) (June 13)
+## Route 3: Naples → Brindisi (Puglia) (June 14)
 
 ### Overview
 
 This is a journey through the heart of Southern Italy - one of the most scenic and culturally rich train rides in the country.
 
-**Type:** Frecciarossa + Regional (may require 1 change)
-**Duration:** 5-6 hours
+**Type:** Intercity (IC) express — direct service, no changes required
+**Duration:** 5-5.5 hours
 **Frequency:** ~5-6 daily departures
-**Price:** €22-€75 depending on class and booking time
+**Price:** €15-€40 First Class, €10-€25 Second Class
+**Advance Booking:** 2-4 weeks for best fares
 
 ### Route Options
 
-| Route | Train Type | Duration | Changes | Fare |
-|-------|------------|----------|---------|------|
-| Naples → Bari | Frecciarossa/Italo | 3h 15-4h | 0-1 | €20-€60 |
-| Naples → Brindisi | Frecce + Regional | 5-6h | 1 (Bari or Caserta) | €22-€75 |
-| Naples → Lecce | Frecciarossa | 5h 30-6h | 0-1 | €25-€80 |
+| Route | Train Type | Duration | Changes | Class | Fare |
+|-------|------------|----------|---------|-------|------|
+| **Naples → Brindisi (IC)** | **Intercity Express** | **~5h 30m** | **0 (Direct)** | **1st + 2nd** | **€15-€40 (1st)** |
+| Naples → Bari | Frecciarossa/Italo | 3h 15-4h | 0-1 | Various | €20-€60 |
+| Naples → Brindisi (old route) | Frecce + Regional | 5-6h | 1 (Bari) | Various | €22-€75 |
+| Naples → Lecce | Frecciarossa | 5h 30-6h | 0-1 | Various | €25-€80 |
 
-**Key Decision:** Travel directly to Brindisi, or stop in Bari first?
+**Key Decision:** Intercity (IC) is the clear winner — direct service, First Class available, and no slow regional connections required.
+
+### Is It a Milk Run? First Class Options
+
+**Short answer: Take the Intercity (IC) train — it's NOT a milk run and has First Class seating.**
+
+| Option | Type | Duration | Class | Verdict |
+|---|---|---|---|---|
+| **Intercity (IC)** | Express conventional | ~5h 30m | **1st + 2nd Class** | ✅ Recommended |
+| Frecciarossa to Bari + Regional | High-speed + slow regional | 5–6h | Business on FS leg only | Regional leg IS slow (many stops) |
+
+**Why Intercity (IC) is the right choice:**
+- Runs the full Naples → Brindisi route **without changing trains**
+- Makes major stops only (Foggia, Bari, coastal towns) — not every tiny station
+- **First Class** on IC trains: reserved seat, more space, dedicated car, quieter
+- IC trains are not Frecciarossa-class but they are proper express trains
+- Fares: €15–40 First Class depending on advance booking
+- Book at [trenitalia.com](https://www.trenitalia.com) — search Naples Centrale → Brindisi, filter by IC
+
+**What makes the "milk run" concern valid:**
+The Bari→Brindisi **regional** (Regionale) connection, if you take the Frecciarossa-then-change-at-Bari approach, IS slow — it stops at many coastal towns. That's the connection to avoid. The IC bypasses this entirely.
+
+**Booking tip:** IC trains must be booked on Trenitalia (Italo doesn't serve this southern route). Book 2–4 weeks ahead for best fares and seat selection.
 
 ### Understanding Puglia Geography
 
@@ -171,13 +195,17 @@ This is a journey through the heart of Southern Italy - one of the most scenic a
 7. **Brindisi** - Historic port city (~5.5h from Naples)
 8. **Lecce** - "Florence of the South" (~6h from Naples, 30 min beyond Brindisi)
 
-### Departure Times
+### Recommended Train
 
-**Morning Options:**
-- Earliest: ~8:12 AM
-- Latest: ~6:12 PM
+**Intercity (IC) Naples Centrale → Brindisi**
+- Morning departure recommended (arrive Brindisi early afternoon)
+- Check current schedules at trenitalia.com — schedules change seasonally
+- First Class car: look for "Prima Classe" designation when booking
+- Journey time: approximately 5h 30min direct
 
-**Strategy:** Take morning train to maximize time in Puglia and enjoy daylight views.
+**Departure Times:**
+- **Morning Options:** Earliest ~8:12 AM, Latest ~6:12 PM
+- **Strategy:** Take morning train to maximize daylight views through Puglia
 
 ### Scenic Journey Highlights
 
