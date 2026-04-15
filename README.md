@@ -6,15 +6,15 @@ A comprehensive travel planning and documentation website for our June 2026 Ital
 
 ### Trip Overview
 
-- **Dates:** June 4-20, 2026 (17 days)
-- **Destinations:** Pisa, Florence, Naples, Puglia
+- **Dates:** June 5-20, 2026 (17 days)
+- **Destinations:** Florence, Naples, Puglia
 - **Framework:** Quarto static site generator
 - **Deployment:** GitHub Pages
 
 ### Trip Schedule
 
-- **Days 1-2 (Jun 4-5):** Madison → Pisa → Florence
-- **Days 3-6 (Jun 6-9):** Florence (4 full days)
+- **Days 1-2 (Jun 5-6):** Madison →  → Florence
+- **Days 3-6 (Jun 6-9):** Florence (3 full days)
 - **Days 7-9 (Jun 10-12):** Naples + Herculaneum
 - **Day 10 (Jun 13):** Naples → Brindisi (Puglia)
 - **Days 11-16 (Jun 14-19):** Puglia tour (details TBD)
