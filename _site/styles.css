@@ -1,0 +1,31 @@
+/* Columbus Italy 2026 — custom styles */
+/* Supplements custom-light.scss (Hangar 6 brand theme) */
+
+/* Checklist styling for itinerary pages */
+.form-check-input {
+  accent-color: #006845;
+}
+
+/* Italy flag emoji spacing in sidebar sections */
+.sidebar-section-item .menu-text {
+  padding-left: 0.1em;
+}
+
+/* Flight/train detail tables */
+.table-flight {
+  font-size: 0.9em;
+}
+
+/* Print-friendly itinerary pages */
+@media print {
+  .sidebar,
+  .navbar,
+  .nav-footer,
+  #quarto-back-to-top {
+    display: none !important;
+  }
+
+  .page-columns {
+    grid-template-columns: 1fr !important;
+  }
+}
