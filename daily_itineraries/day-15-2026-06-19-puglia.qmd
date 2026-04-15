@@ -1,8 +1,8 @@
 ---
-title: "Day 12: Puglia - Tour Day 2"
+title: "Day 15: Puglia - Tour Day 5"
 subtitle: "Tour Being Planned"
-date: "2026-06-15"
-day-of-week: "Sunday"
+date: "2026-06-19"
+day-of-week: "Thursday"
 location: "Puglia"
 categories: [itinerary, puglia, placeholder]
 status: "Placeholder - Tour Details TBD"
@@ -18,7 +18,7 @@ This day is part of our 6-day Puglia organized tour (June 14-19). Specific itine
 
 ## Overview
 
-**Day 2 of Puglia tour.** Details to be added when tour operator and schedule are finalized.
+**Day 5 of Puglia tour.** Details to be added when tour operator and schedule are finalized.
 
 **See:** [Puglia Overview](../regions/puglia.qmd) for region information
 
@@ -43,4 +43,4 @@ Based on typical Puglia tours, this day might include visits to:
 
 ---
 
-**Previous:** [Day 11](day-11-2026-06--puglia.qmd) | **Next:** [Day 13](day-13-2026-06-16-puglia.qmd)
+**Previous:** [Day 14](day-14-2026-06-17-puglia.qmd) | **Next:** [Day 16](day-16-2026-06-19-puglia.qmd)

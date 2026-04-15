@@ -1,0 +1,150 @@
+---
+title: "Day 2: Frankfurt to Florence"
+subtitle: "First Steps in Italy — Arrive Florence 6:30pm"
+date: "2026-06-06"
+day-of-week: "Saturday"
+location: "Frankfurt, Germany → Florence, Italy"
+categories: [itinerary, florence, arrival]
+---
+
+## Overview
+
+**Benvenuti in Italia!** After landing in Frankfurt this afternoon, we have a comfortable 2h 45min connection before boarding Air Dolomiti's regional jet to Florence. We land at Florence Airport (FLR) at 6:30pm — our first evening in Italy.
+
+**Today's Flights:**
+
+| # | Flight | Route | Departs | Arrives | Cabin |
+|---|--------|-------|---------|---------|-------|
+| Arriving | LH 0433 | ORD → FRA | — | **2:05pm** | Premium Economy |
+| 3 | LH 9498 (Air Dolomiti) | FRA → FLR | 4:50pm | **6:30pm** | Economy |
+
+---
+
+## Arrival in Frankfurt (2:05pm)
+
+### Landing at Frankfurt Airport (FRA) Terminal 1
+
+After 8.5 hours in the air, you arrive in Frankfurt — one of Europe's largest transit hubs. No need to exit the airport or clear full customs (you're in transit to Florence).
+
+**After deplaning:**
+1. Follow signs for **Connections / Anschlussflüge** (do not follow signs for "Arrivals/Ausgang")
+2. If needed, clear Schengen entry passport control (for transit within EU, often not required — follow agent instructions)
+3. Check departure boards for LH 9498 gate
+4. Terminal 1 is large — allow 30–45 minutes to reach your gate
+
+### Frankfurt Layover (2:05pm–4:50pm) — ~2 Hours 45 Minutes
+
+**This is a comfortable connection** — but Frankfurt is large. Stay efficient.
+
+- [ ] Find LH 9498 departure gate on boards
+- [ ] Get coffee and a snack — there are excellent options throughout T1
+- [ ] Use the bathroom and freshen up
+- [ ] Be at gate by **4:20pm** (30 min before departure)
+
+**If you feel fresh enough:** Terminal 1 has a small duty-free area and shops — good place to pick up a Frankfurt airport magnet.
+
+---
+
+## Flight 3: Frankfurt → Florence (LH 9498)
+
+**Operated by:** Air Dolomiti (Lufthansa regional partner)
+**Aircraft:** Embraer 195 Jet (regional — compact, efficient)
+**Duration:** 1 hour 40 minutes
+**Cabin:** Economy
+**Meals:** Food & Beverage for Purchase (short flight)
+
+- Departs FRA Terminal 1, 4:50pm
+- **Arrives FLR (Florence Peretola Airport), 6:30pm**
+
+### About the Embraer 195
+
+- 2-2 seating configuration (no middle seat!)
+- Overhead bins smaller than widebody jets — carry-on should fit, but board early
+- Stunning Alpine views on approach to Italy (sit on right side of plane for potential Alps glimpse)
+
+---
+
+## Arrival: Florence (6:30pm)
+
+### Florence Airport — Amerigo Vespucci Airport (FLR)
+
+Florence's airport is small and easy. You'll be out quickly.
+
+**After landing:**
+1. **Passport/EU entry control** — Have passport ready. If you didn't clear Schengen at Frankfurt, you'll clear it here.
+2. **Baggage claim** — Collect both checked bags. Small airport = bags arrive quickly (~15–20 min)
+3. **Customs** — Walk through "Nothing to Declare" (green lane)
+4. **Arrivals hall** — You're in Italy!
+
+### Getting to Your Hotel (~7:00–7:30pm)
+
+**Option A: Taxi (Recommended)**
+- Official taxi stand immediately outside arrivals
+- Fixed fare to city center: €22–25
+- ~20 minutes to most Florence hotels
+- No app needed — just queue at the white taxis
+
+**Option B: Tram (T2 Line)**
+- Florence's new airport tram (T2) connects FLR to the city center
+- Cost: ~€1.50, every 8–10 minutes
+- ~25 minutes to SMN (Santa Maria Novella station area)
+- Good option if hotel is near the historic center and you have manageable luggage
+
+### Hotel Check-In (~7:00–8:00pm)
+
+- Most hotels hold reservations until midnight — no rush
+- Ask for luggage storage if checking in early in future
+- Get a city map from the front desk
+- Ask about breakfast times and hours
+
+---
+
+## Evening: First Night in Florence
+
+### Managing Arrival Energy
+
+You've been traveling for roughly **24 hours** (since leaving home yesterday). You'll be tired but probably buzzing with excitement.
+
+**The right approach:**
+- Don't try to see the Uffizi tonight
+- A short walk to orient yourself is perfect
+- Find a restaurant within walking distance of the hotel
+- Eat a proper meal and drink water
+- Be in bed by 10pm Italian time to start resetting your clock
+
+### First Florence Walk (30–45 minutes)
+
+After dropping bags and freshening up, take a short evening walk:
+- Find the Arno River — just follow it, you'll know you're in Florence
+- Cross one of the bridges if you're close (Ponte Vecchio is the famous one)
+- Get gelato (your first in Italy — important)
+- Just soak in being here
+
+### Dinner
+
+- Pick something close to the hotel — tonight is not the night for a destination restaurant
+- Look for a simple trattoria with pasta and house wine
+- Avoid the tourist traps immediately adjacent to major sights (overpriced, worse food)
+- Ask the hotel front desk for a nearby recommendation
+
+---
+
+## What to Expect the Next Few Days
+
+Florence has 4 full days of sightseeing planned (Days 3–6, June 7–10). Tomorrow you'll start rested. Tonight is just about arriving safely and settling in.
+
+**See:** [Florence Region Overview](../regions/florence.qmd) for what's planned
+
+**Tomorrow:** [Day 3: Florence](day-03-2026-06-07-florence.qmd)
+
+---
+
+## Notes
+
+**First impressions of Florence:**
+
+**Jet lag level (1–10):**
+
+**Hotel:**
+
+**First Italian meal:**

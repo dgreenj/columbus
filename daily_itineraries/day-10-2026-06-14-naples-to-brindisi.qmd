@@ -1,8 +1,8 @@
 ---
 title: "Day 10: Naples to Brindisi"
 subtitle: "Scenic Train Through Puglia"
-date: "2026-06-13"
-day-of-week: "Friday"
+date: "2026-06-14"
+day-of-week: "Saturday"
 location: "Naples → Puglia (Brindisi)"
 categories: [itinerary, travel, naples, puglia]
 ---

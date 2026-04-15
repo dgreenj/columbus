@@ -1,8 +1,8 @@
 ---
 title: "Day 3: Florence - Duomo & Uffizi"
 subtitle: "First Full Day - Renaissance Art"
-date: "2026-06-06"
-day-of-week: "Friday"
+date: "2026-06-07"
+day-of-week: "Saturday"
 location: "Florence"
 categories: [itinerary, florence, museums, art]
 ---

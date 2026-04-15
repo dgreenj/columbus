@@ -1,0 +1,186 @@
+---
+title: "Day 16: Departure from Brindisi"
+subtitle: "Homeward Bound — Brindisi to Madison via Munich and Chicago"
+date: "2026-06-20"
+day-of-week: "Saturday"
+location: "Brindisi → Munich → Chicago → Madison"
+categories: [itinerary, travel, departure, brindisi]
+---
+
+## Overview
+
+**The journey home begins in Puglia.** After 15 days exploring Florence, Naples, and the heel of Italy's boot, we fly out of Brindisi (BDS) this morning. Three flights get us home to Madison by 10:27pm.
+
+**Today's Flights:**
+
+| # | Flight | Route | Departs | Arrives | Cabin |
+|---|--------|-------|---------|---------|-------|
+| 1 | LH 1895 (Air Dolomiti) | BDS → MUC | 10:55am | 12:45pm | Economy |
+| 2 | UA 8855 (Lufthansa) | MUC → ORD | 3:40pm | 6:15pm | Premium Economy |
+| 3 | UA 1400 | ORD → MSN | 9:15pm | 10:27pm | Premium Economy |
+
+**Reservation Code:** FMWYOJ
+
+---
+
+## Morning: Brindisi Airport (8:00–10:55am)
+
+### Getting to the Airport
+
+**Brindisi Airport (BDS) — Papola Casale Airport**
+- Located ~4 km from Brindisi center
+- Short taxi ride from hotel (~10–15 minutes, €10–15)
+- Allow **2.5 hours** before departure for international check-in
+
+**Depart hotel by:** 8:15am at the latest
+
+### Check-In
+
+- Check in online 24 hours before (Lufthansa app or lufthansa.com)
+- Have passport ready
+- Check baggage allowance: 2x23kg checked + 1x8kg carry-on per person
+- Seats will be assigned at check-in (assigned seating requires check-in)
+
+### Brindisi Airport Notes
+
+- Small regional airport — no large terminal mall
+- One departure hall, straightforward security
+- Limited food/coffee options airside — eat breakfast at hotel before leaving
+- Duty-free is minimal
+
+---
+
+## Flight 1: Brindisi → Munich (LH 1895)
+
+**Operated by:** Air Dolomiti (regional Lufthansa partner)
+**Aircraft:** Embraer 195 Jet
+**Duration:** 1 hour 50 minutes
+**Cabin:** Economy
+**Meals:** Refreshment / Food & Beverage for Purchase
+
+- Departs BDS 10:55am → Arrives MUC 12:45pm (Terminal 2)
+- Compact regional jet — overhead bins fill fast, board early
+- No seat assignment until check-in
+- This short hop gets you into Lufthansa's main Munich hub
+
+---
+
+## Munich Layover (12:45pm–3:40pm) — ~3 Hours
+
+**Munich Airport (MUC) — Terminal 2**
+
+**Stay in Terminal 2** — both MUC flights use T2 (Lufthansa hub). No terminal changes needed.
+
+**Layover checklist:**
+- [ ] Clear EU passport control (if not already cleared in BDS — likely just a transit)
+- [ ] Confirm UA 8855 departure gate on boards
+- [ ] Have lunch at Munich airport — excellent options in T2 (Bavarian food, good coffee)
+- [ ] Browse duty-free if desired
+- [ ] Find departure gate before 3:15pm boarding call
+
+**Time to kill:** ~3 hours is comfortable. Don't leave the secured area.
+
+---
+
+## Flight 2: Munich → Chicago (UA 8855)
+
+**Operated by:** Lufthansa for United
+**Aircraft:** Airbus A359 (widebody long-haul)
+**Duration:** 9 hours 35 minutes
+**Cabin:** Premium Economy
+**Meals:** Full meal service included
+
+- Departs MUC 3:40pm (T2) → Arrives ORD 6:15pm (International Terminal 5)
+- Premium Economy: wider seats, more legroom, dedicated cabin
+- **9.5-hour transatlantic crossing** — longest leg of the day
+- Tips: sleep if possible, stay hydrated, walk the aisle every 2 hours
+
+**Arriving Chicago:** US Customs and Immigration at Terminal 5 (international arrivals)
+- Fill out/confirm customs declaration
+- Collect checked bags at T5 baggage claim
+- Clear customs ("Nothing to Declare" if applicable)
+- **Recheck bags for domestic connection** — bags must be rechecked after customs
+
+---
+
+## Chicago O'Hare Domestic Connection (6:15pm–9:15pm) — ~3 Hours
+
+**After clearing customs at Terminal 5:**
+
+1. Collect bags, clear customs
+2. Recheck bags at United check-in for MSN flight (domestic counter, Terminal 1)
+3. Take the ATS train to Terminal 1 (United domestic)
+4. Re-clear security (TSA)
+5. Find gate for UA 1400 to Madison
+
+**Time:** 3-hour connection is comfortable for international-to-domestic at ORD. Don't panic — customs can be 30–45 minutes, but you have margin.
+
+**Food:** ORD Terminal 1 has many dining options. Grab dinner before the final hop.
+
+---
+
+## Flight 3: Chicago → Madison (UA 1400)
+
+**Aircraft:** Boeing 737-700
+**Duration:** 1 hour 12 minutes
+**Cabin:** Premium Economy
+**Seats:** 08D (Dan) / 08E (Jane)
+**Meals:** No meal service
+
+- Departs ORD 9:15pm (Terminal 1) → Arrives MSN 10:27pm
+- Short final leg home
+- **You're almost there!**
+
+---
+
+## Arrival: Madison (10:27pm)
+
+**Welcome home.** After 16 days, 3 Italian cities, and countless memories, you land in Madison just after 10:30pm.
+
+**After landing:**
+- Short walk to baggage claim at Dane County Regional Airport
+- Ground transportation: taxi, rideshare, or pre-arranged pickup
+- **Don't drive if you're exhausted** — consider a taxi/Uber home
+
+**Jet lag note:** You've been in Italy (UTC+2 in June). Madison is UTC-5/CDT. That's a 7-hour difference. Expect to feel it for 2–3 days.
+
+---
+
+## Packing Up for Departure
+
+### The Night Before (June 19)
+
+- [ ] Repack all luggage — make sure nothing exceeds 2x23kg checked / 1x8kg carry-on
+- [ ] Set aside passport, boarding passes, and travel documents in carry-on
+- [ ] Charge all devices overnight
+- [ ] Settle hotel bill, confirm checkout time
+- [ ] Book/confirm taxi to BDS airport for 8:15am
+- [ ] Sleep early — long travel day tomorrow
+
+### Souvenirs & Luggage
+
+- Puglia olive oil and ceramics pack well if wrapped carefully
+- Declare any food items to US Customs (dried goods often OK; fresh produce not)
+- Keep receipts for any expensive purchases (VAT refund if applicable)
+
+---
+
+## Reflections
+
+*Space for end-of-trip notes*
+
+**Favorite moment of the trip:**
+
+**Best meal:**
+
+**Place I'd most like to return to:**
+
+**What surprised me most:**
+
+**For next time:**
+
+---
+
+**Previous Day:** [Day 15: Puglia](day-15-2026-06-19-puglia.qmd)
+
+*Buon viaggio di ritorno! 🇮🇹 → 🇺🇸*

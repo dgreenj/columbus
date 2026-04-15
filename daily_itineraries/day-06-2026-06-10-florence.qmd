@@ -1,8 +1,8 @@
 ---
 title: "Day 6: Florence - Pitti Palace & Departure Prep"
 subtitle: "Final Florence Day"
-date: "2026-06-09"
-day-of-week: "Monday"
+date: "2026-06-10"
+day-of-week: "Tuesday"
 location: "Florence"
 categories: [itinerary, florence, museums]
 ---

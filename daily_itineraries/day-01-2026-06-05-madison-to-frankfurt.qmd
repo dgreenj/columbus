@@ -1,0 +1,140 @@
+---
+title: "Day 1: Madison to Frankfurt"
+subtitle: "Departure Day — Wheels Up for Italy"
+date: "2026-06-05"
+day-of-week: "Friday"
+location: "Madison, WI → Chicago O'Hare → Frankfurt, Germany (overnight)"
+categories: [itinerary, travel, departure]
+---
+
+## Overview
+
+**The adventure begins!** Today we fly from Madison to Chicago, then board a Lufthansa Premium Economy overnight flight to Frankfurt. We'll land in Frankfurt tomorrow afternoon and connect to Florence.
+
+**Today's Flights:**
+
+| # | Flight | Route | Departs | Arrives | Cabin |
+|---|--------|-------|---------|---------|-------|
+| 1 | LH 8835 (GoJet/United Express) | MSN → ORD | 5:45pm | 7:00pm | Economy |
+| 2 | LH 0433 | ORD → FRA | 10:30pm | Sat 2:05pm | **Premium Economy** |
+
+**Reservation Code:** FMWYOJ | Seats (Flight 1): 15C (Dan), 15D (Jane)
+
+---
+
+## Morning & Afternoon: Final Preparations
+
+### Before You Leave Home
+
+- [ ] Confirm flight status: lufthansa.com or the Lufthansa app
+- [ ] Check in online opens 23 hours before: check in for LH 8835 (MSN→ORD) and LH 0433 (ORD→FRA) separately
+- [ ] Charge all electronics: phone, camera, portable battery pack
+- [ ] Pack carry-on with 24-hour essentials (clothes, medications, toiletries)
+- [ ] Have passport in carry-on — **not** checked bag
+- [ ] Verify credit cards: notify banks of travel dates
+- [ ] Empty refrigerator of perishables
+- [ ] Set thermostat, lock windows and doors, take out trash
+- [ ] Confirm pet/plant care arranged
+
+### Luggage Allowance
+
+**Both checked and carry-on bags:**
+- Checked: 2x23kg (50 lbs) per person
+- Carry-on: 1 piece per person (no weight stated for LH 8835 leg)
+
+**What to put in carry-on:**
+- Passport (non-negotiable)
+- Boarding passes (digital + printed backup)
+- Medications (full supply — never checked)
+- 1–2 changes of clothes (in case bag is delayed)
+- Phone charger + portable battery
+- Snacks
+- Eye mask, earplugs, neck pillow (for overnight flight)
+- Entertainment: downloaded shows, books, podcasts
+
+---
+
+## Flight 1: Madison → Chicago (LH 8835)
+
+**Operated by:** GoJet Airlines for United Express for United Airlines
+**Aircraft:** Air 109
+**Duration:** 1 hour 15 minutes
+**Cabin:** Economy | **Seats:** 15C (Dan), 15D (Jane)
+**Meals:** No meal service
+
+- Departs MSN 5:45pm → Arrives ORD 7:00pm (Terminal 2)
+- Short regional hop — arrive at airport by 3:45pm (2 hours early for international connection)
+- After landing at ORD Terminal 2, make your way to Terminal 1 for the Lufthansa departure
+
+---
+
+## Chicago O'Hare Layover (7:00pm–10:30pm) — ~3.5 Hours
+
+**At O'Hare:**
+- Arrive Terminal 2 (United)
+- Take the ATS people mover to **Terminal 1** (Lufthansa international departures)
+- Follow signs for LH 0433 gate
+- Allow 30–45 minutes to get between terminals and through any additional security
+
+**Use the time:**
+- Eat dinner — 10.5+ hours until landing in Frankfurt
+- Find the gate and confirm it on departure boards
+- Fill water bottle for the flight
+- Visit airport lounge if you have access (Amex Platinum, Chase Sapphire, etc.)
+- Stretch and walk — long flight ahead
+
+---
+
+## Flight 2: Chicago → Frankfurt (LH 0433)
+
+**Aircraft:** Airbus A343 (wide-body long-haul jet)
+**Duration:** 8 hours 35 minutes
+**Cabin:** **Premium Economy** — wider seats, more legroom, dedicated service
+**Meals:** Refreshments + full meal service
+
+- Departs ORD Terminal 1, 10:30pm (Friday, June 5)
+- Arrives FRA Terminal 1, 2:05pm **(Saturday, June 6)**
+
+### Premium Economy on Lufthansa A343
+
+**What to expect:**
+- Dedicated Premium Economy cabin (rows 20–30 typically)
+- Seat width: ~18–19 inches, seat pitch: ~38 inches
+- Adjustable footrest, headrest, lumbar support
+- Premium meal service with real crockery
+- Dedicated overhead bin space
+- Priority boarding after Business class
+
+### Sleep Strategy (Transatlantic)
+
+Florence is UTC+2 in June (7 hours ahead of Madison CDT). To minimize jet lag:
+- **Set your watch to Italian time immediately at boarding** (~17:30 Italian time when you board)
+- Flight arrives Frankfurt at 2:05pm Italian time — try to sleep 7+ hours on board
+- Decline meals if they interfere with sleep
+- Use eye mask and earplugs
+- Recline seat fully, use footrest
+
+### In-Flight Tips
+
+**Do:**
+- Hydrate steadily (water, avoid excessive alcohol)
+- Walk aisles every 2 hours (compression socks help)
+- Sleep on an Italian schedule
+
+**Don't:**
+- Overdrink alcohol (dehydrates, worsens jet lag)
+- Stay seated the entire flight
+
+---
+
+## Tomorrow: Frankfurt → Florence
+
+We land Frankfurt at 2:05pm and connect to Florence (LH 9498, departs 4:50pm, arrives **Florence 6:30pm**). See [Day 2](day-02-2026-06-06-arrive-florence.qmd).
+
+---
+
+## Links & Resources
+
+- [Flights Research](../research/flights.qmd) — Complete booking details
+- [Packing List](../research/packing-list.qmd) — Final checklist
+- [Day 2: Arrive Florence](day-02-2026-06-06-arrive-florence.qmd)

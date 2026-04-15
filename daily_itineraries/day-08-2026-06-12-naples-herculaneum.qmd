@@ -1,8 +1,8 @@
 ---
 title: "Day 8: Naples - Herculaneum Tour"
 subtitle: "Ancient Roman City & Archaeology"
-date: "2026-06-11"
-day-of-week: "Wednesday"
+date: "2026-06-12"
+day-of-week: "Thursday"
 location: "Naples & Herculaneum"
 categories: [itinerary, naples, herculaneum, archaeology]
 ---

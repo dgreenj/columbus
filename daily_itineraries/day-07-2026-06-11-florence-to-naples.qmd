@@ -1,8 +1,8 @@
 ---
 title: "Day 7: Florence to Naples"
 subtitle: "High-Speed Train to Southern Italy"
-date: "2026-06-10"
-day-of-week: "Tuesday"
+date: "2026-06-11"
+day-of-week: "Wednesday"
 location: "Florence → Naples"
 categories: [itinerary, travel, florence, naples]
 ---

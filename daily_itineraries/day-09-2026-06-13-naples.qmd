@@ -1,8 +1,8 @@
 ---
 title: "Day 9: Naples Full Day"
 subtitle: "MANN Museum & City Exploration"
-date: "2026-06-12"
-day-of-week: "Thursday"
+date: "2026-06-13"
+day-of-week: "Friday"
 location: "Naples"
 categories: [itinerary, naples, museums]
 ---
