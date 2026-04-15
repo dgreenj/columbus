@@ -64,7 +64,6 @@ website:
     style: "docked"
     background: light
     search: true
-    logo: "images/italian_flag.jpg"
     collapse-level: 2
     pinned: true
     contents:
