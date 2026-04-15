@@ -103,4 +103,4 @@ categories: [itinerary, naples, museums]
 
 ---
 
-**Previous:** [Day 8](day-08-2026-06-11-naples-herculaneum.qmd) | **Next:** [Day 10: Naples to Brindisi](day-10-2026-06-13-naples-to-brindisi.qmd)
+**Previous:** [Day 8](day-08-2026-06-12-naples-herculaneum.qmd) | **Next:** [Day 10: Naples to Brindisi](day-10-2026-06-14-naples-to-brindisi.qmd)

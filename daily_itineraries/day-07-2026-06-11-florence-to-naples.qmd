@@ -127,4 +127,4 @@ categories: [itinerary, travel, florence, naples]
 
 ---
 
-**Previous:** [Day 6](day-06-2026-06-09-florence.qmd) | **Next:** [Day 8: Naples & Herculaneum](day-08-2026-06-11-naples-herculaneum.qmd)
+**Previous:** [Day 6](day-06-2026-06-10-florence.qmd) | **Next:** [Day 8: Naples & Herculaneum](day-08-2026-06-12-naples-herculaneum.qmd)

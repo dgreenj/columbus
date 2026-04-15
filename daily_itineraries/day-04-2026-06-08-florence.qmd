@@ -114,4 +114,4 @@ categories: [itinerary, florence, museums, art]
 
 ---
 
-**Previous:** [Day 3](day-03-2026-06-06-florence.qmd) | **Next:** [Day 5](day-05-2026-06-08-florence.qmd)
+**Previous:** [Day 3](day-03-2026-06-07-florence.qmd) | **Next:** [Day 5](day-05-2026-06-09-florence.qmd)

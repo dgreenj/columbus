@@ -122,4 +122,4 @@ Once Puglia tour is confirmed, this page will include:
 
 ---
 
-**Previous:** [Day 10: Naples to Brindisi](day-10-2026-06-13-naples-to-brindisi.qmd) | **Next:** [Day 12: Puglia Day 2](day-12-2026-06-15-puglia.qmd)
+**Previous:** [Day 10: Naples to Brindisi](day-10-2026-06-14-naples-to-brindisi.qmd) | **Next:** [Day 12: Puglia Day 2](day-12-2026-06-16-puglia.qmd)

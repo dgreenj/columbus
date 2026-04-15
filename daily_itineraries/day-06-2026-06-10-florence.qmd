@@ -79,4 +79,4 @@ categories: [itinerary, florence, museums]
 
 ---
 
-**Previous:** [Day 5](day-05-2026-06-08-florence.qmd) | **Next:** [Day 7: Florence to Naples](day-07-2026-06-10-florence-to-naples.qmd)
+**Previous:** [Day 5](day-05-2026-06-09-florence.qmd) | **Next:** [Day 7: Florence to Naples](day-07-2026-06-11-florence-to-naples.qmd)
