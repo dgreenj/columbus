@@ -65,7 +65,66 @@ SITES = [
     },
 ]
 
+
+def scrape_site(url: str) -> str:
+    """Run firecrawl scrape and return markdown content, or error string."""
+    try:
+        result = subprocess.run(
+            ["firecrawl", "scrape", url],
+            capture_output=True,
+            text=True,
+            timeout=30,
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            return result.stdout.strip()
+        return f"[Scrape failed — exit {result.returncode}]\n{result.stderr[:300]}"
+    except subprocess.TimeoutExpired:
+        return "[Scrape timed out after 30s]"
+    except FileNotFoundError:
+        return "[firecrawl CLI not found — check PATH]"
+
+
+def extract_ticket_info(raw_markdown: str, site_name: str) -> dict:
+    """
+    Pull price lines and booking/purchase links out of raw scraped markdown.
+    Returns dict with keys: prices (list[str]), book_links (list[str]), excerpt (str).
+    """
+    lines = raw_markdown.splitlines()
+    prices = []
+    book_links = []
+
+    for line in lines:
+        lower = line.lower()
+        # Price heuristic: contains € or "euro" or "admission" or "ticket"
+        if any(tok in lower for tok in ["€", "euro", "admission", "price", "ticket", "fee"]):
+            stripped = line.strip()
+            if stripped and len(stripped) < 200:
+                prices.append(stripped)
+        # Link heuristic: markdown links containing buy/book/ticket/shop/reserv
+        if any(tok in lower for tok in ["book", "buy", "ticket", "reserv", "shop", "acquist"]):
+            if "](http" in line:
+                book_links.append(line.strip())
+
+    # First 400 chars as excerpt context
+    excerpt = raw_markdown[:400].replace("\n", " ")
+
+    return {
+        "prices": prices[:8],         # cap at 8 lines
+        "book_links": book_links[:5],  # cap at 5 links
+        "excerpt": excerpt,
+    }
+
+
 if __name__ == "__main__":
-    print(f"Florence Ticket Agent — {len(SITES)} sites to check")
-    print(f"Output: {OUTPUT_FILE}\n")
-    # Tasks 2 and 3 add scraping and report writing here
+    results = []
+
+    for site in SITES:
+        print(f"Scraping: {site['name']} ...")
+        raw = scrape_site(site["url"])
+        info = extract_ticket_info(raw, site["name"])
+        results.append({**site, **info, "raw_length": len(raw)})
+        print(f"  → {len(info['prices'])} price lines, {len(info['book_links'])} booking links")
+
+    print(f"\nAll done. Writing {OUTPUT_FILE} ...")
+    # Task 3 adds report writing here
+    print("(Report writer not yet implemented)")
