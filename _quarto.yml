@@ -27,6 +27,10 @@ website:
             href: research/tours.qmd
           - text: "Museums"
             href: research/museums.qmd
+          - text: "Florence Tickets"
+            href: research/tickets-florence.qmd
+          - text: "Naples Tickets"
+            href: research/tickets-naples.qmd
           - text: "Restaurants"
             href: research/restaurants.qmd
           - text: "Packing List"
@@ -76,6 +80,8 @@ website:
           - research/accommodations.qmd
           - research/tours.qmd
           - research/museums.qmd
+          - research/tickets-florence.qmd
+          - research/tickets-naples.qmd
           - research/restaurants.qmd
           - research/packing-list.qmd
 
