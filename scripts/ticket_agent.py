@@ -14,7 +14,9 @@ PROJECT_ROOT = Path(__file__).parent.parent
 OUTPUT_FILE = PROJECT_ROOT / "research" / "tickets-days-3-4.md"
 
 SITES = [
+    # ── Florence ──────────────────────────────────────────────────────────
     {
+        "city": "florence",
         "day": 3,
         "date": "Saturday June 7",
         "name": "Duomo Complex (combo ticket)",
@@ -22,6 +24,7 @@ SITES = [
         "notes": "€30 combo; timed dome climb; go first thing in morning",
     },
     {
+        "city": "florence",
         "day": 3,
         "date": "Saturday June 7",
         "name": "Uffizi Gallery",
@@ -29,20 +32,23 @@ SITES = [
         "notes": "Timed entry; June weekends sell out weeks ahead",
     },
     {
+        "city": "florence",
         "day": 4,
         "date": "Sunday June 8",
         "name": "Galleria dell'Accademia (David)",
-        "url": "https://www.b-ticket.com/b-ticket/uffizi/default.aspx",
+        "url": "https://www.galleriaaccademiafirenze.it/en/tickets/",
         "notes": "Timed entry; 8:15 AM slot best — before crowds",
     },
     {
+        "city": "florence",
         "day": 4,
         "date": "Sunday June 8",
         "name": "Medici Chapels",
-        "url": "https://www.b-ticket.com/b-ticket/uffizi/default.aspx",
+        "url": "https://www.b-ticket.com/b-ticket/uffizi/ticketCategoryList.aspx?lang=en&IDMostra=7",
         "notes": "Book same session; walk from Accademia ~10 min",
     },
     {
+        "city": "florence",
         "day": 4,
         "date": "Sunday June 8",
         "name": "Basilica di San Lorenzo & Laurentian Library",
@@ -50,6 +56,7 @@ SITES = [
         "notes": "Separate ticket for library; confirm Sunday hours",
     },
     {
+        "city": "florence",
         "day": 4,
         "date": "Sunday June 8",
         "name": "Palazzo Vecchio (optional)",
@@ -57,11 +64,45 @@ SITES = [
         "notes": "Secret passages tour extra; afternoon slot",
     },
     {
+        "city": "florence",
         "day": 4,
         "date": "Sunday June 8",
         "name": "Museum of San Marco (optional)",
-        "url": "https://www.b-ticket.com/b-ticket/uffizi/default.aspx",
+        "url": "https://www.b-ticket.com/b-ticket/uffizi/ticketCategoryList.aspx?lang=en&IDMostra=47",
         "notes": "Fra Angelico frescoes; closed Tuesday — open Sunday",
+    },
+    # ── Naples ────────────────────────────────────────────────────────────
+    {
+        "city": "naples",
+        "day": 8,
+        "date": "Thursday June 12",
+        "name": "Herculaneum (Parco Archeologico)",
+        "url": "https://ercolano.beniculturali.it/en/biglietti/",
+        "notes": "Circumvesuviana to Ercolano Scavi (20 min); better preserved than Pompeii",
+    },
+    {
+        "city": "naples",
+        "day": 8,
+        "date": "Thursday June 12",
+        "name": "MANN — Museo Archeologico Nazionale",
+        "url": "https://mann-napoli.it/en/tickets/",
+        "notes": "€18; go after Herculaneum for context; allow 2-3 hours; closed Tuesdays",
+    },
+    {
+        "city": "naples",
+        "day": 8,
+        "date": "Thursday June 12",
+        "name": "Cappella Sansevero (Veiled Christ)",
+        "url": "https://www.museosansevero.it/en/tickets/",
+        "notes": "€9; ESSENTIAL timed booking — tiny chapel, very limited slots; no photography",
+    },
+    {
+        "city": "naples",
+        "day": 9,
+        "date": "Friday June 13",
+        "name": "Napoli Sotterranea (Underground Naples)",
+        "url": "http://www.napolisotterranea.org",
+        "notes": "Guided tours only; 40m underground; ancient Roman theater + WWII shelters",
     },
 ]
 
