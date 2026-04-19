@@ -4,6 +4,8 @@ project:
     - "*.xlsx"
     - "*.pptx"
     - "*.pdf"
+  render:
+    - "**/*.qmd"
 
 website:
   title: "Italy Trip 2026"
