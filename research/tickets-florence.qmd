@@ -1,0 +1,16 @@
+---
+title: "Florence Tickets & Booking"
+subtitle: "Days 3–6 · June 7–10"
+categories: [planning, florence, tickets]
+toc: true
+---
+
+Advance booking is essential for Florence's major museums in June. The Uffizi and Accademia sell out weeks ahead on summer weekends — book both as soon as your dates are confirmed.
+
+::: {.callout-tip}
+## Refreshing this data
+
+Run `python3 scripts/ticket_agent.py` from the project root to re-scrape all booking pages, then re-render the site to update these pages.
+:::
+
+{{< include tickets-florence.md >}}

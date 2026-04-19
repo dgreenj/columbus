@@ -1,0 +1,16 @@
+---
+title: "Naples Tickets & Booking"
+subtitle: "Days 8–9 · June 12–13"
+categories: [planning, naples, tickets]
+toc: true
+---
+
+Naples museums require advance booking — Cappella Sansevero especially, as its tiny chapel has very limited timed entry slots. Book it the moment your travel dates are set.
+
+::: {.callout-tip}
+## Refreshing this data
+
+Run `python3 scripts/ticket_agent.py` from the project root to re-scrape all booking pages, then re-render the site to update these pages.
+:::
+
+{{< include tickets-naples.md >}}
