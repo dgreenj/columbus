@@ -4,6 +4,7 @@ Florence Ticket Agent — Days 3 & 4
 Fetches official booking info for each site and writes research/tickets-days-3-4.md
 """
 
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -83,24 +84,56 @@ def scrape_site(url: str) -> str:
         return "[firecrawl CLI not found — check PATH]"
 
 
+# Domains that host actual ticket purchases
+TICKET_DOMAINS = [
+    "tickets.duomo.firenze.it",
+    "uffizi.it",
+    "galleriaaccademiafirenze.it",
+    "b-ticket.com",
+    "museumflorence.com",
+    "operamedicealaurenziana.org",
+    "museosansevero.it",
+    "mann-napoli.it",
+    "coopculture.it",
+    "ticketone.it",
+    "vivaticket.com",
+    "napolisotterranea.org",
+    "ercolano.beniculturali.it",
+]
+
+_LINK_RE = re.compile(r'\]\((https?://[^)]+)\)')
+
+
+def _clean_line(line: str) -> str:
+    """Strip leading list markers (-, *, •) from a line."""
+    return re.sub(r'^[\-\*•]\s*', '', line).strip()
+
+
 def extract_ticket_info(raw_markdown: str, site_name: str) -> dict:
     """
     Pull price lines and booking/purchase links out of raw scraped markdown.
     Returns dict with keys: prices (list[str]), book_links (list[str]), excerpt (str).
+
+    Price heuristic: line contains € immediately followed by a digit.
+    Link heuristic: markdown link whose URL is on a known ticket domain.
     """
     lines = raw_markdown.splitlines()
     prices = []
     book_links = []
 
     for line in lines:
-        lower = line.lower()
-        if any(tok in lower for tok in ["€", "euro", "admission", "price", "ticket", "fee"]):
-            stripped = line.strip()
-            if stripped and len(stripped) < 200:
-                prices.append(stripped)
-        if any(tok in lower for tok in ["book", "buy", "ticket", "reserv", "shop", "acquist"]):
-            if "](http" in line:
-                book_links.append(line.strip())
+        cleaned = _clean_line(line)
+
+        # Price: must contain € immediately followed by a digit
+        if re.search(r'€\s*\d', cleaned) and len(cleaned) < 200:
+            prices.append(cleaned)
+
+        # Booking link: URL must be on a known ticket domain
+        m = _LINK_RE.search(line)
+        if m:
+            url = m.group(1).lower()
+            if any(domain in url for domain in TICKET_DOMAINS):
+                book_links.append(cleaned)
 
     excerpt = raw_markdown[:400].replace("\n", " ")
 
