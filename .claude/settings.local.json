@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x *)",
+      "Bash(python3 *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(firecrawl --help)",
+      "Read(//home/gramps/.claude/plugins/**)",
+      "Read(//home/gramps/**)",
+      "Skill(firecrawl:firecrawl)",
+      "Bash(npm install *)",
+      "Bash(git rm *)",
+      "Bash(docker exec *)",
+      "Bash(git -C /home/gramps/rstudio/quarto/columbus status --short)",
+      "Bash(git *)",
+      "Bash(sudo chown *)"
+    ]
+  }
+}
