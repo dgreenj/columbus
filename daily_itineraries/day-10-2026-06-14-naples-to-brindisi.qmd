@@ -1,214 +1,102 @@
 ---
-title: "Day 10: Naples to Brindisi"
-subtitle: "All-Day Train Journey into Puglia"
+title: "Day 10: First Full Day in Puglia"
+subtitle: "Brindisi Orientation & Puglia Begins"
 date: "2026-06-14"
 day-of-week: "Sunday"
-location: "Naples → Brindisi"
-categories: [itinerary, travel, trains, puglia, naples]
+location: "Brindisi, Puglia"
+categories: [itinerary, puglia, brindisi]
 ---
 
 ## Overview
 
-**Travel day:** Depart Naples by train and arrive in Brindisi, gateway to our Puglia tour. The train ride is not a burden — it's one of Italy's great scenic journeys, crossing the Apennines and rolling across the Tavoliere plains before reaching the Adriatic coast.
-
-**Train:** Trenitalia Intercity (IC) — direct, no changes, First Class available
-**Duration:** ~5 hours 30 minutes
-**Distance:** ~380 km (Naples → Foggia → Bari → Brindisi)
-
-::: {.callout-tip}
-## Not a Milk Run
-
-The Intercity (IC) direct train is a proper express service — not the slow regional train that stops at every village. It calls only at major stations (Caserta, Foggia, Bari, a few coastal stops). First Class is available and worth booking for a long day. See [Trains Research](../research/trains.qmd#route-3-naples-brindisi-puglia-june-14) for full details and booking links.
-:::
+**First full day in Puglia.** We arrived in Brindisi last evening. Today is for orienting to the city, exploring the historic port, and preparing for the days of Puglia tour ahead.
 
 ---
 
-## Morning: Check Out & Station (7–9 AM)
+## Morning: Brindisi on Foot (9 AM–1 PM)
 
-### Hotel Checkout
+After the intensity of Florence and Naples, Brindisi is refreshingly calm. A working Mediterranean port, not a tourist hotspot — which is exactly the point.
 
-- Confirm checkout time with hotel (usually 11 AM, but early options available)
-- **If taking a morning train:** Arrange bags the night before; request early checkout or luggage storage if needed
-- Final walk — get one last coffee at your Naples bar
+### The Waterfront & Historic Center
 
-### Getting to Napoli Centrale
+**Start:** Coffee at a local bar near the hotel (not a tourist café — ask the hotel where the locals go).
 
-**From most Naples accommodations:**
+**Walk the inner harbor (Seno di Ponente):**
 
-| Option | Time | Notes |
-|--------|------|-------|
-| **Walk** | 10–25 min depending on hotel location | Fine for light luggage |
-| **Metro Line 1** | 5–10 min | To Garibaldi/Centrale stop |
-| **Taxi** | 10–15 min | €10–15; use official white taxis only |
+| Site | What It Is |
+|------|-----------|
+| **Colonne Romane** | One intact Roman column marking the end of the Appian Way (Via Appia). This is where ancient Rome physically ended — Julius Caesar, Cicero, Virgil all passed through. |
+| **Seno di Ponente** | The sheltered inner harbor — fishing boats, Mediterranean ferries, unhurried pace |
+| **Castello Svevo** | Norman-era castle on the harbor; exterior worth seeing |
+| **Piazza Vittorio Emanuele** | Main square near the waterfront |
+| **Corso Garibaldi** | Pedestrian main street into centro storico |
 
-::: {.callout-warning}
-## Napoli Centrale — Watch Your Belongings
+**Walk time:** 60–90 minutes, relaxed pace.
 
-The station and surrounding Piazza Garibaldi are busy and attract pickpockets. Keep bags zipped, phones in pockets, and stay alert. Once you're on the train, you can relax.
-:::
+### Museo Archeologico Nazionale di Brindisi (Optional)
 
-**Arrive at station:** 20–30 minutes before departure
-- Check departure board for **Binario** (platform number)
-- Intercity trains show "IC" prefix in the schedule
-- Your ticket has the car (carrozza) and seat number — find your car before boarding
+- Modest museum with finds from the ancient Greek and Roman city
+- Free or low cost entry; helpful context for the columns and the port's 2,500-year history
+- Located near the waterfront
 
 ---
 
-## The Train Journey (approx. 5.5 hours)
+## Afternoon: Rest & Puglia Context (1–5 PM)
 
-### Recommended Seat Strategy
+**This is a recovery afternoon.** You've spent a week in Florence and nearly four days in Naples. Puglia is beautiful but it's also six more days of exploration. Spend this afternoon reading, resting, or strolling lightly.
 
-**Sit on the LEFT side of the train** (facing direction of travel, left window) after Foggia — this gives you Adriatic Sea views as the train hugs the coastline into Brindisi.
+**Use the time for:**
+- [ ] Read [Puglia Overview](../regions/puglia.qmd) to understand what you'll be visiting
+- [ ] Review tour details and confirm pickup times/meeting points
+- [ ] Check accommodations for the coming days
+- [ ] Get cash if needed — ATMs are easy to find in centro
+- [ ] A leisurely lunch near the harbor
 
-**For the Naples → Foggia leg:** Either side is fine (inland route, mountains and plains).
-
-### What You'll Pass Through
-
-The journey is a geographic cross-section of southern Italy:
-
-| Segment | What You See | Approx. Time from Naples |
-|---------|--------------|--------------------------|
-| **Naples → Caserta** | Sprawling metro area | 30 min |
-| **Caserta** | Reggia di Caserta visible (royal palace) | ~35 min |
-| **Campanian Plains** | Volcanic soil, agriculture, volcanic hills | 45–60 min |
-| **Benevento area** | Apennine foothills, Roman archway in town | ~1h |
-| **Apennine crossing** | Mountains, tunnels, dramatic drops | 1–2h |
-| **Foggia** | Enter Puglia! Flat Tavoliere plains begin | ~2h 30m |
-| **Tavoliere delle Puglie** | Vast wheat plains — "the breadbasket of Italy" | 2.5–3h |
-| **Bari** | Puglia's capital, brief stop | ~3h 30m |
-| **Polignano a Mare** | Dramatic cliffs over Adriatic visible from train | ~4h |
-| **Fasano / Ostuni area** | Hilltop white towns in distance | 4–4.5h |
-| **Brindisi** | Historic port city, Adriatic arrival | ~5h 30m |
-
-### Foggia: You've Entered Puglia
-
-Foggia is the moment the landscape transforms — the Apennines end, the world opens up, and you're on the Tavoliere, a vast ancient sea floor turned wheat plain. This is the beginning of the south's distinctive feel: big sky, limestone, olive trees, whitewashed architecture on distant hilltops.
-
-### Bari Stop (~3.5 hours in)
-
-The train stops briefly at Bari Centrale. You don't change trains — this is a through stop. But it's a good moment to:
-- Stretch
-- Grab something from the café car if you haven't
-- Look out at Bari's coastline
-
-**Note:** If you wanted to break up the journey and spend time in Bari, this route allows that (get off here, explore for an afternoon, take a later regional train to Brindisi). See [Trains Research — Option B](../research/trains.qmd#route-3-naples-brindisi-puglia-june-14) for the Bari stopover option.
-
-### What to Bring for the Train
-
-- [ ] Water and snacks (café car available but limited)
-- [ ] Book, podcast, or downloaded shows
-- [ ] Camera / phone charged and ready for window views
-- [ ] Light layer (AC can be aggressive on IC trains)
-- [ ] Train ticket (saved to phone or printed)
-- [ ] Luggage in overhead racks; valuables at your seat
+**Light option:** Walk to the Tempio di San Giovanni al Sepolcro (a small round Crusader church from the 11th century — easy to miss, worth finding).
 
 ---
 
-## Arrival in Brindisi (~2–3 PM)
+## Evening: Dinner in Puglia (7–9 PM)
 
-### Brindisi Station
+You started getting acquainted with Puglian food last night. Tonight, go deeper.
 
-**Brindisi Stazione** is a modest, manageable station — nothing like the chaos of Napoli Centrale. Easy arrival.
+**Puglia's table:**
 
-- 10-minute walk to the historic city center
-- Taxi stand outside the station (€8–12 to most hotels)
-- Small station — luggage storage is limited; go to hotel first
+| Dish | What to Know |
+|------|--------------|
+| **Orecchiette alle cime di rapa** | The definitive Puglian pasta — "little ears" with bitter turnip greens and anchovy. Get it if it's on the menu. |
+| **Burrata** | If you haven't had it fresh in Puglia yet, this is the night. Born in the region — nothing like what you get abroad. |
+| **Fave e cicorie** | Fava bean purée with bitter greens — ancient peasant dish, stunning |
+| **Tiella di riso, patate e cozze** | Layered bake of rice, potatoes, and mussels — a Bari/Puglia classic |
+| **Primitivo** | Fuller-bodied red from Manduria — don't skip it |
 
-### Brindisi: First Impressions
-
-Brindisi has been a major Mediterranean port since Roman times — it's where Virgil died, where Crusaders departed for Jerusalem, where the Appian Way ended. It's not a tourist hotspot, which is part of its charm.
-
-**What you'll notice:**
-- Calm, unhurried pace
-- Working port atmosphere
-- Beautiful inner harbor (Seno di Ponente)
-- Fewer English menus — more authentic
-- Reasonable prices
-
----
-
-## Afternoon: Brindisi Arrival & Orientation (3–6 PM)
-
-### Check In
-
-Get to your hotel/accommodation, drop bags, freshen up after the train. This is a recovery and orientation afternoon.
-
-### Optional: Walk the Inner Harbor
-
-**Brindisi's waterfront** is compact and walkable:
-
-- **Colonne Romane** — Two Roman columns marking the end of the Appian Way (via Appia); only one survives intact. This is where ancient Rome ended.
-- **Seno di Ponente** — The sheltered inner harbor; watch fishing boats and ferries
-- **Castello Svevo** — Norman-era castle overlooking the harbor (exterior worth seeing)
-- **Piazza Vittorio Emanuele** — Main square near the waterfront
-- **Corso Garibaldi** — Main pedestrian street into town
-
-**Walk time:** 60–90 minutes easy at a relaxed pace
-
-::: {.callout-note}
-## Brindisi is a Gateway, Not a Destination
-
-You don't need to see everything today. Brindisi is where you begin the Puglia tour — save energy for the days ahead. A light afternoon, an early dinner, and an early night is the right call after a long travel day.
-:::
-
-### If You're Curious: The Columns
-
-**Colonna Romana** (just one column remains standing)
-- Via Colonne, overlooking the harbor
-- Free to view (exterior)
-- Marks the official terminus of Via Appia (Appian Way) — the road from Rome
-- Julius Caesar walked this. Cicero, Horace, Augustus Caesar.
-- Simple stone column; enormous historical weight
-
----
-
-## Evening: Dinner in Brindisi (7–9 PM)
-
-Welcome to Puglia — the food changes immediately. This is the heel of the boot, where the cuisine is distinct from Naples:
-
-**Puglia staples you'll start seeing:**
-
-| Dish | Description |
-|------|-------------|
-| **Orecchiette** | "Little ears" pasta, often with turnip greens (cime di rapa) or ragù |
-| **Burrata** | Fresh mozzarella filled with cream — Puglia's gift to the world |
-| **Fave e cicorie** | Fava bean purée with bitter greens — ancient peasant dish, extraordinary |
-| **Ciceri e tria** | Pasta with fried and boiled chickpeas — old Leccese recipe |
-| **Primitivo** | Local red wine — rich, full-bodied, from Manduria |
-| **Negroamaro** | Another Puglian red — darker, more tannic |
-
-**Seafood:**
-- Brindisi is a fishing port — the fresh catch is exceptional
-- Ricci di mare (sea urchin) if in season
-- Polpo (octopus) grilled or in salad
+**Seafood:** Brindisi is a fishing port. Whatever the restaurant says is fresh today, get that.
 
 **Where to look:**
-- Walk toward the harbor and away from the station
-- Corso Garibaldi and side streets into centro storico
-- Look for family-run trattorie over tourist-facing restaurants
+- Side streets off Corso Garibaldi heading into centro storico
+- Avoid restaurants with multilingual photo menus on the waterfront
+- Ask the hotel for a specific recommendation — they know
 
 ---
 
-## Evening: Prepare for the Tour
+## Evening: Prepare for Tour Days
 
-**Tonight, get organized for the Puglia days ahead:**
+**Tonight, get organized:**
 
-- [ ] Confirm tour operator pickup time/location (if applicable)
-- [ ] Review [Puglia Overview](../regions/puglia.qmd) for context on what you'll see
+- [ ] Confirm tour operator pickup time and exact meeting location
+- [ ] Review what you'll see this week in Puglia
 - [ ] Charge all devices
-- [ ] Confirm accommodation details for next several nights
-- [ ] Get cash if needed (ATMs easy to find in centro)
-- [ ] Early night — Puglia begins tomorrow
+- [ ] Lay out comfortable walking shoes and sun protection
+- [ ] Early night — Puglia begins in earnest tomorrow
 
 ---
 
 ## Key Links
 
-- [Trains Research — Naples to Brindisi details](../research/trains.qmd#route-3-naples-brindisi-puglia-june-14)
 - [Puglia Region Overview](../regions/puglia.qmd)
 - [Accommodations — Puglia section](../research/accommodations.qmd)
 - [Tours Research — Puglia](../research/tours.qmd)
 
 ---
 
-**Previous:** [Day 9: Naples Full Day](day-09-2026-06-13-naples.qmd) | **Next:** [Day 11: Puglia Day 1](day-11-2026-06-15-puglia.qmd)
+**Previous:** [Day 9: Depart Naples to Brindisi](day-09-2026-06-13-naples.qmd) | **Next:** [Day 11: Puglia Tour Day 1](day-11-2026-06-15-puglia.qmd)

@@ -2,7 +2,7 @@
 title: "Day 13: Puglia - Tour Day 3"
 subtitle: "Tour Being Planned"
 date: "2026-06-17"
-day-of-week: "Tuesday"
+day-of-week: "Wednesday"
 location: "Puglia"
 categories: [itinerary, puglia, placeholder]
 status: "Placeholder - Tour Details TBD"

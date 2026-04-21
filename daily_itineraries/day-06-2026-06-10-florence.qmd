@@ -1,82 +1,143 @@
 ---
-title: "Day 6: Florence - Pitti Palace & Departure Prep"
-subtitle: "Final Florence Day"
+title: "Day 6: Florence to Naples"
+subtitle: "Italo High-Speed Train — Arrives Naples 3:28pm"
 date: "2026-06-10"
-day-of-week: "Tuesday"
-location: "Florence"
-categories: [itinerary, florence, museums]
+day-of-week: "Wednesday"
+location: "Florence → Naples"
+categories: [itinerary, travel, florence, naples]
 ---
 
 ## Overview
 
-**Last full day in Florence** - Pitti Palace, Boboli Gardens, final museums/shopping, prepare for Naples tomorrow
+**Travel day:** Our last morning in Florence, then the Italo high-speed train whisks us to Naples in under three hours. We arrive mid-afternoon and have our first evening in the south.
+
+**Train Details:**
+
+| Train | Route | Departs | Arrives | Car/Seats |
+|-------|-------|---------|---------|-----------|
+| Italo #8902 (PIDCMA) | Firenze S.M. → Napoli C. | 12:28pm | 3:28pm | Salotto 1, seats 1 & 2 |
 
 ---
 
-## Morning: Palazzo Pitti & Boboli Gardens (9 AM-1 PM)
+## Morning: Final Florence Hours (8–11 AM)
 
-**Palatine Gallery:**
-- Raphael, Titian paintings
-- Royal Apartments
-- Medici treasures
+**One last cappuccino.** There's no time for a full museum, but plenty of time for a slow morning.
 
-**Boboli Gardens:**
-- 16th-century formal gardens
-- Escape from museum crowds
-- Shaded walks, fountains, views
-- Bring water, comfortable shoes
+### Suggested Final Walk
 
-**Time:** 2-3 hours total (or more if leisurely)
+- Grab breakfast at your regular café — order standing at the bar like a local
+- Walk to Piazzale Michelangelo for a last panoramic view of the city (20–25 min uphill, but you've earned it)
+- Or simply stroll the Oltrarno neighborhood across the Arno — calmer than the tourist center
+- A brief wander through Boboli Gardens (opens 8:15 AM) is possible if you're up early and the hotel is nearby
+
+**Be realistic about time.** Train is at 12:28pm; you need to be at the station by noon.
 
 ---
 
-## Afternoon: Final Florence Activities (2-6 PM)
+## Checkout & Station (11 AM–12 PM)
 
-**Options:**
+### Hotel Checkout
 
-**Museum (if not done):**
-- San Marco (Fra Angelico)
-- Palazzo Vecchio
+- [ ] Settle the hotel bill and review for errors
+- [ ] Check every drawer and the safe — passports, chargers, medication
+- [ ] Ask about luggage storage if you want a final hour without bags (most hotels offer this)
+- [ ] Get a taxi or walk to Firenze Santa Maria Novella (SMN)
 
-**Shopping:**
-- Final souvenirs
-- Leather goods, olive oil, wine
-- Paper products, art supplies
+### Firenze Santa Maria Novella Station
 
-**Relaxation:**
-- Café in favorite piazza
-- Final gelato (#4-5?)
-- People-watching
+| Getting There | Time | Notes |
+|---------------|------|-------|
+| **Walk** | 10–20 min depending on hotel | Fine for most centro storico hotels |
+| **Taxi** | 5–10 min | ~€10; ask hotel to call one |
+| **Tram (T1)** | Varies | Works if you know the stop |
 
----
+**Arrive by noon** — Italo trains often begin boarding 15 minutes before departure.
 
-## Evening: Farewell Florence (6-10 PM)
-
-**Aperitivo:** Return to favorite spot
-
-**Dinner:** Special last Florence meal
-- Bistecca if not done yet?
-- Or favorite trattoria from the week
-
-**After Dinner:**
-- Evening stroll through center
-- See Duomo lit up at night
-- Final photos
-
-**Pack for Naples:** Train departs tomorrow morning
+- Check the **Binario** (platform) on the departure boards inside the station
+- Find your car: look for **Carrozza 1** (Salotto)
+- Store large bags in the rack near the door or above the seat
 
 ---
 
-## Checklist
+## The Train: Italo #8902 (12:28–15:28)
 
-- [ ] Palazzo Pitti/Boboli visit
-- [ ] Final shopping complete
-- [ ] Souvenirs packed carefully
-- [ ] Hotel bill reviewed (check for errors)
-- [ ] Train tickets for Naples confirmed
-- [ ] Packed and ready for morning checkout
-- [ ] Set alarm for early wake-up
+**Ticket Code:** PIDCMA — save this to your phone
+
+**Salotto 1 — Lounge Class**
+
+| Passenger | Seat |
+|-----------|------|
+| Jane Mooney | 1 |
+| Dan Green | 2 |
+
+This is Italo's premium Lounge class — leather seats, a quieter car, and included service. It's not a budget economy seat; sit back and enjoy the ride.
+
+**Journey highlights:**
+- Tuscany countryside rolls past first — vineyards, cypress trees, terra-cotta farmhouses
+- The train plunges through Apennine tunnels mid-route — watch for the dramatic switchover from green Tuscany to the sun-baked south
+- **Sit on the right side approaching Naples** for possible Vesuvius views across the plain
+
+**Duration:** 3 hours even (12:28 → 15:28)
 
 ---
 
-**Previous:** [Day 5](day-05-2026-06-09-florence.qmd) | **Next:** [Day 7: Florence to Naples](day-07-2026-06-11-florence-to-naples.qmd)
+## Arrive Naples (3:28pm)
+
+### Napoli Centrale Station
+
+You'll emerge from a sleek high-speed train into one of Italy's most chaotic stations. This is normal — Naples is different.
+
+**After arriving:**
+
+1. Follow "Uscita" (exit) signs toward Piazza Garibaldi
+2. **Watch your belongings** — the station and piazza are busy pickpocket zones; keep bags zipped and phones in pockets
+3. Get to the taxi stand immediately outside and take an **official white taxi** — agree on price or insist on the meter (~€15–20 to most central hotels)
+4. Avoid anyone offering "taxi" on the concourse — use only the official stand
+
+### Hotel Check-In (~4:00–4:30pm)
+
+- Drop bags, freshen up, breathe
+- Ask for restaurant recommendations and a neighborhood map
+- Get the WiFi password
+- Note: Naples is louder and more chaotic than Florence. That's the charm — lean into it.
+
+---
+
+## Evening: First Night in Naples (7–10 PM)
+
+**Pizza is the only correct choice for tonight.**
+
+Naples invented pizza. Specifically, the Margherita was created here in 1889. Tonight you honor that.
+
+**See:** [Restaurants — Naples Pizza](../research/restaurants.qmd#pizza-essential)
+
+**Top options:**
+
+- **Da Michele** — Legendary, cash only, expect a line, worth it. Only two pizzas: Margherita or Marinara.
+- **Sorbillo** — Via dei Tribunali, excellent, often crowded
+- **50 Kalò** — More upscale, worth reserving ahead
+
+**What to order:**
+- *Margherita* (tomato, mozzarella, basil) — the original, invented here
+- *Marinara* (tomato, garlic, oregano, no cheese) — older than the Margherita, equally essential
+- Cost: €5–12 depending on place
+
+**After pizza:**
+- *Sfogliatella* — shell-shaped ricotta pastry, a Naples specialty — grab one from a pasticceria
+- Short evening walk toward Spaccanapoli or the waterfront
+- Early to bed: Herculaneum is tomorrow
+
+---
+
+## Prepare for Tomorrow
+
+**Herculaneum:**
+
+- [ ] Check tour confirmation for exact time and meeting point
+- [ ] Lay out comfortable shoes (lots of uneven ancient cobblestones)
+- [ ] Bring: water, sunscreen, hat, camera
+- [ ] Set an alarm — likely an early start
+
+---
+
+**Previous:** [Day 5](day-05-2026-06-09-florence.qmd) | **Next:** [Day 7: Naples — Herculaneum](day-07-2026-06-11-florence-to-naples.qmd)

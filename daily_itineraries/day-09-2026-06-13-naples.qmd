@@ -1,106 +1,184 @@
 ---
-title: "Day 9: Naples Full Day"
-subtitle: "MANN Museum & City Exploration"
+title: "Day 9: Depart Naples to Brindisi"
+subtitle: "Fly Naples → Rome → Brindisi — Arrive Puglia 6:25pm"
 date: "2026-06-13"
-day-of-week: "Friday"
-location: "Naples"
-categories: [itinerary, naples, museums]
+day-of-week: "Saturday"
+location: "Naples → Rome Fiumicino → Brindisi"
+categories: [itinerary, travel, naples, puglia, brindisi]
 ---
 
 ## Overview
 
-**Last full day in Naples:** MANN museum (if not done yesterday), Cappella Sansevero, city exploration, farewell to southern Italy
+**Travel day:** Two short Alitalia (ITA Airways) flights take us from Naples to Rome Fiumicino, then on to Brindisi — gateway to Puglia. We arrive at the heel of the boot by 6:25pm with an evening ahead.
+
+**Today's Flights:**
+
+| # | Flight | Route | Departs | Arrives | Notes |
+|---|--------|-------|---------|---------|-------|
+| 1 | AZ 1270 | NAP → FCO | 3:05pm | 4:05pm | Terminal not assigned; check in advance |
+| 2 | AZ 1623 | FCO → BDS | 5:15pm | 6:25pm | Terminal 1 at FCO |
+
+**Reservation Code:** IXYZMT | **Airline Code:** BY4EV5 (AZ)
+
+**Checked baggage:** 2 × 23kg per person on both flights
+**Carry-on:** 1 × 8kg per person
 
 ---
 
-## Morning: Museums (9 AM-1 PM)
+## Morning: Last Hours in Naples (8 AM–12 PM)
 
-**Priority 1: MANN Museum** (if not done yesterday)
+### Final Naples Morning
 
-**See:** [Museums - MANN](../research/museums.qmd#mann)
+The flight isn't until 3:05pm, so you have a real morning in Naples. Don't squander it.
 
-- Allow 2-3 hours
-- Highlights: Pompeii/Herculaneum treasures, Farnese Collection, Alexander Mosaic, Secret Cabinet
-- Now you understand context from seeing Herculaneum!
+**Options:**
+- Final espresso and *sfogliatella* at a neighborhood bar — standing at the counter, the right way
+- **Napoli Sotterranea** (Underground Naples) — if you haven't done it, this morning is your window
+  - Guided tours depart throughout the morning from Via dei Tribunali
+  - 90-minute tour; ancient Roman theater + WWII air raid shelters 40 meters underground
+  - Book ahead: [napolisotterranea.org](http://www.napolisotterranea.org)
+- A final walk on the Lungomare for Vesuvius views across the bay
+- Or simply pack, check out, and have a relaxed café morning
 
-**Priority 2: Cappella Sansevero**
+### Hotel Checkout
 
-**See:** [Museums - Cappella Sansevero](../research/museums.qmd#cappella-sansevero)
-
-- **Book timed entry** if not done
-- Veiled Christ (one of world's most astonishing sculptures)
-- 30-45 minutes
-- No photography (seriously enforced)
-
-**Do Both if Possible:**
-- MANN morning (9-12)
-- Cappella Sansevero late morning/early afternoon (12:30-1:30)
+- Aim to check out by noon; ask for luggage storage if you want more morning time
+- Settle the bill and check for errors
+- Confirm taxi to airport
 
 ---
 
-## Afternoon: Spaccanapoli & Historic Center (2-6 PM)
+## Getting to Naples Airport (12:30–2:30 PM)
 
-**Spaccanapoli:**
-- Ancient straight street through historic Naples
-- Follows 2,400-year-old Greek city plan
-- Churches, shops, street vendors, local life
+### Napoli Capodichino Airport (NAP)
 
-**Must-See:**
-- Gesù Nuovo (Baroque church)
-- Santa Chiara (monastery, beautiful cloister)
-- San Domenico Maggiore (Gothic church)
+**Located:** ~6 km from the historic center
 
-**Experience:**
-- Street food vendors
-- Nativity workshops (Naples famous for presepi)
-- Hanging laundry, narrow alleys
-- Authentic Naples chaos
+| Option | Time | Cost | Notes |
+|--------|------|------|-------|
+| **Taxi** | 20–30 min | €20–25 | Official white taxis; best with luggage |
+| **Alibus shuttle** | 30–45 min | €5 | From Piazza Garibaldi; stop outside Centrale station |
 
-**Via dei Tribunali:**
-- Parallel to Spaccanapoli
-- More pizza options
-- Underground Naples tours start here
+**Depart hotel by 1:30pm** — the airport is small but check-in closes 45 minutes before departure.
 
----
+### At the Airport
 
-## Late Afternoon: Waterfront (5-7 PM)
+- [ ] Check in and drop bags — check-in closes 2:20pm for the 3:05pm flight
+- [ ] Clear security (small airport — usually quick)
+- [ ] Confirm departure gate on boards
+- [ ] Grab lunch or coffee airside — there are decent options
 
-**Lungomare (Waterfront Promenade):**
-- Via Partenope and Via Caracciolo
-- Vesuvius views across bay
-- Castel dell'Ovo (seaside castle)
-- Cleaner, prettier than centro storico
-- Escape from chaos
-
-**Activities:**
-- Sunset walk
-- Photos of Vesuvius
-- Gelato on promenade
+::: {.callout-note}
+## Terminal Note
+Naples Airport doesn't have separate named terminals — one building. Check the departure board for your gate. AZ 1270 to Rome Fiumicino.
+:::
 
 ---
 
-## Evening: Farewell Naples (7-10 PM)
+## Flight 1: Naples → Rome Fiumicino (AZ 1270)
 
-**Final Dinner:**
-- Return to favorite pizzeria? (3rd pizza in 3 days?)
-- Or seafood on Lungomare
-- Trattoria in Quartieri Spagnoli
+**Airline:** ITA Airways (Italy's national carrier, formerly Alitalia)
+**Duration:** 1 hour
+**Cabin:** Economy
 
-**After Dinner:**
-- Final gelato/sfogliatella
-- Evening stroll
-- **Pack for Puglia train tomorrow**
+- Departs NAP 3:05pm
+- Arrives FCO (Rome Fiumicino) **4:05pm**, Terminal 1
+- Short domestic hop — essentially just a climb and descent
+
+---
+
+## Rome Fiumicino Connection (4:05–5:15pm) — 70 Minutes
+
+**Layover at FCO Terminal 1**
+
+This is a tight but manageable connection within the same terminal.
+
+- [ ] Follow signs for **Domestic/Schengen connections** within Terminal 1
+- [ ] Check departure boards for AZ 1623 to Brindisi gate
+- [ ] No need to re-clear security or passport control (both flights are domestic/Schengen)
+- [ ] Grab water and a snack — there are options in T1 airside
+- [ ] Be at gate by 4:50pm
+
+::: {.callout-warning}
+## Connection Timing
+70 minutes is workable at Fiumicino within the same terminal. Don't stop to browse shops — find the gate first, then relax if you have time.
+:::
+
+---
+
+## Flight 2: Rome → Brindisi (AZ 1623)
+
+**Airline:** ITA Airways
+**Duration:** 1 hour 10 minutes
+**Cabin:** Economy
+
+- Departs FCO Terminal 1, 5:15pm
+- **Arrives BDS (Brindisi Papola Casale Airport), 6:25pm**
+- Collect checked bags at Brindisi baggage claim
+
+---
+
+## Arrive Brindisi (6:25pm)
+
+### Brindisi Airport — Papola Casale (BDS)
+
+Small, easy airport — nothing like Naples or Rome.
+
+**After landing:**
+1. Baggage claim (small airport — bags come quickly)
+2. Exit to arrivals — taxi stand immediately outside
+
+### Getting to Your Hotel
+
+**Taxi:**
+- ~€12–15 to Brindisi centro
+- ~10–15 minutes
+- Official taxis are at the stand outside arrivals
+
+---
+
+## Evening: First Night in Puglia (7:30–10 PM)
+
+Welcome to the heel of the boot. The cuisine changes immediately — you're no longer in Naples.
+
+**Puglia staples that start tonight:**
+
+| Dish | Description |
+|------|-------------|
+| **Orecchiette** | "Little ears" pasta, often with turnip greens (*cime di rapa*) or ragù |
+| **Burrata** | Fresh mozzarella filled with cream — Puglia's most famous gift |
+| **Fave e cicorie** | Fava bean purée with bitter greens — ancient, extraordinary |
+| **Primitivo** | Local red wine — rich and full-bodied, from Manduria |
+| **Negroamaro** | Another Puglian red — darker, more tannic |
+
+**Where to eat:** Walk toward the inner harbor and look for family-run trattorie on Corso Garibaldi or the streets into centro storico. Avoid anything immediately adjacent to the tourist waterfront.
+
+### Optional: Walk the Inner Harbor
+
+**Brindisi's waterfront** is compact and walkable — even after a travel day:
+
+- **Colonne Romane** — Two Roman columns (one intact) marking the end of the Appian Way; where ancient Rome ended. Julius Caesar, Cicero, Augustus walked here.
+- **Seno di Ponente** — The sheltered inner harbor; fishing boats and Mediterranean ferries
+- **Castello Svevo** — Norman-era castle overlooking the harbor
+
+::: {.callout-note}
+## Easy Does It Tonight
+
+You've done two flights and spent a week each in Florence and Naples. Tonight is dinner, a short walk, and sleep. Puglia starts tomorrow.
+:::
 
 ---
 
 ## Prepare for Tomorrow
 
-**Train to Brindisi/Puglia:**
-- Check departure time (likely morning)
-- Pack completely tonight
-- Set alarm for checkout
-- Long train ride (5-6 hours) - bring entertainment, snacks
+**First full Puglia day:**
+
+- [ ] Review [Puglia Overview](../regions/puglia.qmd) for context on the region
+- [ ] Confirm tour pickup time/meeting point (if applicable)
+- [ ] Confirm accommodation for next several nights
+- [ ] Get cash at an ATM if needed (easy to find in centro)
+- [ ] Charge all devices overnight
 
 ---
 
-**Previous:** [Day 8](day-08-2026-06-12-naples-herculaneum.qmd) | **Next:** [Day 10: Naples to Brindisi](day-10-2026-06-14-naples-to-brindisi.qmd)
+**Previous:** [Day 8: Naples Museums & City](day-08-2026-06-12-naples-herculaneum.qmd) | **Next:** [Day 10: First Day in Puglia](day-10-2026-06-14-naples-to-brindisi.qmd)

@@ -1,130 +1,107 @@
 ---
-title: "Day 7: Florence to Naples"
-subtitle: "High-Speed Train to Southern Italy"
+title: "Day 7: Naples — Herculaneum"
+subtitle: "Ancient Roman City & Archaeology"
 date: "2026-06-11"
-day-of-week: "Wednesday"
-location: "Florence → Naples"
-categories: [itinerary, travel, florence, naples]
+day-of-week: "Thursday"
+location: "Naples & Herculaneum"
+categories: [itinerary, naples, herculaneum, archaeology]
 ---
 
 ## Overview
 
-**Travel day:** High-speed train from Florence to Naples (2.5 hours), settling into Naples, first taste of southern Italy
+**First full day in Naples.** Today's highlight is Herculaneum — an ancient Roman city buried in volcanic mud by Vesuvius in 79 AD, better preserved than Pompeii and more emotionally powerful. A licensed guide makes the difference here.
 
 ---
 
-## Morning: Florence Checkout & Train (8 AM-12 PM)
+## Morning: Herculaneum Tour (Depart ~8–9 AM)
 
-### Hotel Checkout
+### Tour Details
 
-- Final breakfast in Florence
-- Check room for forgotten items
-- Settle bill (verify charges)
-- Get taxi or walk to SMN station
+**See:** [Tours Research - Herculaneum](../research/tours.qmd#herculaneum-archaeological-tour)
 
-### Firenze SMN to Napoli Centrale
+**Meeting:**
+- Check tour confirmation for exact time and meeting point
+- Likely hotel pickup OR meet at Ercolano Scavi train station
+- Bring: comfortable shoes, water, sun protection, camera
 
-**See:** [Trains Research](../research/trains.qmd#route-2-florence-naples)
+**Getting There (if independent):**
+- Circumvesuviana train from Napoli Porta Nolana or Centrale to **Ercolano Scavi** (~20 min)
+- €2.80 one-way; runs every 20–30 minutes
+- The station literally overlooks the excavated city
 
-**Train Details:**
-- Frecciarossa or Italo high-speed
-- Duration: 2h 30m - 3h
-- Check your booking for exact time
-- Arrive station 20 min early
+**At Herculaneum (~4–5 hours total):**
 
-**On Train:**
-- Comfortable, modern
-- Power outlets at seats
-- WiFi (sometimes unreliable)
-- Café car available
-- Sit on right (west) approaching Naples for Vesuvius views
+- Licensed archaeologist guide (worth every euro — the context transforms the experience)
+- 2-hour guided tour of ruins
 
-**Route:** Through Tuscany, Apennines, approaching Campania
+**What You'll See:**
 
----
+| Site | Why It Matters |
+|------|----------------|
+| **The Boat Houses** | 300 skeletons of people who fled to the shore — most powerful moment on the site |
+| **House of Neptune & Amphitrite** | Vivid blue-and-gold mosaics, astonishingly preserved |
+| **Casa dei Cervi** | Elite villa with original frescoes and garden statues |
+| **Thermopolium** | Ancient fast-food counter with food residue still identifiable |
+| **Wooden structures** | Actual original wood — doors, furniture, beams — impossible at Pompeii |
 
-## Midday: Arrive Naples (12-2 PM)
-
-### Napoli Centrale Station
-
-**Arrival:**
-- Busy, chaotic station
-- **Watch belongings** - pickpockets target tourists
-- Follow "Uscita" (exit) signs
-- Emergeinto Piazza Garibaldi
-
-### To Hotel
-
-**Taxi (Recommended):**
-- Official white taxis only
-- Agree on price or insist on meter (~€15-20 to most hotels)
-- Avoid touts offering "taxi"
-
-**Metro (If Adventurous):**
-- Line 1 or 2 depending on hotel location
-- €1.10 ticket
-- Watch bags
-
-### Hotel Check-In
-
-- Ask for restaurant recommendations
-- WiFi password
-- Safety tips for neighborhood
-- Map of area
+**Why Better than Pompeii:**
+- Upper floors of buildings are intact (Pompeii's collapsed)
+- Organic materials preserved — wood, cloth, bread, wine
+- Far less crowded
+- More manageable size (2 hours vs. a full day)
+- More emotionally powerful: the boat houses are unlike anything else in Italy
 
 ---
 
-## Afternoon: First Naples Impressions (2-6 PM)
+## Afternoon Options (2–6 PM)
 
-**Settle In:**
-- Quick shower, change
-- Orient yourself to neighborhood
-- Walk around immediate area
+**Option A: MANN Museum** (Recommended if energy remains)
 
-**Explore:**
-- Find nearby café for espresso
-- Walk toward waterfront or centro storico
-- Get feel for Naples energy (very different from Florence!)
+**See:** [Museums - MANN](../research/museums.qmd#mann)
 
-**First Observations:**
-- Louder, more chaotic than Florence
-- More scooters, more traffic
-- Hanging laundry, narrow streets
-- Raw, authentic southern Italy
+- The National Archaeological Museum holds the treasures *removed* from Herculaneum and Pompeii
+- **Go AFTER Herculaneum** — the context transforms the objects completely
+- Highlights: Farnese Collection, Alexander Mosaic, Secret Cabinet (erotica from Pompeii)
+- Allow 2–3 hours; €18 entry; closed Tuesdays
+- Located in the Museo/Cavour area, easy taxi or metro from Ercolano
 
----
+**Option B: Cappella Sansevero**
 
-## Evening: First Naples Pizza! (7-10 PM)
+**See:** [Museums - Cappella Sansevero](../research/museums.qmd#cappella-sansevero)
 
-**Pizza is Essential Tonight**
+- The Veiled Christ — marble veil so lifelike people have refused to believe it's stone
+- **Book timed entry in advance** — tiny chapel, very limited slots
+- 30–45 minutes; €9 entry; no photography (seriously enforced)
+- In the historic center, easy to combine with an evening walk
 
-**See:** [Restaurants - Naples Pizza](../research/restaurants.qmd#pizza-essential)
+**Option C: Rest**
 
-**Options:**
-- **Da Michele** (cash only, expect line, worth it)
-- **Sorbillo** (Via dei Tribunali)
-- **50 Kalò** (more upscale, reserve ahead)
-
-**What to Order:**
-- Margherita (the original, invented here in 1889)
-- Or Marinara (no cheese, just tomato, garlic, oregano)
-- Cost: €5-12 depending on place
-
-**After Pizza:**
-- Sfogliatella (shell-shaped pastry) for dessert
-- Or gelato
-- Spaccanapoli evening walk if energetic
+Herculaneum is intense — emotionally and physically. Coming back to the hotel, resting, and saving the museums for tomorrow is completely valid.
 
 ---
 
-## Prepare for Tomorrow
+## Evening: Naples (7–10 PM)
 
-**Herculaneum Tour:**
-- Check tour confirmation (meeting time/place)
-- Wear comfortable shoes
-- Bring: water, sun protection, camera
-- Set alarm (likely early departure)
+**Spaccanapoli District:**
+- The ancient straight street cutting through historic Naples
+- Via dei Tribunali (the pizza street — different pizzerias than last night)
+- Street life, churches, hanging laundry, presepi workshops
+
+**Dinner:**
+- Try a different pizzeria if you loved last night's
+- Or seafood — Naples is a port city and the catch is fresh
+- Sfogliatella for dessert if you haven't yet
 
 ---
 
-**Previous:** [Day 6](day-06-2026-06-10-florence.qmd) | **Next:** [Day 8: Naples & Herculaneum](day-08-2026-06-12-naples-herculaneum.qmd)
+## Notes & Reflections
+
+**Herculaneum Experience:**
+
+**Most Powerful Moment:**
+
+**Understanding of Ancient Rome:**
+
+---
+
+**Previous:** [Day 6: Florence to Naples](day-06-2026-06-10-florence.qmd) | **Next:** [Day 8: Naples Museums & City](day-08-2026-06-12-naples-herculaneum.qmd)

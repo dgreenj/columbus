@@ -5,7 +5,7 @@
 
 ---
 
-## Day 3 — Saturday June 7
+## Day 3 — Sunday June 7
 
 ### Duomo Complex (combo ticket)
 
@@ -35,7 +35,7 @@
 
 ---
 
-## Day 4 — Sunday June 8
+## Day 4 — Monday June 8
 
 ### Galleria dell'Accademia (David)
 

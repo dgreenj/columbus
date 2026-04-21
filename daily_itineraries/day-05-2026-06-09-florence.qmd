@@ -2,7 +2,7 @@
 title: "Day 5: Florence - Bargello & Santa Croce"
 subtitle: "Sculpture & Florentine Tombs"
 date: "2026-06-09"
-day-of-week: "Monday"
+day-of-week: "Tuesday"
 location: "Florence"
 categories: [itinerary, florence, museums]
 ---

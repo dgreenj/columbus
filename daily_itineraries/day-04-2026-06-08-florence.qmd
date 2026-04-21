@@ -2,7 +2,7 @@
 title: "Day 4: Florence - David & Medici Sites"
 subtitle: "Michelangelo & the Medici"
 date: "2026-06-08"
-day-of-week: "Sunday"
+day-of-week: "Monday"
 location: "Florence"
 categories: [itinerary, florence, museums, art]
 ---

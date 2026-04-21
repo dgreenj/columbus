@@ -238,29 +238,25 @@ If you arrive late or want to ease into the trip, spending one night in Pisa is 
 
 ---
 
-## Intra-Italy Flights: Naples → Brindisi Area
+## Intra-Italy Flights: Naples → Brindisi — BOOKED
 
-**Question:** Are there flights from Naples (NAP) to Brindisi (BDS) or nearby, as an alternative to the train?
+**Booked:** ITA Airways (Alitalia) via Rome, **Saturday June 13**
+**Reservation:** IXYZMT | Airline code: BY4EV5 (AZ)
 
-**Answer: No scheduled commercial flights exist between Naples and Brindisi.**
+| # | Flight | Route | Departs | Arrives | Notes |
+|---|--------|-------|---------|---------|-------|
+| 1 | AZ 1270 | NAP → FCO | 3:05pm | 4:05pm | Naples Capodichino → Rome Fiumicino T1 |
+| 2 | AZ 1623 | FCO → BDS | 5:15pm | 6:25pm | Rome Fiumicino T1 → Brindisi |
 
-The route is too short (~280 miles / 450 km) and the market too thin for commercial service. Here's the full picture:
+**Baggage:** 2 × 23kg checked + 1 × 8kg carry-on per person on both flights
 
-| Potential Route | Status | Notes |
-|---|---|---|
-| Naples NAP → Brindisi BDS | ❌ No service | No airlines fly this |
-| Naples NAP → Bari BRI | ❌ No service | Ground distance ~3h |
-| Naples NAP → Lecce | ❌ No service | |
-| Rome FCO → Brindisi BDS | ✅ ITA Airways, Ryanair | Requires backtracking 2.5h to Rome first |
-| Rome FCO → Bari BRI | ✅ ITA Airways | Same problem |
+::: {.callout-note}
+## Why via Rome?
 
-**Verdict: Train is clearly the right choice.**
+There are no direct commercial flights between Naples (NAP) and Brindisi (BDS) — the route is too short and thin for direct service. Routing via Rome Fiumicino (FCO) is the only way to fly this leg. The total journey time (including connection) is approximately 3.5 hours door-to-door from central Naples — comparable to the 5.5-hour direct train option that was the original plan.
+:::
 
-Routing through Rome would add 2.5+ hours of backtracking plus airport time — making it 6–8 hours door-to-door vs. a 5.5-hour direct Intercity train with First Class.
-
-**One important note for this trip:** Our return flight home departs from **Brindisi (BDS)** on June 20 (LH 1895 → Munich). So we need to be in Brindisi for the night of June 19 regardless. Getting there by train from Naples on June 14 (Day 10) is both the practical and scenic choice.
-
-See [Trains Research](trains.qmd#route-3-naples-brindisi-puglia-june-14) for full Intercity train details.
+See [Day 9](../daily_itineraries/day-09-2026-06-13-naples.qmd) for the full departure day plan.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Naples Tickets & Booking"
-subtitle: "Days 8–9 · June 12–13"
+subtitle: "Days 7–9 · June 11–13"
 categories: [planning, naples, tickets]
 toc: true
 ---

@@ -11,8 +11,8 @@ toc: true
 Italian trains are efficient, comfortable, and one of the best ways to travel between cities. Our trip involves three major train journeys, all bookable through Trenitalia or Italo (Italy's two main rail operators).
 
 **Key Routes:**
-1. **Florence → Naples** (June 11): High-speed Frecciarossa/Italo, 2.5 hours
-2. **Naples → Brindisi** (June 14): Scenic Intercity journey through Puglia, ~5.5 hours direct
+1. **Florence → Naples** (June 10): Italo high-speed #8902, 3 hours — **BOOKED** (ticket PIDCMA)
+2. **Naples → Brindisi** (June 13): **Via flight** — AZ 1270 NAP→FCO + AZ 1623 FCO→BDS (see [Flights](flights.qmd))
 
 ## Booking Websites
 
@@ -25,15 +25,16 @@ Italian trains are efficient, comfortable, and one of the best ways to travel be
 
 ---
 
-## Route 1: Florence → Naples (June 11)
+## Route 1: Florence → Naples (June 10) — BOOKED
 
 ### Overview
 
-This is one of Italy's premier high-speed train routes - fast, frequent, and spectacular.
+This is one of Italy's premier high-speed train routes — fast, comfortable, and scenic.
 
-**Type:** Frecciarossa (Trenitalia) or Italo
-**Duration:** 2h 29m - 3h 00m
-**Frequency:** Every 30-60 minutes
+**Booked:** Italo #8902, ticket code **PIDCMA**
+**Departs:** Firenze S.M. **12:28pm** → Arrives Napoli Centrale **3:28pm**
+**Car:** Salotto 1 (Lounge) — Seats: Jane (1), Dan (2)
+**Duration:** 3 hours even
 **Stations:** Firenze SMN → Napoli Centrale
 
 ### Fare Classes
@@ -88,17 +89,26 @@ The route passes through:
 
 ---
 
-## Route 2: Naples → Brindisi (Puglia) (June 14)
+## Route 2: Naples → Brindisi — CHANGED TO FLIGHT (June 13)
 
 ### Overview
 
-This is a journey through the heart of Southern Italy - one of the most scenic and culturally rich train rides in the country.
+::: {.callout-important}
+## This leg is now a flight, not a train
 
-**Type:** Intercity (IC) express — direct service, no changes required
-**Duration:** 5-5.5 hours
-**Frequency:** ~5-6 daily departures
-**Price:** €15-€40 First Class, €10-€25 Second Class
-**Advance Booking:** 2-4 weeks for best fares
+**Booked:** ITA Airways (AZ), Reservation **IXYZMT**, departing **Saturday June 13**
+
+| Flight | Route | Departs | Arrives |
+|--------|-------|---------|---------|
+| AZ 1270 | NAP → FCO (Rome) | 3:05pm | 4:05pm |
+| AZ 1623 | FCO → BDS (Brindisi) | 5:15pm | 6:25pm |
+
+See [Flights](flights.qmd) and [Day 9](../daily_itineraries/day-09-2026-06-13-naples.qmd) for full details.
+:::
+
+The train research below is retained for reference (original research notes).
+
+**Original planned route:** Naples → Brindisi by Intercity train (~5.5 hours direct)
 
 ### Route Options
 
