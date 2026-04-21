@@ -1,0 +1,188 @@
+---
+title: "Pre-Departure Checklist"
+subtitle: "Everything to do before June 5, 2026"
+categories: [planning, checklist]
+toc: true
+toc-depth: 2
+---
+
+::: {.callout-note}
+## Already Booked — Do Not Re-Book
+
+- ✅ **Outbound flights** (FMWYOJ): MSN → ORD → Frankfurt → Florence, Jun 5–6
+- ✅ **Return flights** (FMWYOJ): Brindisi → Munich → Chicago → Madison, Jun 20
+- ✅ **Florence → Naples train** (PIDCMA): Italo #8902, Jun 10, departs 12:28pm, arrives 3:28pm — Salotto 1, seats 1 & 2
+- ✅ **Naples → Brindisi flights** (IXYZMT): AZ 1270 NAP→FCO 3:05pm + AZ 1623 FCO→BDS 5:15pm, Jun 13
+:::
+
+---
+
+## Museum & Attraction Tickets
+
+Book these as soon as possible — June is peak season and timed slots fill weeks ahead.
+
+### Florence (Days 3–5, Jun 7–9)
+
+| Priority | Attraction | Day | Date | Cost |
+|----------|-----------|-----|------|------|
+| 🔴 **Book Now** | Duomo Complex combo (dome climb) | Day 3 | Sun Jun 7 | €30 |
+| 🔴 **Book Now** | Uffizi Gallery (timed entry) | Day 3 | Sun Jun 7 | ~€20 |
+| 🔴 **Book Now** | Galleria dell'Accademia (David) | Day 4 | Mon Jun 8 | €20 + €4 booking |
+| 🟡 Soon | Medici Chapels | Day 4 | Mon Jun 8 | ~€9 |
+| 🟢 Optional | Basilica di San Lorenzo / Laurentian Library | Day 4 | Mon Jun 8 | Varies |
+| 🟢 Optional | Palazzo Vecchio | Day 4 | Mon Jun 8 | ~€14 |
+| 🟢 Optional | Museum of San Marco | Day 4 or 5 | Mon–Tue | €4 (closed Tues) |
+
+**See:** [Florence Tickets page](tickets-florence.qmd) for booking links
+
+- [ ] Book **Uffizi Gallery** timed entry for Jun 7
+- [ ] Book **Duomo Complex** combo ticket / dome climb for Jun 7
+- [ ] Book **Galleria dell'Accademia** (David) for Jun 8
+- [ ] Book **Medici Chapels** for Jun 8
+- [ ] Decide on optional museums and book if desired
+
+### Naples (Days 7–9, Jun 11–13)
+
+| Priority | Attraction | Day | Date | Cost |
+|----------|-----------|-----|------|------|
+| 🔴 **Book Now** | Cappella Sansevero (Veiled Christ) | Day 8 | Fri Jun 12 | €9 |
+| 🟡 Soon | Herculaneum (Parco Archeologico) | Day 7 | Thu Jun 11 | ~€13 |
+| 🟡 Soon | MANN Museum | Day 8 | Fri Jun 12 | €18 |
+| 🟢 Optional | Napoli Sotterranea (10am slot) | Day 9 morning | Sat Jun 13 | ~€10 |
+
+::: {.callout-warning}
+## Cappella Sansevero — Book Immediately
+
+This tiny chapel (Veiled Christ sculpture) has extremely limited timed slots and sells out weeks in advance. Book before anything else on this list.
+:::
+
+**See:** [Naples Tickets page](tickets-naples.qmd) for booking links
+
+- [ ] Book **Cappella Sansevero** timed entry for Jun 12 ← **Do this first**
+- [ ] Book **Herculaneum** entry for Jun 11 (confirm if guided tour includes admission)
+- [ ] Book **MANN Museum** for Jun 12 (walk-in sometimes possible but reserve to be safe)
+- [ ] Book **Napoli Sotterranea** 10am slot for Jun 13 (optional — flight is 3pm, fits comfortably)
+
+---
+
+## Accommodations
+
+Confirm all hotel bookings, check-in times, and checkout deadlines.
+
+| City | Check-In | Check-Out | Nights | Note |
+|------|----------|-----------|--------|------|
+| **Florence** | Sat Jun 6 ~7:00pm | Wed Jun 10 (morning) | 4 | Train departs 12:28pm — check out by 11am |
+| **Naples** | Wed Jun 10 ~4:00pm | Sat Jun 13 (morning) | 3 | Flight at 3pm — check out by noon; ask for luggage storage |
+| **Brindisi/Puglia** | Sat Jun 13 ~7:30pm | Sat Jun 20 (~8am) | 6 | BDS flight 10:55am — depart hotel by 8:15am |
+
+- [ ] **Florence hotel**: confirm reservation; note Jun 6 arrival ~7pm after long travel day
+- [ ] **Naples hotel**: confirm reservation; note Jun 13 checkout by noon for 3pm flight
+- [ ] **Brindisi/Puglia accommodations**: confirm all nights Jun 13–19; note very early Jun 20 checkout
+
+---
+
+## Tours
+
+- [ ] **Herculaneum guided tour** — book licensed guide for Jun 11; get meeting time/place in writing
+- [ ] **Puglia organized tour** — confirm tour operator; get daily schedule for Jun 15–19; confirm pickup/meeting details for each day
+- [ ] Save guide and tour operator phone numbers to your phone and written on paper
+
+---
+
+## Restaurant Reservations
+
+June is busy — reserve ahead for any restaurant worth going to.
+
+### Florence
+
+- [ ] **Bistecca alla fiorentina dinner** — book a proper Florentine steakhouse for one evening (Days 3–6); ask hotel concierge for current best
+- [ ] Any other special dinners — ask hotel on arrival for current favorites
+
+### Naples
+
+- [ ] **50 Kalò** (upscale pizza, Via Serapide 1) — reserve in advance for any night
+- [ ] Special seafood dinner on Lungomare — consider reserving for evening of Jun 12
+
+---
+
+## Documents & Administration
+
+- [ ] Verify **both passports are valid** at least 6 months beyond Jun 20, 2026 (valid through Dec 2026+)
+- [ ] Purchase **travel insurance**: medical coverage, trip cancellation, baggage/delay
+- [ ] **Notify credit card companies** of travel dates: Italy, Germany — and confirm no foreign transaction fees
+- [ ] Identify a **backup credit card** and notify that bank too
+- [ ] Get some **euros in cash** before departing (~€100–200 for first day logistics before finding ATMs)
+
+**Documents to print and carry (keep in carry-on, NOT checked bag):**
+
+- [ ] Outbound flight reservation (FMWYOJ): MSN→ORD→FRA→FLR
+- [ ] Return flight reservation (FMWYOJ): BDS→MUC→ORD→MSN
+- [ ] Naples→Brindisi flight reservation (IXYZMT)
+- [ ] Italo train ticket (PIDCMA) — or save as PDF on phone
+- [ ] Florence hotel confirmation
+- [ ] Naples hotel confirmation
+- [ ] Brindisi/Puglia hotel confirmation(s)
+- [ ] Emergency contacts: hotel addresses, tour guide phone numbers
+- [ ] Photocopies of both passports (stored separately from originals)
+- [ ] [June calendar](june-calendar.qmd) (print from this site)
+- [ ] Key itinerary pages (Days 1–2 flight details, Day 9 flight to Brindisi)
+
+---
+
+## Phone & Technology
+
+- [ ] **International phone/data plan** — confirm Italy coverage; add international data package if needed
+- [ ] Download **offline maps** for Florence, Naples, and Brindisi (Google Maps — do at home, not the airport; large files)
+- [ ] Download **Google Translate** Italian language pack for offline use
+- [ ] Download **Trenitalia app** (useful for Naples Circumvesuviana updates)
+- [ ] Download **Lufthansa app** — check in for flights 24 hours before departure
+- [ ] Download **ITA Airways app** or save AZ boarding passes for Jun 13 flights
+- [ ] Download entertainment for long flights: shows, podcasts, audiobooks (≥9 hours of content for transatlantic)
+- [ ] Test that all chargers and cables work; bring spares for anything critical
+
+---
+
+## Health & Wellness
+
+- [ ] Check if any travel vaccinations are recommended (hepatitis A, etc.) — schedule doctor visit if needed
+- [ ] **Refill all regular medications** — pack enough for the full 16 days plus a buffer; carry ALL medication in your carry-on (not checked)
+- [ ] Pack a small travel kit: ibuprofen, antihistamine, blister pads, antidiarrheal tablets, band-aids
+- [ ] Purchase **compression socks** for the transatlantic flights (LH 0433 and UA 8855 are 8–9 hour flights)
+- [ ] Confirm travel insurance covers emergency medical evacuation
+
+---
+
+## Packing
+
+See the full [Packing List](packing-list.qmd) for a comprehensive item-by-item list.
+
+**Pre-packing tasks:**
+
+- [ ] Weigh all bags — checked max **23kg (50 lbs)** per person; carry-on max **8kg (18 lbs)**
+- [ ] Buy a **universal travel adapter** if you don't have one — Italy uses Type L / F outlets (Type C adapter works)
+- [ ] **Break in any new walking shoes now** — 10,000+ steps/day in Florence and Naples; do not arrive with new shoes
+- [ ] Test all electronics: camera, batteries, cables — charge everything before packing
+
+---
+
+## One Week Before Departure (by May 29)
+
+- [ ] Reconfirm all hotel reservations (email or call each)
+- [ ] Reconfirm Herculaneum guided tour — get exact meeting time/place
+- [ ] Reconfirm Puglia tour operator — confirm Jun 15–19 schedule
+- [ ] Check weather forecast for Florence, Naples, and Brindisi
+- [ ] Finalize packing; weigh bags
+
+## Day Before Departure (Jun 4)
+
+- [ ] Final bag check — weigh both checked bags one last time
+- [ ] All museum/flight/train tickets accessible on phone (screenshot each as backup)
+- [ ] Passport, boarding passes, and credit cards in carry-on — confirmed
+- [ ] Arrange transportation to Madison Airport for **3:45pm** (2 hrs before 5:45pm MSN flight)
+- [ ] Set **two alarms** — this is the one flight that cannot be missed
+- [ ] Check MSN → ORD and ORD → FRA (LH 0433) flight status
+- [ ] Charge all devices to 100%
+- [ ] Empty refrigerator of perishables
+- [ ] Arrange pet/plant care — confirm with whoever is handling it
+- [ ] Set home thermostat, lock windows and doors
+- [ ] Leave full itinerary + hotel contacts with a trusted contact at home

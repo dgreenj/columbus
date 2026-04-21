@@ -1,0 +1,261 @@
+---
+title: "June 2026 — Trip Calendar"
+subtitle: "Florence · Naples · Puglia"
+categories: [planning, overview]
+toc: false
+---
+
+```{=html}
+<style>
+/* ── Screen styles ── */
+.cal-wrap { overflow-x: auto; margin: 1.5rem 0; }
+
+table.june-cal {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: inherit;
+  table-layout: fixed;
+}
+
+table.june-cal th {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem 0.25rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+table.june-cal td {
+  border: 1px solid #ccc;
+  vertical-align: top;
+  padding: 0.4rem 0.5rem;
+  height: 90px;
+  width: 14.28%;
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.day-num {
+  font-size: 1rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.day-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.15rem;
+}
+
+.day-detail {
+  font-size: 0.68rem;
+  color: #444;
+  display: block;
+  line-height: 1.3;
+}
+
+/* Cell color classes */
+td.home      { background: #f5f5f5; color: #888; }
+td.depart    { background: #dbeafe; border: 2px solid #2563eb; }
+td.arrive    { background: #dbeafe; border: 2px solid #2563eb; }
+td.travel    { background: #bfdbfe; border: 2px solid #1d4ed8; }
+td.florence  { background: #dcfce7; border: 1px solid #16a34a; }
+td.naples    { background: #ffedd5; border: 1px solid #ea580c; }
+td.naples-depart { background: linear-gradient(135deg, #ffedd5 50%, #bfdbfe 50%); border: 2px solid #9333ea; }
+td.puglia    { background: #fef9c3; border: 1px solid #ca8a04; }
+td.home-return { background: #f0fdf4; border: 2px solid #16a34a; }
+td.empty     { background: #fafafa; }
+
+/* ── Print styles ── */
+@media print {
+  .quarto-sidebar, .quarto-navbar, .page-navigation,
+  #quarto-sidebar, #quarto-header, footer,
+  nav.quarto-secondary-nav, .quarto-title-meta,
+  .quarto-title-banner, .callout { display: none !important; }
+
+  body, .content, .page-columns { margin: 0 !important; padding: 0 !important; }
+  .column-page, .column-body, #quarto-content { max-width: 100% !important; }
+
+  h1.title  { font-size: 18pt; margin-bottom: 2pt; }
+  p.subtitle { font-size: 11pt; margin-bottom: 6pt; }
+
+  table.june-cal { width: 100%; font-size: 7.5pt; }
+  table.june-cal td { height: 68pt; padding: 3pt 4pt; }
+  .day-num    { font-size: 10pt; }
+  .day-label  { font-size: 6.5pt; }
+  .day-detail { font-size: 6pt; }
+  .legend-wrap { font-size: 7.5pt; margin-top: 6pt; }
+}
+</style>
+
+<div class="cal-wrap">
+<table class="june-cal">
+<thead>
+<tr>
+  <th>Sunday</th>
+  <th>Monday</th>
+  <th>Tuesday</th>
+  <th>Wednesday</th>
+  <th>Thursday</th>
+  <th>Friday</th>
+  <th>Saturday</th>
+</tr>
+</thead>
+<tbody>
+
+<!-- Week 1: Jun 1–6 -->
+<tr>
+  <td class="empty"></td>
+  <td class="home"><span class="day-num">1</span></td>
+  <td class="home"><span class="day-num">2</span></td>
+  <td class="home"><span class="day-num">3</span></td>
+  <td class="home"><span class="day-num">4</span></td>
+  <td class="depart">
+    <span class="day-num">5</span>
+    <span class="day-label">✈️ Day 1 — Depart</span>
+    <span class="day-detail">MSN→ORD→Frankfurt<br>LH 8835 + LH 0433<br>Departs ORD 10:30pm</span>
+  </td>
+  <td class="arrive">
+    <span class="day-num">6</span>
+    <span class="day-label">✈️ Day 2 — Arrive Florence</span>
+    <span class="day-detail">FRA→FLR (LH 9498)<br>Land Florence 6:30pm<br>First night in Italy</span>
+  </td>
+</tr>
+
+<!-- Week 2: Jun 7–13 -->
+<tr>
+  <td class="florence">
+    <span class="day-num">7</span>
+    <span class="day-label">🏛 Day 3 — Florence</span>
+    <span class="day-detail">Duomo dome climb<br>Uffizi Gallery<br>Ponte Vecchio</span>
+  </td>
+  <td class="florence">
+    <span class="day-num">8</span>
+    <span class="day-label">🏛 Day 4 — Florence</span>
+    <span class="day-detail">Accademia — David<br>Medici Chapels<br>Mercato Centrale</span>
+  </td>
+  <td class="florence">
+    <span class="day-num">9</span>
+    <span class="day-label">🏛 Day 5 — Florence</span>
+    <span class="day-detail">Bargello Museum<br>Santa Croce<br>Local neighborhoods</span>
+  </td>
+  <td class="travel">
+    <span class="day-num">10</span>
+    <span class="day-label">🚄 Day 6 — Train South</span>
+    <span class="day-detail">Italo #8902 (PIDCMA)<br>Departs FLR 12:28pm<br>Arrives Naples 3:28pm</span>
+  </td>
+  <td class="naples">
+    <span class="day-num">11</span>
+    <span class="day-label">🏺 Day 7 — Naples</span>
+    <span class="day-detail">Herculaneum ruins<br>Ancient Roman city<br>MANN Museum option</span>
+  </td>
+  <td class="naples">
+    <span class="day-num">12</span>
+    <span class="day-label">🏺 Day 8 — Naples</span>
+    <span class="day-detail">MANN Museum<br>Cappella Sansevero<br>Spaccanapoli</span>
+  </td>
+  <td class="naples-depart">
+    <span class="day-num">13</span>
+    <span class="day-label">✈️ Day 9 — Fly to Puglia</span>
+    <span class="day-detail">AZ 1270: NAP→FCO 3:05pm<br>AZ 1623: FCO→BDS 5:15pm<br>Arrive Brindisi 6:25pm</span>
+  </td>
+</tr>
+
+<!-- Week 3: Jun 14–20 -->
+<tr>
+  <td class="puglia">
+    <span class="day-num">14</span>
+    <span class="day-label">🫒 Day 10 — Brindisi</span>
+    <span class="day-detail">First full Puglia day<br>Harbor walk<br>Colonne Romane</span>
+  </td>
+  <td class="puglia">
+    <span class="day-num">15</span>
+    <span class="day-label">🫒 Day 11 — Puglia</span>
+    <span class="day-detail">Tour Day 1<br>(details TBD)</span>
+  </td>
+  <td class="puglia">
+    <span class="day-num">16</span>
+    <span class="day-label">🫒 Day 12 — Puglia</span>
+    <span class="day-detail">Tour Day 2<br>(details TBD)</span>
+  </td>
+  <td class="puglia">
+    <span class="day-num">17</span>
+    <span class="day-label">🫒 Day 13 — Puglia</span>
+    <span class="day-detail">Tour Day 3<br>(details TBD)</span>
+  </td>
+  <td class="puglia">
+    <span class="day-num">18</span>
+    <span class="day-label">🫒 Day 14 — Puglia</span>
+    <span class="day-detail">Tour Day 4<br>(details TBD)</span>
+  </td>
+  <td class="puglia">
+    <span class="day-num">19</span>
+    <span class="day-label">🫒 Day 15 — Puglia</span>
+    <span class="day-detail">Tour Day 5<br>Pack for departure</span>
+  </td>
+  <td class="travel">
+    <span class="day-num">20</span>
+    <span class="day-label">✈️ Day 16 — Fly Home</span>
+    <span class="day-detail">BDS→MUC 10:55am<br>MUC→ORD 3:40pm<br>ORD→MSN 9:15pm</span>
+  </td>
+</tr>
+
+<!-- Week 4: Jun 21–27 -->
+<tr>
+  <td class="home-return">
+    <span class="day-num">21</span>
+    <span class="day-label">🏠 Home</span>
+    <span class="day-detail">Arrived ~10:30pm last night</span>
+  </td>
+  <td class="home"><span class="day-num">22</span></td>
+  <td class="home"><span class="day-num">23</span></td>
+  <td class="home"><span class="day-num">24</span></td>
+  <td class="home"><span class="day-num">25</span></td>
+  <td class="home"><span class="day-num">26</span></td>
+  <td class="home"><span class="day-num">27</span></td>
+</tr>
+
+<!-- Week 5: Jun 28–30 -->
+<tr>
+  <td class="home"><span class="day-num">28</span></td>
+  <td class="home"><span class="day-num">29</span></td>
+  <td class="home"><span class="day-num">30</span></td>
+  <td class="empty"></td>
+  <td class="empty"></td>
+  <td class="empty"></td>
+  <td class="empty"></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+
+<div class="legend-wrap" style="display:flex; flex-wrap:wrap; gap:0.6rem; margin-top:1rem; font-size:0.8rem; align-items:center;">
+  <strong>Legend:</strong>
+  <span style="background:#dbeafe;border:2px solid #2563eb;padding:2px 8px;border-radius:4px;">✈️ Flight Day</span>
+  <span style="background:#bfdbfe;border:2px solid #1d4ed8;padding:2px 8px;border-radius:4px;">🚄 Train Day</span>
+  <span style="background:#dcfce7;border:1px solid #16a34a;padding:2px 8px;border-radius:4px;">🏛 Florence</span>
+  <span style="background:#ffedd5;border:1px solid #ea580c;padding:2px 8px;border-radius:4px;">🏺 Naples</span>
+  <span style="background:#fef9c3;border:1px solid #ca8a04;padding:2px 8px;border-radius:4px;">🫒 Puglia</span>
+  <span style="background:#f5f5f5;border:1px solid #ccc;padding:2px 8px;border-radius:4px;">Home</span>
+</div>
+```
+
+::: {.callout-tip}
+## Printing This Calendar
+
+Use **File → Print** (Ctrl+P / Cmd+P). The navigation and sidebar hide automatically. For best results, select **Landscape** orientation.
+:::
+
+## Reservations in Hand
+
+| What | Code | Date |
+|------|------|------|
+| Outbound flights (Lufthansa) | FMWYOJ | Jun 5–6 |
+| Return flights (Lufthansa/United) | FMWYOJ | Jun 20 |
+| Italo train Florence → Naples | PIDCMA | Jun 10 |
+| ITA flights Naples → Brindisi via Rome | IXYZMT | Jun 13 |

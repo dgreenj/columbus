@@ -19,6 +19,11 @@ website:
         href: index.qmd
       - text: "Research"
         menu:
+          - text: "June Calendar"
+            href: research/june-calendar.qmd
+          - text: "Pre-Departure Checklist"
+            href: research/pre-departure-checklist.qmd
+          - text: "---"
           - text: "Flights"
             href: research/flights.qmd
           - text: "Trains"
@@ -77,6 +82,8 @@ website:
 
       - section: "Pre-Trip Planning"
         contents:
+          - research/june-calendar.qmd
+          - research/pre-departure-checklist.qmd
           - research/flights.qmd
           - research/trains.qmd
           - research/accommodations.qmd
