@@ -1,0 +1,1275 @@
+Delivered-To: dgreenj@gmail.com
+Received: by 2002:a05:7412:1010:b0:1ce:18f4:f5f with SMTP id h16csp310795rdc;
+        Wed, 29 Apr 2026 10:53:07 -0700 (PDT)
+X-Received: by 2002:a05:690c:ed5:b0:7ba:f3a2:553c with SMTP id 00721157ae682-7bd1d5a531bmr50910927b3.11.1777485187020;
+        Wed, 29 Apr 2026 10:53:07 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1777485187; cv=none;
+        d=google.com; s=arc-20240605;
+        b=dvgDYieTlXc4iSLUB68tis7wT4zOUkekKKZL9xrs6hp6sw1pBfP6t64n0s7722bYd1
+         Evt3IrGjRA6atGpeTF/tpeA50cSbg31Z6uk1G+02J3Mig0vrINMIttFI594KKFFK5Oxz
+         A8CmOByGlf9hM8RLFy7bsFVyxs/nIG796DPZg9UrxqRSmnCUvJ5ZvLkbEWBKl2U5lNyx
+         /aQUgqehOzbJOWFShkMNqKcxh+fVV8FroVgTUoSziIwEB7tmRMR24iOg6nUahznlLJk2
+         6untrDypCoWYCXn6pTs19xOQTphOp5cHCWpjGpHUwPZbNydHXuhrTVzK5vzautML3grh
+         4IFA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=subject:from:reply-to:mime-version:date:message-id:to
+         :content-transfer-encoding:dkim-signature;
+        bh=QMzFQqP8IE8nMr7SD4Z9psX53wOnPDwz2kB8Rn0VlnA=;
+        fh=iB9o6ac/MHKVFqymVoEyhDRim5Oi8OZe3VOTsZ91uTk=;
+        b=XeOKFxaF+N1Yy4G6gXXO3Z+WctDUT/Px1d/1DhAwFlb8wXN+6j2jzBGesTIp/5xyQ/
+         Y3ESYzt3mWt0jMBa2ktEP35qiaG3yNQ97nvZ8MGQX/F5sviMjmOfsvSZnwUztR+StVWy
+         zQ/QgcTYhpJpFRZGzIXEEDLVgrLYVqXBgUG6TaCdsFPv3w/ru/Tv3zzVRvDbi0EbV22R
+         QhKZJtpeq8dMkNaYEFjFRe8+TQfA9smMZJlPJ6M4Lmm9VvqqbHnbucaa5K7KDK3zVkeo
+         ec9tLqhYIBuWb/ghkqOnhka9AFdCgaCDP/UByKtgI4TirO+sM6bKdtXdDn8K53/XDV8/
+         RjAw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@t1.viator.com header.s=scph0119 header.b=ljjvhf4v;
+       spf=pass (google.com: domain of msprvs1=205791uxau2kj=bounces-124544-12@bounce.t1.viator.com designates 147.253.212.233 as permitted sender) smtp.mailfrom="msprvs1=205791UXau2KJ=bounces-124544-12@bounce.t1.viator.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=t1.viator.com
+Return-Path: <msprvs1=205791UXau2KJ=bounces-124544-12@bounce.t1.viator.com>
+Received: from mta-212-233.sparkpostmail.com (mta-212-233.sparkpostmail.com. [147.253.212.233])
+        by mx.google.com with ESMTPS id 00721157ae682-7bd25c36441si24797507b3.211.2026.04.29.10.53.06
+        for <dgreenj@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 29 Apr 2026 10:53:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of msprvs1=205791uxau2kj=bounces-124544-12@bounce.t1.viator.com designates 147.253.212.233 as permitted sender) client-ip=147.253.212.233;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@t1.viator.com header.s=scph0119 header.b=ljjvhf4v;
+       spf=pass (google.com: domain of msprvs1=205791uxau2kj=bounces-124544-12@bounce.t1.viator.com designates 147.253.212.233 as permitted sender) smtp.mailfrom="msprvs1=205791UXau2KJ=bounces-124544-12@bounce.t1.viator.com";
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=t1.viator.com
+Return-Path: <msprvs1=205791UXau2KJ=bounces-124544-12@bounce.t1.viator.com>
+X-MSFBL: 0V0yWA9EsImQCLBbWsesAN7I76uNkBmPOBQ0OXbmFm4=|eyJjdXN0b21lcl9pZCI
+	6IjEyNDU0NCIsInIiOiJkZ3JlZW5qQGdtYWlsLmNvbSIsIm1lc3NhZ2VfaWQiOiI
+	2OWVhODE0NWYyNjk2MzFjMWI4YSIsInRlbmFudF9pZCI6InNwYyIsInN1YmFjY29
+	1bnRfaWQiOiIxMiJ9
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=t1.viator.com;
+	s=scph0119; t=1777485185; i=@t1.viator.com;
+	bh=QMzFQqP8IE8nMr7SD4Z9psX53wOnPDwz2kB8Rn0VlnA=;
+	h=Content-Type:To:Message-ID:Date:From:Subject:From:To:Cc:Subject;
+	b=ljjvhf4vSyD4ujWXgmQQgsk9CwvtVPmsioHJrC0ICShUQbLYu5LdM6+BY1xUSVjgM
+	 9grTOPGbKYc35KpMAFsgB75kNTs6IUhpdIdOfDFGkfkAAkkEA/SuHqO2tkTgW2fEc2
+	 b+2PW3iB3P5VEPirvCAu9GorUr+cjYy4OwJzYZZs=
+Received: from [10.90.36.175] ([10.90.36.175])
+	by i-074457a36f26179c5.mta1vrest.sd.prd.sparkpost (ecelerity 5.2.0.75597 r(msys-ecelerity:tags/5.2.0.19)) with REST
+	id A8/B1-32290-18542F96; Wed, 29 Apr 2026 17:53:05 +0000
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+To: dgreenj@gmail.com
+Message-ID: <A8.B1.32290.18542F96@i-074457a36f26179c5.mta1vrest.sd.prd.sparkpost>
+Date: Wed, 29 Apr 2026 17:53:05 +0000
+MIME-Version: 1.0
+Reply-To: "Viator" <no-reply@t1.viator.com>
+From: "Viator" <booking@t1.viator.com>
+Subject: Confirmed: Viator Booking 1391099919
+x-campaignid: VT_EMAIL_TRV_EXP_BOOKING_ACKNOWLEDGE
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0A<html lang=3D"en-US" xmlns=
+=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml"=
+ xmlns:o=3D"urn:schemas-microsoft-com:office:office">=0A<head>=0A<title>Thi=
+s email from Viator confirms your booking reservation</title>=0A<meta http-=
+equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=0A<meta name=
+=3D"viewport" content=3D"width=3Ddevice-width">=0A<meta name=3D"x-apple-dis=
+able-message-reformatting">=0A<meta name=3D"format-detection" content=3D"ad=
+dress=3Dno">=0A<!-- Outlook 120dpi fix -->=0A<!--[if gte mso 9]><xml>=0A<o:=
+OfficeDocumentSettings>=0A<o:AllowPNG/>=0A<o:PixelsPerInch>96</o:PixelsPerI=
+nch>=0A</o:OfficeDocumentSettings>=0A</xml><![endif]-->=0A<link rel=3D"styl=
+esheet" type=3D"text/css" href=3D"../../../../css/app.css">=0A<meta http-eq=
+uiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=0A<meta name=
+=3D"viewport" content=3D"width=3Ddevice-width">=0A<meta name=3D"x-apple-dis=
+able-message-reformatting">=0A <script type=3D"application/ld+json">=0A[=0A=
+{=0A"@context": "http://schema.org/",=0A"@type": "Organization",=0A"logo": =
+"https://static.tacdn.com/img2/email/viatorlogo2.png"=0A}=0A]=0A</script>=
+=0A=0A<style></style>=0A</head>=0A<body style=3D"min-width:100%;padding:0; =
+margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:100%">=0A<table=
+ role=3D"presentation" class=3D"body bg_email" width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0" style=3D"background-color: #F5F5F5; col=
+or: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 18px; li=
+ne-height: 28px; mso-line-height-rule: exactly">=0A<tr>=0A<td class=3D"cent=
+er bg_email" align=3D"center" valign=3D"top" width=3D"100%" style=3D"backgr=
+ound-color: #F5F5F5">=0A<table role=3D"presentation" align=3D"center" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=0A<td>=0A=0A=0A=0A=0A=
+=0A<table role=3D"presentation" width=3D"550" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" class=3D"header_email_full" style=3D"background-color: =
+#ffffff; max-width: 550px; min-width: 550px; width: 550px">=0A<tr>=0A<td he=
+ight=3D"0" class=3D"preheader bg_grey" aria-hidden=3D"true" style=3D"backgr=
+ound-color: #F5F5F5; border-collapse: separate; color: #F5F5F5; font-family=
+: Arial, Helvetica, sans-serif; font-size: 0px; height: 0; line-height: 0; =
+mso-line-height-rule: exactly; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+">=0AGet your tickets &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp=
+;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp=
+;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp=
+;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp=
+;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp=
+;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp=
+;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;=0A</td>=0A</tr>=0A<tr>=0A<td height=3D"0" class=3D"p=
+reheader bg_grey" style=3D"background-color: #F5F5F5; border-collapse: sepa=
+rate; color: #F5F5F5; font-family: Arial, Helvetica, sans-serif; font-size:=
+ 0px; height: 0; line-height: 0; mso-line-height-rule: exactly; mso-table-l=
+space: 0pt; mso-table-rspace: 0pt">=0A<img src=3D"https://www.viator.com/Mp=
+tUrl=3Fp=3DANIdw6ai1xhedHToYIraOFG9vdPg4aW2E02vdRCGk4iQF2sgwwludYGKoIocI5Pk=
+iY1UVdLmns4ZS%2BqjpfeFbb7jGox6E2sviquciqEjq0egrJPmE%2Fs%2FYcYrOIJd13mLkoTUV=
+Yoyd7liqQw7uTiFlAhMRQ1BcmFe%2B4T1DYsIlTWTNsfpur7Q5xOj8tjbjoZjh%2FrjS2QKHKcz=
+k%2B8s7MO1RXc6%2Fmx4D%2BhtHd3NqUprirPH" class=3D"tracking_pixel" style=3D"d=
+isplay: none; height: 0; line-height: 0; width: 0">=0A</td>=0A</tr>=0A<tr>=
+=0A<td class=3D"gutter_sides" align=3D"center" style=3D"padding-left: 16px;=
+ padding-right: 16px">=0A </td>=0A</tr>=0A<tr>=0A<td class=3D"gutter_sides =
+section_spacing_bottom_sm section_spacing_sm" style=3D"padding-bottom: 8px;=
+ padding-left: 16px; padding-right: 16px; padding-top: 8px">=0A<table role=
+=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"518" class=3D"email_body" style=3D"width: 518px">=0A<tr>=0A<td>=0A<table r=
+ole=3D"presentation" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0">=0A<tr>=0A<td align=3D"center">=0A<table role=3D"presentation" al=
+ign=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=0A<=
+td align=3D"center" class=3D"body_image" style=3D"color: #000000; font-fami=
+ly: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px">=0A<a=
+ href=3D"https://www.viator.com/MptUrl=3Fp=3DALGHKTxgPv55e8DPQwy0TlpnixQ8XR=
+CujA95O%2B4FqYmy9WYgvvhVHp62waBZ129yAiLfTKuTCiwb9BCim6xJweQJzHIm8ngZDNEzQpM=
+WdTwZ6numDSD5HMv0jrYdSFZ27Mo5s2C9Kb9yvpprW730sogzbchHi0j1yySf4NnGaPuoA5zg1w=
+zOqPHBEdJnMnXpTSWLqKbDo1LtewS4Pl8VtDpjNrdSo4G3Uppqg9fJpLdF8bQ21gSSJaxKMCtgF=
+GCEzHYiP7XzWKcaxiG7iyuzCM1HHVQvMORPyGue%2B89tDE3wdoAFDFxYSU7odUOqK7bIbCA1J7=
+zhs2hRz48dJQXVGvbEje2Nq5ACkrxPZC5651%2BIRsm8qvUILW12SeAwcxhZROtMUAQlW6ZIb8D=
+k7kemcrI%3D" target=3D"_blank" class=3D"link_text" style=3D"color: #000000;=
+ text-decoration: none">=0A<img src=3D"https://static.crm.tacdn.com/vt/co/v=
+iator_logo_header_v2.png" height=3D"85" style=3D"border: 0; display: block;=
+ height: 85px" alt=3D"Go to Viator" class=3D"image_style">=0A</a>=0A</td>=
+=0A</tr>=0A<tr>=0A<td height=3D"8" style=3D"border-collapse: separate; font=
+-size: 0px; height: 8px; line-height: 8px; mso-line-height-rule: exactly; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt" class=3D"spacer_style">=0A&nbs=
+p;=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A=
+</table>=0A</td>=0A</tr>=0A</table><table role=3D"presentation" width=3D"55=
+0" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"email_full bg_=
+white" style=3D"background-color: #FFFFFF; width: 550px">=0A<tr>=0A<td clas=
+s=3D"gutter_sides" style=3D"padding-left: 16px; padding-right: 16px">=0A<ta=
+ble role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+width=3D"518">=0A<tr>=0A<td align=3D"center" class=3D"h1" style=3D"color: #=
+000000; font-family: Arial, Helvetica, sans-serif; font-size: 32px; font-we=
+ight: bold; line-height: 35px; margin: 0; mso-line-height-rule: exactly">=
+=0A<h1 style=3D"all: unset; font-size: inherit; font-weight: inherit; margi=
+n: 0">=0AThanks for booking on Viator=0A</h1>=0A</td>=0A</tr>=0A<tr>=0A<td =
+align=3D"center" class=3D"body section_spacing" style=3D"color: #000000; fo=
+nt-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 28px=
+; mso-line-height-rule: exactly; padding-top: 24px">=0A<p style=3D"all: uns=
+et; font-size: inherit; font-weight: inherit; margin: 0">=0AYour booking is=
+ confirmed! You may access your voucher below. Check it for more details ab=
+out your activity.=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"align_left =
+h2_bold section_spacing" style=3D"color: #000000; font-family: Arial, Helve=
+tica, sans-serif; font-size: 24px; font-weight: bold; line-height: 28px; ma=
+rgin: 0; mso-line-height-rule: exactly; padding-top: 24px; text-align: left=
+">=0A<h2 style=3D"all: unset; font-size: inherit; font-weight: inherit; mar=
+gin: 0">=0APaid & Confirmed=0A</h2>=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"a=
+lign_left h2 section_spacing_md" style=3D"color: #000000; font-family: Aria=
+l, Helvetica, sans-serif; font-size: 24px; line-height: 28px; margin: 0; ms=
+o-line-height-rule: exactly; padding-top: 16px; text-align: left">=0A<h2 st=
+yle=3D"all: unset; font-size: inherit; font-weight: inherit; margin: 0">=0A=
+Private Tour of Uffizi and Accademia Gallery with David=0A</h2>=0A</td>=0A<=
+/tr>=0A<tr>=0A<td class=3D"align_left body section_spacing_sm" style=3D"col=
+or: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 18px; li=
+ne-height: 28px; mso-line-height-rule: exactly; padding-top: 8px; text-alig=
+n: left">=0A<p style=3D"all: unset; font-size: inherit; font-weight: inheri=
+t; margin: 0">=0APrivate English Tour 09:00=0A</p>=0A</td>=0A</tr>=0A<tr>=
+=0A<td align=3D"left" class=3D"section_spacing_md" style=3D"padding-top: 16=
+px">=0A<table role=3D"presentation" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">=0A<tr>=0A<td valign=3D"top" width=3D"154" style=
+=3D"width:154px">=0A<table role=3D"presentation" width=3D"154" height=3D"10=
+2" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D=
+"width:154px;height:102px">=0A<tr>=0A<td>=0A<a href=3D"https://www.viator.c=
+om/MptUrl=3Fp=3DAEU7twXtOZU4pX55OZF7%2FELsOVYyB%2BgbTfwbzB2MfE4DfbiXR0ZE8nQ=
+7BFPFbdxbMRixUMNLjG26s8EOZRIqKDcVjbRMlYyUIUJeePKFem%2BuinkmhAwBQAVEUDkU%2FV=
+qVTUYRwCn912%2B8jBE%2F8xM685pU1a6pA21i1nDSRKiEUKryNJ6oY5OQCkRWwka3q0cR%2BU0=
+X0Jlfq71XeXnNGW2aB5EXJQ58fgjGycxHGPC8cyGnHYXz1sk3nB7LXoBoNG05gmGzm0GjmCEdxG=
+tZI6urzuKz1FCJlFo9BHKXFj7fmVdYf%2BkCyzGtsxQWgUCTMxFh3BDchb4wj%2BHUezmyBtHlZ=
+SWJxqZfj0PNckIMTaEr4KE5QykOoTkywHdr9w3r1SRnX%2FDnlOJQXUA7RTqagMh7xlphIMTzkP=
+yPQY5zuK7EG0zvqGfVofnihbcTxA0C50RNww%3D%3D" target=3D"_blank" class=3D"link=
+_text" style=3D"color: #000000; text-decoration: none"> <img src=3D"https:/=
+/media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0b/e2/3f/98=
+.jpg" border=3D"0" width=3D"154" height=3D"102" style=3D"border: 0; displa=
+y: block; height: 102px; width: 154px" alt=3D"Private Tour of Uffizi and Ac=
+cademia Gallery with David product page" class=3D"image_style">=0A</a> </td=
+>=0A</tr>=0A</table>=0A</td>=0A<td width=3D"16" class=3D"gutter" bgcolor=3D=
+"#ffffff" style=3D"width: 16px"></td>=0A<td valign=3D"top" align=3D"left" b=
+gcolor=3D"#ffffff">=0A<table role=3D"presentation" border=3D"0" width=3D"10=
+0%" cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=0A<td height=3D"102" valign=
+=3D"top" align=3D"left" style=3D"height:102px">=0A<table role=3D"presentati=
+on" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=
+=0A<td style=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; =
+font-size: 18px; line-height: 24px; padding: 0px 0 0" align=3D"left" class=
+=3D"fontstyle_body fontfamily_primary">=0A<p style=3D"all: unset; font-size=
+: inherit; font-weight: inherit; margin: 0">=0A<table role=3D"presentation"=
+ align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=0A=
+<td valign=3D"top" align=3D"left">=0A<table role=3D"presentation" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=0A<td valign=3D"top" align=
+=3D"left" style=3D"min-width: 18px; min-height: 20px">=0A<img src=3D"https:=
+//static.tacdn.com/img2/email/vr/black_calendar.png" alt=3D"Booking date" w=
+idth=3D"18" height=3D"20" style=3D"border: 0; display: block; height: 20px;=
+ min-height: 20px; min-width: 18px; width: 18px" class=3D"image_style">=0A<=
+/td>=0A<td width=3D"16" style=3D"width: 16px"></td>=0A<td valign=3D"middle"=
+ style=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; font-s=
+ize: 18px; line-height: 24px; text-align: left" class=3D"fontfamily_primary=
+ align_left">=0A<p style=3D"all: unset; font-size: inherit; font-weight: in=
+herit; margin: 0">=0A<a href rel=3D"noopener" aria-disabled=3D"true" class=
+=3D"fontfamily_primary align_left" style=3D"color: #000000; cursor: none; f=
+ont-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24p=
+x; pointer-events: none; text-align: left; text-decoration: none">=0ATue, J=
+un 09, 2026=0A</a>=0A</p>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</ta=
+ble>=0A=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<td style=3D"color: #000000; font-f=
+amily: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; pa=
+dding: 0px 0 0" align=3D"left" class=3D"fontstyle_body fontfamily_primary">=
+=0A<p style=3D"all: unset; font-size: inherit; font-weight: inherit; margin=
+: 0">=0A<table role=3D"presentation" align=3D"left" border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0">=0A<tr>=0A<td valign=3D"top" align=3D"left">=0A<t=
+able role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>=0A<tr>=0A<td valign=3D"top" align=3D"left" style=3D"min-width: 14px; min-=
+height: 20px">=0A<img src=3D"https://static.tacdn.com/img2/email/vr/map_mar=
+ker.png" alt=3D"Booking location" width=3D"14" height=3D"20" style=3D"borde=
+r: 0; display: block; height: 20px; min-height: 20px; min-width: 14px; widt=
+h: 14px" class=3D"image_style">=0A</td>=0A<td width=3D"16" style=3D"width: =
+16px"></td>=0A<td valign=3D"middle" style=3D"color: #000000; font-family: A=
+rial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; text-align=
+: left" class=3D"fontfamily_primary align_left">=0A<p style=3D"all: unset; =
+font-size: inherit; font-weight: inherit; margin: 0">=0A<a href rel=3D"noop=
+ener" aria-disabled=3D"true" class=3D"fontfamily_primary align_left" style=
+=3D"color: #000000; cursor: none; font-family: Arial, Helvetica, sans-serif=
+; font-size: 18px; line-height: 24px; pointer-events: none; text-align: lef=
+t; text-decoration: none">=0AVia dei Castellani, 14, 50122 Firenze FI, Ital=
+y=0A</a>=0A</p>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A=0A=
+</p>=0A</td>=0A</tr>=0A<tr>=0A<td style=3D"color: #000000; font-family: Ari=
+al, Helvetica, sans-serif; font-size: 18px; line-height: 24px; padding: 0px=
+ 0 0" align=3D"left" class=3D"fontstyle_body fontfamily_primary">=0A<p styl=
+e=3D"all: unset; font-size: inherit; font-weight: inherit; margin: 0">=0A<t=
+able role=3D"presentation" align=3D"left" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">=0A<tr>=0A<td valign=3D"top" align=3D"left">=0A<table role=
+=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=
+=0A<td valign=3D"top" align=3D"left" style=3D"min-width: 16px; min-height: =
+16px">=0A<img src=3D"https://static.tacdn.com/img2/email/vr/traveler_mix.pn=
+g" alt=3D"Travelers" width=3D"16" height=3D"16" style=3D"border: 0; display=
+: block; height: 16px; min-height: 16px; min-width: 16px; width: 16px" clas=
+s=3D"image_style">=0A</td>=0A<td width=3D"16" style=3D"width: 16px"></td>=
+=0A<td valign=3D"middle" style=3D"color: #000000; font-family: Arial, Helve=
+tica, sans-serif; font-size: 18px; line-height: 24px; text-align: left" cla=
+ss=3D"fontfamily_primary align_left">=0A<p style=3D"all: unset; font-size: =
+inherit; font-weight: inherit; margin: 0">=0A<a href rel=3D"noopener" aria-=
+disabled=3D"true" class=3D"fontfamily_primary align_left" style=3D"color: #=
+000000; cursor: none; font-family: Arial, Helvetica, sans-serif; font-size:=
+ 18px; line-height: 24px; pointer-events: none; text-align: left; text-deco=
+ration: none">=0A2 Adults=0A</a>=0A</p>=0A</td>=0A</tr>=0A</table>=0A</td>=
+=0A</tr>=0A</table>=0A=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<td style=3D"color: =
+#000000; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-h=
+eight: 24px; padding: 0px 0 0" align=3D"left" class=3D"fontstyle_body fontf=
+amily_primary">=0A<p style=3D"all: unset; font-size: inherit; font-weight: =
+inherit; margin: 0">=0A<table role=3D"presentation" align=3D"left" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=0A<td valign=3D"top" ali=
+gn=3D"left">=0A<table role=3D"presentation" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">=0A<tr>=0A<td valign=3D"top" align=3D"left" style=3D"min-=
+width: 16px; min-height: 16px">=0A<img src=3D"https://static.tacdn.com/img2=
+/email/vr/black_price_tag.png" alt=3D"Booking price" width=3D"16" height=3D=
+"16" style=3D"border: 0; display: block; height: 16px; min-height: 16px; mi=
+n-width: 16px; width: 16px" class=3D"image_style">=0A</td>=0A<td width=3D"1=
+6" style=3D"width: 16px"></td>=0A<td valign=3D"middle" style=3D"color: #000=
+000; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-heigh=
+t: 24px; text-align: left" class=3D"fontfamily_primary align_left">=0A<p st=
+yle=3D"all: unset; font-size: inherit; font-weight: inherit; margin: 0">=0A=
+<a href rel=3D"noopener" aria-disabled=3D"true" class=3D"fontfamily_primary=
+ align_left" style=3D"color: #000000; cursor: none; font-family: Arial, Hel=
+vetica, sans-serif; font-size: 18px; line-height: 24px; pointer-events: non=
+e; text-align: left; text-decoration: none">=0AUSD $536.82=0A</a>=0A</p>=0A=
+</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A=0A</p>=0A</td>=0A</t=
+r>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A </td=
+>=0A</tr>=0A<tr>=0A<td class=3D"align_center section_spacing_md" style=3D"p=
+adding-top: 16px; text-align: center">=0A<table border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"100%" align=3D"center" role=3D"presentation"=
+>=0A<tr>=0A<td bgcolor=3D"#008768" align=3D"center" valign=3D"middle" style=
+=3D"-moz-border-radius: 5px; -webkit-border-radius: 5px; border: 0px solid =
+#008768; border-collapse: collapse; border-radius: 5px; color: #ffffff; mar=
+gin: 0 auto" class=3D"cta_style">=0A<table cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" style=3D"color:#ffffff; margin-top: 14px; margin-bottom: 1=
+4px" role=3D"presentation">=0A<tr>=0A<td class=3D"fontfamily_primary cta_te=
+xt" style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 18px; fo=
+nt-weight: bold; line-height: 24px; text-align: center">=0A<a style=3D"colo=
+r: #ffffff; text-decoration: none" target=3D"_blank" href=3D"https://www.vi=
+ator.com/MptUrl=3Fp=3DAOBDUlrfXKK5fno9XozCXUg78MQWS%2BImFK%2BJCeJpP782Jj5H1=
+z5JN%2BOFCzE4b446iHuT9P0CaQBoxk3N1825c2ykBdy%2F%2FC%2BgMwJ0RCjwkeqqzLPNrcpo=
+uA%2FDFSsSJ5rXhgOF4%2B7gyksmMa6gZMeOfhoyqekM%2BiI1QTmeqSqtI9llQ5WA2jokm0vqP=
+4dk1OFAjOPPDnBFbRKGRQM%2BmTyoju9mqnb9dsFg7v29uD7%2Fr2qWRWAx3lTLz65QfiEUphyh=
+7P4Zso14Lq3MupawQncilqfS5EZZbTmdiL5RKyJzKoz1vFAnAkNwGAZ3UBh6atnjxUCkjRHiW%2=
+FfjzwTQpQfVexH5KIvH3IrGqSGQD%2FziGGojgLEjSfu1BNIxn00g3pqBvflovcz%2FXw7C%2F1=
+EgkhxZCZ%2FMjSPkaghdVG9o6XxSFUkAHi9J8geasGgEhakrrOoldsw8FuAWqI37JX0mHBzdW00=
+wMKlPNUdQHECtJVoHnk9HmBjCeJFNTjk%2FWRsWuNTw3AcKCN35d1zw%2BFzcQb9tijKwaliqGg=
+0hzCfHn8Y5lsmf" class=3D"text_decoration">=0AGet voucher=0A</a>=0A</td>=0A<=
+/tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A </td>=0A</tr>=0A<tr>=0A<td cl=
+ass=3D"section_spacing_md" style=3D"padding-top: 16px">=0A<table role=3D"pr=
+esentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=0A<td =
+align=3D"left" width=3D"251" class=3D"email_column" style=3D"width: 251px">=
+=0A<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"251" st=
+yle=3D"width:251px" align=3D"center" role=3D"presentation">=0A<tr>=0A<td bg=
+color=3D"#ffffff" align=3D"center" valign=3D"middle" style=3D"-moz-border-r=
+adius: 5px; -webkit-border-radius: 5px; border: 1px solid #008768; border-c=
+ollapse: collapse; border-radius: 5px; color: #008768; margin: 0 auto" clas=
+s=3D"cta_style">=0A<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"color:#008768; margin-top: 14px; margin-bottom: 14px" role=3D"pres=
+entation">=0A<tr>=0A<td class=3D"fontfamily_primary cta_text" style=3D"font=
+-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; =
+line-height: 24px; text-align: center">=0A<a style=3D"color: #008768; text-=
+decoration: none" target=3D"_blank" href=3D"https://www.viator.com/MptUrl=
+=3Fp=3DABHtayyJBg0rvYAk39bAPNzsVB7V9thWFSBrX8H5hQ705YtsV7u3bjDv4J3xaOxj2BoF=
+bm%2FYTiQ7EwtZ46ThOMPRkycW1XzevzU3ajqTaQOshoAF16fVqTjENkL%2BHoy1DEz6bI2QjmL=
+A0XYkw2hij%2BkRksn4ymMQHGbikRdjdrkns9lV6Mo3WWrctbYX2U5W%2BTvpVudvfRAs%2Buuf=
+HvnvH%2BA7ipRb3ZfOucvUZrRvfizG1taY3nMJM6PSKQzwhLhsuEehcP0JvnlTzi3a3q5UutXlt=
+bPY03gBe3u3Lb9xODv7kDJoSwXcqCIguMik0II1xnZQ0f%2BIvF4vUwLm0tiVJ1zPC7PSmeJjI4=
+D24auqYFOsIEOQdzPmLLt%2FGggS60qsPN3f0B%2FEPndMgFkC4mjK7xGpYBBKoy%2BaOMZ1S%2=
+FST4wn5cfsbe%2BnGz1VxDPIu6A3dgQIibFgQzYEmbv7ATBUJWRQvPyjpxJEzfrmJreauQNR0pe=
+Dvt0J5GbDsYC%2FmXjt1lDcJhN0FF3G16y39KHVOemEAsBNRvnBgTPQhZ91D27%2FP9%2FPT0ie=
+DNbPu3PIz%2FykVmYaQEGqUtuRcpURoVfRd2BrfwsU1MNQHZyzaxH8zhhCmNoMfVH3wRqgdiwhX=
+UlJBu8f8ZJdqTlAyM0%2BkHlu93S7JkfPalQ9g6%2BDUQeBY16%2FvOWIiR0tMNVY2e3cPB%2FV=
+Ie9C73e9BNc2VVdkJ3tr%2BUdnGiRNsVRctXvtqLpbCv09QSHEd97UAlZT%2Fd412CzIjwApB4A=
+AywDZNuXlCe%2BnMwtz%2Bw6uWgPliIIBTWJM1%2BWfhnyez79bWnnDDSKsWD7Ra0c%2FGqmJ%2=
+BFNOP6uSklTRpwCw%3D" class=3D"text_decoration">=0AView details=0A</a>=0A</t=
+d>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A </td>=0A<td width=3D"16=
+" class=3D"gutter" style=3D"width: 16px">=0A</td><td align=3D"left" width=
+=3D"251" class=3D"email_column" style=3D"width: 251px">=0A<table border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"251" style=3D"width:251px" =
+align=3D"center" role=3D"presentation">=0A<tr>=0A<td bgcolor=3D"#ffffff" al=
+ign=3D"center" valign=3D"middle" style=3D"-moz-border-radius: 5px; -webkit-=
+border-radius: 5px; border: 1px solid #008768; border-collapse: collapse; b=
+order-radius: 5px; color: #008768; margin: 0 auto" class=3D"cta_style">=0A<=
+table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"color:#0087=
+68; margin-top: 14px; margin-bottom: 14px" role=3D"presentation">=0A<tr>=0A=
+<td class=3D"fontfamily_primary cta_text" style=3D"font-family: Arial, Helv=
+etica, sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; t=
+ext-align: center">=0A<a style=3D"color: #008768; text-decoration: none" ta=
+rget=3D"_blank" href=3D"https://www.viator.com/MptUrl=3Fp=3DAAdRep03JfJb%2B=
+2Bji7e5UoZnvygEF2sRHbbIoFiLH1I2ydKAoOYQkJ0Srf45mk6u2O3jqO1hxZtXkjkUYu5zpOO4=
+ESNAGNjaPiEkvhbiYCSAMuBW8fyppEBER0slj23ZoEdddzdeNleaWxKrOlXjFdUZs70kdSLf0Dj=
+ZzPKPXonoP6dZA92zM8kHumXunhZxJ8vvBh6cmZUa%2Fqz1UoxS%2FeuxUgsQ8qEq7AgQa1NlKF=
+EvWCF%2B1xZ7Me%2FNRibH3lQTzwIksuC0StEM4sab%2B%2FgP1JhVUFhm1j7rlm0VWIhgMvfnA=
+7tE547tM%2BefKBJpfcKk73krJ%2FBn5WmbcVbJDY%2Fdqd0bo20nBSyDi465ofWxAbGeQC0Xda=
+I%2Fw9tw3OBQtipHk9TeKegOU1Vuaycw4HQHSWc5xTsiC0AHbDvmmqiUzDqUYWeDHWJ9fQliwTe=
+mgHrK7mfvhYtPv0o9KPsZH2iAtCGqGX%2BbQHfmheeuFama7bTbosBpNwlkZdbuaZQXQDJQmrlo=
+jiOXAuw8hFUKo6D3mHoM44y5afBKUM%2FgfQnOQXtYS93tqvuZD0jKEejV4xUEu8n%2F9Pu8%2F=
+f9tyB04FpM0zEFjEH9l5xsOZOg7YQROzZ72%2BHpUVpg7MZYzai9d8mVqs5w2y2xG1oxrUXv3Gi=
+7yQamMYwMEoiurGSdnt8uDhWkGbTCsJKeVmtjLyMt%2FpZc7BleGtjdzskptDUp7aoN9gt7qLMb=
+nheurtslyH31YBRtTjXaFGRj%2B%2FFa8xMnVtnrCG0PXD8GiyUuephxfVeEl%2B6vIXzjfW12L=
+3ZaCFz7Tj67c1cFkQuoHgUq0zfGhzhDVz4iBSozjZAHj8x4pb5vxKP4%3D" class=3D"text_d=
+ecoration">=0AManage booking=0A</a>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</=
+tr>=0A</table>=0A </td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A<tr>=0A<td cla=
+ss=3D"align_center section_spacing_md" style=3D"padding-top: 16px; text-ali=
+gn: center">=0A<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" align=3D"center" role=3D"presentation">=0A<tr>=0A<td bgcolor=3D"=
+#ffffff" align=3D"center" valign=3D"middle" style=3D"-moz-border-radius: 5p=
+x; -webkit-border-radius: 5px; border: 1px solid #008768; border-collapse: =
+collapse; border-radius: 5px; color: #008768; margin: 0 auto" class=3D"cta_=
+style">=0A<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"=
+color:#008768; margin-top: 14px; margin-bottom: 14px" role=3D"presentation"=
+>=0A<tr>=0A<td class=3D"fontfamily_primary cta_text" style=3D"font-family: =
+Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; line-heig=
+ht: 24px; text-align: center">=0A<a style=3D"color: #008768; text-decoratio=
+n: none" target=3D"_blank" href=3D"https://www.viator.com/MptUrl=3Fp=3DAPO9=
+uIFFTQh1spkHlxfgeDHfisQqINObEQ6LPxX0BeP1WxGLg2kbzCsQwGzbX05re1surfYGpsjDyaK=
+A7e8gdcTF7qAf4qC0B5ZH3J1IIG0wtdDFBdeJo%2BT6nAsUSWy%2BgyhlV8xOu9zwfHzNObvXK7=
+%2BO6lPCYc70kOV%2F5nN76YHRRZKorKGXAj%2BthgfZIMFaGcYMkGQCapo6sn%2BWPrnbCGtL2=
+JTkb%2BlVNLMGxEOioo7vNDx%2Bbl0arKkqlBeEAiu225hH163No4DVuaelnrUbbsw98hMM5kXL=
+xKBn9RK2OgMUnBRYEZunUd4WnnJ3D8SJJ5nACEhXLjwtjzJgUaoVQVu4%2BkqFEPnu5dG1ztw34=
+LQdNP969x0K8ehwoe7NGH7jR4tMLDRxRnIuV1Ruru5DoIf3xOWGaMdSyS0M5%2FXT30Zk2ZNBpQ=
+GFDXjEsu6z8w%2BOIGnDbCWA7twgEL71shW6lOxcCrPVGI2z%2BXcqxOhWc2cIUznfqd4%2BdQ1=
+Q3k8p%2FWFuKHdQQd1x%2FKxUo5d2uUXYDul8Ur820m%2FJCIhb2c9L57xOZK7QEL8GPl2%2BMP=
+VVDuf8CKt6U%2BaBEki%2FrndOAIdhJhITleNj3Ndme3ku0%2FP9ZpQ2mmviJjU%2FanB9LVMNf=
+fQNeeQZC%2BvKg8h7TgUNhmq7RoEyU9Nv2G%2FmhBcXrLgdKbK2WDosqgrE5bK0o3LHKEuA3HUl=
+NxL%2BK%2BoObV0OdeW6HuGc0lZ2qbcshW3%2BZtqc7m2CKnYQqxd%2BhPM2QL6Vmkb9rK1xp6Y=
+TXZOStAgTv9nhf54NwFJs7NYVN%2BoRHoJxCRa78y%2BfKuo4Vem0oBh%2BAjyT0FYn7K%2FwSV=
+dBhrsRXoSBCOrvAtkmideQQe55j9Ohuy%2FgK%2BjRQZIwMAa1MAJSFEd%2BPA%3D%3D" class=
+=3D"text_decoration">=0AContact tour operator=0A</a>=0A</td>=0A</tr>=0A</ta=
+ble>=0A</td>=0A</tr>=0A</table>=0A </td>=0A</tr>=0A<tr>=0A<td class=3D"alig=
+n_left h2_bold section_spacing_md" style=3D"color: #000000; font-family: Ar=
+ial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; line-height=
+: 28px; margin: 0; mso-line-height-rule: exactly; padding-top: 16px; text-a=
+lign: left">=0A<h2 style=3D"all: unset; font-size: inherit; font-weight: in=
+herit; margin: 0">=0ABooking Summary=0A</h2>=0A</td>=0A</tr>=0A<tr>=0A<td c=
+lass=3D"align_left body section_spacing_sm" style=3D"color: #000000; font-f=
+amily: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 28px; ms=
+o-line-height-rule: exactly; padding-top: 8px; text-align: left">=0A<p styl=
+e=3D"all: unset; font-size: inherit; font-weight: inherit; margin: 0">=0ABo=
+oking reference number: <a href=3D"https://www.viator.com/MptUrl=3Fp=3DAOD4=
+JndBLjp1FkPsjvCBY7E4Jpa35eSksa5SEbmjk%2BDSL%2Fya2Nazp7P%2FTykhrBzknRJfoxdKH=
+FjzCagM93qUDIcCcJct%2BiTUZjcqNEtNzj3GunmOpAWE%2B32Iv%2BfxduQ9CriP3DWVSGk2ug=
+96TXdFnUueDnHLvN%2B1G5uN0cnlcluYH%2F0BbqXh6oPb5xpqfZ%2BvNISVbzAWRXeqvnEteMm=
+1S6rKwEX7NT7GLb3XtKZd5OClW9Z%2BVtlDha%2Brh0wtnsjWgx4WTWGIhgJxlJ44HwjlOdQFeW=
+MfCn9N3XoozRPW6K9waXcY3VPnPcKloX58ddqPrr4onkCHDBQjdT2ORIzymMpgyAFDi6va4p5b5=
+sLVHBIY4UiTmsjs17EeXCO0YjVIaSMim5pPbNb0hqRMnh1938XVsOXQo8FwjlIgEH2X011IKAcR=
+FzVnbWI45e143kEBfIhrW%2FoHYX%2BL8OrcRtbL2VblxRKgZZT0BbgcEuE5%2BjCgeoCv%2Fwn=
+gzmV5%2BbdG920V29oOrMJaAzShAeSeKqQoIPXgJSmwj9A%2BNdMsAW%2FQT2ZKtvKkAmGrosVk=
+%2FsRRwa493%2FBUxD958%2BmRGwapH1D6OPRlTofdm8e6qZLWSciIAuhVpNjeLx%2F6%2FnOZ7=
+mCIfcnPpIwlFOvF5gctS4ohmFOsALi91yV2T56FMZZJUdwhAcbKxSwErEgC3W10zxvBQNCwOqvs=
+Fu0NLSMi56SR5r2hGbqk1r2K%2BtJtnvalUn924IEAWRWu71Slmsry7lIYAA8aM0hllhfCJC7W2=
+0%2B0a3OeozrV%2FGQbK%2Fw8kZh723fVVayDCdQyi0AJHgOkuB61Be%2Fc6rXvnGKNOawKyIcD=
+RT11jMa2vOFZIJDFh%2Bzr70iIfak%2F" target=3D"_blank" style=3D"text-decoratio=
+n:none;color:#3B3366;" alias=3D"BOOKING REFERENCE NUMBER">1391099919</a>=0A=
+</p>=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"align_left body section_spacing_=
+md" style=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; fon=
+t-size: 18px; line-height: 28px; mso-line-height-rule: exactly; padding-top=
+: 16px; text-align: left">=0A<p style=3D"all: unset; font-size: inherit; fo=
+nt-weight: inherit; margin: 0">=0AAmount paid: USD $536.82=0A</p>=0A</td>=
+=0A</tr>=0A<tr>=0A<td class=3D"align_left body section_spacing_md" style=3D=
+"color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 18px=
+; line-height: 28px; mso-line-height-rule: exactly; padding-top: 16px; text=
+-align: left">=0A<p style=3D"all: unset; font-size: inherit; font-weight: i=
+nherit; margin: 0">=0APaid with Apple Pay=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<=
+td class=3D"align_left secondary_text section_spacing" style=3D"color: #000=
+000; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-heigh=
+t: 18px; mso-line-height-rule: exactly; padding-top: 24px; text-align: left=
+">=0A<p style=3D"all: unset; font-size: inherit; font-weight: inherit; marg=
+in: 0">=0AYour statement will list "Viator/Tripadvisor/Owl Payments" as the=
+ merchant for this transaction. This email is your receipt.=0A</p>=0A</td>=
+=0A</tr>=0A<tr>=0A<td class=3D"align_left secondary_text section_spacing_md=
+" style=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; font-=
+size: 15px; line-height: 18px; mso-line-height-rule: exactly; padding-top: =
+16px; text-align: left">=0A<p style=3D"all: unset; font-size: inherit; font=
+-weight: inherit; margin: 0">=0ACancellation policy: <strong>Cancel by 09:0=
+0 AM Central European Summer Time, Jun 08, 2026 for a full refund.</strong>=
+ See the 'Important information' section below for more details.=0A</p>=0A<=
+/td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A<tr>=0A<td height=3D"32" style=3D=
+"border-collapse: separate; font-size: 0px; height: 32px; line-height: 32px=
+; mso-line-height-rule: exactly; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt" class=3D"spacer_style">=0A&nbsp;=0A</td>=0A</tr>=0A<tr>=0A<td align=3D"=
+center">=0A<table role=3D"presentation" bgcolor=3D"#EFEEF7" cellpadding=3D"=
+0" cellspacing=3D"0" align=3D"center" style=3D"background-color: #EFEEF7">=
+=0A<tr>=0A<td height=3D"12" style=3D"line-height:1px;font-size:1px">&nbsp;<=
+/td>=0A</tr>=0A<tr>=0A<td>=0A<table role=3D"presentation" cellpadding=3D"0"=
+ cellspacing=3D"0" align=3D"center" style=3D"mso-table-lspace: 0pt !importa=
+nt; mso-table-rspace: 0pt !important; margin:0 auto; border-collapse: colla=
+pse;border-spacing: 0" border=3D"0" width=3D"100%">=0A<tr>=0A<td valign=3D"=
+middle" class=3D"gutter_left_xl" width=3D"48" align=3D"left" style=3D"font-=
+weight: normal !important; max-width: 48px; padding-left: 32px; vertical-al=
+ign: middle; width: 48px">=0A<!--[if !mso]><!-->=0A<img alt role=3D"present=
+ation" src=3D"https://static.crm.tacdn.com/vt/re/rewards_banner_animated_ic=
+on.gif" width=3D"48" border=3D"0" style=3D"-ms-interpolation-mode: bicubic;=
+ border: 0; border-collapse: collapse; border-spacing: 0; display: block; h=
+eight: auto !important; margin: 0px auto; max-width: 48px; padding: 0px; wi=
+dth: 48px" class=3D"image_style">=0A<!--<![endif]-->=0A<!--[if mso]>=0A<img=
+ alt=3D"" role=3D"presentation" src=3D"https://static.crm.tacdn.com/vt/re/r=
+ewards_gift_image_fallback.png" width=3D"48" border=3D"0" style=3D"width: 4=
+8px; max-width: 48px; height: auto !important; -ms-interpolation-mode: bicu=
+bic !important; -ms-interpolation-mode:bicubic; border-collapse:collapse; p=
+adding:0px; margin:0px auto; border-spacing:0;" class=3D"image_style" />=0A=
+<![endif]-->=0A</td>=0A<td style=3D"font-weight: normal !important; font-si=
+ze:1px; line-height: 1px" width=3D"12">&nbsp;</td>=0A<td align=3D"left" val=
+ign=3D"top" style=3D"font-weight: normal !important; vertical-align: top">=
+=0A<table role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"center" style=3D"mso-table-lspace: 0pt !important; mso-table-rspace: 0p=
+t !important; margin:0 auto; border-collapse: collapse;border-spacing: 0" b=
+order=3D"0" width=3D"100%">=0A<tr>=0A<td class=3D"ts_body_small_vt gutter_r=
+ight_xl tc_black_vt" style=3D"color: #000000; font-family: Arial, Helvetica=
+, sans-serif; font-size: 16px; line-height: 24px; mso-line-height-rule: exa=
+ctly; padding-right: 32px">=0A<p style=3D"all: unset; font-size: inherit; f=
+ont-weight: inherit; margin: 0">=0AYou=E2=80=99ve got rewards! Use your $26=
+.84 towards your next Viator experience.=0A</p>=0A</td>=0A</tr>=0A</table>=
+=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A<tr>=0A<td height=3D"12" styl=
+e=3D"line-height:1px;font-size:1px">&nbsp;</td>=0A</tr>=0A</table>=0A </td>=
+=0A</tr>=0A<tr>=0A<td height=3D"24" style=3D"border-collapse: separate; fon=
+t-size: 0px; height: 24px; line-height: 24px; mso-line-height-rule: exactly=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt" class=3D"spacer_style">=0A&=
+nbsp;=0A</td>=0A</tr>=0A<tr>=0A<td>=0A<table role=3D"presentation" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A<tr style=3D"background-color=
+:${BackgroundColor}">=0A<td align=3D"center" valign=3D"middle">=0A<table ro=
+le=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"268" style=3D"width: 268px">=0A<tr>=0A<td align=3D"left">=0A<table role=
+=3D"presentation" align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">=0A<tr>=0A<td align=3D"left" class=3D"section_spacing_bottom_sm sect=
+ion_spacing_md" style=3D"padding-bottom: 8px; padding-left: 24px; padding-r=
+ight: 0px; padding-top: 16px">=0A<table role=3D"presentation" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=0A<td class=3D"ts_title_02_vt" =
+align=3D"left" style=3D"color: #000000; font-family: Arial, Helvetica, sans=
+-serif; font-size: 24px; font-weight: bold; line-height: 28px; mso-line-hei=
+ght-rule: exactly">=0A<h2 style=3D"all: unset; font-size: inherit; font-wei=
+ght: inherit; margin: 0">=0AManage this booking in the app=0A</h2>=0A</td>=
+=0A</tr>=0A</table>=0A </td>=0A</tr>=0A<tr>=0A<td align=3D"left" class=3D"s=
+ection_spacing_bottom_sm" style=3D"padding-bottom: 8px; padding-left: 24px;=
+ padding-right: 24px">=0A<table role=3D"presentation" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">=0A<tr>=0A<td class=3D"ts_body_small_vt" align=
+=3D"left" style=3D"color: #000000; font-family: Arial, Helvetica, sans-seri=
+f; font-size: 16px; line-height: 24px; mso-line-height-rule: exactly">=0A<p=
+ style=3D"all: unset; font-size: inherit; font-weight: inherit; margin: 0">=
+=0AMake updates to your booking wherever and whenever.=0A</p>=0A</td>=0A</t=
+r>=0A</table>=0A </td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A<tr>=0A<td clas=
+s=3D"section_spacing_md section_spacing_bottom_md" style=3D"padding-bottom:=
+ 16px; padding-top: 16px">=0A<table role=3D"presentation" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0">=0A<tr>=0A<td align=3D"left" class=3D"gutte=
+r_sides" style=3D"padding-left: 16px; padding-right: 16px">=0A <a href=3D"h=
+ttps://www.viator.com/MptUrl=3Fp=3DAPBuNRk%2BoX2W%2F95EikfdNWznzbp1oOS0dHUQ=
+1wgEuDzX18G3bPOBRsBis%2B6XZo7H%2BZUZCGWOm%2FLQP0g1yahvfN4q1iTGtIcRaQCR9E2vb=
+jPqJl%2FAKiA9KbqRoAPATKt%2B544hbleMvv%2BqgDDwNgEqFv8h3BMY3nTR8dCacS5zL751Zw=
+8zltU8z5U4Sp%2F1Vx7hln5ZzEHrmD4jlXnORTd3DyrZnpWC5xvTkgJzuE1raOr8Poq%2FJfk%2=
+Bw4ADITma5HeSE3nCr%2FV7VzI5%2BM%2F9yNIEozRxTrrCgRQ9iJCvpNTM0EwUr8CSP56BT9ZE=
+dAqMLmxX8wxbsgtb7VozRAkdSA9YuTo%3D" aria-hidden=3D"true" target=3D"_blank">=
+ <img src=3D "https://static.crm.tacdn.com/vt/co/download_google_play.png"w=
+idth=3D "110"height=3D "32"alt =3D "Download Viator app on Google Play" sty=
+le=3D"display: block; border: 0; width: 110px; max-width: 110px; min-width:=
+ 110px; height: 32px; ">=0A </a> </td>=0A<td align=3D"left" class=3D"gutter=
+_right" style=3D"padding-right: 16px">=0A <a href=3D"https://www.viator.com=
+/MptUrl=3Fp=3DANSU0Kh3C%2F6MZDMQ6SLMM5WuJXGm%2Bp%2FAW%2B5zwksNu7TBUN6GmeQag=
+jd4MfULX5I%2BH0Grwkn7Hcy%2FJWM%2F6Gjpc4zLos%2BaG%2FZ7zGFS99rDlO1X%2BZ16UNCO=
+bgwUS%2BnhVEjpfGpu0iLvjpcmErjNVYhxda%2BQi6KH%2FAWgdjyw8zBg3bZijlfAEehDnAsdG=
+vQF0js64cjjd31ocR%2BVRsgMOAwp8I4I51P8kRJ13WN4cGYLDxuXcQSo7td8gYJF0hu3zLxyI%=
+2BMFfm50mAih8f256%2F6XatkWsNE42ZrTWlum1NTYq%2Bnr%2BiIG740gf0%2F7tTtt%2FCn9V=
+jK3Crx7LGEs5vWFm8QP6NQ%3D" aria-hidden=3D"true" target=3D"_blank"> <img src=
+=3D "https://static.crm.tacdn.com/vt/co/download_app_store.png"width=3D "11=
+0"height=3D "32"alt =3D "Download Viator app on the App Store" style=3D"dis=
+play: block; border: 0; width: 110px; max-width: 110px; min-width: 110px; h=
+eight: 32px; ">=0A </a> </td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=
+=0A</td>=0A=0A<td aria-hidden=3D"true" valign=3D"top" align=3D"center" widt=
+h=3D"282" style=3D"width: 282px">=0A <a href=3D"https://www.viator.com/MptU=
+rl=3Fp=3DAMaY4hAq9RFkHTSqMsQ13iIKjGP0Ed0hw92wJMguRUSjVqj8E1ADQSmkJHB7EcTHJk=
+xtuxthfCGObCJI2sF3OwSC5GqTudpmobD7G9XdyWmuqg56T%2Bd%2FG79N02kRAxuSpRVkThimL=
+bDYuGHOzUUqBvkyouiZLN47Fpps%2F%2BMHzNQEv5wS1xcWX9SmYIEBO882T%2FpqQ6BSCgy99Q=
+NVK8UdD%2FaSfcE4NoVkYDVAOV9LYQWqhm%2FgTrVvdv%2FXq6gLwhdeidud7zi6xDTMh2TV8VO=
+vThEc8Ze2Jd3dBzgbBwaHRgBVu0hlEQFKNCmKF7nWETP1VQ5dORY%2FKNhsVXiRr6XNk98%3D" =
+aria-hidden=3D"true" target=3D"_blank"> <img src=3D "https://static.crm.tac=
+dn.com/vt/co/banner_app_image.png"width=3D "282"height=3D "299"alt =3D "Ima=
+ge" style=3D"display: block; border: 0; width: 282px; max-width: 282px; min=
+-width: 282px; height: 299px; ">=0A </a> </td>=0A=0A</tr>=0A</table>=0A </t=
+d>=0A</tr>=0A <tr>=0A<td align=3D"center" class=3D"section_spacing_lg" styl=
+e=3D"padding-top: 24px">=0A<table role=3D"presentation" width=3D"518" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0A<tr>=0A<td width=3D"518" hei=
+ght=3D"1" style=3D"background-color: #1E1A34; border-collapse: separate; fo=
+nt-size: 0px; height: 1px; line-height: 1px; mso-line-height-rule: exactly;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 518px" class=3D"borde=
+r_grey">=0A&nbsp;=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A<tr>=0A<td c=
+lass=3D"gutter_sides" style=3D"padding-left: 16px; padding-right: 16px">=0A=
+<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" width=3D"518">=0A<tr>=0A<td class=3D"align_left h2_bold section_spacing_=
+xl" style=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; fon=
+t-size: 24px; font-weight: bold; line-height: 28px; margin: 0; mso-line-hei=
+ght-rule: exactly; padding-top: 32px; text-align: left">=0A<h2 style=3D"all=
+: unset; font-size: inherit; font-weight: inherit; margin: 0">=0AWe think y=
+ou'd also enjoy=0A</h2>=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"section_spaci=
+ng_md" style=3D"padding-top: 16px">=0A<table border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" role=3D"presentation">=0A<tr>=0A<td>=0A<table border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" width=3D"518" bgcolor=3D"#ffffff" cl=
+ass=3D"email_body" role=3D"presentation" style=3D"width: 518px">=0A<tr>=0A<=
+td width=3D"251" valign=3D"middle" class=3D"email_column body_image align_c=
+enter" style=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; =
+font-size: 18px; line-height: 24px; text-align: center; width: 251px">=0A <=
+a href=3D"https://www.viator.com/MptUrl=3Fp=3DAEpyUuTv6p6M5ct%2BBuLFGXQFAQ0=
+M2%2B0kdT30NNAsZ6VxTEnv48JxQHTCFMshkbQhuBVixTqDvI0UcY4KKIyqwKeGddZ3lvs65SQD=
+ozyxFW1%2B5czBGM4CScNu08hbbsyT0iy%2BIVdxdYmYSdHhgof4B8HAH9Y0sXGpe7s0znnfxbc=
+vpflp%2BhC8%2B2vDYDXy6u5bJORjYJ8O0LmshsGppDbeq85qS9ELQfCCUgU%2FuiH2WULxsx0R=
+pbq3tKgmYy4Hj5QStmPxAkOt5u%2FvkKHDSlwRQRh8rsxre5HA6ErJwDKRqxpzzxXa%2F6jFxUE=
+s8XQdbXH%2FOBX8wJX2Ohrv%2B780AAdOpxwV6xT0P4S60Z8qNwuJWylxeSeed2T4TVXUpV31wy=
+NeNxptO2Sv73PZw3pVCs4jciguU7C3ax2K5AsocOS9x41c" target=3D"_blank" class=3D"=
+link_text" style=3D"color: #000000; text-decoration: none"> <img src=3D"htt=
+ps://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/15/26/4=
+a/d1.jpg" width=3D"251" height=3D"167" style=3D"border: 0; display: block; =
+height: 167px; width: 251px" alt=3D"Florence Pizza or Pasta Class with Gela=
+to Maki... product page" class=3D"image_style">=0A </a> </td>=0A<td width=
+=3D"16" class=3D"gutter" style=3D"width: 16px"></td>=0A<td width=3D"251" va=
+lign=3D"middle" class=3D"email_column body_image align_center" style=3D"col=
+or: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 18px; li=
+ne-height: 24px; text-align: center; width: 251px">=0A <a href=3D"https://w=
+ww.viator.com/MptUrl=3Fp=3DANSi0RmjV97h%2Ft65kE4zjIARnGEywSTnfKPzeEvVKHewFs=
+9diVQinndk93SxCaNJR2UOI5Kkz3bnRtFQ5dY0VekjfcI6fs0tMj4eHGmOnK%2BifU%2F%2Bf5p=
+ug1KItfmnP8rLU8An244YMRaqr7pD2xclhqWpZ1w1356r2XuG1eFjunXZc6LPKrj4Xy5n3Vb5sf=
+kQYiVKEyZdMS87Aahjd93wf7RleZns%2BdqgaBZYiEwyd1TWXTuQGq69F01uGM4ERmDcmM3a9MU=
+wWjfKgG8cb%2B4vUAPLw%2BmS0bbEdQNkMJKzpBm%2BzqKPtyFG2Yfsj58SBB6qDaMHgmWHOTqJ=
+EUcDIHwNFD0j1awQM8zSK4OFwtcWy4EwzAv0qBHCf27M60lJfJN%2BlVV2%2F%2F8%2BqABE3Uv=
+sx6Lgqw6J48iRnK2vZFjvuIDsoPvR" target=3D"_blank" class=3D"link_text" style=
+=3D"color: #000000; text-decoration: none"> <img src=3D"https://media-cdn.t=
+ripadvisor.com/media/attractions-splice-spp-540x360/07/3f/32/26.jpg" width=
+=3D"251" height=3D"167" style=3D"border: 0; display: block; height: 167px; =
+width: 251px" alt=3D"Small-Group Wine Tasting Experience in the Tus... prod=
+uct page" class=3D"image_style">=0A </a> </td>=0A</tr>=0A<tr>=0A<td height=
+=3D"8" style=3D"border-collapse: separate; font-size: 0px; height: 8px; lin=
+e-height: 8px; mso-line-height-rule: exactly; mso-table-lspace: 0pt; mso-ta=
+ble-rspace: 0pt" class=3D"spacer_style">=0A&nbsp;=0A</td>=0A</tr>=0A<tr>=0A=
+<td valign=3D"top" width=3D"251" class=3D"body align_left email_column" sty=
+le=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; font-size:=
+ 18px; line-height: 28px; mso-line-height-rule: exactly; text-align: left; =
+width: 251px">=0A<p style=3D"all: unset; font-size: inherit; font-weight: i=
+nherit; margin: 0">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DACUjzO=
+OyZQT9lYDWB7NfXbvjzjAl%2BCjfM444XBCR7hz1uJtKIdwAhkjRUQGVlbadUA5k%2FwvO6ZvYF=
+cdGaARd%2BRd0eF7K2cbXZslkYJ%2BzVH3VK9uGHotQPSfwqMuAluepPBbnmPi%2FS8Ew1%2Fqv=
+I9lY6IWPLzvDwbHmu0Aa6A5fA8hANp7zHYy7nLg242j6RXKTd6N2%2ByqMtfxszkCQ9p9ZfZbvJ=
+UL43UiCa74k%2FeUWxvTV3o8KuBnEgcfejOBKgGWksoEeqsnBCcJh3JrS4O69QG%2BEkSpecmhL=
+AzhScQHZIQlbviVd4WFOg8%2BElRIqEX%2BpX2RZrnt7Nb%2FBA%2B%2FjX6UklBCmTmwFH1PlP=
+4zqlKug2odvNvmSwrDyZv1D4bOioPK28LOoqB9A4CUh74ftr3wRhoRnCQotrTIDMf3LzOYNhDyJ=
+" target=3D"_blank" class=3D"link_text" style=3D"color: #000000; text-decor=
+ation: none">=0AFlorence Pizza or Pasta Class with Gelato Maki...=0A</a>=0A=
+</p>=0A</td>=0A<td width=3D"16" style=3D"width:16px"></td>=0A<td valign=3D"=
+top" width=3D"251" class=3D"body align_left email_column" style=3D"color: #=
+000000; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-he=
+ight: 28px; mso-line-height-rule: exactly; text-align: left; width: 251px">=
+=0A<p style=3D"all: unset; font-size: inherit; font-weight: inherit; margin=
+: 0">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DAFE9HN2kct62H2UgEJY0=
+Fq%2BuTnbQWK5sa%2BdHa0LF9KjXG0PhN8%2FxqPZOPCjcVWcsUVkz3KIMX4fbIW0wIxgHDYoqj=
+TgwNo6gMwP50EWFhX45JXs%2FcEvgKuV%2Be2k%2Fos6JE4tSoUY4TZqMdvrD9t7wxap2T3ZdMw=
+ztzo%2F8UaPaDJiRt0zqpJjyoYEmYlLrZZNzqs82pthJU0FGAD9Wneb4%2FiXh0nj8HtOP85go5=
+NV85Id7CXu0qFfG6PjqHXenulPtn9WtyDLvO1w1h6sTt3CvzQ90pHXnSBdkR27Uk9tE98Y6THiR=
+sSd9um%2FL3KKG%2FCZs%2B5aVIscRnKeVi1T4jbaYdk8z91QOHikBaocV4%2BLQfYUC3%2FBGg=
+YSI6d7%2FNTvtyskJoOr7%2F%2F9nh1IoNNhVO69PaDN%2FI3MCupGpfODtU4CwlG57" target=
+=3D"_blank" class=3D"link_text" style=3D"color: #000000; text-decoration: n=
+one">=0ASmall-Group Wine Tasting Experience in the Tus...=0A</a>=0A</p>=0A<=
+/td>=0A</tr>=0A<tr>=0A<td height=3D"8" style=3D"border-collapse: separate; =
+font-size: 0px; height: 8px; line-height: 8px; mso-line-height-rule: exactl=
+y; mso-table-lspace: 0pt; mso-table-rspace: 0pt" class=3D"spacer_style">=0A=
+&nbsp;=0A</td>=0A</tr>=0A<tr>=0A<td valign=3D"top" width=3D"251" class=3D"e=
+mail_column body_grey align_left" style=3D"color: #4D4D4D; font-family: Ari=
+al, Helvetica, sans-serif; font-size: 18px; line-height: 24px; mso-line-hei=
+ght-rule: exactly; text-align: left; width: 251px">=0A<p style=3D"all: unse=
+t; font-size: inherit; font-weight: inherit; margin: 0">=0A<table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation">=0A<tr>=0A<td=
+ valign=3D"middle" class=3D"body_01_ta tc_black_ta" aria-hidden=3D"true" st=
+yle=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; font-size=
+: 16px; line-height: 18px; mso-line-height-rule: exactly">=0A5.0=0A</td>=0A=
+<td width=3D"8" class=3D"gutter_sm" style=3D"width: 8px"></td>=0A<td valign=
+=3D"middle" align=3D"left">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=
+=3DAJP2fgXPdMVhUopALihiz1tbYcxHBiUoLhXTVTtZqndAQ5d2Y4mEJvZUKidDegg8hzA8l0vB=
+DlOLtWZT9VvADprhZPU%2Fcmi3dfH%2Fj1QcdRV%2Fiw10fKv%2BelSfIzIIIeWEzzDU6Ww8cE1=
+gjA1bI4BegrZxqEOt5cth%2BdU1Zj%2BtUJwmGNzwribwaGdGd5VkyZZPwf24ik4ZDe0pmMzUpu=
+NZhiDrz3ElPT7QP7I8M2yiZgA8ShsJNgbPUyRdp5Xf7aFwLAA%2F2RwHqn6%2BJfBXLL7WO4CCD=
+EinzNyutAsnfk%2FQjNaPo3lsQgPbsUZne1XaxXUMAPX3pFKGRqMmysnqGW0%2FtQ5lCR1pdJKK=
+9%2FfBsq%2F9n4mdDuvulDB31b562RkuRC6pAOTnrCKoCNLWXyPkGylWsovl984cIoiapEFXJSv=
+gWioU" target=3D"_blank" class=3D"text_decoration" style=3D"text-decoration=
+: none"> <img src=3D"https://static.crm.tacdn.com/vt/co/ratingstar5.0.png" =
+width=3D"80" height=3D"14" style=3D"border: 0; display: block; height: 14px=
+; width: 80px" class=3D"image_style" alt=3D"5.0 stars rating">=0A</a> </td>=
+=0A<td width=3D"8" class=3D"gutter_sm" style=3D"width: 8px"></td>=0A<td ali=
+gn=3D"left" class=3D"body_grey" style=3D"color: #4D4D4D; font-family: Arial=
+, Helvetica, sans-serif; font-size: 18px; line-height: 24px; mso-line-heigh=
+t-rule: exactly">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DACBVJbEv=
+Y9dNMWCC5gIa0Bh%2Fxu1THbefoyrXmIKhpNj2tgbvJQg1vojS1Z%2FELHUwSm%2BrB%2BawBJk=
+txqI7daor1bObp5Y7RKEH6rZTy5RHxsRsS14zSVZKdbtm5EyBI7pRuNJsQC6IGkgmlWCCgdClqL=
+XBFvtNMtWgWXq5U5kXXrz09B16mcFqFUSSN3gTR2jG3N5bbe%2BDH4AuIMfugqFtGvdmoI7oF1X=
+3iFTGpzUBIhM%2BIUHkM%2Fzx2UmDJFQtCoXP6q0LObLFARr6ovu7FqXrN5SxPAn%2FmbB6NTE1=
+uXnaFnsJtjHA7P3DkUJXUdHIxXsa7idNRedrkPRcVdyN775ibvurqiTNgnRVFk%2FS9VvL871eo=
+3TPWMeodc7sg8eGSgfAMMqOD%2FRoUXjkywD8SVQrpFiSuolVstvoWXQty91nmS8R" target=
+=3D"_blank" class=3D"link_grey" style=3D"color: #4D4D4D; text-decoration: n=
+one"> 6,998 reviews=0A</a> </td>=0A</tr>=0A</table>=0A=0A</p>=0A</td>=0A<td=
+ width=3D"16" class=3D"gutter" style=3D"width: 16px"></td>=0A<td valign=3D"=
+top" width=3D"251" class=3D"email_column body_grey align_left" style=3D"col=
+or: #4D4D4D; font-family: Arial, Helvetica, sans-serif; font-size: 18px; li=
+ne-height: 24px; mso-line-height-rule: exactly; text-align: left; width: 25=
+1px">=0A<p style=3D"all: unset; font-size: inherit; font-weight: inherit; m=
+argin: 0">=0A<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation">=0A<tr>=0A<td valign=3D"middle" class=3D"body_01_ta tc_bl=
+ack_ta" aria-hidden=3D"true" style=3D"color: #000000; font-family: Arial, H=
+elvetica, sans-serif; font-size: 16px; line-height: 18px; mso-line-height-r=
+ule: exactly">=0A5.0=0A</td>=0A<td width=3D"8" class=3D"gutter_sm" style=3D=
+"width: 8px"></td>=0A<td valign=3D"middle" align=3D"left">=0A<a href=3D"htt=
+ps://www.viator.com/MptUrl=3Fp=3DAKQo3BVveQGeFu0Pe46Gl7ONOoCPFwF5EhvPysqhUI=
+6JDEKLtTY4elKy0GbxukmYgXU6i%2FFE%2FhflbTH9rr%2BBYRjwjHE8ncB5%2FrnHAK7w5luex=
+FSJC%2BelDFzLGpCBwY3tZ5%2BApsykXqAtkAH3orYsJRrfmaQV4xIMBPctJmM0AAQ1YtWkPvBa=
+2yrZwzQe29nacGWy9MEsPUpHNTqFP2ZPUPKOZxuamnP3cBPflnk%2Bmn2O1v0fCX4sapmQN4rSW=
+tv7ommGmu2WAb9fouMfl88KhSO1ml%2Fhw5b53K79upgEJf7wXnpZdKMKq5nlaTB3M%2BJU7gjY=
+9bQLZudcQRkNqtq%2F8qhOqUxlStF0MptlT824YQ0dHw%2FpjeicfLETQ5YMma0GZRuAwzhY%2F=
+QrJZMR4t3vd6T5oNrO%2Bp4279GJce8mm7Cqh" target=3D"_blank" class=3D"text_deco=
+ration" style=3D"text-decoration: none"> <img src=3D"https://static.crm.tac=
+dn.com/vt/co/ratingstar5.0.png" width=3D"80" height=3D"14" style=3D"border:=
+ 0; display: block; height: 14px; width: 80px" class=3D"image_style" alt=3D=
+"5.0 stars rating">=0A</a> </td>=0A<td width=3D"8" class=3D"gutter_sm" styl=
+e=3D"width: 8px"></td>=0A<td align=3D"left" class=3D"body_grey" style=3D"co=
+lor: #4D4D4D; font-family: Arial, Helvetica, sans-serif; font-size: 18px; l=
+ine-height: 24px; mso-line-height-rule: exactly">=0A<a href=3D"https://www.=
+viator.com/MptUrl=3Fp=3DAHXeWFRCTaC2%2FuR6korytb4PEC63HHUgrAMTPnYubCrRI27Fx=
+gnY9kQWF8R5cZwKbkfN%2Bp9LFkyq7ngW0DF4l2HieC5G%2FFZioxP305PPb1MVT%2Fjuwc5nHC=
+aES4by5jVS2LKTfqEtDe6ncpWekLiLM9LvhzXUsXTrtKOngl0UDzNWwQVc%2FvkRxYG4NE1RlOV=
+JgHJa01mcoVGeL1xwrNGrlXkmHQf8N0U%2BrdteIeTo45sLgkeWNMp14GqMBqTUOQnqfiWiVXiA=
+KXKhQJ4OZeOlQSqemfi7Hpf6NOpmSTnzrbcd2rnPsZTkS2iXf00Kxu1kFWun7jWpkmyZ%2B%2Fc=
+yNZE6Isb3A%2BFNDwP10mTedhLtagvpA8ZNvOZ1BJd%2FHHMMozADU8ONToA42jJlprLX5fMZL1=
+6GgazeGOWAszTI4uD7TWhE" target=3D"_blank" class=3D"link_grey" style=3D"colo=
+r: #4D4D4D; text-decoration: none"> 7,634 reviews=0A</a> </td>=0A</tr>=0A</=
+table>=0A=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<td height=3D"8" style=3D"border-=
+collapse: separate; font-size: 0px; height: 8px; line-height: 8px; mso-line=
+-height-rule: exactly; mso-table-lspace: 0pt; mso-table-rspace: 0pt" class=
+=3D"spacer_style">=0A&nbsp;=0A</td>=0A</tr>=0A<tr>=0A<td valign=3D"top" wid=
+th=3D"251" class=3D"email_column align_left" style=3D"text-align: left; wid=
+th: 251px">=0A<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"251" style=3D"width:251px" align=3D"center" role=3D"presentation">=0A<t=
+r>=0A<td bgcolor=3D"#ffffff" align=3D"center" valign=3D"middle" style=3D"-m=
+oz-border-radius: 5px; -webkit-border-radius: 5px; border: 1px solid #AF143=
+E; border-collapse: collapse; border-radius: 5px; color: #AF143E; margin: 0=
+ auto" class=3D"cta_style">=0A<table cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" style=3D"color:#AF143E; margin-top: 14px; margin-bottom: 14px" r=
+ole=3D"presentation">=0A<tr>=0A<td class=3D"fontfamily_primary cta_text" st=
+yle=3D"font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-wei=
+ght: bold; line-height: 24px; text-align: center">=0A<a style=3D"color: #AF=
+143E; text-decoration: none" target=3D"_blank" href=3D"https://www.viator.c=
+om/MptUrl=3Fp=3DALECeNHDat4As7qZT5yykPaHx2c7bErsIeNmbdUtLVuHOW0i%2FoHqccFYa=
+G11cdnY4d%2F1OpwYz5NKzuTPc2s%2F1tL2wJv3I4eqF4XCRMFejtMRo3Y2t3UerBpk0Rf9AWXy=
+HbbFHbxweNa4V%2BMAeOluls9qfihVf3Dzz68HPYic7yo59Duykce0CxS%2Bpa7doIieLW9M9f%=
+2BtmvPkMWu62q6a0d2c1V0DFzfCLhFJhxRq4e4CQMs3pZ1%2BLpnxJNTH1ec6IIIaMe2Q9vob6X=
+K%2FY0XBe80TLN8yEypN3QM5vsVnubmt6qqDPzFFN6BSaFFBcYgd3XA%2BgVGjYpsGTmSwHgGAG=
+utj2A8QBjkm6W0TfGfVDfuii9Yu6e97OWPki3ZlRR%2FkDFcpnvun5no11Tw9x3QFP3yH53yxpB=
+wVXsP6doXBXWT4" class=3D"text_decoration">=0ABook now=0A</a>=0A</td>=0A</tr=
+>=0A</table>=0A</td>=0A</tr>=0A</table>=0A </td>=0A<td width=3D"16" class=
+=3D"gutter" style=3D"width: 16px"></td>=0A<td valign=3D"top" width=3D"251" =
+class=3D"email_column align_left" style=3D"text-align: left; width: 251px">=
+=0A<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"251" st=
+yle=3D"width:251px" align=3D"center" role=3D"presentation">=0A<tr>=0A<td bg=
+color=3D"#ffffff" align=3D"center" valign=3D"middle" style=3D"-moz-border-r=
+adius: 5px; -webkit-border-radius: 5px; border: 1px solid #AF143E; border-c=
+ollapse: collapse; border-radius: 5px; color: #AF143E; margin: 0 auto" clas=
+s=3D"cta_style">=0A<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+style=3D"color:#AF143E; margin-top: 14px; margin-bottom: 14px" role=3D"pres=
+entation">=0A<tr>=0A<td class=3D"fontfamily_primary cta_text" style=3D"font=
+-family: Arial, Helvetica, sans-serif; font-size: 18px; font-weight: bold; =
+line-height: 24px; text-align: center">=0A<a style=3D"color: #AF143E; text-=
+decoration: none" target=3D"_blank" href=3D"https://www.viator.com/MptUrl=
+=3Fp=3DALyylpWKUbN3HALA05c2adZSxivQBJ3yEufsYW7XVXLFBZKRb9NzuzP4LwVisTI1HmZh=
+17WbCqF4KM6DwsrdFXLM71R1BKfJ%2B2bUdZO4idreFXzFO7RWA9X3Vbwghzj3gNF%2FBapLfDf=
+F9Ffyvn8Psc8igOsLEhEwXfos5yIsZ8VQ%2FsLEXn0C9DZfoc3BVP47%2F6EuRn0kZsg2htV0Q2=
+sdpc9MW8pzhhTwM428R4rc7UerdZrnU8emgfDlpZTj%2FSLQxPV0w%2FyhFZxahsfdU0pP53CkK=
+ZpqiOMnjiJh3h36oUzDxZlEVp1JwjHoEdS4QJi4PKMqbbixbS7wpSxI69iPHOydEPynxN1%2F6d=
+jxDVs1bUwncTTtKwIwtWhwfGgqmu1fXBIJBpVfARZLlpqhrSsyk8WQE54V7D242HoJirQvsG6S"=
+ class=3D"text_decoration">=0ABook now=0A</a>=0A</td>=0A</tr>=0A</table>=0A=
+</td>=0A</tr>=0A</table>=0A </td>=0A</tr>=0A</table>=0A </td>=0A</tr>=0A<tr=
+>=0A<td height=3D"24" style=3D"border-collapse: separate; font-size: 0px; h=
+eight: 24px; line-height: 24px; mso-line-height-rule: exactly; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt" class=3D"spacer_style">=0A&nbsp;=0A</td>=
+=0A</tr>=0A<tr>=0A<td>=0A<table border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"518" bgcolor=3D"#ffffff" class=3D"email_body" role=3D"prese=
+ntation" style=3D"width: 518px">=0A<tr>=0A<td width=3D"251" valign=3D"middl=
+e" class=3D"email_column body_image align_center" style=3D"color: #000000; =
+font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24=
+px; text-align: center; width: 251px">=0A <a href=3D"https://www.viator.com=
+/MptUrl=3Fp=3DAB3bEu6c7SQqJwS97sQQ%2Fl%2BbdrnU9a65ll0YJ7j8Cr%2FwH%2BSTq1PRe=
+WgjtxtFzVV56vP87vPb25L5LCd7vBpZkiXa804lV%2FXdKczmIH8BkTKUWx1aUhfF2oTQuQzUzK=
+AWq8zzYyvBydGMAFzqEJazeIXMeFmVMgUxvUjdfdFFPBlI4dQa4aGELUAKzsQvkivGuQQtkovZX=
+XhfXeTgLqWZmCFN08zyXlfUNEsumBAf9ZwvOxtgWXjts873B%2FMoDc%2BF1uHJLkMq7lLvBTrg=
+ABopS3xb240%2BC1izOARxyvdHZGhYSVcC2lHoQFq%2B8KxxIqtRduXT79mqaBXj%2FZfUCluQj=
+vgcvhfIJqrNa8mlokASbmoMVIwNusEJ2Mf2EjVWmYGyLHsS%2Ffm%2FLRWq83B9NZG81%2BEWF8=
+JNALhch%2F0gC4bvqAWh5OkMaAi2IIejYpC5dzfwXQ%3D%3D" target=3D"_blank" class=
+=3D"link_text" style=3D"color: #000000; text-decoration: none"> <img src=3D=
+"https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/17/=
+0c/d7/94.jpg" width=3D"251" height=3D"167" style=3D"border: 0; display: blo=
+ck; height: 167px; width: 251px" alt=3D"Florence Skip-the-Line Duomo Tour w=
+ith Guide &... product page" class=3D"image_style">=0A </a> </td>=0A<td wid=
+th=3D"16" class=3D"gutter" style=3D"width: 16px"></td>=0A<td width=3D"251" =
+valign=3D"middle" class=3D"email_column body_image align_center" style=3D"c=
+olor: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 18px; =
+line-height: 24px; text-align: center; width: 251px">=0A <a href=3D"https:/=
+/www.viator.com/MptUrl=3Fp=3DAGre0xM8PNulb9P55ERpP7kj0JpBaD0IxI4XARMPqeACyv=
+I%2BvzpgvseIbd72YF0LCNRAkopwonNR1e%2Ba6cc4WS1dt%2Fh8ZIL30EmNWRGOi6sUS%2BcGZ=
+8Yj%2FE5CRjxp01tfeistvoKK%2FpQF23gyrECyS7rYcegCBjIHqeOBve6TrT1hRIptwmzCttIZ=
+2F5JrpaugKo92G9epsTi%2BTS4yDIoiq40imAHxzYKaLl7fSOxpdJqOOHRv5c%2Fo5b5H01YqWI=
+%2FtcJ2Ner62Y%2F2WdMsL5lJHDYo1FSV1iOMXe%2FhyMa5xwt6%2BhurLpQPOod92oSVydtmDF=
+%2FUa6OnwjRwG2JRzQ70UG%2BVCkWMdnRvEJoH6PZQNzrd3oxO4z7sxworZwmMYkbcpSxgYbqCB=
+bB3SCxSuCURce54Yf3fM1D%2BHuo39PK7Cr%2BjAWokzlJDThw6vpDaay%2FBbw%3D%3D" targ=
+et=3D"_blank" class=3D"link_text" style=3D"color: #000000; text-decoration:=
+ none"> <img src=3D"https://media-cdn.tripadvisor.com/media/attractions-spl=
+ice-spp-540x360/07/92/e1/5b.jpg" width=3D"251" height=3D"167" style=3D"bord=
+er: 0; display: block; height: 167px; width: 251px" alt=3D"Florence Vespa T=
+our: Tuscan Hills and Italian ... product page" class=3D"image_style">=0A <=
+/a> </td>=0A</tr>=0A<tr>=0A<td height=3D"8" style=3D"border-collapse: separ=
+ate; font-size: 0px; height: 8px; line-height: 8px; mso-line-height-rule: e=
+xactly; mso-table-lspace: 0pt; mso-table-rspace: 0pt" class=3D"spacer_style=
+">=0A&nbsp;=0A</td>=0A</tr>=0A<tr>=0A<td valign=3D"top" width=3D"251" class=
+=3D"body align_left email_column" style=3D"color: #000000; font-family: Ari=
+al, Helvetica, sans-serif; font-size: 18px; line-height: 28px; mso-line-hei=
+ght-rule: exactly; text-align: left; width: 251px">=0A<p style=3D"all: unse=
+t; font-size: inherit; font-weight: inherit; margin: 0">=0A<a href=3D"https=
+://www.viator.com/MptUrl=3Fp=3DAK%2BVp%2BGnheCslPWGa1cUoTDW0KC17LpRKKGBeA0%=
+2BJ27EylHoZ%2By9ZbJupYM8ckHH6nb0WI%2BDJij39g7LTKzxRWQuf78lGpqXp4WElTvKXaOVs=
+zs2oqZ%2FRmBFBa4A28K1HyMHy1yUPZ7hq%2FgsClZaG6CQJ%2Faa18KYt8tmpU67ci%2BKT%2F=
+PYMPYWNysi5P8fDkKq9DifwuXUAGV%2FmGq8izby7dMjaAYL8xTJQ%2BRAKwJ%2FPsz%2BcjelH=
+CRihVqv44%2Bk3mUdM6ox64QpxRgIdNhQA1%2BpUShjayaf5ca6ZLZTfYXfqNCPd3e39m%2FMRP=
+qqOYZsjx8yukTYQGQGi%2B5JckS60uu4OE59WFdaFYBLMb9rkJudj0gUOV0y9O%2BspxJ2gvENU=
+GKrXV%2Bx8OkZ%2BIRL3ql34GvygBDsdva10yZ3%2BKj%2BGzfZZkMVTlqBSNkQFRlWw%2BS2zn=
+jrxw%3D%3D" target=3D"_blank" class=3D"link_text" style=3D"color: #000000; =
+text-decoration: none">=0AFlorence Skip-the-Line Duomo Tour with Guide &...=
+=0A</a>=0A</p>=0A</td>=0A<td width=3D"16" style=3D"width:16px"></td>=0A<td =
+valign=3D"top" width=3D"251" class=3D"body align_left email_column" style=
+=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 1=
+8px; line-height: 28px; mso-line-height-rule: exactly; text-align: left; wi=
+dth: 251px">=0A<p style=3D"all: unset; font-size: inherit; font-weight: inh=
+erit; margin: 0">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DAOsnHhgY=
+VDNWIwZyLKKfTmqI9VzywNKj71qdXzxiGQUMvALEZo2Cin7LjLCOI%2BEn8Ci2%2FtIyGeOaD1c=
+66C%2FJaskKUtACxWbm3REidZ3Mn%2Fs8%2BmWdEqg%2BGn67dKzsFlX1HIQZCJ9TituUXZ2M8t=
+k3cE1Kvn55Ui5Nc0CJ8NOvQ%2F3QaAUEsEvmgE8lCphmgvNnb0CszAC4jgsP4zoCrQE2sdBBFed=
+jkkSnkbFIboy53i1tQQXL96olN8tixcDwmbD4k%2FdoxTEhSFBoFvrT8oNbgc0Ml4zDzR847mDd=
+bmC1%2FTAfez9PayE7AJYMMN0yIdqxHyuIA0Bo1%2BoJXk5PsR6LxaaOs5fGMR0FmEcGp15Xo05=
+xUqfy%2BdpeSebrFwC7KjswxA8zQePtzStqcsS3aMOEV6YiPnYgjLeGj9rOKTw5ClIYlwv4uGaj=
+V%2BorR%2B1CTL1yWQ%3D%3D" target=3D"_blank" class=3D"link_text" style=3D"co=
+lor: #000000; text-decoration: none">=0AFlorence Vespa Tour: Tuscan Hills a=
+nd Italian ...=0A</a>=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<td height=3D"8" styl=
+e=3D"border-collapse: separate; font-size: 0px; height: 8px; line-height: 8=
+px; mso-line-height-rule: exactly; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt" class=3D"spacer_style">=0A&nbsp;=0A</td>=0A</tr>=0A<tr>=0A<td valign=
+=3D"top" width=3D"251" class=3D"email_column body_grey align_left" style=3D=
+"color: #4D4D4D; font-family: Arial, Helvetica, sans-serif; font-size: 18px=
+; line-height: 24px; mso-line-height-rule: exactly; text-align: left; width=
+: 251px">=0A<p style=3D"all: unset; font-size: inherit; font-weight: inheri=
+t; margin: 0">=0A<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation">=0A<tr>=0A<td valign=3D"middle" class=3D"body_01_ta tc_=
+black_ta" aria-hidden=3D"true" style=3D"color: #000000; font-family: Arial,=
+ Helvetica, sans-serif; font-size: 16px; line-height: 18px; mso-line-height=
+-rule: exactly">=0A5.0=0A</td>=0A<td width=3D"8" class=3D"gutter_sm" style=
+=3D"width: 8px"></td>=0A<td valign=3D"middle" align=3D"left">=0A<a href=3D"=
+https://www.viator.com/MptUrl=3Fp=3DAJI2xt5BidTJcZNCCa3cAZoLexXK6j6YX%2B0Hf=
+c0Ktog642T08INmgaIWgJEWdrnLF1fLmj%2BTg95S8rYbEn6JUVEs4J%2F%2FVtWfQ7I096EBiT=
+5n1CKCmq%2FZFDUCIX4LXELLGTKA78r%2F7R9ZUz4xRNZWdYUOpTCa58QpqlCvBJntP8swU6Aeq=
+1cUKPUQ2Tf%2F12vKbzfzFYOowwYWHkWdqozfc8DL5%2F5fdHbceTl158XNmnzE0Tgcz4RatGpU=
+xqTLX7mtSuBHnoYhsCRzECycA%2FKogOorxI5FtHmNN9Srb8VVkg7i8Q4lE3TroQDHBFLBkKzny=
+CEFvl3p5DnV3PAiQENDqS6%2F3RHz0LU8oYXzMvmzt%2B4x7OgjJ3%2FpxrgK9UYYhN78C%2Fat=
+numXufKEV7L25zmjme2zTilvzYlCmp9WBC%2BbphUU" target=3D"_blank" class=3D"text=
+_decoration" style=3D"text-decoration: none"> <img src=3D"https://static.cr=
+m.tacdn.com/vt/co/ratingstar5.0.png" width=3D"80" height=3D"14" style=3D"bo=
+rder: 0; display: block; height: 14px; width: 80px" class=3D"image_style" a=
+lt=3D"5.0 stars rating">=0A</a> </td>=0A<td width=3D"8" class=3D"gutter_sm"=
+ style=3D"width: 8px"></td>=0A<td align=3D"left" class=3D"body_grey" style=
+=3D"color: #4D4D4D; font-family: Arial, Helvetica, sans-serif; font-size: 1=
+8px; line-height: 24px; mso-line-height-rule: exactly">=0A<a href=3D"https:=
+//www.viator.com/MptUrl=3Fp=3DAOz%2FW11EplyIn7xSptUFAQsu7vGGktpcdoyLkurDS0P=
+0yCx8gUna8h6yCDngJI3qr2j1qy7Oz85mpTr6o66PDz22%2B1lPVmIj98K7bVdzNu9bRXUbwq4T=
+vRF22zB%2FXJF7If3CswxvRaNNFujys2zf6LgAgGvsDwCGLUT4PikhcA0jA21MttLOAUEHDTgX4=
+MtAyjIEM%2B%2B0UT3nVNQSo%2BhLT6v2oCPJhzkMzqzqRORi0AwPqcda4uy8kG5hcvioQdylbX=
+ASCEB2jO9rbu0ennNTVFr7Anj7ldergXx96heigTqcCLnENazV72S%2B3%2Frpo8%2FSiX8dHCP=
+eDv6WMxoK%2FRssXoYaSkyZaBUioBLOwIGDIGk6PXXdAjw8qG4ceo2otOlJfR9bQJww2q91mN5d=
+ra%2F8QonMb2TCKCHQ0MVFQIzoQwr8" target=3D"_blank" class=3D"link_grey" style=
+=3D"color: #4D4D4D; text-decoration: none"> 1,178 reviews=0A</a> </td>=0A</=
+tr>=0A</table>=0A=0A</p>=0A</td>=0A<td width=3D"16" class=3D"gutter" style=
+=3D"width: 16px"></td>=0A<td valign=3D"top" width=3D"251" class=3D"email_co=
+lumn body_grey align_left" style=3D"color: #4D4D4D; font-family: Arial, Hel=
+vetica, sans-serif; font-size: 18px; line-height: 24px; mso-line-height-rul=
+e: exactly; text-align: left; width: 251px">=0A<p style=3D"all: unset; font=
+-size: inherit; font-weight: inherit; margin: 0">=0A<table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation">=0A<tr>=0A<td valign=
+=3D"middle" class=3D"body_01_ta tc_black_ta" aria-hidden=3D"true" style=3D"=
+color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 16px;=
+ line-height: 18px; mso-line-height-rule: exactly">=0A5.0=0A</td>=0A<td wid=
+th=3D"8" class=3D"gutter_sm" style=3D"width: 8px"></td>=0A<td valign=3D"mid=
+dle" align=3D"left">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DAFVpe=
+w4j0lEEszaw80yYyYsVhLneZshEbUr3RsG%2FW3FB6vCN5GQoN9qL5tAL68bc%2FpdEMZH7b52q=
+I5g7xbT%2FqGGBKSWRCPYW2r0%2BUaq9IFysAiZ%2BZC%2F39yxhsgEQ36zERj%2BdgnRWtol00=
+sxa5VNjRo3Q7M%2B7OQlEFg9fXzWeFmAM8kqircZxOFQllpuW6rfMLq04PE4%2BUv4D0hTn904n=
+naHUw%2FMfELVZp9exPl34zXfze53vln22jw7C%2B3mvNeoW6WwrpqcZcd3PHr2tXPY3bseaaIR=
+y9MYO%2BPz9ONgkChmJoXvloj0oUbzr3fk1O1MJ4HVmPzvkseM6EuUuDxK3CUbtMxVpizKXni61=
+u2AdVoZ38KZlg0ql9WtT7kZpcMlDsGCw3FEvY95kaeYJyRxGKFEcfVDjGY%2F%2BOyOoOtfwSD2=
+elBAIWCMPaQN4c%2FbEq9VN7Q%3D%3D" target=3D"_blank" class=3D"text_decoration=
+" style=3D"text-decoration: none"> <img src=3D"https://static.crm.tacdn.com=
+/vt/co/ratingstar5.0.png" width=3D"80" height=3D"14" style=3D"border: 0; di=
+splay: block; height: 14px; width: 80px" class=3D"image_style" alt=3D"5.0 s=
+tars rating">=0A</a> </td>=0A<td width=3D"8" class=3D"gutter_sm" style=3D"w=
+idth: 8px"></td>=0A<td align=3D"left" class=3D"body_grey" style=3D"color: #=
+4D4D4D; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-he=
+ight: 24px; mso-line-height-rule: exactly">=0A<a href=3D"https://www.viator=
+.com/MptUrl=3Fp=3DAHbO19Ybwkzub8FAaZB%2FAbbEqJTVYY2O7ia%2FRU1r0LHwLKXHYpZ%=
+2BCjUQIMF6BVPPmijqjqMpeZSA8kSRkGDOjcIfZ9uTiSmHfuWE17gq3u8MzMc8%2F71io0yNu4J=
+3XoLTYiiOUBLFWTFWhNelN2PnshDyvUZnJvljECAu4WpKq6ze3poDOg7FdJNANtWr%2FLqZTwDR=
+P202cv%2FSwybKcfjSeilShK0eNmn%2BQgqjgBu9FzP%2Bi7KhyK%2B6I%2BVYUYvWUMLCY4nvf=
+TePYvbHJslUvFH6iK4PHCehXIGTT4lD1zaDO%2BX4YKhk5ooNaO655p2ZVrw7bohO8c%2FM2W45=
+fwVhAMhtaHGpTgVFxu5FKGkgnqxuaxLK7BCcfqDpbJndlo8gEEWIN9liJcaeNFwDghMEoiR%2F2=
+tP4isw%2FFOwpLV3INY7wYMl27pFWjKIuXhRk%2F42PlSj7vQ%3D%3D" target=3D"_blank" =
+class=3D"link_grey" style=3D"color: #4D4D4D; text-decoration: none"> 4,091 =
+reviews=0A</a> </td>=0A</tr>=0A</table>=0A=0A</p>=0A</td>=0A</tr>=0A<tr>=0A=
+<td height=3D"8" style=3D"border-collapse: separate; font-size: 0px; height=
+: 8px; line-height: 8px; mso-line-height-rule: exactly; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt" class=3D"spacer_style">=0A&nbsp;=0A</td>=0A</tr>=
+=0A<tr>=0A<td valign=3D"top" width=3D"251" class=3D"email_column align_left=
+" style=3D"text-align: left; width: 251px">=0A<table border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" width=3D"251" style=3D"width:251px" align=3D"cen=
+ter" role=3D"presentation">=0A<tr>=0A<td bgcolor=3D"#ffffff" align=3D"cente=
+r" valign=3D"middle" style=3D"-moz-border-radius: 5px; -webkit-border-radiu=
+s: 5px; border: 1px solid #AF143E; border-collapse: collapse; border-radius=
+: 5px; color: #AF143E; margin: 0 auto" class=3D"cta_style">=0A<table cellsp=
+acing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"color:#AF143E; margin-t=
+op: 14px; margin-bottom: 14px" role=3D"presentation">=0A<tr>=0A<td class=3D=
+"fontfamily_primary cta_text" style=3D"font-family: Arial, Helvetica, sans-=
+serif; font-size: 18px; font-weight: bold; line-height: 24px; text-align: c=
+enter">=0A<a style=3D"color: #AF143E; text-decoration: none" target=3D"_bla=
+nk" href=3D"https://www.viator.com/MptUrl=3Fp=3DAJ540YGNSO%2Fs%2B8nLF0woN4X=
+H5eWAfZCzWwAUI07tYAAg4L3OEGnX7riPoVsAwxQBny5onCTh6XC6gLqlIdEmiu2YWT8xrfOgDS=
+%2BQr7iSK6ySDKYGS17ln5hdjM5sjEn4mTd5YoXWQuQrCRBZJRDjjg2T6%2FUgFq1wNzQasxUAQ=
+euBovdDuSxHQ%2Btr%2Bdd50mWEah8wPhrTJdAwFehj2twZcOTEg57cbAv3i%2FE%2FJ4jGX6Ss=
+f8ADxLWoK6%2FGuENVjbAuOtdDd8fHKe05G8E86ksF%2FXsEATbGBGuOpsh5TOFBhMMKb5SaBRA=
+rCPYw0gVYyXSJMSwvdq6G05WuIVJl%2FfXrq0CtDjGhJsLwqmOcdQdgPGwEdU4rmrwOm3kMu%2B=
+4l3QdxCzPlxcBt0eJMDn%2B3xzF9z1uAN45QKiVuDUoGWq0Dbgh0" class=3D"text_decorat=
+ion">=0ABook now=0A</a>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</tabl=
+e>=0A </td>=0A<td width=3D"16" class=3D"gutter" style=3D"width: 16px"></td>=
+=0A<td valign=3D"top" width=3D"251" class=3D"email_column align_left" style=
+=3D"text-align: left; width: 251px">=0A<table border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" width=3D"251" style=3D"width:251px" align=3D"center" ro=
+le=3D"presentation">=0A<tr>=0A<td bgcolor=3D"#ffffff" align=3D"center" vali=
+gn=3D"middle" style=3D"-moz-border-radius: 5px; -webkit-border-radius: 5px;=
+ border: 1px solid #AF143E; border-collapse: collapse; border-radius: 5px; =
+color: #AF143E; margin: 0 auto" class=3D"cta_style">=0A<table cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" style=3D"color:#AF143E; margin-top: 1=
+4px; margin-bottom: 14px" role=3D"presentation">=0A<tr>=0A<td class=3D"font=
+family_primary cta_text" style=3D"font-family: Arial, Helvetica, sans-serif=
+; font-size: 18px; font-weight: bold; line-height: 24px; text-align: center=
+">=0A<a style=3D"color: #AF143E; text-decoration: none" target=3D"_blank" h=
+ref=3D"https://www.viator.com/MptUrl=3Fp=3DANYkZG1CholgoKyeMnH3uEDVh2YJZp8l=
+NkB4hhuTPAE2VnrXA2KbIbhJg44Rp7NtAKtwXei%2BMk2dfBWjplXabXYuA2FoCBaR45ocu6f7F=
+uy6MqMCH54bvIW0TYIOdhp6bso3hFPKLqpZj%2BEcVcku3gNtfMY5kg3s3TaXbeUiCb4rggpkQ5=
+riQtOU%2BZ1ucMiZz3pxQxNAaycfJtn%2ByrxKCY%2Bwokr4ulkLjm2xDa9eCbXftvJ%2B9TZ3T=
+hO%2BC8C73oOMT6KcJC8%2B0H5QfThIhexuhaef1nKceItPeUCFBEhc%2BWYGCIJlrIAXhVGaKa=
+k7L3gHWIVrbk4%2FU8BfblYD1j6yeaY3fe2jso%2BdIjK0jBvdrfusATHp8VmEir2S%2FUWO%2B=
+viKQNYPjzq3v4GcCU%2Fn7whQSrZdrC%2Fm6t3AOwZYSQ8s1jynQ%2FNf3YdlZ9Lu67TqipoCpA=
+%3D%3D" class=3D"text_decoration">=0ABook now=0A</a>=0A</td>=0A</tr>=0A</ta=
+ble>=0A</td>=0A</tr>=0A</table>=0A </td>=0A</tr>=0A</table>=0A </td>=0A</tr=
+>=0A</table>=0A </td>=0A</tr>=0A<tr>=0A<td class=3D"section_spacing_bottom =
+section_spacing" style=3D"padding-bottom: 24px; padding-top: 24px">=0A<tabl=
+e border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" align=3D"=
+center" role=3D"presentation">=0A<tr>=0A<td bgcolor=3D"#ffffff" align=3D"ce=
+nter" valign=3D"middle" style=3D"-moz-border-radius: 5px; -webkit-border-ra=
+dius: 5px; border: 1px solid #AF143E; border-collapse: collapse; border-rad=
+ius: 5px; color: #AF143E; margin: 0 auto" class=3D"cta_style">=0A<table cel=
+lspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D"color:#AF143E; margi=
+n-top: 14px; margin-bottom: 14px" role=3D"presentation">=0A<tr>=0A<td class=
+=3D"fontfamily_primary cta_text" style=3D"font-family: Arial, Helvetica, sa=
+ns-serif; font-size: 18px; font-weight: bold; line-height: 24px; text-align=
+: center">=0A<a style=3D"color: #AF143E; text-decoration: none" target=3D"_=
+blank" href=3D"https://www.viator.com/MptUrl=3Fp=3DAM4LPzTdsMFU7wH9%2BoPwjs=
+DNefQ0RBY%2BuqQ%2BuZytPKXmtqvJb3DrV71aXIHFTK7KRezMSq5k5ycLT9Ie0WSrp3oHo7%2F=
+kv33%2FsgAKVAnjVRzIOgHLCgiOgCSAfTWjkT8IsXvTZolOGqnBdclqzoN1il%2B6t2FocrEYAr=
+QOF0PsKRnLFUTGVpCgKJV0iUHU3HFlmEBzCWYbSBCzqkt9D7ZVFG5gw4Sk4QZ0v0273pkNblmT2=
+lYyBnHvH9HTfbZTpkWzFp1GlAX3CBw842PjP8YnJOEXiwxaObTuGTFNJr6Br4Qt2qjzJHCz01Dn=
+MlBBG5hD5U05sdLJDzh%2B5%2BLrtT92Q9dYKp69i%2FmglqJ%2BUHHeIoikMpyk8DxilkEhQxH=
+O%2Bv6KpmMLPaZMxzGEO4xT24umr2FcRotoGIFNwBxmPtkK10eQ" class=3D"text_decorati=
+on">=0AExplore more=0A</a>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</t=
+able>=0A </td>=0A</tr>=0A<tr>=0A<td class=3D"align_left h2_bold section_spa=
+cing_md" style=3D"color: #000000; font-family: Arial, Helvetica, sans-serif=
+; font-size: 24px; font-weight: bold; line-height: 28px; margin: 0; mso-lin=
+e-height-rule: exactly; padding-top: 16px; text-align: left">=0A<h2 style=
+=3D"all: unset; font-size: inherit; font-weight: inherit; margin: 0">=0AImp=
+ortant information=0A</h2>=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"align_left=
+ h2 section_spacing section_spacing_bottom_lg" style=3D"color: #000000; fon=
+t-family: Arial, Helvetica, sans-serif; font-size: 24px; line-height: 28px;=
+ margin: 0; mso-line-height-rule: exactly; padding-bottom: 24px; padding-to=
+p: 24px; text-align: left">=0A<h3 style=3D"all: unset; font-size: inherit; =
+font-weight: inherit; margin: 0">=0AVoucher information=0A</h3>=0A</td>=0A<=
+/tr>=0A<tr>=0A<td class=3D"align_left secondary_text" style=3D"color: #0000=
+00; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height=
+: 18px; mso-line-height-rule: exactly; text-align: left">=0APrivate Tour of=
+ Uffizi and Accademia Gallery with David: <table border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" role=3D"presentation">=0A<tr>=0A<td=
+ class=3D"align_left secondary_text" style=3D"color: #000000; font-family: =
+Arial, Helvetica, sans-serif; font-size: 15px; line-height: 18px; mso-line-=
+height-rule: exactly; text-align: left">=0A<p style=3D"all: unset; font-siz=
+e: inherit; font-weight: inherit; margin: 0">=0A<strong>Mobile ticket accep=
+ted</strong>: Please print or save on your mobile device.=0A</p>=0A</td>=0A=
+</tr>=0A</table>=0A=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"align_left h2 sec=
+tion_spacing_xl section_spacing_bottom_lg" style=3D"color: #000000; font-fa=
+mily: Arial, Helvetica, sans-serif; font-size: 24px; line-height: 28px; mar=
+gin: 0; mso-line-height-rule: exactly; padding-bottom: 24px; padding-top: 3=
+2px; text-align: left">=0A<h3 style=3D"all: unset; font-size: inherit; font=
+-weight: inherit; margin: 0">=0ACancellation policy=0A</h3>=0A</td>=0A</tr>=
+=0A<tr>=0A<td class=3D"align_left secondary_text" style=3D"color: #000000; =
+font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 18=
+px; mso-line-height-rule: exactly; text-align: left">=0A<p style=3D"all: un=
+set; font-size: inherit; font-weight: inherit; margin: 0">=0APrivate Tour o=
+f Uffizi and Accademia Gallery with David:<br>For a full refund, cancel at =
+least 24 hours in advance of the start time of the experience.=0A</p>=0A</t=
+d>=0A</tr>=0A<tr>=0A<td class=3D"align_left secondary_text section_spacing_=
+lg" style=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; fon=
+t-size: 15px; line-height: 18px; mso-line-height-rule: exactly; padding-top=
+: 24px; text-align: left">=0A<p style=3D"all: unset; font-size: inherit; fo=
+nt-weight: inherit; margin: 0">=0AOccasionally, our Trust &amp; Safety team=
+ may be in touch about your booking to ask you for further information. Thi=
+s is part of our standard anti-fraud checks to keep our site, and your book=
+ing, secure.=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"h2 section_spacin=
+g_xl section_spacing_bottom_lg" style=3D"color: #000000; font-family: Arial=
+, Helvetica, sans-serif; font-size: 24px; line-height: 28px; margin: 0; mso=
+-line-height-rule: exactly; padding-bottom: 24px; padding-top: 32px">=0A<h3=
+ style=3D"all: unset; font-size: inherit; font-weight: inherit; margin: 0">=
+=0ATour Operator=0A</h3>=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"ts_body_smal=
+l_vt tc_black_vt section_spacing_bottom_sm" style=3D"color: #000000; font-f=
+amily: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; ms=
+o-line-height-rule: exactly; padding-bottom: 8px">=0A<p style=3D"all: unset=
+; font-size: inherit; font-weight: inherit; margin: 0">=0ACity Florence Tou=
+rs=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"ts_body_small_vt tc_black_v=
+t section_spacing_sm section_spacing_bottom_sm" style=3D"color: #000000; fo=
+nt-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px=
+; mso-line-height-rule: exactly; padding-bottom: 8px; padding-top: 8px">=0A=
+<p style=3D"all: unset; font-size: inherit; font-weight: inherit; margin: 0=
+">=0AVia dei Castellani 18 rosso, Firenze, IT, 50122=0A</p>=0A</td>=0A</tr>=
+=0A<tr>=0A<td class=3D"ts_body_small_vt tc_black_vt section_spacing_sm sect=
+ion_spacing_bottom_sm" style=3D"color: #000000; font-family: Arial, Helveti=
+ca, sans-serif; font-size: 16px; line-height: 24px; mso-line-height-rule: e=
+xactly; padding-bottom: 8px; padding-top: 8px">=0A<p style=3D"all: unset; f=
+ont-size: inherit; font-weight: inherit; margin: 0">=0A<a href=3D"#" aria-h=
+idden=3D"true" rel=3D"noopener" aria-disabled=3D"true" style=3D"color: #000=
+000; cursor: none; display: contents; font-size: 15px; line-height: 18px; p=
+ointer-events: none; text-decoration: none" class=3D"fontstyle_secondary tc=
+_black_vt text_decoration">=0A+393311487049=0A</a>=0A</p>=0A</td>=0A</tr>=
+=0A<tr>=0A<td class=3D"ts_body_small_vt tc_black_vt section_spacing_sm sect=
+ion_spacing_bottom_sm" style=3D"color: #000000; font-family: Arial, Helveti=
+ca, sans-serif; font-size: 16px; line-height: 24px; mso-line-height-rule: e=
+xactly; padding-bottom: 8px; padding-top: 8px">=0A<p style=3D"all: unset; f=
+ont-size: inherit; font-weight: inherit; margin: 0">=0A<a href=3D"#" aria-h=
+idden=3D"true" rel=3D"noopener" aria-disabled=3D"true" style=3D"color: #000=
+000; cursor: none; display: contents; font-size: 15px; line-height: 18px; p=
+ointer-events: none; text-decoration: none" class=3D"fontstyle_secondary tc=
+_black_vt text_decoration">=0Acityflorencetourssrl@gmail.com=0A</a>=0A</p>=
+=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"align_left h2 section_spacing" style=
+=3D"color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 2=
+4px; line-height: 28px; margin: 0; mso-line-height-rule: exactly; padding-t=
+op: 24px; text-align: left">=0A<h2 style=3D"all: unset; font-size: inherit;=
+ font-weight: inherit; margin: 0">=0AHave questions or need help=3F=0A</h2>=
+=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"align_left section_spacing section_s=
+pacing_bottom" style=3D"padding-bottom: 24px; padding-top: 24px; text-align=
+: left">=0A<table role=3D"presentation" align=3D"left" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0">=0A<tr>=0A<td valign=3D"top" align=3D"left">=
+=0A<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">=0A<tr>=0A<td valign=3D"top" aria-hidden=3D"true" align=3D"left" cla=
+ss=3D"fontfamily_primary font_bold mso-line-height-rule" style=3D"color: #0=
+08768; font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-wei=
+ght: bold; mso-line-height-rule: exactly">=0A&bull;=0A</td>=0A<td width=3D"=
+16" style=3D"width: 16px"></td>=0A<td valign=3D"middle" style=3D"color: #33=
+3333; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-heig=
+ht: 24px; text-align: left" class=3D"fontfamily_primary align_left">=0A<p s=
+tyle=3D"all: unset; font-size: inherit; font-weight: inherit; margin: 0">=
+=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DAHpe3hxfLYjn%2BcQNTCenAfS=
+eWrJsrvYd9FIVlCBMQp5f6NyXtuk1p4x3GKR9N9DCyTQUZH%2FJkOmF46dGVyE52%2BTFTcgJFk=
+hWL7Pg5KOL972lCwLF1rUycRCB3w9B2DDOHJrocgkBbjsfbXbNAi1zmtmrEFdXuEqQg%2B65TsQ=
+KSxZGazrX4%2BQNuVJ6OPyJi4F2avH46DEpt2ntrfzxpVHUx4m8F%2FQQ6RSdkAlXkffp4mMu8l=
+gQgFC517BWlj50nR6VLYGpTLtNtxhupte4pFNWBo5hCsxVafPpzd0bldLwp7c3lusgt2JQnOh26=
+Oxj9KL%2F7ngiQrudsQT0AqdBdHZFBl5q8YRV4KvGhxTiCZ35b9yBEBwd7tkdpWZ9gKoxMk53Sz=
+3nQyWanxpxUsIT80AMO%2B46RsZNFGe9BU%2BpeU6BoVy4wpUVX7Gtxpd4omCh2XWuTQ%3D%3D"=
+ target=3D"_blank" class=3D"link" style=3D"color: #3B3366; text-decoration:=
+ none">=0AWho to contact for last minute tour questions=0A</a>=0A</p>=0A</t=
+d>=0A</tr>=0A<tr>=0A<td height=3D"24" class=3D"spacer_style_lg" style=3D"bo=
+rder-collapse: separate; font-size: 0px; height: 24px; line-height: 24px; m=
+so-line-height-rule: exactly; mso-table-lspace: 0pt; mso-table-rspace: 0pt"=
+>=0A&nbsp;=0A</td>=0A</tr>=0A<tr>=0A<td valign=3D"top" aria-hidden=3D"true"=
+ align=3D"left" class=3D"fontfamily_primary font_bold mso-line-height-rule"=
+ style=3D"color: #008768; font-family: Arial, Helvetica, sans-serif; font-s=
+ize: 24px; font-weight: bold; mso-line-height-rule: exactly">=0A&bull;=0A</=
+td>=0A<td width=3D"16" style=3D"width: 16px"></td>=0A<td valign=3D"middle" =
+style=3D"color: #333333; font-family: Arial, Helvetica, sans-serif; font-si=
+ze: 18px; line-height: 24px; text-align: left" class=3D"fontfamily_primary =
+align_left">=0A<p style=3D"all: unset; font-size: inherit; font-weight: inh=
+erit; margin: 0">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DAJ3kmMcW=
+uakO9bRszBmWOu1ZU9%2B%2BG5wrgIs%2FVlGsrk0PYEovXr%2FsqM6DUdapshfHwCPoYx9MPGt=
+0h3OtpNAH%2F7JNC5phpRSZfyRlZSJutChx21W%2B9b8uaLu00Ciao%2B8g1%2Fx0ly4jHMlo3b=
+o3Htf7stniR2Wet0ZrKyfzPvo64MoWSmp05ULmt6lc%2BC2BDeOTDN7N1vK6Af4ydwrEsn1hZKE=
+kkWUmkYDbkx4IOQE7EBHWkxI9cUkju0%2FSM936vKm3ONTeETK%2FeQBsFIk%2FsbQyG38HOQXY=
+nHi76xfTlmHmIbZ1dhxUFUakLXLt%2BaBdTzV9Ni%2FQAgDQzmIuMAttvdxk433PeogtsacFT8j=
+A%2B7CE7%2B103YOnP0bnpJJe7sktSEl1iwd2PBDcVCdQv1x7pw4AKfTl%2Bpk6VR7ylF3NpAYU=
+x1WLt9KeSkoQDKdFLk79ELSxVA%3D%3D" target=3D"_blank" class=3D"link" style=3D=
+"color: #3B3366; text-decoration: none">=0AHow to make changes to your Viat=
+or booking=0A</a>=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<td height=3D"24" class=
+=3D"spacer_style_lg" style=3D"border-collapse: separate; font-size: 0px; he=
+ight: 24px; line-height: 24px; mso-line-height-rule: exactly; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt">=0A&nbsp;=0A</td>=0A</tr>=0A<tr>=0A<td val=
+ign=3D"top" aria-hidden=3D"true" align=3D"left" class=3D"fontfamily_primary=
+ font_bold mso-line-height-rule" style=3D"color: #008768; font-family: Aria=
+l, Helvetica, sans-serif; font-size: 24px; font-weight: bold; mso-line-heig=
+ht-rule: exactly">=0A&bull;=0A</td>=0A<td width=3D"16" style=3D"width: 16px=
+"></td>=0A<td valign=3D"middle" style=3D"color: #333333; font-family: Arial=
+, Helvetica, sans-serif; font-size: 18px; line-height: 24px; text-align: le=
+ft" class=3D"fontfamily_primary align_left">=0A<p style=3D"all: unset; font=
+-size: inherit; font-weight: inherit; margin: 0">=0A<a href=3D"https://www.=
+viator.com/MptUrl=3Fp=3DAPdRwvFTkATlAAww4gdg83X9N92TidTRegUE1%2Bdk1d4Kw8RrN=
+qIyPs8X75WAX1O7fe6slJ%2FNnmSMVDskdmQfITGnxsKl6XIbS2o3Q7ATRpcTG5uNDB9NwEWxJA=
+aVs5sPKoqQ1Ygofiizl7ZpfmX1JvNiue4cE1RFtP%2F1QQ9ZPYRxz6T4sKMn7lSxdo3AQfqon%2=
+FnREWFcGqYwwub8OiTxHwuAtT9mlgaTfSzYgiDycIu3w1kf8vIfS5GHzK2EYGKH75nHZom0IOve=
+la3QtMAq8pznoo4JYk25Hx0t4aDyJsTi2sL%2FM9w7oG5fyjp%2BXfvoIphDzQYZ%2FMbRx46Xu=
+h5fD9lL5gpE8Lb%2FxZGpmvXOlVieDaIzd91qQrGcupIKeojklWOKFV3Dd2ld0%2FIGjLfgUK0E=
+%2ByRFlbGlJL9HYRBHXkO2oUCxSNViOInZq%2FVpaoW0TQ%3D%3D" target=3D"_blank" cla=
+ss=3D"link" style=3D"color: #3B3366; text-decoration: none">=0AHow to reque=
+st hotel pickup for your tour=0A</a>=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<td he=
+ight=3D"24" class=3D"spacer_style_lg" style=3D"border-collapse: separate; f=
+ont-size: 0px; height: 24px; line-height: 24px; mso-line-height-rule: exact=
+ly; mso-table-lspace: 0pt; mso-table-rspace: 0pt">=0A&nbsp;=0A</td>=0A</tr>=
+=0A<tr>=0A<td valign=3D"top" aria-hidden=3D"true" align=3D"left" class=3D"f=
+ontfamily_primary font_bold mso-line-height-rule" style=3D"color: #008768; =
+font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bo=
+ld; mso-line-height-rule: exactly">=0A&bull;=0A</td>=0A<td width=3D"16" sty=
+le=3D"width: 16px"></td>=0A<td valign=3D"middle" style=3D"color: #333333; f=
+ont-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24p=
+x; text-align: left" class=3D"fontfamily_primary align_left">=0A<p style=3D=
+"all: unset; font-size: inherit; font-weight: inherit; margin: 0">=0A<a hre=
+f=3D"https://www.viator.com/MptUrl=3Fp=3DALUpDvN%2BMFIzIxXfD%2FAZH1PemFKbyU=
+5t%2F5kKA18pNtb7tg1HgUzBPDMpTX6YOTx1qW0y1%2F9iRJ4hEgOJE34nSlwSDb%2B0LqFimXr=
+Bodz%2FudQB7U4Ct%2FWUBIvEbgzEDr%2BfTqO2D4IJx49sKSchSKOmvD7ojgcPmGRrTDPda%2B=
+jyFJVcXPUwS7hn3qLsmw%2B4gd3jJZxNnqRVnS3c66AuU86Cnk5AkzywpvR%2BmHEiUkT2At5PB=
+%2BMZDopBBAqcmB8zp%2BQfmKXKhUqud831XmIBtYWyTBDe7t%2FmvjH80rQHBYuirEz7N5pgc9=
+ReKYnqLCDDz6uVVJoPuiy2HcvTyYkEHTDXUeLzE5eiuY6jKU8kqw%2B355ZBq0SGmrsLmyUdI%2=
+FNX7myJJAVykcVG%2F0B5FyS%2BeqR9osir0mqBxbrg60ZPVi48XSMXHrSLJiGclltZOeaJKpls=
+Pw%3D%3D" target=3D"_blank" class=3D"link" style=3D"color: #3B3366; text-de=
+coration: none">=0AHow to reconfirm your tour, if necessary=0A</a>=0A</p>=
+=0A</td>=0A</tr>=0A<tr>=0A<td height=3D"24" class=3D"spacer_style_lg" style=
+=3D"border-collapse: separate; font-size: 0px; height: 24px; line-height: 2=
+4px; mso-line-height-rule: exactly; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt">=0A&nbsp;=0A</td>=0A</tr>=0A<tr>=0A<td valign=3D"top" aria-hidden=3D=
+"true" align=3D"left" class=3D"fontfamily_primary font_bold mso-line-height=
+-rule" style=3D"color: #008768; font-family: Arial, Helvetica, sans-serif; =
+font-size: 24px; font-weight: bold; mso-line-height-rule: exactly">=0A&bull=
+;=0A</td>=0A<td width=3D"16" style=3D"width: 16px"></td>=0A<td valign=3D"mi=
+ddle" style=3D"color: #333333; font-family: Arial, Helvetica, sans-serif; f=
+ont-size: 18px; line-height: 24px; text-align: left" class=3D"fontfamily_pr=
+imary align_left">=0A<p style=3D"all: unset; font-size: inherit; font-weigh=
+t: inherit; margin: 0">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DAN=
+PXAptIuBLDjR0sKgFYqFhsd5JnwqnX5ZZYD362%2F2pY24uuUCX5av1fsU8KihAfJoLwRJcopz5=
+melUOvZVDeqYmbM7RzuZyK%2BiwOfuQibDhVvuTfQfohxYDamV7i81WIHKWuczaZHp7LiaqZGN9=
+OApO6rG1NLWwcPzDKh%2F64xRmuqU%2BjCwK18gAZxytyDWfBS8TC6GBcjVgD6Q96KbfIdQFe%2=
+Bjo%2Bj65Sa1PeoQgTUIf%2BPbrREE7H01DQ4vUxZGNQPPKw2NFUN7JIzRi47eXlnAx1wAcCCif=
+XrFuH5GdVTVpEpdHA%2BG3hNzETSqu89t0H5BKGUC0zWzR%2FIRDxxQ%2BxHIQG%2BgmsDxqZ%2=
+BoG92UU6Pm3WNBubgXFd0Apuq6VYz%2FMSX3x%2BNGHK6UwuM5Y2sH8f7qgOAV61NWYsnGwVEaJ=
+IySRZNq4C4Wbo%2BeJaGFH5iePyA%3D%3D" target=3D"_blank" class=3D"link" style=
+=3D"color: #3B3366; text-decoration: none">=0AHow to get a receipt for your=
+ booking(s)=0A</a>=0A</p>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</ta=
+ble>=0A </td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A<table role=
+=3D"presentation" width=3D"550" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" class=3D"bg_neutral_95_vt email_full" style=3D"background-color: #F5=
+F5F5; width: 550px">=0A<tr>=0A<td align=3D"center" valign=3D"top" class=3D"=
+gutter_sides" style=3D"padding-left: 16px; padding-right: 16px">=0A<table r=
+ole=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%">=0A<tr>=0A<td valign=3D"top" align=3D"center" class=3D"section_sp=
+acing_bottom_xl section_spacing_xl" style=3D"padding-bottom: 32px; padding-=
+top: 32px">=0A<table role=3D"presentation" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" width=3D"100%">=0A<tr>=0A<td valign=3D"middle" align=3D"le=
+ft" width=3D"251" class=3D"email_column subtext_image" style=3D"color: #4D4=
+D4D; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-heigh=
+t: 15px; width: 251px">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DAA=
+i3ssqhxBphUpnuqpJLCU%2FHccasYB%2B68MM1D%2FAe7qRPKS5ZGsnVQABDweGuXe30VoTqD%2=
+F6%2B8iYRm4pdS%2BiTjXql9jTMKTRn8n9iwLBw1iSwt3tn4TqRn3b%2BtaknQugOkEPqGj7B3Q=
+8pljvzYZOfgQeYoJlLyQ3K2YcyGRhridk3QgaT846ODxCoOIC7NJEHrgeo03Zao7YvA4eXx5E2Y=
+W5zjEgPQqyW8AS%2BTFPf5CUHQxydscVyX4NSmsFrEhukk025RxLFZ3MGP8Mhv3nfLfsxqGgip8=
+kfnvgB6STTn1hgLSezPtaRqDHJoa797HrSF4uGQiDaEYJOup7mDr3cjVUlO%2FZLrLPI4Z7KHEi=
+f5NMQ8O4HlaRn4hupYTxGNfc7pZjzWpMfexaJaR9tMxfsEzg%3D" target=3D"_blank" clas=
+s=3D"tc_black_vt" style=3D"color: #000000">=0A<img src=3D"https://static.cr=
+m.tacdn.com/vt/co/viatorlogofooterv2.png" height=3D"28" border=3D"0" style=
+=3D"height:28px" alt=3D"Viator">=0A</a>=0A</td>=0A<td width=3D"16" class=3D=
+"gutter" style=3D"width: 16px"></td>=0A<td valign=3D"middle" align=3D"left"=
+ width=3D"251" class=3D"email_column" style=3D"width: 251px">=0A<table role=
+=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D=
+"left">=0A<tr>=0A<td align=3D"left" class=3D"subtext_image" style=3D"color:=
+ #4D4D4D; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-=
+height: 15px">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DAHXQIwJxhYL=
+UQFmnTX5UjO33gaj6e9rk1CCEpm3dyu8hduqLvDAa0i2gs50TLinhoycNFwUKz03ag1RSsfzoYU=
+L9SwnA5VwuL%2BuO4hCs6%2Bu7rTAUyOzx1mZQdwqLTjfPmA%2ByjHM8rmrKB1COeby%2ByHUvg=
+my1hOp%2B6uak6RugiZlfAZYlTOX606YS%2FOSL7BppWhXsxddatb4UZajoVnT8V3gvJbp73BRq=
+k2dUE2RP7yfSB8jjuVT%2FZxBKnte0SqvRIeIhEHU%2Fy8TXzjtMzvlNLlyZTMeIzPaGyVQbu%2=
+FlksyAeuTvhW3zjCFbVyy5NRwnC0OI6RbljC%2Bm%2FdV6pdLMzKhY%3D" target=3D"_blank=
+">=0A<img src=3D"https://static.crm.tacdn.com/vt/co/facebookblackvtlogov3.p=
+ng" border=3D"0" width=3D"30" style=3D"width:30px" alt=3D"Facebook">=0A</a>=
+=0A</td>=0A<td width=3D"24" style=3D"width:24px"></td>=0A<td align=3D"left"=
+ class=3D"subtext_image" style=3D"color: #4D4D4D; font-family: Arial, Helve=
+tica, sans-serif; font-size: 13px; line-height: 15px">=0A<a href=3D"https:/=
+/www.viator.com/MptUrl=3Fp=3DAI8KKMYL%2FsxqC4SPKKK2wnV7gKutjktIBmtrw7hOn9US=
+zBbE5y3PqCF%2FUG89yV%2FlMXmSdtUaFfQkLrmOWB3xpjiRh9wdcNyjGcdPiLUi0B1BAqhi0an=
+KSKqIxQ6Lx5L1giXqrJvoF8LbqHtagT15DTC4yq3DJHdY%2F%2Fa54Z34O3dPMJ3xpn%2FC4azE=
+pNPzzMbtIzaxVz5KWhGp%2B5g34kHtQdwtZ%2FFKKG%2BRxtNpXbSEOAoMdPb%2BlQCITGZ2C1U=
+Esl1yOAvDMAu%2BGkiJzoSl0bxtmk68JvppR1vIu%2BnUMeFOudWR%2FjhkBvDDniebWJDJ3%2F=
+2FB2Noq2v%2FU7eo3whcXZ9Unv0%3D" target=3D"_blank">=0A<img src=3D"https://st=
+atic.crm.tacdn.com/vt/co/x_icon_black_no_bg.png" border=3D"0" width=3D"24" =
+style=3D"width:24px" alt=3D"X">=0A</a>=0A</td>=0A<td width=3D"24" style=3D"=
+width:24px"></td>=0A<td align=3D"left" class=3D"subtext_image" style=3D"col=
+or: #4D4D4D; font-family: Arial, Helvetica, sans-serif; font-size: 13px; li=
+ne-height: 15px">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DABaJMMEW=
+MYflMAeJT7Buha2UTeIBehnKQv%2F4GxFfiTN%2BPWAW0D2C0Qpz1Da5X33CdcPN0z9m1PcfU0r=
+frMyb9T19PrT39fWjAr1idPie6zaFVX1wSSck4EFGlDd7Oy4z%2FjTVtGR8zmmOyq1qAeKIHP7N=
+W20qV4i0WmStFQfZYRJTuNF%2BsMOycHrlHglzs5KnT971hNQeJqTlVQ3X55fw0htvuNhr5lNAn=
+F5p91EtWRdHrT8WuYk1KTEOOvVEUT1cc2GaSJTHiBRy9TdJbamO1utyADixTBYwalAhRUgi5LNs=
+VbhexQexHeve4ProT%2BPWzA%3D%3D" target=3D"_blank">=0A<img src=3D"https://st=
+atic.crm.tacdn.com/vt/co/instagramblackvtlogov3.png" border=3D"0" width=3D"=
+30" style=3D"width:30px" alt=3D"Instagram">=0A</a>=0A</td>=0A<td width=3D"2=
+4" style=3D"width:24px"></td>=0A<td align=3D"left" class=3D"subtext_image" =
+style=3D"color: #4D4D4D; font-family: Arial, Helvetica, sans-serif; font-si=
+ze: 13px; line-height: 15px">=0A<a href=3D"https://www.viator.com/MptUrl=3F=
+p=3DALDjgwtie8H7umVpze7rLTx1UWSutEvgwM1EbUCOaHV57MiV0GzlPULW6ipD5sPAVltSdjf=
+Jx1SO3mf1PfI0KIf18x2d3k91Hq2Egz2VQWBYdeqPkixSCPxxRG2K5bxZAJOgvjWL1xCtOU6P%2=
+BFspFLooflXen6UGo85RlRYW1wmm6g489qVm7GONpF254sk%2BwhYW8B21R1fHa%2FDx2ZGEp7n=
+DsNTQfiuzJiWY5aBoO3p9n%2FaNbDS1NvF7T34Y3%2FuCxJWe0Zlw6av7IYMCjVy%2FtzOENlsJ=
+Bcxx5buJSl3sGvk1vTyesKLpq0W6oGt3fDeF6w%3D%3D" target=3D"_blank">=0A<img src=
+=3D"https://static.crm.tacdn.com/vt/co/footer/tiktok_logo_black_nobg.png" b=
+order=3D"0" width=3D"30" style=3D"width:30px" alt=3D"TikTok">=0A</a>=0A</td=
+>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A<tr>=0A<t=
+d height=3D"1" class=3D"border" style=3D"background-color: #4D4D4D; border-=
+collapse: separate; font-size: 0px; height: 1px; line-height: 1px; mso-line=
+-height-rule: exactly; mso-table-lspace: 0pt; mso-table-rspace: 0pt">=0A&nb=
+sp;=0A</td>=0A</tr>=0A<tr>=0A<td valign=3D"top" class=3D"section_spacing se=
+ction_spacing_bottom_xl" style=3D"padding-bottom: 32px; padding-top: 24px">=
+=0A<table role=3D"presentation" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%">=0A<tr>=0A<td valign=3D"top" align=3D"left" width=3D"=
+251" class=3D"email_column" style=3D"width: 251px">=0A<table role=3D"presen=
+tation" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"left">=0A=
+<tr>=0A<td class=3D"secondary section_spacing_bottom align_left" style=3D"c=
+olor: #4D4D4D; font-family: Arial, Helvetica, sans-serif; font-size: 15px; =
+line-height: 18px; mso-line-height-rule: exactly; padding-bottom: 24px; tex=
+t-align: left">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=3DABQNpIQ%2B=
+OK5%2BJ35VIJmgfvqrk96iqFmKeIbDTAI7oSDilhwkDOaiwY82WC%2FmhQ%2FGPwL6%2BT5Meyl=
+BlZK6sQdyyWcUEdUbnp4ZqDFJh99%2FoaPSS873vvED42W328RG7LiSgPJQm3XOnCaVti8iBsdj=
+muCptbNspZ8TS8Md7nfPn%2BNjGdYl94aywqNKBI35nTv2do8JdOMr1nx5FSDrQe36LOfcDKhal=
+KHGXR7PtnM%2BQVmaVpKsM0BtvXyVzr9ap3LwfdGCz3xv6uoNzQ4YfxItGVUqgW9wsCAs%2FF8X=
+4OhRH%2FjllFpTvjLY0Ng915B%2F61mzURidN8l2IBTWsHQMZiQgiVyt0W6iUiCKGz9pho1%2Bs=
+mwc%2BB1iQWY9%2BjCGcxrmcl2Z%2Bgj9u6zU6bHDcIanvdrpQyc%3D" target=3D"_blank" =
+class=3D"tc_black_vt" style=3D"color: #000000">=0AGo to Viator=0A</a>=0A</t=
+d>=0A</tr>=0A<tr>=0A<td class=3D"secondary section_spacing_bottom align_lef=
+t" style=3D"color: #4D4D4D; font-family: Arial, Helvetica, sans-serif; font=
+-size: 15px; line-height: 18px; mso-line-height-rule: exactly; padding-bott=
+om: 24px; text-align: left">=0A<a href=3D"https://www.viator.com/MptUrl=3Fp=
+=3DADE3vmaLf6mCM%2BRAKD6fh74a9qNg9TaX8XcRI%2BgSGNMCNccGaS%2FE82QdrOYAYk8H8d=
+ysNAX0NdwxLLjAQdsWwrGcFp%2FYwO0B8Uw19rSbl6YWAe7oqENXQEx6WtxrWcAPIlewZslU9oQ=
+n353zuMEZQfpzfTuAbtD8CGeJcWx6oBrcfPsrjgOSIl9BvVfF%2BUhsjJcjexgtnM0jfNC7Zc7r=
+lwQccQw2C2s6xvL%2BeYdAV%2BOFyzj5FJX2XL%2BdLx7hnMFaQPeYWoN8QQxrt4qGbnoAbxB2e=
+%2F5LQBDUkZT0RB9pKBCp1O%2BZXhzz%2BNWWZCIOpAFM1LlGDOK%2F0wIr3wObflR27ajy%2Fx=
+hctA%2F%2BF9OY0MvDK%2Fz48Oi6iUFPuzJejKnJsQEZRJ3Xkr2lwaVEiblcVFZEet9x1T7rSN6=
+V5BrZE3L%2BusWsqJlmyBGab4t2XenWs5fn7A%3D%3D" target=3D"_blank" class=3D"tc_=
+black_vt" style=3D"color: #000000">=0APrivacy Policy=0A</a>=0A</td>=0A</tr>=
+=0A<tr>=0A<td class=3D"secondary align_left" style=3D"color: #4D4D4D; font-=
+family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 18px; m=
+so-line-height-rule: exactly; text-align: left">=0A<a href=3D"https://www.v=
+iator.com/MptUrl=3Fp=3DAE2Ui9wVEsaqEk%2Fktz3w%2FNJk5Fx6RRJgzxut8tSMvKpAf2dS=
+tsGl%2FEpxWTmhHcWk%2F5hZUQe3XFb0en6K%2BiYLGMUmRNhesjifTCQWiTGWIquu2plt0IzlC=
+x81WESCHNAT3q2oPpSXdTo2hhDL6f7WWksy88cO7KyJy5XA7i1wgHMIoaVFd8i6d4CdCj1zhkEP=
+n6lT9nd%2F25%2FDWlkq%2BAGqR6AZZk9XpvaK1Qt2XnFBYgHlBYGImSS37SshonM7YVVXED%2B=
+f%2FIo3Xnki%2B0Jqia4pEXhfNfIK4vt%2BhWLEa7IoG9i66ADlbokZKKhKFudaHiXlu24j1Xcb=
+HJbsGPTshkI32D64qIVyDwdX4vgbe9%2B7xti9kBP6Wz8vt5Lz6ZgsDFrc5nKr1L8j4C2R5ATD4=
+PgoPdhzTkDcAE6VWe%2FgkOlBlj62DyAsdhW4SMHxzOw%2Flr44sg%3D%3D" target=3D"_bla=
+nk" class=3D"tc_black_vt" style=3D"color: #000000">=0ATerms of Use=0A</a>=
+=0A</td>=0A</tr>=0A</table>=0A</td>=0A<td width=3D"16" class=3D"gutter" sty=
+le=3D"width: 16px"></td>=0A<td valign=3D"top" align=3D"left" width=3D"251" =
+class=3D"email_column" style=3D"width: 251px">=0A<table role=3D"presentatio=
+n" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"right">=0A<tr>=
+=0A<td class=3D"footer section_spacing_bottom_md align_left" style=3D"color=
+: #4D4D4D; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line=
+-height: 15px; mso-line-height-rule: exactly; padding-bottom: 16px; text-al=
+ign: left">=0A<p style=3D"all: unset; font-size: inherit; font-weight: inhe=
+rit; margin: 0">=0APlease do not reply directly to this email. This was sen=
+t from an address that cannot accept responses. For questions or assistance=
+, <a href=3D"https://www.viator.com/MptUrl=3Fp=3DAK0NAd9f1vd91fxbFHjW7Z21aW=
+GxPYdAWLQCtQu9xPM8xXp1m1c2mhJ9PSalMkxjWvAIDXkkZu0clo85FVo8I7ulOGVTGlDbyJSaH=
+nQekjeECqWG1mtOAB2St7A955lesVVMlY1yHSy5kkv%2FmLedXK%2Bz%2Fl6wH1GDUDY6ZHwoOs=
+0XT%2Bmk63Kgcu3vObG7zdBCifxD6l8lWcwJFyHV0uff5fut2wDbnz4crLi3HrchMnNdQkgIFQG=
+dr9XjXC9qA6UySnC3J%2Bjc9kcNTU2vUTTzd60wgalPkWXKhE25mofUGC5S19EFHPzS83vMYsl3=
+gR3CU%2FOFZkl%2FFQDV12pWka%2FhSJLzSvxMDzlBIbAwqQ70iaTdTs3Sn07s2Dn9hIscD2PZm=
+ESHH2ruZIRO2%2BBinJi96nbZ68sRQnZeAq5d2ote8NfV" target=3D"_blank" alias=3D"F=
+OOTERHELPCENTERLINK" style=3D"text-decoration:underline;color:#000000;">vis=
+it our Help Center</a>.=0A</p>=0A</td>=0A</tr>=0A<tr>=0A<td class=3D"footer=
+ align_left section_spacing_bottom_md" style=3D"color: #4D4D4D; font-family=
+: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 15px; mso-lin=
+e-height-rule: exactly; padding-bottom: 16px; text-align: left">=0A<p style=
+=3D"all: unset; font-size: inherit; font-weight: inherit; margin: 0">=0AVia=
+tor, Inc., 400 First Ave, Needham, MA 02494=0A</p>=0A</td>=0A</tr>=0A<tr>=
+=0A<td class=3D"footer section_spacing_bottom_md align_left" style=3D"color=
+: #4D4D4D; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line=
+-height: 15px; mso-line-height-rule: exactly; padding-bottom: 16px; text-al=
+ign: left">=0A<p style=3D"all: unset; font-size: inherit; font-weight: inhe=
+rit; margin: 0">=0A&copy; 2026 Viator, Inc. All rights reserved.=0A</p>=0A<=
+/td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</table>=0A</td>=0A</tr>=0A</tabl=
+e>=0A</td>=0A</tr>=0A</table> </table></u></u></table></u></u></table></tab=
+le></td>=0A</tr>=0A</table>=0A<div style=3D"display:none; white-space:nowra=
+p; font:15px courier; line-height:0"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; </div>=0A</body>=0A</html>
+

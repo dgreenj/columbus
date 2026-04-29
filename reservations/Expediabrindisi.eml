@@ -1,0 +1,814 @@
+Delivered-To: dgreenj@gmail.com
+Received: by 2002:a05:7412:1010:b0:1ce:18f4:f5f with SMTP id h16csp294601rdc;
+        Wed, 29 Apr 2026 10:24:19 -0700 (PDT)
+X-Received: by 2002:ad4:5f48:0:b0:8ac:a5bc:a6b4 with SMTP id 6a1803df08f44-8b3edd8c557mr76013646d6.36.1777483459148;
+        Wed, 29 Apr 2026 10:24:19 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1777483459; cv=none;
+        d=google.com; s=arc-20240605;
+        b=CmYYuABkNt2ovUz9B3vWG9rL14O8/hROtyBQ0NE8iKlY9yNZm4Mf+KvHUG+XI9xF6n
+         aIi+VWsApItFn320VtPyNjj41disRbLSAiu+P9AsWxa+FOK3aUM7Px1YQ0s1NPq1OTN1
+         vva0jSgYv5vUaj7T1NSOa3zby8y6ESZF4DV8K6bwPIJxWnIGLG5FcL5E3lKNfKGYf/op
+         nG7xY/cbRh3kiJUyDMF+//tv++KbT83T1q5aaD3Mqtg2zoD+6iC9pgeM+jG2a3jus10V
+         vVy3T2XvNuexg6Ib60QhsxVfqXsJQBQWHQqV2pNk56otuyax4iQa6HH5PmRO83lCekOS
+         XNNg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:message-id:reply-to:mime-version:list-help:date:subject
+         :to:from:dkim-signature:dkim-signature;
+        bh=bFcdbxCF5i5NJpUnJhysEcHQV7/QxUDe8axYXX2tlxA=;
+        fh=4rZHB0Ml2u90Hmj+m9X4ATFmNggnKZC+SHI1SzmHvYE=;
+        b=hgLTNBsT6NV2s0SdpnU9vTyoMdBv6UY8BPhhvIRToHiR/+8Fph6najNMuIK8HtSAad
+         UGpRMIbnIO1IJXmO5PhCMQ2z+Zd7sPGkxeIPdTSRHKjDmabrx/ROW3dup3OU85czvf2W
+         L3EBLOLlQ/5L/DRJ21itk1CPCejTiGjQZdjliqWltY+nNLXq/smUTmeTfGavS+utwxma
+         tAiik/MYU0/c7ZCMeMchGxxTpdwNF2PBYN4/wcz46zcilOiTSmeNLg3tfpLA5O9FWtB2
+         PmUE5a7xqDwzGtbmk+IILcYMZlsqq5P1Sy01OBgk/6HpyPAtY7GF19GjYa0bl2v3HFLI
+         WILA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@eg.expedia.com header.s=12dkim1 header.b="ogX+tL/I";
+       dkim=pass header.i=@s12.y.mc.salesforce.com header.s=fbldkim12 header.b=HLxiLNlz;
+       spf=pass (google.com: domain of bounce-zct4deqtk7ounepl5uvh2uri3m.120042@bounce.eg.expedia.com designates 13.110.210.92 as permitted sender) smtp.mailfrom=bounce-ZCT4DEQTK7OUNEPL5UVH2URI3M.120042@bounce.eg.expedia.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=eg.expedia.com
+Return-Path: <bounce-ZCT4DEQTK7OUNEPL5UVH2URI3M.120042@bounce.eg.expedia.com>
+Received: from mta17.eg.expedia.com (mta17.eg.expedia.com. [13.110.210.92])
+        by mx.google.com with ESMTPS id 6a1803df08f44-8b3ef7124a8si39268306d6.5.2026.04.29.10.24.18
+        for <dgreenj@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 29 Apr 2026 10:24:19 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-zct4deqtk7ounepl5uvh2uri3m.120042@bounce.eg.expedia.com designates 13.110.210.92 as permitted sender) client-ip=13.110.210.92;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@eg.expedia.com header.s=12dkim1 header.b="ogX+tL/I";
+       dkim=pass header.i=@s12.y.mc.salesforce.com header.s=fbldkim12 header.b=HLxiLNlz;
+       spf=pass (google.com: domain of bounce-zct4deqtk7ounepl5uvh2uri3m.120042@bounce.eg.expedia.com designates 13.110.210.92 as permitted sender) smtp.mailfrom=bounce-ZCT4DEQTK7OUNEPL5UVH2URI3M.120042@bounce.eg.expedia.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=eg.expedia.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=12dkim1; d=eg.expedia.com;
+ h=From:To:Subject:Date:List-Help:MIME-Version:Reply-To:Message-ID:Content-Type;
+ i=expedia@eg.expedia.com;
+ bh=bFcdbxCF5i5NJpUnJhysEcHQV7/QxUDe8axYXX2tlxA=;
+ b=ogX+tL/IjKNs/u34bVTVsSzwwdhn5MJn+NxvSembKQNfC7YMdtPUdllyDfKI6gu+ZPAxhZL/xhdi
+   mZVukU2j+enPWAvf35v23M/5rkgD7T6QNhrwu5CBXa1vyUHZ+7GclVz/KGFAQFnC7JHxPex1RjfI
+   S0NnDtDknQvz0r+nL97ktb/Et/z57rJKAYkSg/RvD1WVV27zeZ21ie1yRHnvZDAhjZZg+9z3iZaO
+   Y8WGFyn1CWInOlfg2i3JOjreKusLi3C4KL164ett3IuOqKBZGLrrQGThCF9zaJ5a+B7ZxN38YHIb
+   xpAevjXNZmp+6ryj4YQiRyvIDmf5e8sYLBnTVg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=fbldkim12; d=s12.y.mc.salesforce.com;
+ h=From:To:Subject:Date:List-Help:MIME-Version:Reply-To:Message-ID:Content-Type;
+ bh=bFcdbxCF5i5NJpUnJhysEcHQV7/QxUDe8axYXX2tlxA=;
+ b=HLxiLNlz5iGWqGGCdeddp9UBf0jv0yrqh6wmUPopSCF0ZtZcqpBvUocR0RaICOtRf6gZs+iPttg+
+   6xxB5whM3tRRoyqZVMpuWTnb5qmfB9EgEzC71vcPWoZQQFSzh+2Jc9NLfjzmRAyzZorV7n/jRPsX
+   ZbPqHixuW3K809g4AyJGEnQrHIJCWpc+02tYCR8Lm89Ueloh7EgEjbf0iurLR4sVyQw/nqIIoECM
+   bvL095TI+hzKcfyyFmDnXMxjnDCfrzi/ifWWRGcITitF8a/5T08Ia0r/xjKSYLCbB/Y2aAIMtXGY
+   wu+C4SR9sE1xGdOad6V6zBe8GaED6NL2snUmng==
+Received: by mta17.eg.expedia.com id hu8vc62fmd40 for <dgreenj@gmail.com>; Wed, 29 Apr 2026 17:24:18 +0000 (envelope-from <bounce-ZCT4DEQTK7OUNEPL5UVH2URI3M.120042@bounce.eg.expedia.com>)
+From: "Expedia.com" <expedia@eg.expedia.com>
+To: <dgreenj@gmail.com>
+Subject: Expedia travel confirmation - Sat, Jun 13 - (Itinerary # 73435335535420)
+Date: Wed, 29 Apr 2026 11:24:18 -0600
+List-Help: <https://click.eg.expedia.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiI1MjYwMDE3NTEiLCJzIjoiNzA3MTMwOTEiLCJsaWQiOiI3MiIsImoiOiI3MjUyMDIiLCJqYiI6IjE2OTQzNSIsImQiOiIxMjAwNDIifQ.B3-87f1RB5aIFzKPQ-NZ1w54TilaEXtefLWv4MydOTA>
+MIME-Version: 1.0
+x-messageKey: e65dc422-5b6e-4326-8902-d7cd5a6dd6a5_31478333-070c-48bc-a3cb-d8a853f74ab5
+X-Delivery: Transactional
+X-SFMC-Stack: 12
+x-job: 526001751_725202
+Reply-To: "No Reply" <reply-DWC262BUZO3EBDCT73I6BVH7ZA.120042@eg.expedia.com>
+Message-ID: <c6444fb7-2dc6-4b74-b356-3e4287e00aac@iad4s12mta352.xt.local>
+Feedback-ID: 526001751:725202:13.110.210.92:sfmktgcld
+Content-Type: multipart/alternative;
+	boundary="GUpQsTxEEojh=_?:"
+
+This is a multi-part message in MIME format.
+
+--GUpQsTxEEojh=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+
+--GUpQsTxEEojh=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+
+
+ <!doctype html><html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title></title>
+
+
+
+    
+
+
+
+
+
+
+
+
+<style>
+div, p, h1, h2, h3, h4, span {font-family: Helvetica, Arial, sans-serif;}
+  
+  @media screen {
+   .button-primary, .button-secondary {font-weight: 500!important;}
+   .badge {font-weight: 500!important;} 
+   }
+</style>
+
+
+
+
+<style>
+ 
+   @media screen {
+     
+   @font-face {
+   font-display: swap;
+   font-family: 'Centra No2';
+   src:url("https://a.travel-assets.com/egds/fonts/CentraNo2/CentraNo2-Book.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
+   mso-font-alt: "Centra No2";
+   mso-generic-font-family: swiss;
+   }
+   @font-face {
+   font-display: swap;
+   font-family: 'Centra No2';
+   src:url("https://a.travel-assets.com/egds/fonts/CentraNo2/CentraNo2-Medium.woff2") format("woff2");
+   font-weight: 500;
+   font-style: normal;
+   mso-font-alt: "Centra No2";
+   mso-generic-font-family: swiss;
+   }
+   @font-face {
+   font-display: swap;
+   font-family: 'Centra No2';
+   src:url("https://a.travel-assets.com/egds/fonts/CentraNo2/CentraNo2-Bold.woff2") format("woff2");
+   font-weight: bold;
+   font-style: normal;
+   mso-font-alt: "Centra No2";
+   mso-generic-font-family: swiss;
+   }
+   p, h2, a, li, span { font-family: 'Centra No2', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif!important; }
+   .h-dark, .heading, .custom-font-weight-500, .button__primary__link, .button__secondary__link { font-weight: 500!important; }
+   }
+</style>
+
+
+<style>
+    @media screen {
+         @font-face {
+            font-display: swap;
+            font-family: "Reckless XPD";
+            src: url("https://a.travel-assets.com/egds/fonts/RecklessXPD/RecklessXPD-Regular.woff2")
+                format("woff2");
+            font-weight: 400;
+            font-style: normal;
+            mso-font-alt: "Reckless XPD";
+            mso-generic-font-family: roman;
+        }
+         .custom-heading-font, .custom-heading-font .link, .custom-heading-font span {
+            font-family: 'Reckless XPD', Times, 'Times New Roman', serif !important;
+        }
+    }
+</style>
+
+
+
+ <!--[if !mso]><!-->
+    <style>
+        #MessageViewBody, #mail-message-header {height:140px!important;}
+        #MessageViewBody, #MessageWebViewDiv {width: 100% !important;}
+        a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        }
+     </style>
+     <style>
+        :root {
+        color-scheme: light dark;
+        supported-color-schemes: light dark;
+        }
+     </style>
+     <style>
+        .no-custom-font { font-family: Helvetica, Arial, sans-serif!important; }
+        .border-radius {border-radius: 4px!important;} 
+        .border-radius-top-left { border-top-left-radius: 4px!important;}
+         .border-radius-top-right{ border-top-right-radius:  4px!important;}
+         .border-radius-bottom-left { border-bottom-left-radius:  4px!important;}
+         .border-radius-bottom-right { border-bottom-right-radius:  4px!important;}
+     </style>
+     <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+    </style>
+<!--<![endif]-->
+       <!--[if mso]>
+      <noscript>
+         <xml>
+            <o:OfficeDocumentSettings>
+               <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+         </xml>
+      </noscript>
+      <![endif]-->
+      <!--[if true]>
+      <style> body, table tr, table td, p, a, span {font-family: Arial, Helvetica, sans-serif !important;}</style>
+      <![endif]-->
+      <!--[if gte mso 9]>
+      <style>
+         sup { font-size: 90% !important; }
+      </style> 
+      <![endif]--><style> 
+   @media screen and (max-width: 600px) {
+   .w100pc {width: 100%!important; height: auto!important;}
+   .w100pc-only {width: 100%!important;}
+   .w50pc {width: 50%!important; height: auto!important;}
+   .w54 {width: 54px!important; height: auto!important;}
+   .w32 {width: 32px!important; height: auto!important;}
+   .h500 {height:500px!important;}
+   .wauto {width: auto!important;}
+   .hauto {height: auto!important;}
+   .max-w-full {max-width: 100%!important;}
+   .nomob {display: none!important;}
+   .showmob {display: block!important;overflow: visible!important;float: none!important;width: 100%!important;height: auto!important;}
+   .showmobtable {display: table!important;}
+   .text-align-left {text-align: left!important;}
+   .text-align-center {text-align: center!important;}
+   .text-align-right {text-align: right!important;}
+   .m0 {margin: 0!important;}
+   .mt-0 {margin-top: 0px!important;}
+   .mt-24 {margin-top:24px!important}
+   .mr-0 {margin-right: 0px!important;}
+   .mr-8 {margin-right: 8px!important;}
+   .ml-0 {margin-left: 0px!important;}
+   .ml-8 {margin-left: 8px!important;}
+   .ml-12 {margin-left: 12px!important;}
+   .mb-0 {margin-bottom:0px!important;}
+   .mb-12 {margin-bottom: 12px!important;}
+   .mb-16 {margin-bottom:16px!important;}
+   .marb8m {margin-bottom:8px!important;}
+   .p0 {padding: 0!important;}
+   .plr-8 {padding-left: 8px !important; padding-right: 8px !important;}
+   .block {display: block!important;}
+   .gutter-margin {margin-left: 32px!important; margin-right: 32px!important;}
+   .gutter-padding {padding-left: 32px!important; padding-right: 32px!important;}
+   .padtb64m {padding-top: 64px !important; padding-bottom: 64px !important;}
+   .pads16m {padding-right: 16px !important; padding-left: 16px !important;}
+   .display-table table, .display-table tbody, .display-table tr {width: 100%!important; display: table!important;}
+   .table-cell {display: table-cell!important;}
+   .colsplit {width: 100%!important; float: left!important; display: block!important;}
+   .display-header {width: 100%!important; display: table-header-group!important;}
+   .display-footer {width: 100%!important;display: table-footer-group!important;}
+   .responsive-td {width:100% !important;display:block !important;padding:0!important;}
+   .clear-bg {background-image:none!important;}
+   }
+</style>
+<style> 
+   @media screen and (max-width: 480px) {
+   .pads16m {padding-left: 16px!important;padding-right: 16px!important;}
+   .button-full-width {display: block!important; text-align: center!important;}
+   }
+</style>
+<style>
+  @media (prefers-color-scheme: dark ) {
+
+  /* Darkmode Icon Support */
+  .dark-img {
+      display:inline-block!important;
+      overflow: visible!important;
+      float: none!important;
+      max-height:inherit!important;
+      max-width:inherit!important;
+      line-height: normal!important;
+      margin-top:0px!important;
+      visibility:inherit!important;
+    }
+  .light-img {
+      display:none;
+      display:none !important;
+    }
+  /* Typography Core */
+  .paragraph, .p-dark {
+    color: #F3F3F5 !important;
+  }
+  .heading, .h-dark {
+    color: #FFFFFF !important;
+  }
+  .link {
+    color: #80B2F4 !important;
+  }
+  .inverse-link {
+    color: #FFFFFF !important;
+  }
+  /* Typography Additional */
+  .list-icon {
+    color: #F3F3F5 !important;
+  }
+  .text-default {
+    color: #F3F3F5 !important;
+  }
+  .text-negative {
+    color: #F55669 !important;
+  }
+  .text-positive, .color-positive {
+    color: #57CA61 !important;
+  }
+  /* Backgrounds & dividers */
+  .background-base, .section, .column, .column-no-stack, .one-col, .two-col-no-stack, .button__secondary__link, .card-secondary {
+    background-color: #0C0E1C !important;
+  }
+  .background-contrast {
+    background-color: #191E3B !important;
+  }
+  .border-muted {
+    border-color: #4D5167 !important;
+  }
+
+  /* Badges */
+  .badge-extra-high-tier {
+    background-color: #C3C3CF !important;
+  }
+  .badge-high-tier {
+    background-color: #FFB800 !important;
+  }
+  .badge-middle-tier {
+    background-color: #707480 !important;
+  }
+  .badge-low-tier {
+    background-color: #304CA2 !important;
+  }
+  .badge-utility-standard {
+    background-color: #676A7D !important;
+    color: #FFFFFF !important;
+  }
+  /* Banners */
+  .banner-critical {
+    background-color: #CACCD2 !important;
+  }
+  .banner-error {
+    background-color: #F55669 !important;
+  }
+  .banner-heading {
+    color: #0C0E1C !important;
+  }
+  .banner-text {
+    color: #0C0E1C !important;
+    }
+  .banner-link {
+    color: #0C0E1C !important;
+  }
+  /* Buttons */
+  .button-primary {
+    background-color: #3D84F0 !important;
+    color: #0C0E1C !important;
+  }
+  .button-secondary {
+    background-color: #0C0E1C !important;
+    color: #FFFFFF !important;
+    border-color: #4D5167 !important;
+  }
+  .button-tertiary {
+    color: #FFFFFF !important;
+  }
+
+  /* Cards */
+  .card {
+    border-color: #4D5167 !important;
+  }
+  .card-primary {
+    background-color: #0C0E1C !important;
+  }
+  .card-secondary {
+    background-color: #191E3B !important;
+  }
+  .card-highlight, .color-accent-1-50 {
+    background-color: #292929 !important;
+  }
+  
+  /* Pill */
+  .pill {
+    background-color: #0C0E1C !important;
+    border-color: #676A7D !important;
+    color: #F3F3F5 !important;
+  }
+
+  /* Themes */
+  .light-1-primary-container-variant {
+    background-color: #292929 !important;
+  }
+
+   /* Custom Button */
+  .light-1-primary {
+    background-color: #1668E3 !important;
+    color: #FFFFFF !important;
+  }
+
+  /* fallback for foundation token */
+  .color-brand-1 { background-color: #191E3B !important; }
+  
+  .p-emlcid {color:#0C0E1C !important;}
+}
+</style>
+<style type="text/css">
+  @media only screen and (max-width: 480px) {
+    .container {
+      width: 100% !important;
+    }
+    .footer {
+      width:auto !important;
+      margin-left:0;
+    }
+    .mobile-hidden {
+      display:none !important;
+    }
+    .logo {
+      display:block !important;
+      padding:0 !important;
+    }
+    .header img{
+      max-width:100% !important;
+      height:auto !important;
+      max-height:auto !important;
+    }
+    .photo img {
+      width:100% !important;
+      max-width:100% !important;
+      height:auto !important;
+    }
+    .drop {
+      display:block !important;
+      width: 100% !important;
+      float:left;
+      clear:both;
+    }
+    .footerlogo {
+      display:block !important;
+      width: 100% !important;
+      padding-top:15px;
+      float:left;
+      clear:both;
+    }
+    .nav4, .nav5, .nav6 {
+      display: none !important;
+    }
+    .tableBlock {
+      width:100% !important;
+    }
+    .fluid, .fluid-centered {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    .fluid-centered {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container {
+      width:100% !important;
+    }
+    .mobile-hidden {
+      display:none !important;
+    }
+    .logo {
+      display:block !important;
+      padding:0 !important;
+    }
+    .photo img {
+      width:100% !important;
+      height:auto !important;
+    }
+    .nav5, .nav6 {
+      display: none !important;
+    }
+    .fluid, .fluid-centered {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    .fluid-centered {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+  }
+</style>
+
+</head><body id="body" class="body background-contrast" style="margin:0; padding: 0; background-color: #EFF3F7"><div style="font-size: 0; line-height: 0; overflow: hidden;"><img src="https://click.eg.expedia.com/open.aspx?DTEA7MGAJXPETBK6AERONJ4S7M.120042&d=120042&bmt=0" width="1" height="1" alt=""></custom></div><!-- Preheader --><!-- MODULE START: Preheader --><!-- MODULE END: Preheader --><div style="visibility:hidden; color:transparent; display: none; font-size: 0px; line-height: 0px; max-height: 0px; max-width: 0px; width: 0px; opacity: 0; overflow: hidden;">Thank you for your reservation</div><!--[if !mso]><!--><div style="display: none; font-family: sans-serif; max-height: 0px; overflow:hidden;"> ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌</div><!--<![endif]-->
+<div role="article" aria-roledescription="email" lang="en" style="font-family: Helvetica, Arial, sans-serif; padding: 0; margin: 0;" dir="LTR" class="expedia EXPEDIA"><table role="presentation" width="100%" class="background-contrast" border="0" cellpadding="0" cellspacing="0" style="width:100%; background-color: #EFF3F7;" dir="LTR"><tbody><tr><td class="background-contrast" width="100%" valign="top" align="center" style="background-color: #EFF3F7;"><table role="presentation" class="background-base w100pc" width="600" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="background-base" width="100%" valign="top" style="background-color: #FFFFFF;"><!-- MODULE START: Header --> <!-- MODULE START: Header -->
+
+<table role="presentation" class="background-base" width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color: #FFFFFF;"><tr><td width="100%" align="center">
+  <table role="presentation" width="600" class="background-base w100pc" border="0" cellpadding="0" cellspacing="0" style="background-color: #FFFFFF;"><tr><td align="center" style="width: 100%; text-align:center; padding: 23px 32px 23px 29px;">
+    <a style="display:block; line-height: 0; text-decoration: none;" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCJmOcXhOJRihv4bpihJh5j2ZfSF_obFt_n82l4bQGm1An6fhppO2fV9M1vKvDYLPEtlEtRxbGy5MllaYcCe2ZJWtEQZ8X_dSHgyYVrfsGK">
+      <img class="light-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/expedia_white_bg.png" alt="Expedia logo" height="33" style="font-family: sans-serif; font-size: 16px; border: 0; height: 33px; width: auto; line-height: 100%; outline: none; text-decoration: none; display: inline-block;" border="0">
+      <!--[if !mso]><!-->
+      <img class="dark-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/Expedia_Logo_Dark.png" alt="Expedia logo" height="33" style="font-family: sans-serif; font-size: 16px; border: 0; height: 33px; width: auto; line-height: 100%; outline: none; text-decoration: none; display: none;" border="0">
+      <!--<![endif]-->
+    </a>
+  </td></tr></table>
+</td></tr><!--[if gt mso 15]><tr><td style="font-size:0;line-height:0.1pt;">&nbsp;</td></tr><![endif]--></table>
+<!-- divider -->
+  
+  <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+       <td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; border-top: 1px solid #DFE0E4; font-size: 16px;">&nbsp;</td>
+    </tr>
+ </table>
+
+<!-- MODULE END: Header -->
+  <!-- MODULE END: Header --><!-- MODULE START: Hero - Image --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:16px;height:16px;font-size:16px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;">
+<!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><h2 style="color: #191E3B; font-size: 16px; line-height: 126%; font-weight: normal; margin: 0px 32px 4px 32px; text-align: left;" class="typography__heading_6 h-dark custom-font gutter-margin"><strong style="">All set, Dan. Your hotel is confirmed.</strong></h2></div><!--[if true]></td></tr></table><![endif]--></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:16px;height:16px;font-size:16px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Hero - Image --><!-- MODULE START: Component - Button CTA --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]-->
+<div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="font-weight: normal; margin: 0px 32px 0px 32px; text-align: left; color: #FFFFFF; font-size: 16px; " class="text-align-center custom-font button__primary "><a style="display: inline-block; text-decoration: none; text-transform: none; font-weight: normal; padding: 8px 16px; border-radius: 40000px; background-color: #1668E3; font-size: 16px; line-height: 126%; mso-padding-alt: 0; mso-border-alt: 8px solid #1668E3; color: #FFFFFF; " class=" block custom-font button-primary button__primary__link " href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCK7sKiMoEmU7fKb0u_QDMeCfGnKWPHCgv9_q7P-eKkez6qpESRGioDwDBxueP8Op8rfKEDVyOzpVFubRMQW2vn8Prx6_sjX8p1YtqJsUEi" ><span>View full itinerary</span></a></p></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:16px;height:16px;font-size:16px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Button CTA --><!-- MODULE START: Hero - Card --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:16px;height:16px;font-size:16px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr>
+<td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="margin: 0px 32px 0px 32px; text-align: center;" class="gutter-margin "><a href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCL9_kPKryel4Ax14T2zoqf_Ivg2zvtpY9cT2Zj4z3D3bChEJE_yOqXozf2abY6DYzoAekp0LzwUGDcL5U_g9yH4EBu42M9YJZdbfGJCj3y" ><img width="536" style="display: inline-block; width: 100%; max-width: 536px; height: auto; border-radius:12px 12px 0px 0px;" src="https://images.trvl-media.com/lodging/11000000/11000000/10999900/10999859/f0c42450_z.jpg" class=" max-w-full w100pc "></a></p></div><!--[if true]></td></tr></table><![endif]--></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF; display: block; padding: 0 32px 0px 32px; max-width: 536px; background-color: #FFFFFF;"><div class="heroCardBottom" style=" display: table; width: 100%; margin: 0 auto; text-align: left; background-color: #181F3E; border-radius: 0px 0px 12px 12px; "><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: left; background-color: #181F3E;" dir="LTR"><tr><td style="width:32px;background-color: #FFFFFF"></td><td style="width: 536px;"><![endif]--><div style="display: table-cell; vertical-align: middle;"><div style="line-height:24px; height:24px; font-size:24px"> </div><h2 style="color: #FFFFFF; font-size: 20px; line-height: 120%; font-weight: normal; margin-right: 0; text-align: left; margin: 0px 32px 16px 32px;" class="h-dark custom-font gutter-margin">Hotel Executive Inn</h2>
+<p style="color: #FFFFFF; font-size: 14px; line-height: 144%; margin-right: 0; text-align: left; margin: 0px 32px 0px 32px; " class="typography__paragraph_2 p-dark custom-font gutter-margin ">Expedia itinerary: 73435335535420</p><!-- Banner CTA --><div style="line-height:24px; height:24px; font-size:24px"> </div></div><!--[if true]></td><td style="width:32px;background-color: #FFFFFF"></td></tr></table><![endif]--></div></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]-->
+<div style="line-height:24px;height:24px;font-size:24px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Hero - Card --><!-- MODULE START: Divider - Line --><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" class="" style="padding: 8px 32px 24px 32px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4; font-size: 0;"></td></tr></tbody></table></td></tr></tbody></table><!-- MODULE END: Divider - Line --><!-- MODULE START: Icon Card - Primary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column-no-stack" style="display: table; width: 100%; margin: 0 auto; max-width: 600px;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%;"><tr><![endif]--><!--[if true]><td style="width: 9%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 9%;vertical-align: top;"><p style="margin: 2px 32px 8px 32px; margin-right: 0px" class="">  
+    <img alt="" class="light-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__person_fill_color__default__expedia.png" style="border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+    
+      <!--[if !mso]><!-->
+      <img alt="" class="dark-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__person_fill_color__default_dark__expedia.png" style="display:none; border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+      <!--<![endif]-->
+    
+    
+    
+
+ </p></div><!--[if true]></td><![endif]--><!--[if true]><td style="width: 91%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 91%;text-align: left; vertical-align: top"><h2 style="text-align: left; margin: 4px 32px 8px 32px; margin-left: 8px; color: #191E3B; font-size: 20px; line-height: 120%;" class="typography__heading_5 h-dark custom-font">Traveler details</h2><ul style="margin: 0; padding-left: 16px;"></ul><p style=" text-align: left; margin: 0px 32px 16px 32px; margin-left: 8px; color: #191E3B; font-size: 14px; line-height: 144%; " class=" p-dark custom-font ">Adults, 2</p></div><!--[if true]></td><![endif]--><!--[if true]></tr></table><![endif]--></div><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Icon Card - Primary -->
+<!-- MODULE START: Component - Text + Icon --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><table class="column-no-stack" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color: #FFFFFF;"><tbody><tr><td><table class="column-no-stack" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"><tbody><tr><td style="padding: 0px 32px 0px 32px;"><table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" dir="LTR"><tbody><tr><td width="24" style="width: 24px; vertical-align: middle"><p style="margin: 0px 0px 0px 0px; text-align: left;" class="">  
+    <img alt="" class="light-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__lob_hotels_fill_color__default__expedia.png" style="border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+    
+      <!--[if !mso]><!-->
+      <img alt="" class="dark-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__lob_hotels_fill_color__default_dark__expedia.png" style="display:none; border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+      <!--<![endif]-->
+    
+    
+    
+
+ </p></td><td width="576" style="width: 576px"><p style="margin: 0px 0px 0px 8px; color: #191E3B; font-size: 14px; line-height: 144%; text-align: left; mso-text-raise: -10px; margin-left: 8px; " class="typography__paragraph_2 p-dark custom-font"><a style="color: #1668E3;text-decoration: underline;" class="link"  href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCMHSdbGInEUCQtAAVoQgymgZK82z6v5s8xeIZEuECvhaD_WrtZkvMATRbXo_MerVYO-o_jmcjpb2Tfpo5z9NOM6PUmtIA7UMTlDFwyyXX8">Via Pozzo Traiano, 24, Brindisi, BR, 72100 Italy</a></p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:8px;height:8px;font-size:8px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Text + Icon --><!-- MODULE START: Table - Price Summary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]-->
+<div class="column-no-stack" style="display: table; width: 100%; margin: 0 auto; max-width: 600px;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%;"><tr><![endif]--><!--[if true]><td style="width: 50%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 50%;text-align: left"><h2 style="color: #191E3B; font-size: 14px; line-height: 130%; font-weight: 500; margin: 0px 32px 8px 32px; margin-right: 0; text-align: left;" class="typography__heading_7 h-dark custom-font">Check-in</h2></div><!--[if true]></td><![endif]--><!--[if true]><td style="width: 50%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 50%;text-align: right"><h2 style="color: #191E3B; font-size: 14px; line-height: 130%; font-weight: 500; margin: 0px 32px 8px 32px; margin-left: 0; text-align: right;" class="typography__heading_7 h-dark custom-font">Check-out</h2></div><!--[if true]>
+</td><![endif]--><!--[if true]></tr></table><![endif]--></div><!--[if true]></td></tr></table><![endif]--></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column-no-stack" style="display: table; width: 100%; margin: 0 auto; max-width: 600px;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%;"><tr><![endif]--><!--[if true]><td style="width: 50%;" valign="top"><![endif]-->
+<div class="" style="display: table-cell; width: 50%;text-align: left"><p style="color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 8px 32px; margin-right: 0; text-align: left;" class="typography__paragraph_2 h-dark custom-font">Sat, Jun 13</p></div><!--[if true]></td><![endif]--><!--[if true]><td style="width: 50%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 50%;text-align: right"><p style="color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 8px 32px; margin-left: 0; text-align: right;" class="typography__paragraph_2 h-dark custom-font">Sun, Jun 14</p></div><!--[if true]></td><![endif]--><!--[if true]></tr></table><![endif]--></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Table - Price Summary --><!-- MODULE START: Table - Price Summary -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column-no-stack" style="display: table; width: 100%; margin: 0 auto; max-width: 600px;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%;"><tr><![endif]--><!--[if true]><td style="width: 50%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 50%;text-align: left">
+<p style="color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 8px 32px; margin-right: 0; text-align: left;" class="typography__paragraph_2 h-dark custom-font">Check-in time starts at 2:00 PM</p></div><!--[if true]></td><![endif]--><!--[if true]><td style="width: 50%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 50%;text-align: right"><p style="color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 8px 32px; margin-left: 0; text-align: right;" class="typography__paragraph_2 h-dark custom-font">11:00 AM</p></div><!--[if true]></td><![endif]--><!--[if true]></tr></table><![endif]--></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Table - Price Summary --><!-- MODULE START: Component - Paragraph --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 14px; line-height: 144%; text-align: left; margin: 4px 32px 0px 32px;" class="typography__paragraph_2 p-dark custom-font gutter-margin"><span style="color:#227950;" class="none color-positive ">Free cancellation until Jun 10 at 12:01am (property local time)</span></p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Paragraph --><!-- MODULE START: Divider - Line -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:16px;height:16px;font-size:16px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" class="" style="padding: 0px 32px 0px 32px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4; font-size: 0;"></td></tr></tbody></table></td></tr></tbody></table><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:8px;height:8px;font-size:8px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Divider - Line --><!-- MODULE START: Itin Details - No Image -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><h2 style="color: #191E3B; font-size: 20px; line-height: 120%; font-weight: normal; margin: 0px 32px 16px 32px; text-align: left;" class="gutter-margin h-dark custom-font">Accommodation details</h2></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Itin Details - No Image --><!-- MODULE START: Component - Paragraph -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 14px; line-height: 144%; text-align: left; margin: 0px 32px 16px 32px;" class="typography__paragraph_2 p-dark custom-font gutter-margin">Reserved for <strong style="">Dan Green.</strong></p></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<!-- MODULE END: Component - Paragraph --><!-- MODULE START: Component - Paragraph --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 14px; line-height: 144%; text-align: left; margin: 0px 32px 16px 32px;" class="typography__paragraph_2 p-dark custom-font gutter-margin">You booked <strong style="">1 room</strong>.
+</p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Paragraph --><!-- MODULE START: Component - Paragraph --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR">
+<p style="color: #191E3B; font-size: 14px; line-height: 144%; text-align: left; margin: 0px 32px 16px 32px;" class="typography__paragraph_2 p-dark custom-font gutter-margin"><strong style="">Deluxe Double Room</strong></p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Paragraph --><!-- MODULE START: Divider - Line --><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" class="" style="padding: 0px 32px 0px 32px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4; font-size: 0;"></td></tr></tbody></table></td></tr></tbody></table>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:8px;height:8px;font-size:8px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Divider - Line --><!-- MODULE START: Icon Card - Primary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;">
+<!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column-no-stack" style="display: table; width: 100%; margin: 0 auto; max-width: 600px;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%;"><tr><![endif]--><!--[if true]><td style="width: 9%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 9%;vertical-align: top;"><p style="margin: 2px 32px 8px 32px; margin-right: 0px" class="">  
+    <img alt="" class="light-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__smartphone_fill_color__default__expedia.png" style="border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+    
+      <!--[if !mso]><!-->
+      <img alt="" class="dark-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__smartphone_fill_color__default_dark__expedia.png" style="display:none; border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+      <!--<![endif]-->
+    
+    
+    
+
+ </p></div><!--[if true]></td><![endif]--><!--[if true]><td style="width: 91%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 91%;text-align: left; vertical-align: top"><h2 style="text-align: left; margin: 4px 32px 8px 32px; margin-left: 8px; color: #191E3B; font-size: 14px; line-height: 130%;" class="typography__heading_7 h-dark custom-font"><strong style="">Travel confidently with the Expedia app</strong></h2><p style="text-align: left; margin: 0px 32px 12px 32px; margin-left: 8px; color: #191E3B; font-size: 14px; line-height: 144%;" class=" p-dark custom-font">Manage your plans and make trip updates on the fly - wherever the journey takes you. 
+<a style="color: #1668E3;text-decoration: underline;" class="link" mc-deep-link="false" href="https://expe.onelink.me/Nxg3?pid=BRAND&af_ad=BEX-EML-HOTEL-HOTELPURCHASECONFIRMATION&af_sub_siteid=EXPEDIA-US&c=EVENT-TRIGGERED-MAILING.UMP.MKT-BRIDGE.HOTELPURCHASECONFIRMATION&af_web_dp=https%3A%2F%2Fwww.expedia.com%2Fapp%3Fsiteid%3D1%26locale%3Den_US&deep_link_value=https%3A%2F%2Fwww.expedia.com%2F%3Fcurrency%3DUSD%26locale%3Den_US%26siteid%3D1">Explore the app</a></p></div><!--[if true]></td><![endif]--><!--[if true]></tr></table><![endif]--></div><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:24px;height:24px;font-size:24px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Icon Card - Primary --><!-- MODULE START: Divider - Line --><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" class="" style="padding: 0px 32px 0px 32px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4; font-size: 0;"></td></tr></tbody></table></td></tr></tbody></table><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:8px;height:8px;font-size:8px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Divider - Line --><!-- MODULE START: Banner - OneKey Secondary -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF; display: block; padding: 0 32px 0px 32px; max-width: 536px; background-color: #FFFFFF;"><div class="banner promoBanner card-secondary" style="display: table; width: 100%; margin: 0 auto; padding: 12px 0px 12px 0px; border-radius: 16px; text-align: left; background-color: #EFF3F7;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 536px; text-align:left; background-color: #EFF3F7; " dir="LTR"><tr><td style="width: 32px;padding: 12px 0px;" valign="middle"><![endif]--><div style="display: table-cell; width: 32px; vertical-align: top;"><p style="margin: 0 12px 0 12px; text-align: left;">
+<a href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCNtBie9XOQ3jxcWjM-AOMCpXTDzMrGi6m6ACzGi-a-edTktAt5PpHd-u2meGnisuYJpzHAk4aSCE4xFxCJJmH6oNjCkYTOXABNxyf1dA-q">  
+    <img alt="" class="light-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__onekeycash_fill_color__default__expedia.png" style="border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 32px;  width: 32px; vertical-align: top;" width="32" aria-hidden="true" tabindex="-1" border="0">
+    
+      <!--[if !mso]><!-->
+      <img alt="" class="dark-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__onekeycash_fill_color__default_dark__expedia.png" style="display:none; border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 32px;  width: 32px; vertical-align: top;" width="32" aria-hidden="true" tabindex="-1" border="0">
+      <!--<![endif]-->
+    
+    
+    
+
+ </a></p></div><!--[if true]></td><td style="width: 504px;padding: 12px 0px;"><![endif]--><div style="display: table-cell; vertical-align: middle;"><p class="p-dark custom-font" style="margin: 0 12px 8px 0; margin-left: 0; color: #191E3B; font-size: 14px; line-height: 144%; text-align: left;">You'll earn <strong style="">$3.42 in OneKeyCash</strong> after this trip. You’re going places!</p><!-- Banner CTA --><p class="p-dark custom-font" style="margin: 0 12px 0 0; margin-left: 0; color: #191E3B; font-size: 14px; line-height: 144%; text-align: left;"><a class="link custom-font" style="display: inline-block; text-transform: none; color: #1668E3; text-decoration: underline;" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCO-lPP6PO3Ss_fuHVPKKVSUptrw8YlODZNJzTCQTZjmq6573CETianuOfuhjuzroPMKtM6lji79xoz72HyHhjjpjqR8_PkF0Qp_EK5RDLT" >View rewards activity</a></p></div><!--[if true]></td></tr></table><![endif]--></div></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:24px;height:24px;font-size:24px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Banner - OneKey Secondary --><!-- MODULE START: Dynamic Table - Header --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF; display: block; padding: 0 32px; max-width: 536px;"><div class="column" style="display: table; width: 100%; margin: 0 auto; text-align: left; background-color: #FFFFFF; border-radius: 8px;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: left; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:32px;background-color: #FFFFFF"></td><td valign="top"><![endif]--><!-- MODULE END: Dynamic Table - Header --><!-- MODULE START: Dynamic Table - Row --><table role="presentation" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" dir="LTR"><tbody><tr><td valign="top" style="width: 50%; text-align: left; padding: 0px 0 12px 0;"><p class="h-dark custom-font" style="color: #191E3B; font-size:20px; line-height:120%; font-weight: 500; margin: 0;">Price Details</p></td>
+<td valign="top" style="width: 50%; text-align: right; padding: 0px 0 12px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;"></p></td></tr></tbody></table><!-- MODULE END: Dynamic Table - Row --><!-- MODULE START: Dynamic Table - Row --><table role="presentation" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" dir="LTR"><tbody><tr><td valign="top" style="width: 50%; text-align: left; padding: 0px 0 8px 0;"><p class="h-dark custom-font" style="color: #191E3B; font-size:14px; line-height:130%; font-weight: 500; margin: 0;">Collected by Expedia</p></td><td valign="top" style="width: 50%; text-align: right; padding: 0px 0 8px 0;"><p class="h-dark custom-font" style="color: #191E3B; font-size:14px; line-height:130%; font-weight: 500; margin: 0;"></p></td></tr></tbody></table><!-- MODULE END: Dynamic Table - Row --><!-- MODULE START: Dynamic Table - Row -->
+<table role="presentation" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" dir="LTR"><tbody><tr><td valign="top" style="width: 50%; text-align: left; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;">Stay Protection Plan</p></td><td valign="top" style="width: 50%; text-align: right; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;">$16.00</p></td></tr></tbody></table><!-- MODULE END: Dynamic Table - Row --><!-- MODULE START: Dynamic Table - Footer --><!--[if true]></td><td style="width:32px;background-color: #FFFFFF"></td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: left; background-color: #FFFFFF;" dir="LTR"><tr><td width="100%" height="16"></td></tr></table><![endif]--></div></div>
+</div><!-- MODULE END: Dynamic Table - Footer --><!-- MODULE START: Divider - Line --><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" class="" style="padding: 24px 32px 24px 32px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4; font-size: 0;"></td></tr></tbody></table></td></tr></tbody></table><!-- MODULE END: Divider - Line --><!-- MODULE START: Dynamic Table - Header --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF; display: block; padding: 0 32px; max-width: 536px;">
+<div class="column" style="display: table; width: 100%; margin: 0 auto; text-align: left; background-color: #FFFFFF; border-radius: 8px;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: left; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:32px;background-color: #FFFFFF"></td><td valign="top"><![endif]--><!-- MODULE END: Dynamic Table - Header --><!-- MODULE START: Dynamic Table - Row --><table role="presentation" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" dir="LTR"><tbody><tr><td valign="top" style="width: 50%; text-align: left; padding: 0px 0 8px 0;"><p class="h-dark custom-font" style="color: #191E3B; font-size:14px; line-height:130%; font-weight: 500; margin: 0;"><strong style="">Collected by property</strong></p></td><td valign="top" style="width: 50%; text-align: right; padding: 0px 0 8px 0;">
+<p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;"></p></td></tr></tbody></table><!-- MODULE END: Dynamic Table - Row --><!-- MODULE START: Dynamic Table - Row --><table role="presentation" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" dir="LTR"><tbody><tr><td valign="top" style="width: 50%; text-align: left; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;">1 night x 1 room</p></td><td valign="top" style="width: 50%; text-align: right; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;">€145.89</p></td></tr></tbody></table><!-- MODULE END: Dynamic Table - Row --><!-- MODULE START: Dynamic Table - Row --><table role="presentation" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" dir="LTR">
+<tbody><tr><td valign="top" style="width: 50%; text-align: left; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;">Taxes on fees</p></td><td valign="top" style="width: 50%; text-align: right; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;">€14.59</p></td></tr></tbody></table><!-- MODULE END: Dynamic Table - Row --><!-- MODULE START: Dynamic Table - Row --><table role="presentation" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" dir="LTR"><tbody><tr><td valign="top" style="width: 50%; text-align: left; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;">Mandatory fees</p></td><td valign="top" style="width: 50%; text-align: right; padding: 0px 0 8px 0;">
+<p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;">€6.00</p></td></tr></tbody></table><!-- MODULE END: Dynamic Table - Row --><!-- MODULE START: Dynamic Table - Row --><table role="presentation" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" dir="LTR"><tbody><tr><td valign="top" style="width: 50%; text-align: left; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;"><strong style="">Subtotal</strong></p></td><td valign="top" style="width: 50%; text-align: right; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;"><strong style="">€166.48</strong></p></td></tr></tbody></table><!-- MODULE END: Dynamic Table - Row --><!-- MODULE START: Dynamic Table - Footer --><!--[if true]></td>
+<td style="width:32px;background-color: #FFFFFF"></td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: left; background-color: #FFFFFF;" dir="LTR"><tr><td width="100%" height="16"></td></tr></table><![endif]--></div></div></div><!-- MODULE END: Dynamic Table - Footer --><!-- MODULE START: Divider - Line --><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" class="" style="padding: 24px 32px 24px 32px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4; font-size: 0;"></td></tr></tbody></table></td></tr></tbody></table><!-- MODULE END: Divider - Line --><!-- MODULE START: Dynamic Table - Header -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF; display: block; padding: 0 32px; max-width: 536px;"><div class="column" style="display: table; width: 100%; margin: 0 auto; text-align: left; background-color: #FFFFFF; border-radius: 8px;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: left; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:32px;background-color: #FFFFFF"></td><td valign="top"><![endif]--><!-- MODULE END: Dynamic Table - Header --><!-- MODULE START: Dynamic Table - Row --><table role="presentation" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" dir="LTR"><tbody><tr>
+<td valign="top" style="width: 50%; text-align: left; padding: 0px 0 8px 0;"><p class="h-dark custom-font" style="color: #191E3B; font-size:16px; line-height:126%; font-weight: 500; margin: 0;"><strong style="">Total</strong></p></td><td valign="top" style="width: 50%; text-align: right; padding: 0px 0 8px 0;"><p class="h-dark custom-font" style="color: #191E3B; font-size:16px; line-height:126%; font-weight: 500; margin: 0;"><strong style="">€166.48</strong></p></td></tr></tbody></table><!-- MODULE END: Dynamic Table - Row --><!-- MODULE START: Dynamic Table - Footer --><!--[if true]></td><td style="width:32px;background-color: #FFFFFF"></td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: left; background-color: #FFFFFF;" dir="LTR"><tr><td width="100%" height="16"></td></tr></table><![endif]--></div></div></div><!-- MODULE END: Dynamic Table - Footer -->
+<!-- MODULE START: Dynamic Table - Header --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF; display: block; padding: 0 32px; max-width: 536px;"><div class="column" style="display: table; width: 100%; margin: 0 auto; text-align: left; background-color: #FFFFFF; border-radius: 8px;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: left; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:32px;background-color: #FFFFFF"></td><td valign="top"><![endif]--><!-- MODULE END: Dynamic Table - Header --><!-- MODULE START: Dynamic Table - Row --><table role="presentation" style="width: 100%;" border="0" cellpadding="0" cellspacing="0" dir="LTR"><tbody><tr>
+<td valign="top" style="width: 50%; text-align: left; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;">Due at property</p></td><td valign="top" style="width: 50%; text-align: right; padding: 0px 0 8px 0;"><p class="p-dark custom-font" style="color: #191E3B; font-size:14px; line-height:144%; font-weight: 400; margin: 0;">€166.48 ($195.06)*</p></td></tr></tbody></table><!-- MODULE END: Dynamic Table - Row --><!-- MODULE START: Dynamic Table - Footer --><!--[if true]></td><td style="width:32px;background-color: #FFFFFF"></td></tr></table><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: left; background-color: #FFFFFF;" dir="LTR"><tr><td width="100%" height="16"></td></tr></table><![endif]--></div></div></div><!-- MODULE END: Dynamic Table - Footer --><!-- MODULE START: Component - Paragraph -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; text-align: left; margin: 0px 32px 8px 32px;" class="typography__paragraph_3 p-dark custom-font gutter-margin">Unless specified otherwise, rates are quoted in US dollars.</p></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<!-- MODULE END: Component - Paragraph --><!-- MODULE START: Component - Paragraph --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR">
+<p style="color: #191E3B; font-size: 12px; line-height: 134%; text-align: left; margin: 0px 32px 8px 32px;" class="typography__paragraph_3 p-dark custom-font gutter-margin">Final payment will be settled directly with the property.</p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Paragraph --><!-- MODULE START: Component - Paragraph --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]-->
+<div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; text-align: left; margin: 0px 32px 8px 32px;" class="typography__paragraph_3 p-dark custom-font gutter-margin">*The property will charge you the full amount including all taxes and fees in the local currency  EUR on arrival. Prices in USD are estimated based on todays exchange rates which may vary at the time of travel. Your card issuer may charge a foreign transaction fee.</p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Paragraph --><!-- MODULE START: Component - Paragraph --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; text-align: left; margin: 0px 32px 8px 32px;" class="typography__paragraph_3 p-dark custom-font gutter-margin">Stay Protection Plan is charged by Expedia in USD.</p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Paragraph --><!-- MODULE START: Divider - Line -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:16px;height:16px;font-size:16px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" class="" style="padding: 0px 32px 0px 32px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4; font-size: 0;"></td></tr></tbody></table></td></tr></tbody></table><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:16px;height:16px;font-size:16px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Divider - Line --><!-- MODULE START: Bundle And Save -->  
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: center;" dir="LTR" class="w100pc"><tbody><tr><td style="width: 100%; height:auto;" valign="top" align="center" class="section"><table class="iconBannerSecondary section w100pc" role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" dir="LTR" style="width: 536px; border-radius: 8px; border: 1px solid #DFE0E4;"><tbody><tr><td style="width:100%; border-top-left-radius: 8px; border-top-right-radius: 8px; text-align: left; background-color: #FDDB32; padding: 24px; mso-padding-alt: 24px 24px 6px 24px;"><h2 style="margin: 0px 0px 8px 0px; color: #191E3B; font-size: 28px; line-height: 114%; font-weight: 500; text-align: left;" class="custom-heading-font custom-font">You booked, now bundle!</h2>
+<p style="margin: 8px 0px 0px 0px; color: #191E3B; font-size: 14px; line-height: 144%; text-align: left;" class="custom-font">Add to your  trip to Bundle & Save</p></td></tr><tr><td style="padding: 0;"><div style="margin: 0 auto; max-width: 536px; padding: 0px 28px 0px 28px; background-color: #FDDB32;"><div class="background-base" style="display: inline-block; width: 100%; background-color: #FFFFFF; border-radius: 8px; overflow: hidden;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 536px; background-color: #FDDB32;"><tr><td colspan="3" style="height:6px; background-color: #FDDB32;"> </td></tr><tr><td style="width: 28px; background-color: #FDDB32;"> </td><td style="width: 480px; background-color: #FFFFFF; mso-padding-alt: 12px 24px;"><table role="presentation" border="0" cellpadding="0" cellspacing="0" style="width: 100%;"><![endif]--><div style="padding: 12px 24px;">
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="text-align: left; padding: 12px 0px 16px 0px;"><a style="display: block; text-decoration: none; color: inherit;" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCPaE4huqP5IZGsVOiMTKPueiIkeVXs3bdIeOh39lBTY5rCW5d0dHjr0Bccb2VrdovdvvRj0_yOV4Q1iunp7fY9MPdD-hb1coTPajR41Tp3"  ><!--[if true]><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td style="width: 48px;" valign="middle"><![endif]--><div style="display: table; width: 100%;"><div style="display: table-cell; width: 48px; vertical-align: middle;"><table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-radius: 999px;"><tbody><tr>
+<td style="border-radius: 999px; mso-shading: #ffffff; vertical-align: middle; background-color: #FDDB32;" align="center" width="48" height="48" valign="middle"><!--[if mso]><center><v:image xmlns:v="urn:schemas-microsoft-com:vml" style="width:24px; height:24px; position:relative; top: 12px; left: 12px;" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__lob_hotels_fill_color__default__expedia.png"/><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="width:48px; height: 48px;" arcsize="100%" stroke="f" fillcolor="#FDDB32""></v:roundrect></center><![endif]--><!--[if !mso]><!--><img alt="" style="width: 24px; min-width: 24px; border: none; display: block;" width="24" aria-hidden="true" tabindex="-1" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__lob_hotels_fill_color__default__expedia.png"><!--<![endif]--></td></tr></tbody></table></div><!--[if true]></td>
+<td align="left" style="padding-left: 12px;" valign="middle"><![endif]--><div style="display: table-cell; padding-left: 12px; vertical-align: middle;"><h2 style="margin: 0px 8px 0px 0px; margin-left: 0; color: #191E3B; font-size: 16px; line-height: 126%; font-weight: 500; text-align: left;" class="h-dark custom-font"><span class="custom-font h-dark" style="color: #191E3B;">Add another stay</span></h2><p style="margin: 4px 8px 0px 0px; margin-left: 0; color: #191E3B; font-size: 14px; line-height: 144%; text-align: left;" class="p-dark custom-font"><span class="custom-font p-dark" style="color: #191E3B;">up to $140 off</span></p></div><!--[if true]></td><td style="width: 24px;" valign="middle"><![endif]--><div style="display: table-cell; width: 24px; vertical-align: middle;"><p style="margin: 4px 12px 0px 0px; margin-left: 0; color: #191E3B; font-size: 14px; line-height: 144%; text-align: left;" class="custom-font">  
+    <img alt="" class="light-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__chevron_right_fill_color__default__expedia.png" style="border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+    
+      <!--[if !mso]><!-->
+      <img alt="" class="dark-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__chevron_right_fill_color__default_dark__expedia.png" style="display:none; border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+      <!--<![endif]-->
+    
+    
+    
+
+ </p></div><!--[if true]></td></tr></table><![endif]--></div></a></td></tr><tr><td valign="top" style="padding: 0px 0px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="w100pc-only" width="100%" height="8" valign="top" style="height: 8px; line-height: 8px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4;">  </td></tr></tbody></table></td></tr><tr><td style="text-align: left; padding: 12px 0px 16px 0px;">
+<a style="display: block; text-decoration: none; color: inherit;" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCQHafIK7QiX7PHoEb47IQAXfXqdmAG3v1JCRR99cweoMhZ-22-jnfAi-C4pPqCq5Zt2nytn89V0RDu5u2dS0_wYH-8Fv4fL3Ey0ZsXQ92e"  ><!--[if true]><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td style="width: 48px;" valign="middle"><![endif]--><div style="display: table; width: 100%;"><div style="display: table-cell; width: 48px; vertical-align: middle;"><table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-radius: 999px;"><tbody><tr><td style="border-radius: 999px; mso-shading: #ffffff; vertical-align: middle; background-color: #FDDB32;" align="center" width="48" height="48" valign="middle"><!--[if mso]><center>
+<v:image xmlns:v="urn:schemas-microsoft-com:vml" style="width:24px; height:24px; position:relative; top: 12px; left: 12px;" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__lob_cars_fill_color__default__expedia.png"/><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="width:48px; height: 48px;" arcsize="100%" stroke="f" fillcolor="#FDDB32""></v:roundrect></center><![endif]--><!--[if !mso]><!--><img alt="" style="width: 24px; min-width: 24px; border: none; display: block;" width="24" aria-hidden="true" tabindex="-1" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__lob_cars_fill_color__default__expedia.png"><!--<![endif]--></td></tr></tbody></table></div><!--[if true]></td><td align="left" style="padding-left: 12px;" valign="middle"><![endif]--><div style="display: table-cell; padding-left: 12px; vertical-align: middle;">
+<h2 style="margin: 0px 8px 0px 0px; margin-left: 0; color: #191E3B; font-size: 16px; line-height: 126%; font-weight: 500; text-align: left;" class="h-dark custom-font"><span class="custom-font h-dark" style="color: #191E3B;">Add a car</span></h2><p style="margin: 4px 8px 0px 0px; margin-left: 0; color: #191E3B; font-size: 14px; line-height: 144%; text-align: left;" class="p-dark custom-font"><span class="custom-font p-dark" style="color: #191E3B;">up to 25% off</span></p></div><!--[if true]></td><td style="width: 24px;" valign="middle"><![endif]--><div style="display: table-cell; width: 24px; vertical-align: middle;"><p style="margin: 4px 12px 0px 0px; margin-left: 0; color: #191E3B; font-size: 14px; line-height: 144%; text-align: left;" class="custom-font">  
+    <img alt="" class="light-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__chevron_right_fill_color__default__expedia.png" style="border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+    
+      <!--[if !mso]><!-->
+      <img alt="" class="dark-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__chevron_right_fill_color__default_dark__expedia.png" style="display:none; border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+      <!--<![endif]-->
+    
+    
+    
+
+ </p></div><!--[if true]></td></tr></table><![endif]--></div></a></td></tr></tbody></table><!--[if true]></table></td><td style="width: 28px; background-color: #FDDB32;"> </td></tr><tr><td colspan="3" style="height:22px; background-color: #FDDB32;"> </td></tr></table><![endif]--></div></div></div></td></tr><tr><td style="width:100%; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; text-align: center; background-color: #FDDB32; padding: 4px 24px 20px 24px;"><p style="margin: 0px; color: #191E3B; font-size: 12px; line-height: 134%; text-align: center;" class="custom-font">Offers valid on select items</p></td></tr></tbody></table></td></tr></tbody></table><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:16px;height:16px;font-size:16px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Bundle And Save --><!-- MODULE START: Divider - Line --><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" class="" style="padding: 8px 32px 24px 32px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4; font-size: 0;"></td></tr></tbody></table></td></tr></tbody></table><!-- MODULE END: Divider - Line -->
+<!-- MODULE START: Hero - No Image --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><h2 style="color: #191E3B; font-size: 28px; line-height: 114%; font-weight: normal; margin: 0px 32px 16px 32px; text-align: left;" class="typography__heading_4 h-dark custom-font gutter-margin">Stay Protection Plan</h2>
+<p style="color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 16px 32px; text-align: left;" class="typography__paragraph_2 p-dark custom-font gutter-margin"><strong style="">Sat, Jun 13 - Sun, Jun 14</strong><br></p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Hero - No Image --><!-- MODULE START: Hero - No Image --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]-->
+<div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 16px 32px; text-align: left;" class="typography__paragraph_2 p-dark custom-font gutter-margin">You have purchased <a href="https://www.generalipartner.com/plan-documents/expedia?lang=en" target="_blank">Stay Protection Plan</a>. Please refer to your itinerary number when calling to ask questions or <a href="https://expedia-us.eclaims.csaclaims.com/" target="_blank">file a claim</a>.</p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Hero - No Image --><!-- MODULE START: Hero - No Image --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 16px 32px; text-align: left" class="typography__paragraph_2 p-dark custom-font gutter-margin text-align-center">Itinerary # 73435335535420</p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Hero - No Image --><!-- MODULE START: Component - Heading -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><h2 style="color: #191E3B; font-size: 20px; line-height: 120%; font-weight: 500; text-align: left; margin: 0px 32px 16px 32px; " class="typography__heading_5 h-dark custom-font gutter-margin ">Important Information</h2></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<!-- MODULE END: Component - Heading --><!-- MODULE START: Component - Paragraph --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; text-align: left; margin: 0px 32px 8px 32px;" class="typography__paragraph_3 p-dark custom-font gutter-margin"><strong style="">*Additional property fees<br>
+</strong>These fees and deposits only apply if they are not included in your selected room rate.</p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Paragraph --><!-- MODULE START: Card - Secondary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR">
+<p style="color: #191E3B; font-size: 12px; line-height: 134%; margin: 0px 32px 8px 32px; text-align: left;" class=" typography__paragraph_3 gutter-margin h-dark custom-font">The price DOES NOT include any applicable property service fees, charges for optional incidentals (such as minibar snacks or telephone calls), or regulatory surcharges. The property will assess these fees, charges, and surcharges upon check-out.</p><ul style="margin: 0;"></ul></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Card - Secondary --><!-- MODULE START: Card - Secondary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; margin: 0px 32px 8px 32px; text-align: left;" class=" typography__paragraph_3 gutter-margin h-dark custom-font">You'll be asked to pay the following charges at the property. Fees may include applicable taxes:
+<br/>•  &nbsp;&nbsp;&nbsp;&nbsp;A tax is imposed by the city and collected at the property. This tax is adjusted seasonally and might not apply year round. Other exemptions or reductions might apply. For more details, please contact the property using the information on the reservation confirmation received after booking. <br/>•  &nbsp;&nbsp;&nbsp;&nbsp;A tax is imposed by the city: From 1 January - 31 March, EUR 2.00 per person, per night, up to 7 nights. This tax does not apply to children under 14 years of age. <br/>•  &nbsp;&nbsp;&nbsp;&nbsp; A tax is imposed by the city: From 1 April - 31 December, EUR 3.00 per person, per night, up to 7 nights. This tax does not apply to children under 14 years of age. <br/>We have included all charges provided to us by the property. </p><ul style="margin: 0;"></ul></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Card - Secondary --><!-- MODULE START: Card - Secondary -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; margin: 0px 32px 8px 32px; text-align: left;" class=" typography__paragraph_3 gutter-margin h-dark custom-font"><strong style="">Rules and restrictions<br></strong>For rules and restrictions please view your 
+<a style="color: #1668E3;text-decoration: underline;" class="link" target="_blank" mc-deep-link="true" href="https://www.expedia.com/emailclick/nSDyfy2kswt8pYUFPij04OL29dIGuJuMfeLOxDiGzaFyEzDpRie221Zy68BiOP4upqAx6aNMw88aqrsjHRQ7rON1/trips/73435335535420/details/MjAyZDg3NDMtMWVjZS01ZWJiLTgzYTctZjY3YWNkYWE4YTQxO2E4ZTQxMjhmLWE1NTgtNDFhMS04YWM1LTJiNzQwNDU1MjU0Y18wOzA?siteid=1&EMLCID=US.TRC.UNKWN.2d3d033161682fd9668bed9f3714038c.EML&EMLDTL=DATE20260429-LANGEN_US.TEST565.VERS1.CAT01G250.MOD079855&cta=importantInformation.general.link">full itinerary.</a></p><ul style="margin: 0;"></ul></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Card - Secondary --><!-- MODULE START: Card - Secondary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; margin: 0px 32px 8px 32px; text-align: left;" class=" typography__paragraph_3 gutter-margin h-dark custom-font"><strong style="">Cancellations and changes</strong></p><ul style="margin: 0;"></ul></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Card - Secondary --><!-- MODULE START: Card - Secondary -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; margin: 0px 32px 8px 32px; text-align: left;" class=" typography__paragraph_3 gutter-margin h-dark custom-font">There is no charge for cancellations made before 12:01am (property local time) on Jun 10, 2026.
+<br/>Cancellations or changes made after 12:01am (property local time) on Jun 10, 2026 are subject to a property fee equal to 100% of the total amount paid for the reservation.<br/>If you fail to check in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.<br/></p><ul style="margin: 0;"></ul></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Card - Secondary --><!-- MODULE START: Card - Secondary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; margin: 0px 32px 8px 32px; text-align: left;" class=" typography__paragraph_3 gutter-margin h-dark custom-font"><strong style="">Guest charges and accommodation capacity<br></strong>Base rate is for 2 guests.<br/>If rates are listed below, they may be quoted in the currency of the country where the property is located.<br/>Total maximum number of guests per room/unit is 3.<br/>Maximum number of adults per room/unit is 3.<br/>Maximum number of infants per room/unit is 2.
+<br/>This property considers guests aged 1 and under, at time of travel, to be children.<br/>Availability of accommodation in the same property for extra guests is not guaranteed.<br/></p><ul style="margin: 0;"></ul></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Card - Secondary --><!-- MODULE START: Card - Secondary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]-->
+<div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; margin: 0px 32px 8px 32px; text-align: left;" class=" typography__paragraph_3 gutter-margin h-dark custom-font"><strong style="">Check-in policies</strong><br>Check-in time starts at 2:00 PM<br/>Check-in time ends at 6:00 AM<br/>Minimum check-in age is: 18<br/></p><ul style="margin: 0;"></ul></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Card - Secondary --><!-- MODULE START: Card - Secondary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; margin: 0px 32px 8px 32px; text-align: left;" class=" typography__paragraph_3 gutter-margin h-dark custom-font"><strong style="">Special Instructions</strong><br>This property doesn't offer after-hours check-in. Front desk staff will greet guests on arrival at the property. Information provided by the property may be translated using automated translation tools.<br/></p><ul style="margin: 0;"></ul></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Card - Secondary -->
+<!-- MODULE START: Card - Secondary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #191E3B; font-size: 12px; line-height: 134%; margin: 0px 32px 8px 32px; text-align: left;" class=" typography__paragraph_3 gutter-margin h-dark custom-font"><strong style="">Late arrival instructions</strong>
+<br>If a late check-in is planned, contact this property directly for their late check-in policy.</p><ul style="margin: 0;"></ul></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Card - Secondary --><!-- MODULE START: Card - Secondary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR">
+<p style="color: #191E3B; font-size: 12px; line-height: 134%; margin: 0px 32px 8px 32px; text-align: left;" class=" typography__paragraph_3 gutter-margin h-dark custom-font"><strong style="">Terms and conditions</strong><br>Please save or print upon receiving this email to maintain a record of the terms and conditions that apply to you.<br><a style="color: #1668E3;text-decoration: underline;" class="link" mc-deep-link="false" alias="" href="https://forever.travel-assets.com/flex/flexmanager/mediaasset/1411402-0_2-Expedia_US_en_us_20260326_TOS.pdf?EMLCID=US.TRC.UNKWN.2d3d033161682fd9668bed9f3714038c.EML&EMLDTL=DATE20260429-LANGEN_US.TEST565.VERS1.CAT01G250.MOD079855&cta=importantInformation.general.link">Terms and conditions</a></p><ul style="margin: 0;"></ul></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Card - Secondary --><!-- MODULE START: Divider - Line -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:16px;height:16px;font-size:16px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" class="" style="padding: 0px 32px 0px 32px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4; font-size: 0;"></td></tr></tbody></table></td></tr></tbody></table><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:8px;height:8px;font-size:8px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Divider - Line --><!-- MODULE START: Itin Details - No Image -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><h2 style="color: #191E3B; font-size: 20px; line-height: 120%; font-weight: normal; margin: 0px 32px 16px 32px; text-align: left;" class="gutter-margin h-dark custom-font">Where to find help</h2></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Itin Details - No Image --><!-- MODULE START: Itin Details - No Image -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style=" color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 16px 32px; text-align: left; " class=" gutter-margin p-dark custom-font ">For special requests and questions about your reserved room or the property, contact Hotel Executive Inn.</p></div><!--[if true]></td></tr></table>
+<![endif]--></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Itin Details - No Image --><!-- MODULE START: Itin Details - No Image -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style=" color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 16px 32px; text-align: left; " class=" gutter-margin p-dark custom-font ">Tel: 39 (0831) 527844, Fax: 39 (0831) 562919</p></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Itin Details - No Image --><!-- MODULE START: Itin Details - No Image -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style=" color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 16px 32px; text-align: left; " class=" gutter-margin p-dark custom-font ">If you need help managing this itinerary, contact Expedia.</p></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Itin Details - No Image --><!-- MODULE START: Itin Details - No Image -->
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style=" color: #191E3B; font-size: 14px; line-height: 144%; margin: 0px 32px 16px 32px; text-align: left; " class=" gutter-margin p-dark custom-font ">Get support anytime on the <a style="" class="link">Expedia app</a> with 24/7 access to virtual agents.</p></div><!--[if true]></td></tr></table>
+<![endif]--></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"></div><!--[if true]></td></tr></table><![endif]--></div></div>
+<div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #FFFFFF; font-size: 16px; line-height: 126%; font-weight: normal; margin: 16px 32px 16px 32px; text-align: left;" class="button__primary gutter-margin text-align-center">
+<a style="display: inline-block; text-decoration: none; mso-padding-alt: 0; text-transform: none; padding: 8px 16px; border-radius: 40000px; background-color: #1668E3; mso-border-alt: 8px solid #1668E3; color: #FFFFFF; font-size: 16px; line-height: 126%; font-weight: normal;" class="block custom-font button-primary button__primary__link" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCR9qFRgMN7lxHMjMsJjghm1NT5L8UfVwlRu80dYgYv5cAFfvYLkyXyxA1o_JRpsNMSQmMI_G3N3LcHLpbajPZ66Yu-gE861zI539d_5W2G" >Manage your itinerary</a></p></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Itin Details - No Image --><!-- MODULE START: Divider - Line --><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" class="" style="padding: 8px 32px 24px 32px;"><table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+<td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4; font-size: 0;"></td></tr></tbody></table></td></tr></tbody></table><!-- MODULE END: Divider - Line --><!-- MODULE START: Icon Card - Primary --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div class="column-no-stack" style="display: table; width: 100%; margin: 0 auto; max-width: 600px;"><!--[if true]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 100%;"><tr><![endif]--><!--[if true]><td style="width: 9%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 9%;vertical-align: top;"><p style="margin: 2px 32px 8px 32px; margin-right: 0px" class="">  
+    <img alt="" class="light-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__check_circle_fill_color__default__expedia.png" style="border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+    
+      <!--[if !mso]><!-->
+      <img alt="" class="dark-img" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__check_circle_fill_color__default_dark__expedia.png" style="display:none; border: none; border-radius: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px;  width: 24px; vertical-align: top;" width="24" aria-hidden="true" tabindex="-1" border="0">
+      <!--<![endif]-->
+    
+    
+    
+
+ </p></div><!--[if true]></td><![endif]--><!--[if true]><td style="width: 91%;" valign="top"><![endif]--><div class="" style="display: table-cell; width: 91%;text-align: left; vertical-align: top"><h2 style="text-align: left; margin: 4px 32px 8px 32px; margin-left: 8px; color: #191E3B; font-size: 14px; line-height: 130%;" class="typography__heading_7 h-dark custom-font"><strong style="">Looking for something else?</strong></h2><ul style="margin: 0; padding-left: 16px;"><li style="padding-left: 8px; mso-special-format: bullet; font-size: 10px; line-height: 1.6; color: #343B53; margin: 0px 32px 8px 32px; margin-left: 8px; padding-left: 8px; text-align: left;" class=" p-dark custom-font"><span style="color: #191E3B; font-size: 14px; line-height: 144%; margin:0; mso-line-height-rule: exactly; vertical-align: top;" class="typography__paragraph_2 p-dark custom-font">Free Cancellation on most rooms</span></li>
+<li style="padding-left: 8px; mso-special-format: bullet; font-size: 10px; line-height: 1.6; color: #343B53; margin: 0px 32px 8px 32px; margin-left: 8px; padding-left: 8px; text-align: left;" class=" p-dark custom-font">
+<span style="color: #191E3B; font-size: 14px; line-height: 144%; margin:0; mso-line-height-rule: exactly; vertical-align: top;" class="typography__paragraph_2 p-dark custom-font">Flexibility for your next trip with the option to pay now or later</span></li></ul></div><!--[if true]></td><![endif]--><!--[if true]></tr></table><![endif]--></div><div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><p style="color: #FFFFFF; font-size: 16px; line-height: 126%; font-weight: normal; margin: 0px 32px 8px 32px; text-align: left;" class="button__primary text-align-center">
+<a href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCSVlhb6WIKAEJYmjn_hmHsw9Icd4UB9sZdFsFawWAjDE-q_8KLFq5Cu4QjirVxKX0c0PD6B2xKBAsMf6NyTK7OZP5x-D8Ksg6mDd6hpzcC" class="block custom-font button-primary button__primary__link" style="display: inline-block; text-decoration: none; text-transform: none; padding: 8px 16px; border-radius: 40000px; background-color: #1668E3; color: #FFFFFF; font-size: 16px; line-height: 126%; font-weight: normal; mso-padding-alt: 0; mso-border-alt: 8px solid #1668E3" >See deals</a></p></div><!--[if true]></td></tr></table><![endif]--></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:16px;height:16px;font-size:16px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Icon Card - Primary --><!-- MODULE START: Component - Heading --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]-->
+<div class="column" style="display: inline-block; width: 100%; vertical-align: middle; overflow: hidden; font-family: Helvetica, Arial, sans-serif;" dir="LTR"><h2 style="color: #191E3B; font-size: 20px; line-height: 120%; font-weight: 500; text-align: left; margin: 0px 32px 12px 32px; " class="typography__heading_5 h-dark custom-font gutter-margin ">How helpful was this email?</h2></div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Heading --><!-- MODULE START: Component - Star Rating --><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR"><div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF; display: block; padding: 0 32px 0px 32px; max-width: 536px;"><div class="section" style="display: table; width: 100%; margin: 0 auto; text-align: left;"><!--[if true]>
+<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 600px; text-align: center; background-color: #FFFFFF" dir="LTR"><tr><td style="width: 100%;height:auto; padding: 0 32px" valign="top"><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 536px; text-align: left;" dir="LTR"><tr><td valign="top"><![endif]--><table class="w100pc" width="300" align="left" style="width: 300px;" cellpadding="0" cellspacing="0" border="0"><tbody><tr><td><table width="100%" style="width: 100%;" cellpadding="0" cellspacing="0" border="0" dir="LTR"><tbody><tr><td valign="top" align="center" width="20%" style="width: 20%;"><p style="margin: 0px 4px 8px 0px;" class="p-dark custom-font">
+<a style="text-decoration: none;" class="link custom-font" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCTVbu-vGPJihOKYrMo_UUfk_zwqu5niYpHGEmXIQlyoxxGmgDJlgzAHK2WU6TEK0SkAW3IC9vQw5Tpq3Ges0y33-Zi8TLErI8N17tDblZw" ><img style="width: 36px; min-width: 36px; border: none;" width="36" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__star_outline_rating__icon__fill_color__expedia.png"></a></p></td><td valign="top" align="center" width="20%" style="width: 20%;"><p style="margin: 0px 4px 8px 0px;" class="p-dark custom-font"><a style="text-decoration: none;" class="link custom-font" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCUZ7Q4x4CkmlqSwzEx74S5vC2-k2LcmSRbleTaVzM6JWfGrqdmnuoP9v38fvjMLCwhTWIDXvaryKg0cqaGEZ8q5LaSK_K_UYTslSeVMQoM" >
+<img style="width: 36px; min-width: 36px; border: none;" width="36" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__star_outline_rating__icon__fill_color__expedia.png"></a></p></td><td valign="top" align="center" width="20%" style="width: 20%;"><p style="margin: 0px 4px 8px 0px;" class="p-dark custom-font"><a style="text-decoration: none;" class="link custom-font" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCVO8nUmMSy6lveV1tjPGadfgQ6-qXTnHNGWfh2hNGHRQ9MGga9P5lDwWxD9w5XG2HBDtvQE29N-Z0g6p5w1MJFW1IeLBv8wO7FxQZcw84g" ><img style="width: 36px; min-width: 36px; border: none;" width="36" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__star_outline_rating__icon__fill_color__expedia.png"></a></p></td><td valign="top" align="center" width="20%" style="width: 20%;"><p style="margin: 0px 4px 8px 0px;" class="p-dark custom-font">
+<a style="text-decoration: none;" class="link custom-font" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCWjaxTEt_X9pKRSrRX2sYD5ineg_hfeO5fo8-rxkjxYn01XIoBBa1nxjQe4lt6fFh5sj1c4Qk2iTUarEUDF03QCVJL6014Mk5ckM4RvEBk" ><img style="width: 36px; min-width: 36px; border: none;" width="36" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__star_outline_rating__icon__fill_color__expedia.png"></a></p></td><td valign="top" align="center" width="20%" style="width: 20%;"><p style="margin: 0px 4px 8px 0px;" class="p-dark custom-font"><a style="text-decoration: none;" class="link custom-font" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCXYtFmxNWPgzUAcLJc1IlG_3-Nr-MYhkEnOLpfTVc4TM8l128pdXWDSsWAYTTR3XpeltZekOO6_XfsMKmvyWehG9rOHCvUE_aag6-ZaG6P" >
+<img style="width: 36px; min-width: 36px; border: none;" width="36" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/icon__star_outline_rating__icon__fill_color__expedia.png"></a></p></td></tr><tr><td valign="top" align="center" width="20%" style="width: 20%;"><p style="margin: 0px 4px; color: #191E3B; font-size: 12px; line-height: 134%" class=" p-dark custom-font">Not helpful</p></td><td colspan="3" valign="top" align="center" width="20%" style="width: 60%;"></td><td valign="top" align="center" width="20%" style="width: 20%;"><p style="margin: 0px 4px; color: #191E3B; font-size: 12px; line-height: 134%" class=" p-dark custom-font">Extremely helpful</p></td></tr></tbody></table></td></tr></tbody></table><!--[if true]></td></tr></table></td></tr></table><![endif]--></div></div></div><div class="wrapper" style="width:100%; padding: 0; margin: 0; text-align: center; font-size: 0; vertical-align: middle; background-color: #EFF3F7;" dir="LTR">
+<div class="section" style="margin: 0 auto; max-width: 600px; overflow: hidden; background-color: #FFFFFF;"><!--[if true]><table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" style="width: 450pt; text-align: center; background-color: #FFFFFF;" dir="LTR"><tr><td style="width:450pt; mso-line-height-rule:exactly;"><![endif]--><div style="line-height:32px;height:32px;font-size:32px;"> </div><!--[if true]></td></tr></table><![endif]--></div></div><!-- MODULE END: Component - Star Rating -->   <!-- divider & spacer (full width) -->
+<table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+       <td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4;">&nbsp;</td>
+    </tr>
+ </table>
+ <!-- app download -->
+
+  <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="100%" valign="top" align="center" style="padding-bottom: 12px;">
+        <table role="presentation" border="0" cellspacing="0" cellpadding="0" dir="LTR">
+          <tr>
+            <td valign="middle" width="24">
+              <p style="margin-top: 0; margin-right: 12px; margin-bottom: 0; margin-left: 0;" class="">
+                <a aria-hidden="true" tabindex="-1" href="https://click.eg.expedia.com/u/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCYbwldWwqvg5hKrZT6CGaFNBuZBFa1SC9BX3pxHDcc5VZTimP7Sx2ztphkKdwywl36_6bwLBh-JEb2-lLglMvP9XgDY80n9ydxRqD1lW5Z"  target="_blank">
+                  <img alt="Expedia logo" src="https://image.eg.expedia.com/lib/fe3211727364047c721775/m/1/mark__app__expedia.png" style="border: none; height: auto; line-height: 100%; outline: none; text-decoration: none; min-width: 24px; width: 24px; vertical-align: middle;" width="24" border="0" aria-hidden="true" tabindex="-1">
+                </a>
+              </p>
+            </td>
+            <td valign="middle" align="left">
+                
+<p style="text-align: left; color: #191E3B; font-size: 14px; line-height: 18px; font-weight: normal; margin: 0 0 0px 0;" class="paragraph">
+
+Download the <a  class="link" href="https://click.eg.expedia.com/u/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCZ5qFRwbcEA2PSwwIo6v_P-nEsbEKR0R9rLXV46RKZ1-XPbHdci7k8h01Qu9uG9P4n83f_w8tbE6myfnp2vQrN6Ddp-gIh1RSgNIOtCjiI"  style="color: #1668E3;text-decoration: underline;" target="_blank">Expedia app</a>
+
+</p>
+
+
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <!-- footer nav -->
+ <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" class="background-base">
+  <tr>
+    <td valign="top" align="center" width="100%">
+      <p role="list" style="color: #191E3B; font-size: 12px; line-height: 16px; font-weight: normal; margin: 0 32px 0px 32px;"> 
+         
+        <a role="listitem" class="link" target="_blank" style="display: inline-block; color: #191E3B; font-size: 12px; line-height: 16px; font-weight: normal; color: #1668E3; text-decoration: underline; margin: 0;  mso-line-height-rule:exactly;"  href="https://click.eg.expedia.com/u/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCaN0sslpEpbXxiYzHvMcGM8PhZ6r_VJGDWOX42gr71INPuGNULPKDhsTCnkYScKuqt6ScCLUAxen3Clkmt4T47WlUOYgGA33vS6WIVyLOH">Privacy</a> &nbsp;&nbsp;
+        
+        <a role="listitem" class="link" target="_blank" style="display: inline-block; color: #191E3B; font-size: 12px; line-height: 16px; font-weight: normal; color: #1668E3; text-decoration: underline; margin: 0;  mso-line-height-rule:exactly;"  href="https://click.eg.expedia.com/u/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCbCVUCSeBstIeTeiIwKIEuEbnX5f_5rLBlACZ4_Nsu9K40is1NkzMkleo-w3rknwgygGQnrzdJL0cBKJ1EScWDBzgGlKvniD0tJekKWb2V">Help</a> &nbsp;&nbsp;
+         
+        <a role="listitem" class="link" href="https://click.eg.expedia.com/?qs=ABB7InYiOjEsImQiOjQ4NjF9AAwAAAAAAFVDFXCcW_-8hBoZPK_rngWhSwMUTrH6aKH56xzol2C3YEhCzC2VBuvFBI9V-_3bJMnwdynd-9cFLkhunUw4y64UH74wN_gsbGxO0K3M2nY" style="color: #191E3B; font-size: 12px; line-height: 16px; font-weight: normal; color: #1668E3; text-decoration: underline; margin: 0;  mso-line-height-rule:exactly;">View online</a> 
+        
+      </p>
+    </td>
+  </tr>
+</table> <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" style="padding: 16px 32px 0px 32px; text-align: left; color: #191E3B; font-size: 12px; line-height: 134%; font-weight: normal;" class="typography__paragraph_3 custom-font"> <!-- divider & spacer (full width) -->
+<table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+       <td class="w100pc-only" width="100%" height="16" valign="top" style="height: 16px; line-height: 16px; mso-line-height-rule: exactly; border-top: 1px solid #DFE0E4;">&nbsp;</td>
+    </tr>
+ </table>
+ 
+ 
+      
+<p style="text-align: left; color: #191E3B; font-size: 12px; line-height: 18px; font-weight: normal; margin: 0 0 16px 0;" class="paragraph">
+This email and its links may contain your personal information; please only forward to people you trust. You are receiving this transactional email based on a recent booking, interaction with us, membership or account update on Expedia.com.
+
+</p>
+
+
+    
+  <!-- address -->
+  
+<p style="text-align: left; color: #191E3B; font-size: 12px; line-height: 18px; font-weight: normal; margin: 0 0 16px 0;" class="paragraph">
+Expedia, Inc. 1111 Expedia Group Way West, Seattle WA 98119, USA.
+
+</p>
+
+
+  
+<!-- emlcid
+  <p class="p-emlcid" style="font-size: 12px; line-height: 134%; font-weight: normal; text-align: left; color: #FFFFFF; word-break: break-all; word-break: break-word; word-wrap: break-word; text-decoration: none; margin: 0 0 16px 0;" aria-hidden="true">EMLCID=US.TRC.UNKWN.2d3d033161682fd9668bed9f3714038c.EML&EMLDTL=DATE20260429-LANGEN_US.TEST565.VERS1.CAT01G250</p>
+-->
+
+
+ </td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div>      </body>
+<!--Template Attributes:
+ Unless specified otherwise, rates are quoted in US dollars.,,,Check-in time starts at 2:00 PM<br/>Check-in time ends at 6:00 AM<br/>Minimum check-in age is: 18<br/>,,,73435335535420,,Sat, Jun 13,,,,https://www.expedia.com/service?siteid=1&locale=en_US,,//maps.google.com/?q=Hotel%2BExecutive%2BInn%2C+Via%2BPozzo%2BTraiano%2C%2B24%2C%2BBrindisi%2C%2BBR%2C%2B72100%2BItaly,www.expedia.com,,There is no charge for cancellations made before 12:01am (property local time) on Jun 10, 2026.<br/>Cancellations or changes made after 12:01am (property local time) on Jun 10, 2026 are subject to a property fee equal to 100% of the total amount paid for the reservation.<br/>If you fail to check in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.
+<br/>,,EUR,,0,,0,Via Pozzo Traiano, 24, Brindisi, BR, 72100 Italy,,,undefined,,1,Hotel-Search?regionId=553248623652411292&startDate=2026-06-14&endDate=2026-06-16&adults=1,carsearch?date1=6%2F13%2F2026&date2=6%2F14%2F2026&time1=1030AM&time2=1030AM&dpln=6026439&locn=BDS,0,, Italy,Hotel Executive Inn,,https://expe.onelink.me/Nxg3?pid=BRAND&af_ad=BEX-EML-HOTEL-HOTELPURCHASECONFIRMATION&af_sub_siteid=EXPEDIA-US&c=EVENT-TRIGGERED-MAILING.UMP.MKT-BRIDGE.HOTELPURCHASECONFIRMATION&af_web_dp=https%3A%2F%2Fwww.expedia.com%2Fapp%3Fsiteid%3D1%26locale%3Den_US&deep_link_value=https%3A%2F%2Fwww.expedia.com%2F%3Fcurrency%3DUSD%26locale%3Den_US%26siteid%3D1,0,2:00 PM,https://www.expedia.com/Hotel-Search?regionId=&startDate=2026-06-13&endDate=2026-06-14&sort=deals&paymentType=FREE_CANCELLATION,2,€14.59,Deluxe Double Room,,0,2,0,https://a.travel-assets.com/travel-assets-manager/2025-2026/Sicherungsschein_EI_SA_LOB_Oct25.pdf,$3.42,Stay Protection Plan,Free cancellation until Jun 10 at
+ 12:01am (property local time),Dan,,If a late check-in is planned, contact this property directly for their late check-in policy.,undefined,,,,https://www.expedia.com/trips/73435335535420/details/MjAyZDg3NDMtMWVjZS01ZWJiLTgzYTctZjY3YWNkYWE4YTQxO2E4ZTQxMjhmLWE1NTgtNDFhMS04YWM1LTJiNzQwNDU1MjU0Y18w/manage-booking?siteid=1&locale=en_US,DIRECT_AGENCY,false,,false,,,,1,0,1,,,€166.48,€145.89,1,You booked, now bundle!,,icon__lob_cars_fill_color__default,0,icon__lob_hotels_fill_color__default,undefined,,,,false,,,73435335535420,,,Tel: 39 (0831) 527844, Fax: 39 (0831) 562919,Apr 29, 2026,This property doesn't offer after-hours check-in. Front desk staff will greet guests on arrival at the property. Information provided by the property may be translated using automated translation tools.
+<br/>,Add to your  trip to Bundle & Save,,0,,true,,Expedia,1,Sat, Jun 13,If you cancel or change your plans, please cancel your reservation in accordance with the property's cancellation policies to avoid a no-show charge.,$16.00,Dan Green,,,,undefined,EUR,These fees and deposits only apply if they are not included in your selected room rate.,,REFUNDABLE,Add another stay,Add a car,,€6.00,$195.06,*The property will charge you the full amount including all taxes and fees in the local currency  EUR on arrival. Prices in USD are estimated based on todays exchange rates which may vary at the time of travel. Your card issuer may charge a foreign transaction fee.,1,,,Sun, Jun 14,The price DOES NOT include any applicable property service fees, charges for optional incidentals (such as minibar snacks or telephone calls), or regulatory surcharges. The property will assess these fees, charges, and surcharges upon check-out.,,342,,You have purchased 
+<a href="https://www.generalipartner.com/plan-documents/expedia?lang=en" target="_blank">Stay Protection Plan</a>. Please refer to your itinerary number when calling to ask questions or <a href="https://expedia-us.eclaims.csaclaims.com/" target="_blank">file a claim</a>.,https://www.expedia.com/trips/73435335535420/details/MjAyZDg3NDMtMWVjZS01ZWJiLTgzYTctZjY3YWNkYWE4YTQxO2E4ZTQxMjhmLWE1NTgtNDFhMS04YWM1LTJiNzQwNDU1MjU0Y18wOzA?siteid=1,,,,,https://forever.travel-assets.com/flex/flexmanager/mediaasset/1411402-0_2-Expedia_US_en_us_20260326_TOS.pdf,,undefined,,false,,If you cancel or change your plans, please cancel your reservation in accordance with the property's cancellation policies to avoid a no-show charge.,,up to $140 off,Stay Protection Plan,There is no charge for cancellations made before 12:01am (property local time) on Jun 10, 2026.
+<br/>Cancellations or changes made after 12:01am (property local time) on Jun 10, 2026 are subject to a property fee equal to 100% of the total amount paid for the reservation.<br/>If you fail to check in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.<br/>,,up to 25% off,1,USD,Add a car, up to 25% off,,https://images.trvl-media.com/lodging/11000000/11000000/10999900/10999859/f0c42450_z.jpg,Add another stay, up to $140 off,,,Base rate is for 2 guests.<br/>If rates are listed below, they may be quoted in the currency of the country where the property is located.<br/>Total maximum number of guests per room/unit is 3.<br/>Maximum number of adults per room/unit is 3.<br/>Maximum number of infants per room/unit is 2.<br/>This property considers guests aged 1 and under, at time of travel, to be children.
+<br/>Availability of accommodation in the same property for extra guests is not guaranteed.<br/>,11:00 AM,Apr 29, 2026,Sun, Jun 14,,undefined,You'll be asked to pay the following charges at the property. Fees may include applicable taxes:<br/>•  &nbsp;&nbsp;&nbsp;&nbsp;A tax is imposed by the city and collected at the property. This tax is adjusted seasonally and might not apply year round. Other exemptions or reductions might apply. For more details, please contact the property using the information on the reservation confirmation received after booking. <br/>•  &nbsp;&nbsp;&nbsp;&nbsp;A tax is imposed by the city: From 1 January - 31 March, EUR 2.00 per person, per night, up to 7 nights. This tax does not apply to children under 14 years of age. <br/>•  &nbsp;&nbsp;&nbsp;&nbsp; A tax is imposed by the city: From 1 April - 31 December, EUR 3.00 per person, per night, up to 7 nights. This tax does not apply to children under 14 years of age. 
+<br/>We have included all charges provided to us by the property. ,true,,https://www.expedia.com/v2/insurance/universal-post-purchase/?tripId=202d8743-1ece-5ebb-83a7-f67acdaa8a41&siteId=1&source=OMP&pref=100006,true,Base rate is for 2 guests.<br/>If rates are listed below, they may be quoted in the currency of the country where the property is located.<br/>Total maximum number of guests per room/unit is 3.<br/>Maximum number of adults per room/unit is 3.<br/>Maximum number of infants per room/unit is 2.<br/>This property considers guests aged 1 and under, at time of travel, to be children.<br/>Availability of accommodation in the same property for extra guests is not guaranteed.<br/>--></html>
+
+--GUpQsTxEEojh=_?:--
+
