@@ -1,6 +1,6 @@
 ---
 title: "Day 8 — June 12: Naples — Herculaneum & Vesuvius"
-subtitle: "Confirmed Tour — Details to be Updated When Confirmation File Is Available"
+subtitle: "Confirmed Tour — Naples Tickets by Headout"
 date: "2026-06-12"
 day-of-week: "Friday"
 location: "Naples"
@@ -9,19 +9,24 @@ categories: [itinerary, naples, museums]
 
 ## Overview
 
-**Confirmed booking: Herculaneum & Vesuvius tour** — June 12, 2026.
+**Confirmed booking: From Naples — Mount Vesuvius & Herculaneum Day Trip**
 
-::: {.callout-note}
-## Confirmation Details Pending
+::: {.callout-important}
+## Tour Logistics
 
-The Herculaneum & Vesuvius tour is confirmed but the confirmation file has not yet been added to the reservations folder. This page will be updated with exact time, meeting point, booking reference, and provider details once the confirmation is available.
+| | |
+|---|---|
+| **Provider** | Naples Tickets by Headout |
+| **Booking Reference** | #31374926 |
+| **Meet** | 9:20 AM — Via Galileo Ferraris n.40, Naples IT 80142 (Naples Center) |
+| **Free cancellation** | Until 9:20 AM, June 11, 2026 |
 :::
 
-Check the confirmation email/document for:
-- Exact departure time and meeting point
-- Provider name and contact
-- What's included (tickets, transportation, guide)
-- Physical requirements for Vesuvius hike
+::: {.layout-ncol=2}
+![Booking confirmation — screen 1](../reservations/herc_1.png)
+
+![Booking confirmation — screen 2](../reservations/herc_2.png)
+:::
 
 ---
 
