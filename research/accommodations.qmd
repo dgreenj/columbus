@@ -48,13 +48,27 @@ Accommodations for 16 nights across Italy (Pisa, Florence, Naples, Puglia).
 
 ## Florence (4 Nights: June 6–10)
 
-### Confirmed Booking
+### Confirmed Booking — Aurora apartments Piazzetta
 
-**Hotel booked** — details to be added when confirmation file is available.
+**Aurora apartments Piazzetta**
 
-Location: Historic center triangle area (Duomo / Uffizi / Accademia).
+| Detail | Info |
+|--------|------|
+| **Address** | Via Por Santa Maria, 8, Florence, Tuscany 50122 |
+| **Check-in** | Saturday June 6, 4:00 PM |
+| **Check-out** | Wednesday June 10, **10:00 AM sharp** |
+| **Guests** | Dan Green, Jane Mooney |
+| **Confirmation** | HMMKBKP8JY |
+| **Platform** | Airbnb |
+| **Host** | Lorenzo: +39 055 093 0093 |
 
-*This section will be updated with hotel name, address, confirmation number, and check-in/check-out details once the reservation file is added to the reservations folder.*
+**Location:** Via Por Santa Maria runs directly from Piazza della Signoria down to Ponte Vecchio — one of the most central streets in Florence. The Uffizi is steps away; the Duomo is a 10-minute walk north.
+
+::: {.callout-warning}
+## Checkout Is 10:00 AM — Hard
+
+Checkout is 10:00 AM sharp. The Italo train to Naples departs Florence at 12:28 PM — pack the night before (Day 5 evening) and plan to leave the apartment by 10:00 AM with bags. That gives roughly 2.5 hours before the train.
+:::
 
 ---
 

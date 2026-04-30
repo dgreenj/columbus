@@ -132,7 +132,7 @@ td.empty     { background: #fafafa; }
   <td class="florence">
     <span class="day-num">7</span>
     <span class="day-label">🏛 Day 3 — Florence</span>
-    <span class="day-detail">Duomo dome climb<br>Uffizi Gallery<br>Ponte Vecchio</span>
+    <span class="day-detail">Getting to Know Florence<br>Shopping<br>Dining</span>
   </td>
   <td class="florence">
     <span class="day-num">8</span>
@@ -142,7 +142,7 @@ td.empty     { background: #fafafa; }
   <td class="florence">
     <span class="day-num">9</span>
     <span class="day-label">🏛 Day 5 — Florence</span>
-    <span class="day-detail">Private Uffizi + Accademia<br>Tour 9:00am sharp<br>Via dei Castellani 14</span>
+    <span class="day-detail">Private Uffizi + Accademia + David<br>Tour 9:00am sharp<br>Via dei Castellani 14</span>
   </td>
   <td class="travel">
     <span class="day-num">10</span>
@@ -246,7 +246,7 @@ td.empty     { background: #fafafa; }
 </div>
 ```
 
-::: {.callout-tip}
+::: callout-tip
 ## Printing This Calendar
 
 Use **File → Print** (Ctrl+P / Cmd+P). The navigation and sidebar hide automatically. For best results, select **Landscape** orientation.
@@ -254,13 +254,14 @@ Use **File → Print** (Ctrl+P / Cmd+P). The navigation and sidebar hide automat
 
 ## Reservations in Hand
 
-| What | Code | Date |
-|------|------|------|
-| Outbound flights (Lufthansa) | FMWYOJ | Jun 5–6 |
-| Return flights (Lufthansa/United) | FMWYOJ | Jun 20 |
-| Ghiberti Pass — Duomo complex | 87-MKTRBNH | Jun 8 |
-| Viator — Private Uffizi + Accademia | 1391099919 | Jun 9 |
-| Italo train Florence → Naples | PIDCMA | Jun 10 |
-| Naples Airbnb — Casa Wenner | HMTBH3HCCX | Jun 10–13 |
-| ITA flights Naples → Brindisi via Rome | IXYZMT | Jun 13 |
-| Hotel Executive Inn, Brindisi | 73435335535420 | Jun 13–14 |
+| What                                   | Code           | Date      |
+|----------------------------------------|----------------|-----------|
+| Outbound flights (Lufthansa)           | FMWYOJ         | Jun 5–6   |
+| Florence Airbnb — Aurora Piazzetta     | HMMKBKP8JY     | Jun 6–10  |
+| Return flights (Lufthansa/United)      | FMWYOJ         | Jun 20    |
+| Ghiberti Pass — Duomo complex          | 87-MKTRBNH     | Jun 8     |
+| Viator — Private Uffizi + Accademia    | 1391099919     | Jun 9     |
+| Italo train Florence → Naples          | PIDCMA         | Jun 10    |
+| Naples Airbnb — Casa Wenner            | HMTBH3HCCX     | Jun 10–13 |
+| ITA flights Naples → Brindisi via Rome | IXYZMT         | Jun 13    |
+| Hotel Executive Inn, Brindisi          | 73435335535420 | Jun 13–14 |
