@@ -1,117 +1,102 @@
 ---
-title: "Day 4: Florence - David & Medici Sites"
-subtitle: "Michelangelo & the Medici"
+title: "Day 4: Florence — Duomo Complex"
+subtitle: "Ghiberti Pass: Baptistery, Opera del Duomo Museum & Santa Reparata"
 date: "2026-06-08"
 day-of-week: "Monday"
 location: "Florence"
-categories: [itinerary, florence, museums, art]
+categories: [itinerary, florence, duomo]
 ---
 
 ## Overview
 
-**Focus:** Michelangelo's David at the Accademia and Medici family sites
+**Confirmed booking: Ghiberti Pass** — valid June 8–10 for the Baptistery (North Door entrance), Opera del Duomo Museum, and Santa Reparata crypt.
+
+**Booking ref:** 87-MKTRBNH | External confirmation: SPW9A3V3D333
+
+::: {.callout-warning}
+## No Backpacks Allowed
+
+The Duomo complex has a strict no-backpack policy. **Mandatory luggage storage** is at Piazza Duomo 38/r before you enter any component. Small shoulder bags and day bags are fine.
+:::
 
 ---
 
-## Morning: Accademia Gallery (8:30-10 AM)
+## Morning: Santa Reparata — Timed Entry (10:30 AM SHARP)
 
-### Galleria dell'Accademia
+::: {.callout-important}
+## Timed Entry — Cannot Be Changed
 
-**Booking:** Check timed entry - arrive 15 min early
+**Santa Reparata: 10:30 AM — Porta Campanile entrance**
 
-**Highlights:**
-- **David** ⭐ - The icon, 17 feet tall, perfection in marble
-- Stand directly in front, walk around, take your time
-- Unfinished *Prisoners* showing Michelangelo's process
-- Musical instrument collection
+This is a fixed timed ticket that cannot be rescheduled. Arrive by 10:20 AM. Drop any backpacks at luggage storage (Piazza Duomo 38/r) *before* arriving at the entrance.
+:::
 
-**Time:** 1-1.5 hours (smaller than Uffizi)
+### What Is Santa Reparata?
 
-**Tips:**
-- Gets crowded by 10 AM - early entry best
-- Photography allowed (no flash)
-- Everyone here for David - don't miss the Prisoners too
+The crypt beneath the Duomo floor — the original 4th-century cathedral on which the current Duomo was built. Excavations reveal layer upon layer of Florentine history: Roman remains, the medieval church, Brunelleschi's tomb.
 
----
+| Element | What to Know |
+|---------|-------------|
+| **Brunelleschi's Tomb** | The architect who built the Dome is buried here — simple, almost anonymous slab |
+| **Roman remains** | Sections of Roman-era structure visible in the foundations |
+| **Medieval mosaics** | Fragments of the original floor, remarkably preserved |
+| **Depth of history** | Walking over 2,000 years of layers beneath the cathedral floor |
 
-## Late Morning: San Lorenzo Area (10:30 AM-12:30 PM)
-
-### Medici Chapels
-
-**Why:** Michelangelo's sculptural tombs for Medici family
-
-**Highlights:**
-- Tomb of Lorenzo de' Medici (*Dawn* and *Dusk*)
-- Tomb of Giuliano de' Medici (*Day* and *Night*)
-- Chapel of Princes (opulent marble)
-
-**Time:** 45-60 minutes
-
-### Basilica di San Lorenzo
-
-**Medici family church**, next to chapels
-- Brunelleschi architecture
-- Laurentian Library (Michelangelo staircase) - if open
+**Time:** Allow 45–60 minutes.
 
 ---
 
-## Lunch: Mercato Centrale (12:30-2 PM)
+## Also Valid on Your Ghiberti Pass
 
-**Food Market Heaven:**
-- Upstairs: Food court (pasta, pizza, wine, cheese, truffles)
-- Downstairs: Fresh produce market
-- Cheap, delicious, authentic
-- Eat lunch, browse market
+Your pass (87-MKTRBNH) is valid June 8–10 for these components — visit any that fit around the 10:30 timed entry:
 
----
+### Baptistery of San Giovanni — North Door Entrance
 
-## Afternoon: Free Time (2-6 PM)
+The octagonal baptistery across from the Duomo facade. Lorenzo Ghiberti's bronze doors (the ones that gave this pass its name) are on the North and East sides.
 
-**Options:**
+| Door | What It Is |
+|------|-----------|
+| **East Doors (Gates of Paradise)** | Ghiberti's masterpiece — Michelangelo called them worthy of paradise. What you see are high-quality reproductions; originals in the museum. |
+| **North Doors** | Ghiberti's earlier work — still extraordinary; your pass enters here |
 
-**Museum (if energy):**
-- Palazzo Vecchio (city hall, secret passages)
-- Museum of San Marco (Fra Angelico frescoes)
+**Time:** 30–45 minutes inside.
 
-**Shopping:**
-- San Lorenzo leather market (stalls outside church)
-- Artisan workshops
-- Paper goods, perfumes
+### Opera del Duomo Museum (Museo dell'Opera)
 
-**Relaxation:**
-- Boboli Gardens (save for tomorrow?)
-- Café in piazza, people-watch
-- Gelato tasting
+Piazza del Duomo 9 — the museum housing the actual originals removed from the Duomo exterior for preservation.
 
-**Explore:**
-- Wander without agenda
-- Get lost in side streets
-- Discover your own favorite piazza
+| Highlight | What to See |
+|-----------|------------|
+| **Ghiberti's Gates of Paradise (originals)** | The actual bronze panels — extraordinary up close |
+| **Michelangelo's Bandini Pietà** | Late Michelangelo, unfinished, raw, extraordinary — carved for his own tomb |
+| **Donatello's Mary Magdalene** | Haunting carved wood figure; one of his most powerful works |
+| **Luca della Robbia's Cantoria** | Marble choir gallery with children singing and dancing |
+| **Arnolfo's Madonna** | 13th-century sculpture from the original cathedral facade |
+
+**Time:** 1–1.5 hours. This museum is excellent and undervisited — give it time.
 
 ---
 
-## Evening: Aperitivo & Dinner
+## Afternoon: Open
 
-**Aperitivo (6-8 PM):**
-- Santo Spirito piazza (Oltrarno)
-- Buy drink, get free appetizers
-- Local scene
+No scheduled activities. The Duomo complex is intense — rest, wander, or follow whatever draws you.
 
-**Dinner (8-9:30 PM):**
-- Try bistecca alla fiorentina tonight? (Huge T-bone steak, shared)
-- Or save for tomorrow
+---
+
+## Evening
+
+Dinner in Florence. Let the day determine where you end up.
 
 ---
 
 ## Checklist
 
-- [ ] Accademia (David) timed entry
-- [ ] Medici Chapels visit
-- [ ] Mercato Centrale lunch
-- [ ] Afternoon activity chosen
-- [ ] Aperitivo experienced
-- [ ] Dinner reservation (if needed)
+- [ ] Luggage storage at Piazza Duomo 38/r (NO backpacks inside)
+- [ ] Santa Reparata timed entry — 10:30 AM Porta Campanile
+- [ ] Baptistery visit
+- [ ] Opera del Duomo Museum
+- [ ] Pass ref 87-MKTRBNH saved to phone
 
 ---
 
-**Previous:** [Day 3](day-03-2026-06-07-florence.qmd) | **Next:** [Day 5](day-05-2026-06-09-florence.qmd)
+**Previous:** [Day 3](day-03-2026-06-07-florence.qmd) | **Next:** [Day 5: Uffizi & Accademia](day-05-2026-06-09-florence.qmd)
