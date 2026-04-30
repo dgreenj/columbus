@@ -1,6 +1,6 @@
 ---
-title: "Day 8: Naples — Museums & City"
-subtitle: "MANN, Cappella Sansevero & Spaccanapoli"
+title: "Day 8: Naples — Herculaneum & Vesuvius"
+subtitle: "Confirmed Tour — Details to be Updated When Confirmation File Is Available"
 date: "2026-06-12"
 day-of-week: "Friday"
 location: "Naples"
@@ -9,72 +9,55 @@ categories: [itinerary, naples, museums]
 
 ## Overview
 
-**Second full day in Naples:** MANN museum (if not done yesterday), Cappella Sansevero, and an afternoon in the historic center. This is the day for the things that don't require a day trip.
+**Confirmed booking: Herculaneum & Vesuvius tour** — June 12, 2026.
+
+::: {.callout-note}
+## Confirmation Details Pending
+
+The Herculaneum & Vesuvius tour is confirmed but the confirmation file has not yet been added to the reservations folder. This page will be updated with exact time, meeting point, booking reference, and provider details once the confirmation is available.
+:::
+
+Check the confirmation email/document for:
+- Exact departure time and meeting point
+- Provider name and contact
+- What's included (tickets, transportation, guide)
+- Physical requirements for Vesuvius hike
 
 ---
 
-## Morning: Museums (9 AM–1 PM)
+## Morning/Day: Herculaneum & Vesuvius Tour
 
-**Priority 1: MANN — Museo Archeologico Nazionale** (if not done yesterday)
+Check your tour confirmation for the exact schedule. A typical Herculaneum + Vesuvius day:
 
-**See:** [Museums - MANN](../research/museums.qmd#mann)
+**Herculaneum ruins (2–3 hours)**
 
-- Allow 2–3 hours
-- Highlights: treasures from Pompeii & Herculaneum, Farnese Collection, Alexander Mosaic, Secret Cabinet
-- Now that you've been to Herculaneum, the objects have context — this visit lands differently
-- €18 entry; closed Tuesdays (not an issue — today is Friday); metro to Museo stop
+Herculaneum was buried under a 20-meter lava flow when Vesuvius erupted in 79 AD — which preserved far more than Pompeii's ash burial.
 
-**Priority 2: Cappella Sansevero**
+| Site | Why It Matters |
+|------|----------------|
+| **The Boat Houses** | 300 skeletons of people who fled to the shore — the most emotionally powerful moment on the site |
+| **House of Neptune & Amphitrite** | Vivid blue-and-gold mosaics, astonishingly preserved |
+| **Casa dei Cervi** | Elite villa with original frescoes and garden statues |
+| **Thermopolium** | Ancient fast-food counter with food residue still identifiable |
+| **Wooden structures** | Actual original wood — doors, furniture, beams — impossible at Pompeii |
 
-**See:** [Museums - Cappella Sansevero](../research/museums.qmd#cappella-sansevero)
+**Mount Vesuvius (1–1.5 hours)**
 
-- **Book timed entry in advance** — this tiny chapel has very limited slots and sells out
-- The Veiled Christ by Giuseppe Sanmartino (1753) is one of the most extraordinary sculptures in existence — a marble veil that appears genuinely transparent
-- 30–45 minutes; €9 entry; no photography (enforced)
-- Located in the historic center near Piazza San Domenico Maggiore
+Drive up the volcano, then hike ~30 minutes to the crater rim. Looking down into the crater and back across the bay to Naples — this is the source of the destruction you just walked through.
 
-**Do Both if Possible:**
-- MANN 9am–12pm
-- Cappella Sansevero 12:30–1:30pm (a short walk away)
-
----
-
-## Afternoon: Spaccanapoli & Historic Center (2–6 PM)
-
-**Spaccanapoli:**
-- The ancient straight street that cuts across historic Naples, following a 2,400-year-old Greek city grid
-- More concentrated chaos and authenticity than anywhere else in the south
-
-**Must-See Along the Way:**
-- **Gesù Nuovo** — Baroque church with an unusual diamond-cut stone facade
-- **Santa Chiara** — Monastery with a beautiful cloister covered in majolica tiles
-- **San Domenico Maggiore** — Gothic church; the one Aquinas preached in
-- **Piazza Bellini** — Ruins of the Greek city walls exposed below the piazza floor
-
-**Experience:**
-- Street food: *cuoppo* (cone of fried things), pizza fritta, taralli
-- Presepi (nativity) workshops — Naples is famous for these year-round
-- The laundry, the scooters, the noise — this is what Naples actually is
-
-**Via dei Tribunali:**
-- Parallel street to Spaccanapoli, slightly wider
-- More pizza options if you can still eat pizza
-- Underground Naples tours start here
+- Wear sturdy shoes — the path is volcanic gravel
+- Bring water and layers (wind at the top)
+- Views of Naples, the bay, and Capri on clear days
 
 ---
 
-## Late Afternoon: Waterfront (5–7 PM)
+## Afternoon: Optional (If Tour Ends Early)
 
-**Lungomare Promenade:**
-- Via Partenope and Via Caracciolo hug the bay
-- Vesuvius views across the water
-- Castel dell'Ovo (seaside castle) on the small island
-- Calmer and airier than the historic center — a welcome contrast
+If the tour finishes with time to spare before dinner:
 
-**Activities:**
-- Sunset walk along the water
-- Photos of Vesuvius (dramatic in the late-afternoon light)
-- Gelato on the promenade
+- **Cappella Sansevero** — The Veiled Christ. Book timed entry in advance; €9; 30–45 min. Near Piazza San Domenico Maggiore.
+- **MANN Museum** — Now that you've seen Herculaneum, the objects have context. €18; 2–3 hours; metro to Museo stop.
+- **Rest** — A long day in the ruins and on the volcano earns a rest.
 
 ---
 
@@ -94,14 +77,14 @@ categories: [itinerary, naples, museums]
 
 ## Prepare for Tomorrow
 
-**Saturday morning: fly Naples → Rome → Brindisi**
+**Saturday — Fly Naples → Rome → Brindisi (Day 9):**
 
-- [ ] Pack completely tonight — bags closed and ready
-- [ ] Have flight details accessible: Reservation IXYZMT, AZ 1270 NAP→FCO 3:05pm
-- [ ] Get to Naples Airport (Capodichino) by **1:30pm** — allow 30–45 min taxi from centro
-- [ ] Set alarm and confirm hotel checkout time
-- [ ] Keep tomorrow morning free for a final espresso and a short walk — flight isn't until 3pm
+- [ ] **Pack completely tonight** — bags closed and ready by morning
+- [ ] Airbnb checkout: **10:00 AM SHARP** — hard checkout, no extensions
+- [ ] Flight details: Reservation IXYZMT | AZ 1270 NAP→FCO departs 3:05 PM
+- [ ] Leave for Naples Airport (Capodichino) by **1:30 PM** — 20–30 min taxi from centro
+- [ ] Morning is free: final espresso, short walk — flight isn't until 3 PM
 
 ---
 
-**Previous:** [Day 7: Herculaneum](day-07-2026-06-11-florence-to-naples.qmd) | **Next:** [Day 9: Depart Naples to Brindisi](day-09-2026-06-13-naples.qmd)
+**Previous:** [Day 7: Naples Walking Tour](day-07-2026-06-11-florence-to-naples.qmd) | **Next:** [Day 9: Depart Naples to Brindisi](day-09-2026-06-13-naples.qmd)
