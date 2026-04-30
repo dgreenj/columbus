@@ -1,0 +1,11 @@
+Fix permissions
+
+Outside container:
+
+sudo chown -R gramps:gramps /home/gramps/rstudio/quarto/columbus/_site
+  sudo chown -R gramps:gramps /home/gramps/rstudio/quarto/columbus/.quarto/idx
+
+  Inside container:
+
+  sudo chown -R rstudio:rstudio /home/rstudio/Quarto/columbus/_site
+  sudo chown -R rstudio:rstudio /home/rstudio/Quarto/columbus/.quarto/idx
