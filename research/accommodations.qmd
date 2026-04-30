@@ -10,7 +10,7 @@ toc: true
 
 Accommodations for 16 nights across Italy (Florence, Naples, Puglia). All bookings confirmed.
 
----
+------------------------------------------------------------------------
 
 ## Florence (4 Nights: June 6–10)
 
@@ -18,25 +18,25 @@ Accommodations for 16 nights across Italy (Florence, Naples, Puglia). All bookin
 
 **Aurora apartments Piazzetta**
 
-| Detail | Info |
-|--------|------|
-| **Address** | Via Por Santa Maria, 8, Florence, Tuscany 50122 |
-| **Check-in** | Saturday June 6, 4:00 PM |
-| **Check-out** | Wednesday June 10, **10:00 AM sharp** |
-| **Guests** | Dan Green, Jane Mooney |
-| **Confirmation** | HMMKBKP8JY |
-| **Platform** | Airbnb |
-| **Host** | Lorenzo: +39 055 093 0093 |
+| Detail           | Info                                            |
+|------------------|-------------------------------------------------|
+| **Address**      | Via Por Santa Maria, 8, Florence, Tuscany 50122 |
+| **Check-in**     | Saturday June 6, 4:00 PM                        |
+| **Check-out**    | Wednesday June 10, **10:00 AM sharp**           |
+| **Guests**       | Dan Green, Jane Mooney                          |
+| **Confirmation** | HMMKBKP8JY                                      |
+| **Platform**     | Airbnb                                          |
+| **Host**         | Lorenzo: +39 055 093 0093                       |
 
 **Location:** Via Por Santa Maria runs directly from Piazza della Signoria down to Ponte Vecchio — one of the most central streets in Florence. The Uffizi is steps away; the Duomo is a 10-minute walk north.
 
-::: {.callout-warning}
+::: callout-warning
 ## Checkout Is 10:00 AM — Hard
 
 Checkout is 10:00 AM sharp. The Italo train to Naples departs Florence at 12:28 PM — pack the night before (Day 5 evening) and plan to leave the apartment by 10:00 AM with bags. That gives roughly 2.5 hours before the train.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Naples (3 Nights: June 10–13)
 
@@ -44,29 +44,27 @@ Checkout is 10:00 AM sharp. The Italo train to Naples departs Florence at 12:28 
 
 **Casa Wenner Large — Naples Center Chiaia Plebiscito**
 
-| Detail | Info |
-|--------|------|
-| **Address** | Via Monte di Dio, 66, Naples 80132 |
-| **Check-in** | Wednesday June 10, 3:00 PM |
-| **Check-out** | Saturday June 13, **10:00 AM sharp** |
-| **Guests** | Daniel Green, Jane Mooney |
-| **Confirmation** | HMTBH3HCCX |
-| **Platform** | Airbnb |
-| **Cost** | $826.57 |
+| Detail           | Info                                 |
+|------------------|--------------------------------------|
+| **Address**      | Via Monte di Dio, 66, Naples 80132   |
+| **Check-in**     | Wednesday June 10, 3:00 PM           |
+| **Check-out**    | Saturday June 13, **10:00 AM sharp** |
+| **Guests**       | Daniel Green, Jane Mooney            |
+| **Confirmation** | HMTBH3HCCX                           |
+| **Platform**     | Airbnb                               |
+| **Cost**         | \$826.57                             |
 
-**Host contacts:**
-- Pierfrancesco: +39 335 607 1111
-- Antonella: +39 320 118 6998
+**Host contacts:** - Pierfrancesco: +39 335 607 1111 - Antonella: +39 320 118 6998
 
 **Location:** Chiaia neighborhood — upscale, safe, excellent restaurants, 10-minute walk to the historic center and Spaccanapoli. Via Monte di Dio is a quiet street running up from the waterfront toward the hill.
 
-::: {.callout-warning}
+::: callout-warning
 ## Checkout Is 10:00 AM — Hard
 
 The Airbnb checkout is 10:00 AM with no flexibility. Pack the night before. On Day 9 (June 13), your flight to Brindisi isn't until 3:05 PM — the airport taxi departs around 1:30 PM — so you'll have 3+ hours with your bags after checkout. Ask about luggage storage or find a café nearby.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Puglia (6 Nights: June 13–19)
 
@@ -74,23 +72,23 @@ The Airbnb checkout is 10:00 AM with no flexibility. Pack the night before. On D
 
 **Confirmed Booking — Hotel Executive Inn**
 
-| Detail | Info |
-|--------|------|
-| **Hotel** | Hotel Executive Inn |
-| **Address** | Via Pozzo Traiano, 24, Brindisi 72100 |
-| **Check-in** | Saturday June 13, 2:00 PM |
-| **Check-out** | Sunday June 14 |
-| **Room** | 1 Deluxe Double Room, 2 adults |
-| **Platform** | Expedia |
-| **Itinerary** | 73435335535420 |
+| Detail         | Info                                               |
+|----------------|----------------------------------------------------|
+| **Hotel**      | Hotel Executive Inn                                |
+| **Address**    | Via Pozzo Traiano, 24, Brindisi 72100              |
+| **Check-in**   | Saturday June 13, 2:00 PM                          |
+| **Check-out**  | Sunday June 14                                     |
+| **Room**       | 1 Deluxe Double Room, 2 adults                     |
+| **Platform**   | Expedia                                            |
+| **Itinerary**  | 73435335535420                                     |
 | **Total cost** | €166.48 (room €145.89 + taxes €14.59 + fees €6.00) |
 
-Arriving from Brindisi airport at 6:25 PM — taxi to hotel is ~€12–15, 10–15 minutes. Check-in will be evening arrival, well after 2 PM opening.
+Arriving from Brindisi airport at 6:25 PM — taxi to hotel is \~€12–15, 10–15 minutes. Check-in will be evening arrival, well after 2 PM opening.
 
 ### Puglia Tour (June 14–19)
 
 Accommodations for the six-day Puglia tour are **included in the tour package** and will be confirmed by the tour operator.
 
----
+------------------------------------------------------------------------
 
 **Next:** See [Restaurants](restaurants.qmd) for dining recommendations by city.
