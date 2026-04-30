@@ -8,41 +8,7 @@ toc: true
 
 ## Overview
 
-Accommodations for 16 nights across Italy (Pisa, Florence, Naples, Puglia).
-
-**Booking Strategy:**
-- Book 2-3 months ahead for best selection
-- Prioritize location over luxury
-- Check cancellation policies
-- Read recent reviews
-
----
-
-## Pisa (1 Night: June 4-5)
-
-### Options
-
-**If Overnighting in Pisa:**
-
-**Location Priority:** Near Pisa Centrale station (easy train to Florence next morning)
-
-**Mid-Range Options:**
-- **Hotel Bologna** - Near station, classic Italian hotel
-- **Royal Victoria** - Along Arno river, historic property
-- **Hotel Pisa Tower** - Modern, near tower (but touristy area)
-
-**Budget Options:**
-- Airbnb near station
-- Hotel di Stefano
-
-**Luxury:**
-- Grand Hotel Duomo - Near Leaning Tower
-
-### Booking Considerations
-
-- **Early morning departure:** Choose hotel near station
-- **See the tower:** Stay near Piazza dei Miracoli (but pricier)
-- **Authentic Pisa:** Along Arno away from tower
+Accommodations for 16 nights across Italy (Florence, Naples, Puglia). All bookings confirmed.
 
 ---
 
@@ -102,23 +68,7 @@ The Airbnb checkout is 10:00 AM with no flexibility. Pack the night before. On D
 
 ---
 
-## Puglia (6 Nights: June 13-19)
-
-### Status: Pending Tour Confirmation
-
-Puglia accommodations will likely be **included in the organized tour package** (June 14-19).
-
-### Potential Scenarios
-
-**Scenario A: Tour Includes All Accommodations**
-- Most likely
-- Hotels selected by tour operator
-- May rotate between towns or stay in one base
-- Typically 3-4 star properties
-
-**Scenario B: We Select Own Accommodations**
-- Less likely if organized tour
-- Would coordinate with tour meeting points
+## Puglia (6 Nights: June 13–19)
 
 ### Brindisi (1 Night: June 13–14)
 
@@ -137,154 +87,10 @@ Puglia accommodations will likely be **included in the organized tour package** 
 
 Arriving from Brindisi airport at 6:25 PM — taxi to hotel is ~€12–15, 10–15 minutes. Check-in will be evening arrival, well after 2 PM opening.
 
-### Possible Tour Locations
+### Puglia Tour (June 14–19)
 
-If tour rotates locations, potential overnight towns:
-
-**Alberobello:**
-- Stay IN a trullo (unique experience)
-- Hotel options or trulli rentals
-
-**Lecce:**
-- Centro storico (Baroque old town)
-- Near Piazza del Duomo
-
-**Polignano a Mare / Monopoli:**
-- Coastal towns
-- Sea view hotels
-
-**Ostuni:**
-- White city hilltop
-- Charming B&Bs
-
-### Masseria Stays
-
-**What:** Traditional fortified farmhouses, now luxury hotels
-
-**Experience:**
-- Rural Puglia setting
-- Often family-run
-- Excellent regional cuisine
-- Swimming pools
-- Olive groves and vineyards
-
-**Examples:**
-- Masseria Torre Coccaro
-- Masseria San Domenico
-- Masseria Torre Maizza
-
-**Note:** Premium masserie are €250-500/night, but tour may include mid-range options.
+Accommodations for the six-day Puglia tour are **included in the tour package** and will be confirmed by the tour operator.
 
 ---
 
-## General Booking Tips
-
-### When to Book
-
-- **2-3 months ahead:** Best selection and rates
-- **Peak season (June-August):** Book earlier
-- **Flexible dates:** Use booking.com to compare
-- **Last minute:** Risky in summer
-
-### What to Check
-
-**Before Booking:**
-- [ ] Recent reviews (last 6 months)
-- [ ] Location on map (walkability)
-- [ ] Cancellation policy
-- [ ] Breakfast included?
-- [ ] Air conditioning (essential in June)
-- [ ] Elevator (if mobility concerns)
-- [ ] WiFi quality (check reviews)
-- [ ] Safe neighborhood (especially Naples)
-
-**Confirmation:**
-- [ ] Save confirmation email
-- [ ] Screenshot booking details
-- [ ] Note hotel phone number
-- [ ] Add address to Google Maps
-- [ ] Check check-in time (usually 2-3 PM)
-- [ ] Note check-out time (usually 10-11 AM)
-
-### Booking Sites
-
-**Comparison:**
-- [Booking.com](https://www.booking.com) - Best selection, easy cancellation
-- [Hotels.com](https://www.hotels.com) - Loyalty rewards
-- [Airbnb](https://www.airbnb.com) - Apartments, local character
-- Hotel direct websites - Sometimes better rates, perks
-
-**Tip:** Check multiple sites, then book direct with hotel if same price (better service if issues arise).
-
----
-
-## Packing for Hotels
-
-**Bring:**
-- [ ] Power adapters (Italy uses Type C, F, L plugs)
-- [ ] Small flashlight (power outages happen)
-- [ ] Earplugs (especially Naples, thin walls)
-- [ ] Portable phone charger
-- [ ] Travel-size toiletries (many hotels have minimal amenities)
-
-**Hotel Amenities Vary:**
-- Hairdryer: Usually provided
-- Shampoo/soap: Often basic or not provided
-- Towels: Provided (but sometimes thin)
-- Slippers: Rarely provided
-- Robes: Only luxury hotels
-
----
-
-## Budget Planning
-
-### Estimated Costs (Per Night, Double Occupancy)
-
-| City | Budget | Mid-Range | Luxury |
-|------|--------|-----------|--------|
-| **Pisa** | €50-70 | €80-120 | €150+ |
-| **Florence** | €60-100 | €100-200 | €250+ |
-| **Naples** | €50-80 | €80-150 | €200+ |
-| **Puglia** | TBD (tour) | TBD (tour) | €200+ |
-
-### Total Trip Estimate
-
-**Mid-Range Approach:**
-- Pisa: 1 night × €100 = €100
-- Florence: 4 nights × €150 = €600
-- Naples: 2 nights × €120 = €240
-- Puglia: 6 nights included in tour or ~€900
-- **Total:** ~€1,840 (not including Puglia if tour-provided)
-
----
-
-## Accommodation Checklist
-
-### 3 Months Before Trip
-- [ ] Finalize itinerary (dates, cities)
-- [ ] Research neighborhoods
-- [ ] Set budget
-- [ ] Create shortlist of properties
-- [ ] Check reviews
-
-### 2 Months Before
-- [ ] Book Florence hotels (highest priority)
-- [ ] Book Naples hotels
-- [ ] Book Pisa if overnighting
-- [ ] Confirm Puglia tour accommodation status
-
-### 1 Month Before
-- [ ] Confirm all reservations
-- [ ] Print confirmations
-- [ ] Save addresses to Google Maps
-- [ ] Note hotel phone numbers
-- [ ] Check cancellation policies again
-
-### Week Before Trip
-- [ ] Email hotels to confirm arrival time
-- [ ] Review check-in procedures
-- [ ] Note any special instructions (key pickup, parking, etc.)
-
----
-
-**Next Steps:** See [Restaurants](restaurants.qmd) for dining recommendations by city.
+**Next:** See [Restaurants](restaurants.qmd) for dining recommendations by city.
