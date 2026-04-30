@@ -1,0 +1,469 @@
+Delivered-To: dgreenj@gmail.com
+Received: by 2002:a05:7412:1010:b0:1ce:18f4:f5f with SMTP id h16csp229269rdc;
+        Wed, 29 Apr 2026 08:48:08 -0700 (PDT)
+X-Received: by 2002:a05:620a:444a:b0:8cd:8efb:b7d9 with SMTP id af79cd13be357-8f7d9007949mr1101563785a.28.1777477688148;
+        Wed, 29 Apr 2026 08:48:08 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1777477688; cv=none;
+        d=google.com; s=arc-20240605;
+        b=fKGCsyuv4MJ6N1N9BwB2S7yIM6sLcD63WMlQ1h5KQLtyuc9HTcJ65P4GMPjc42vAnC
+         onISh5EXbT4aTz69VLLjuknnf32C9G1o90qYxKSkJDFg7qSU5lBpwkR/c761BUgkKesB
+         hLEmIZ8/o3Y5+jlOQrJwZISWH1fJcltzmTLkBE12CF1PXHaeRyMapvaPkpvnyI2Omwn+
+         hopormAdh9h87SUnzMpG1uIHDofTiSDgcQMAr6xokyhJgS+nQduflPlyNlBY1DRW/WTe
+         Ru44yII/yyWjcM9uoTgqeqwQ+BEfi7vYLJRN3NkkelXJPQyxYN/SH/MbO5CFvd5wqQKP
+         S1eA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:references:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:dkim-signature;
+        bh=io1SjwpIHm4KdRNsPiGkj5s7MAjIZRk/KIr2Qw/ANqc=;
+        fh=ZSlUyaxsnPLisjE5gWwN3yjjrNywCEN1ZTUa6FfmaiE=;
+        b=H08AIuBej3LPWmFDB6vf1bieGCYYIaOvXKLTxRs5RYXAv5LAMvVQe6yf6l0WK8fAWH
+         ULREnoyLGsOq7+MwhaM0uCCHRHNqBpbRIm8QWJJvhH/0VtHQ4v3vIplt/fQpk4ELXOGx
+         qnZYZdx3ghGUoOdzX7k+FD0p3dopUNZxh/JcuoN0+5ku/9qdKaRurNeuAjWt5GAnZHD1
+         /FJSprfOiEXqh8k8WF9iIpANTNDBL+uS5EqADwP0Ec8z8PBTEf6a6vN/AZY0yhMLEA7L
+         USYO5wom/ND368HXH7ZW+6xVm+F8nI2EYe/bEagySM4GEBr5M4L1L6Ma/rXCY+gEqkvy
+         WcvQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mac.com header.s=1a1hai header.b=TPXecApv;
+       spf=pass (google.com: domain of bluemooney@mac.com designates 57.103.64.103 as permitted sender) smtp.mailfrom=bluemooney@mac.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=mac.com
+Return-Path: <bluemooney@mac.com>
+Received: from outbound.pv.icloud.com (pv-2001j-snip4-11.eps.apple.com. [57.103.64.103])
+        by mx.google.com with ESMTPS id af79cd13be357-8f93cafc798si303566885a.86.2026.04.29.08.48.07
+        for <dgreenj@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 29 Apr 2026 08:48:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bluemooney@mac.com designates 57.103.64.103 as permitted sender) client-ip=57.103.64.103;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mac.com header.s=1a1hai header.b=TPXecApv;
+       spf=pass (google.com: domain of bluemooney@mac.com designates 57.103.64.103 as permitted sender) smtp.mailfrom=bluemooney@mac.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=mac.com
+Received: from outbound.pv.icloud.com (unknown [127.0.0.2])
+	by p00-icloudmta-asmtp-us-west-1a-100-percent-5 (Postfix) with ESMTPS id E9D841800133
+	for <dgreenj@gmail.com>; Wed, 29 Apr 2026 15:48:05 +0000 (UTC)
+X-ICL-Out-Info: HUtFAUMHWwJACUgATUQeDx5WFlZNRAJCTQ5NHVwEXxxCCFYCWQRLVxQEGl8YUgZdH1cdSi1aClFeWhdeTVEPDxJVDVYAWARcFUA4XgxURVEfVFhBDgpaEhhcFFxQWB5GElYNXQkZG0ReUBtfAkIPHBNWFRMdQxkPKwhKBEMHRQJeCyUTCVNWXxFaVlACWktfGV1FD1QHKgEye01wQABeBTUUTHdYA0YLMws9HihyWwtEDTkAXgYvczBUGVBDVARfThkMSh1SVlsTVRdGCQ==
+Dkim-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mac.com; s=1a1hai; t=1777477687; x=1780069687; bh=io1SjwpIHm4KdRNsPiGkj5s7MAjIZRk/KIr2Qw/ANqc=; h=Content-Type:From:Mime-Version:Date:Subject:Message-Id:To:x-icloud-hme; b=TPXecApvc48UAsY6r28wq8QUfAxQ5MVT8TPbh1QlWqSQwAt4/Wyj0MNSpS60UULWuV2q4ghM5WlEZrqCS8FNOfZuGNQ00JG7paPnNm6245N+UYwaNToWds3FHNeVfpzN75uheYgEKMx2Hag6DMPMUE0IbxXutSIXn56KlrPQtF25Ma6XmtGTBFRlPJEyBgRZ7NqgasCN3HwWc2gmON8MOaXATPxiOJ/Vuv417iP0VQwhucpkG24rmxkEl4GiYqyf1bw9SKz7mrEBoBYZyd4kUEShaHmuLf/8e7ZYIoyP76+cDRhTa3wJKvvFguSl2V53mPRiz7oFrKb64kXJflipKA==
+Received: from smtpclient.apple (unknown [17.56.9.36])
+	by p00-icloudmta-asmtp-us-west-1a-100-percent-5 (Postfix) with ESMTPSA id EA54918002AB
+	for <dgreenj@gmail.com>; Wed, 29 Apr 2026 15:48:04 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-7B15F9E3-E283-4FD3-81D1-A53BEBF5CE1C
+Content-Transfer-Encoding: 7bit
+From: Jane Mooney <bluemooney@mac.com>
+Mime-Version: 1.0 (1.0)
+Date: Wed, 29 Apr 2026 10:47:53 -0500
+Subject: Fwd: You have a message about a booking
+Message-Id: <90A3BB5C-757E-4D54-9C2E-EE0944A331DA@mac.com>
+References: <RFg34QXTTsmr8LBcTYy6gw@geopod-ismtpd-0>
+To: Dan <dgreenj@gmail.com>
+X-Mailer: iPad Mail (23D8133)
+X-Authority-Info-Out: v=2.4 cv=LvifC3dc c=1 sm=1 tr=0 ts=69f22836
+ cx=c_apl:c_pps:t_out a=azHRBMxVc17uSn+fyuI/eg==:117
+ a=azHRBMxVc17uSn+fyuI/eg==:17 a=3wNTozIW-4vzeXlV:21 a=A5OVakUREuEA:10
+ a=x7bEGLp0ZPQA:10 a=ukQFP1i7xccA:10 a=VkNPw1HP01LnGYTKEx00:22
+ a=5E-9ZwmtAAAA:8 a=L5tMtK0uAAAA:8 a=4QZqDwIQAAAA:8 a=v3ZZPjhaAAAA:8
+ a=zpgf8Z-vT7RTpi8275MA:9 a=YFbjOmLfofDW2IUB:21 a=frz4AuCg-hUA:10
+ a=_W_S_7VecoQA:10 a=QEXdDO2ut3YA:10 a=hXhEB8vrY3vXV7mZjurS:22
+ a=lcw56TGWVq4iPlkh3RzI:22
+X-Proofpoint-GUID: PzJHHS2mi43wDTQa7zRGudaVa2E_RchA
+X-Proofpoint-ORIG-GUID: PzJHHS2mi43wDTQa7zRGudaVa2E_RchA
+X-Proofpoint-Spam-Details-Enc: AW1haW4tMjYwNDI5MDE1OSBTYWx0ZWRfXwqLX87Fm9zQ8
+ DnQM3mNKOXXbfkk0+gfa6JQTeKkAth+KtnNoEi048Torx5K0dZbeKAbnUaUsIk8WDcdn2RzmNWw
+ CdApECD1NwEO/yg2C+xlqVd5nRJDTpm2iyeALvBFoMgN1dCjcF5rbtA3z/h+7QO2LLGaUcpx0t1
+ t65omfKIDsceJjyrq0AgCTC0fk6uRvfQ2ryZbjFIpSvaCoTyxbSyff1kj+9PxbMpLyAk8uMnAFj
+ urVYd3PWIkbrxHn+hMnfl8UChEk1AeLufdKFsZxu+jqmcfU8/IPIeY6KkgZggDdEK8V0h3T49gO
+ obmCjrUIP1D2eDGnc9TDL9IWCKIZ3kf23y/EUnjnJ1qTk2V4otQLsUW6H/X7QQ=
+
+
+--Apple-Mail-7B15F9E3-E283-4FD3-81D1-A53BEBF5CE1C
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html class=3D"apple-mail-supports-explicit-dark-mode"><head><meta http-equi=
+v=3D"content-type" content=3D"text/html; charset=3Dutf-8"></head><body dir=3D=
+"auto"><br id=3D"lineBreakAtBeginningOfSignature"><div dir=3D"ltr">Sent from=
+ my iPad</div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div><bl=
+ockquote type=3D"cite"><div dir=3D"ltr"><b>Date:</b> April 29, 2026 at 9:52:=
+52=E2=80=AFAM CDT<br><b>Subject:</b> <b>You have a message about a booking</=
+b><br><b>Reply-To:</b> "WORLDTOURS S.r.l. via GetYourGuide" &lt;activity-pro=
+vider-l2s75uzkjltnmugl_at_reply_getyourguide_com_t7rd3e689k7998_54t43522@icl=
+oud.com&gt;<br><br></div></blockquote><blockquote type=3D"cite"><div dir=3D"=
+ltr">=EF=BB=BF
+  <title>
+
+  </title>
+  <!--[if !mso]>
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <![endif]-->
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+">
+ =20
+  <!--[if mso]>
+      <style type=3D"text/css" data-embed>
+        a { padding:0; }
+
+        /* Review.vue */
+        .button-block__link-modifier {color: white !important;}
+        .button-block__container-modifier {
+          background-color: #0071eb !important;
+          text-align: center !important;
+          color: white !important;
+        }
+
+        /* organisms/RecoHeader.vue */
+        .gyg-header .logo {
+          padding: 0 8px !important;
+        }
+        .gyg-header .header-text {
+          padding: 24px 8px !important;
+        }
+        .gyg-header .header-text div {
+          font-size: 56px !important;
+          line-height: 64px !important;
+        }
+        .gyg-header .header-image {
+          /*padding: 0 8px !important;*/
+        }
+        .gyg-header .header-description {
+          padding: 24px !important;
+        }
+
+        /* organisms/SwimlaneSection.vue */
+
+        /* molecules/SwimlaneBlock.vue */
+        .swimlane-heading {
+          padding-top: 56px !important;
+        }
+        .activity-card-container {
+          width: 50%;
+        }
+
+        /* molecules/ClaimedInventiveCta.vue */
+        .image-cta-code-text-block-mso {
+          padding: 40px 15px !important;
+        }
+
+        .incentive-logo table tbody tr td img {
+          width: 166px !important;
+          height: 166px !important;
+        }
+
+        .incentive-logo-container {
+          width: 33% !important;
+        }
+        .incentive-text-container {
+          width: 66% !important;
+        }
+
+        /* organisms/FooterV2.vue */
+        .separator tbody tr td {
+          padding: 56px 0;
+        }
+        .contact-us tr td {
+
+        }
+        .contact-text p {
+          padding: 0 !important;
+        }
+        .contact-us a table tr td {
+          padding: 16px 0 24px !important;
+        }
+
+        /* organisms/TextAndImageBlock.vue */
+        .text-and-image .text-block p {
+          margin: 24px 24px 0 24px;
+        }
+
+        .text-and-image .cta-block {
+          padding: 2px 24px 0 !important;
+        }
+      </style>
+    <![endif]-->
+  <!--[if mso]>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+  <!--[if lte mso 11]>
+    <style type=3D"text/css" data-embed>
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+ =20
+  <!--preload-links-->
+ =20
+ =20
+ =20
+
+
+
+  <div class=3D"brand-background email-relay-customer" data-v-6ede7526=3D"" d=
+ata-v-78cb2da3=3D"" style=3D"background: #ebeef1;"><!--[--><table align=3D"c=
+enter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation=
+" data-v-6ede7526=3D""><tbody><tr class=3D"header--brand-background" style=3D=
+"background-color: #f53;"><td rowspan=3D"2" class=3D"header--brand-backgroun=
+d header__left" style=3D"background-color: #f53; width: 50%;"></td><td class=
+=3D"header--brand-background header__center header__center--logo" style=3D"b=
+ackground-color: #f53; font-size: 0; min-width: 496px; vertical-align: botto=
+m;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"margin-bottom: -1px; width: 100%;"><tbody><tr><td class=3D"he=
+ader__logo-wrapper" style=3D"width: 100%;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"margin-bottom: -1px; wi=
+dth: 100%;"><tbody><tr><!----><td class=3D"header__logo-wrapper--gyg" style=3D=
+"width: 100%;"><img src=3D"https://cdn.getyourguide.com/assets/emails/icons/=
+logo_GYG_core_vertical_white.png" width=3D"62" alt=3D"logo" class=3D"header_=
+_logo header__logo__gyg" style=3D"margin: 32px 0 0 24px;" data-unique-identi=
+fier=3D""></td></tr></tbody></table></td><td class=3D"header__brand-wrapper"=
+ style=3D"vertical-align: bottom;"><!----></td></tr></tbody></table></td><td=
+ class=3D"header--brand-background header__right" rowspan=3D"2" style=3D"bac=
+kground-color: #f53; width: 50%;"></td></tr><tr class=3D"header--brand-backg=
+round" style=3D"background-color: #f53;"><td class=3D"header--brand-backgrou=
+nd header__center" style=3D"background-color: #f53; font-size: 0; min-width:=
+ 496px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" class=3D"section header__title" style=3D"backgroun=
+d-color: #fff; border-radius: 12px 12px 0 0; color: #1a2b49; margin: 32px au=
+to 0; padding: 24px; width: 496px;"><tbody><tr><td align=3D"left" class=3D"g=
+yg-section section__row" style=3D"font-size: 0; padding: 24px 24px 0;"><!--[=
+--><h1 style=3D"font-family: g,Open Sans,Roboto,Segoe UI,Arial,sans-serif; f=
+ont-size: 28px; font-weight: 700; line-height: normal; margin: 0; margin-bot=
+tom: 0;">Your activity provider sent you a message</h1><!--]--></td></tr></t=
+body></table></td></tr><tr><td class=3D"header__left" style=3D"width: 50%;">=
+</td><td class=3D"header__center" style=3D"font-size: 0; min-width: 496px;">=
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation" class=3D"section header__body" style=3D"background-color:=
+ #fff; border-radius: 0 0 12px 12px; color: #1a2b49; margin: -1px auto 1px; p=
+adding: 24px; width: 496px;"><tbody><tr><td align=3D"left" class=3D"gyg-sect=
+ion section__row" style=3D"font-size: 0; padding: 8px 24px 24px;"><!--[--><!=
+--[--><div class=3D"email-relay__header" data-v-6ede7526=3D"" data-v-784d545=
+e=3D"" style=3D"align-items: center; display: flex; margin-bottom: 24px;"><i=
+mg src=3D"https://cdn.getyourguide.com/image/format=3Dauto,fit=3Dcrop,gravit=
+y=3Dauto,quality=3D60,width=3D80,height=3D80,dpr=3D2/tour_img/7e3481d0e9d6a9=
+cc41b1d7391a526c612a320eb74043cb76b17c8945daa9c467.jpg" alt=3D"Naples: City W=
+alking Tour w/ Underground Roman Ruins Ticket" width=3D"80" height=3D"80" cl=
+ass=3D"email-relay__picture__image" data-v-784d545e=3D"" style=3D"border-rad=
+ius: 8px; flex-shrink: 0; margin-right: 16px;" data-unique-identifier=3D""><=
+div class=3D"email-relay__text" data-v-784d545e=3D"" style=3D"flex-grow: 1;"=
+><h1 class=3D"email-relay__tour-title" data-v-784d545e=3D"" style=3D"font-fa=
+mily: g,Open Sans,Roboto,Segoe UI,Arial,sans-serif; font-size: 16px; font-we=
+ight: 500; line-height: 20px; margin: 0; margin-bottom: 0; margin-top: 12px;=
+ text-align: left;">Naples: City Walking Tour w/ Underground Roman Ruins Tic=
+ket</h1><p class=3D"email-relay__tour-option" data-v-784d545e=3D"" style=3D"=
+color: #63687a; font-family: g,Open Sans,Roboto,Segoe UI,Arial,sans-serif; f=
+ont-size: 16px; font-weight: 400; line-height: 20px; margin: 0; margin-top: 0=
+;">Semi-Private Group with Lunch - max 8 pax</p></div></div><div class=3D"bo=
+oking_context" data-v-6ede7526=3D"" style=3D"margin: 24px 0;"><table class=3D=
+"information-row" data-v-6ede7526=3D"" data-v-15d1fcad=3D"" style=3D"border-=
+bottom: 1px solid #ebeef1; border-collapse: collapse; width: 100%;"><tbody d=
+ata-v-15d1fcad=3D""><tr data-v-15d1fcad=3D""><td class=3D"title-cell" data-v=
+-15d1fcad=3D"" style=3D"padding: 16px 0; vertical-align: center; width: 50%;=
+"><p data-v-15d1fcad=3D"" style=3D"font-family: g,Open Sans,Roboto,Segoe UI,=
+Arial,sans-serif; font-size: 16px; font-weight: 500; line-height: 22px; marg=
+in: 0;">Booking reference</p></td><td class=3D"value-cell" data-v-15d1fcad=3D=
+"" style=3D"padding: 16px 0; text-align: right; vertical-align: center; widt=
+h: 50%;"><!--[--><p data-v-6ede7526=3D"" style=3D"font-family: g,Open Sans,R=
+oboto,Segoe UI,Arial,sans-serif; font-size: 16px; font-weight: 400; line-hei=
+ght: 22px; margin: 0;">GYGWZAX648G5</p><!--]--></td></tr></tbody></table><ta=
+ble class=3D"information-row" data-v-6ede7526=3D"" data-v-15d1fcad=3D"" styl=
+e=3D"border-bottom: 1px solid #ebeef1; border-collapse: collapse; width: 100=
+%;"><tbody data-v-15d1fcad=3D""><tr data-v-15d1fcad=3D""><td class=3D"title-=
+cell" data-v-15d1fcad=3D"" style=3D"padding: 16px 0; vertical-align: center;=
+ width: 50%;"><p data-v-15d1fcad=3D"" style=3D"font-family: g,Open Sans,Robo=
+to,Segoe UI,Arial,sans-serif; font-size: 16px; font-weight: 500; line-height=
+: 22px; margin: 0;">Date</p></td><td class=3D"value-cell" data-v-15d1fcad=3D=
+"" style=3D"padding: 16px 0; text-align: right; vertical-align: center; widt=
+h: 50%;"><!--[--><p data-v-6ede7526=3D"" style=3D"font-family: g,Open Sans,R=
+oboto,Segoe UI,Arial,sans-serif; font-size: 16px; font-weight: 400; line-hei=
+ght: 22px; margin: 0;">June 11, 2026, 8:30=E2=80=AFAM</p><!--]--></td></tr><=
+/tbody></table></div><p data-v-6ede7526=3D"" style=3D"font-family: g,Open Sa=
+ns,Roboto,Segoe UI,Arial,sans-serif; font-size: 16px; font-weight: 400; line=
+-height: 22px; margin: 0;">Our activity providers will never request payment=
+ in the following message</p><div class=3D"message-container message" data-v=
+-6ede7526=3D"" data-v-46acdd53=3D"" data-v-03dd2189=3D"" style=3D"background=
+-color: #ebeef1; border-radius: 10px 10px 10px 0; font-family: g,Open Sans,R=
+oboto,Segoe UI,Arial,sans-serif; font-size: 16px; font-weight: 400; line-hei=
+ght: 22px; margin: 24px 0; padding: 16px; text-align: left;"><!--[--><!--[--=
+><div class=3D"css-inlining-exclusion"><p>Dear&nbsp;client</p><p></p><p>the&=
+nbsp;pick&nbsp;up&nbsp;is&nbsp;confirmed&nbsp;at&nbsp;08.30&nbsp;am&nbsp;out=
+side&nbsp;Fontana&nbsp;del&nbsp;Nettuno,&nbsp;P.za&nbsp;Municipio,&nbsp;8013=
+3&nbsp;Napoli&nbsp;NA</p><p>Please&nbsp;arrive&nbsp;10&nbsp;minutes&nbsp;bef=
+ore&nbsp;the&nbsp;pick-up&nbsp;point.</p><p></p><p>best&nbsp;regards&nbsp;</=
+p><p></p><p>Alessia</p></div><div class=3D"end-css-inlining-exclusion"></div=
+><!--]--><!--]--></div><div class=3D"email-relay-customer__actions" data-v-6=
+ede7526=3D"" style=3D"margin: 0; text-align: left;"><h1 class=3D"howto_reply=
+" data-v-6ede7526=3D"" style=3D"font-family: g,Open Sans,Roboto,Segoe UI,Ari=
+al,sans-serif; font-size: 16px; font-weight: 500; line-height: 20px; margin:=
+ 0; margin-bottom: 0; text-align: left;">Reply to this email to send a messa=
+ge back or</h1><div class=3D"email-relay-customer__actions__cta" data-v-6ede=
+7526=3D"" style=3D"margin-top: 16px; width: 100%;"><a clicktracking=3D"off" h=
+ref=3D"https://l4ab.adj.st/bookings/2ZBYK1M6BRMF9ZCQ823LFOF9W9SEGPPN/chat?ad=
+j_t=3D1l1k7n5p_1lcmn26l&amp;adj_deep_link=3Dgyg%3A%2F%2Fbookings%2F2ZBYK1M6B=
+RMF9ZCQ823LFOF9W9SEGPPN%2Fchat%3Futm_source%3Dgetyourguide%26utm_medium%3Dem=
+ail_transactional%26utm_campaign%3Demail_relay_message_to_customer_v1%26utm_=
+content%3Demail_to_chat_v1&amp;adj_fallback=3Dhttps%3A%2F%2Fwww.getyourguide=
+.com%2Fapps%3Futm_source%3Dgetyourguide%26utm_medium%3Demail_transactional%2=
+6utm_campaign%3Demail_relay_message_to_customer_v1%26utm_content%3Demail_to_=
+chat_v1&amp;adj_redirect_macos=3Dhttps%3A%2F%2Fwww.getyourguide.com%2Fapps%3=
+Futm_source%3Dgetyourguide%26utm_medium%3Demail_transactional%26utm_campaign=
+%3Demail_relay_message_to_customer_v1%26utm_content%3Demail_to_chat_v1&amp;u=
+tm_source=3Dgetyourguide&amp;utm_medium=3Demail_transactional&amp;utm_campai=
+gn=3Demail_relay_message_to_customer_v1&amp;utm_content=3Demail_to_chat_v1" t=
+arget=3D"_blank" universal=3D"true" class=3D"button--normal open_in_app_butt=
+on" data-v-6ede7526=3D"" style=3D"background: #0071eb; border-radius: 22px; c=
+olor: #fff; font-family: g,Open Sans,Roboto,Segoe UI,Arial,sans-serif; font-=
+feature-settings: 'calt' off; font-size: 16px; font-style: normal; font-weig=
+ht: 500; line-height: 44px; margin: 0; padding: 11px 24px; text-align: cente=
+r;"><!--[--><!--[-->Open message in app<!--]--><!--]--></a></div><div class=3D=
+"email-relay-customer__actions__cta__report_button" data-v-6ede7526=3D"" sty=
+le=3D"margin-bottom: 0; margin-top: 48px;"><p data-v-6ede7526=3D"" style=3D"=
+font-family: g,GT Eesti,Arial,sans-serif; font-feature-settings: 'calt' off;=
+ font-size: 16px; font-style: normal; font-weight: 400; line-height: 18px; m=
+argin: 0;">Does this message seem inappropriate, suspicious, or offensive to=
+ you? If so, please don=E2=80=99t hesitate to report it, so we can review it=
+ and take appropriate action.</p><a href=3D"https://u22105166.ct.sendgrid.ne=
+t/ls/click?upn=3Du001.cgvWDPhZtte8w9SmEnPFbHmBGxfFiF1pT69VNBsatiUiMgy3ez5Qsf=
+obOACqXRn98lnhOLH68zqaRbbJUdf9BfVDspkHCZgd0fZHSOMCvQVy8oldjvieyomIlMAC1ps0Cm=
+Sm_-2ByBpxeespwHQxjnexBCF51G4fIxOzmXtKlcK7Ub-2FXyxFn9OG6VBNEyiq-2FXMubh4RnaJ=
+rEvw6peMtdQRXIP0437iA-2Bz0IwT-2FTTTv3uJVQTU-2BaiLWYoewpOwLVN-2BfxCq58kMLPEKT=
+GDjphhMTpzZlhONCA4ilQbQQtY1QGiNmcHYZtaBj92V-2B-2FkDAqGjGYI7e3dDzLhFf2Cn-2FFz=
+qPBdduyC-2BCAC1IAWNpCk-2BUiF5qojl-2BnD3G9UTeR58W9XLSHx8OexQtMCLjMwCunayO1a1Q=
+fLQtUCWAyFOIe6fUC-2BoEm8aUlChd9M-2FbhcivfuwKF4qPzE9nBU8ZkjgLnCe5j8PC3tg-3D-3=
+D" target=3D"_blank" universal=3D"false" class=3D"button--text report_button=
+_cta" data-v-6ede7526=3D"" style=3D"border-radius: 22px; color: #c72a3d; fon=
+t-family: g,Open Sans,Roboto,Segoe UI,Arial,sans-serif; font-feature-setting=
+s: 'calt' off; font-size: 16px; font-style: normal; font-weight: 500; line-h=
+eight: 44px; margin: 0; margin-top: 0; padding: 0; text-align: center;"><!--=
+[--><!--[-->Report this message<!--]--><!--]--></a></div></div><!--]--><!--]=
+--></td></tr></tbody></table></td><td class=3D"header__right" style=3D"width=
+: 50%;"></td></tr></tbody></table><table align=3D"center" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" role=3D"presentation" class=3D"gyg-footer ema=
+il-relay-customer-footer" data-v-6ede7526=3D"" data-v-86b2439a=3D"" style=3D=
+"background-color: #1a2b49; border-radius: 0; color: #fff; margin-bottom: 0;=
+ margin-top: 32px; max-width: none; width: 100%;"><tbody><tr><td class=3D"gy=
+g-footer__social-icons-row" style=3D"padding: 24px; padding-top: 56px; text-=
+align: center;"><!--[--><a href=3D"https://u22105166.ct.sendgrid.net/ls/clic=
+k?upn=3Du001.cgvWDPhZtte8w9SmEnPFbGVTBBPQQru8OcY-2B4Bq3j-2B5YtchX9haL1ziLWEy=
+YN9IJy0U3_-2ByBpxeespwHQxjnexBCF51G4fIxOzmXtKlcK7Ub-2FXyxFn9OG6VBNEyiq-2FXMu=
+bh4RnaJrEvw6peMtdQRXIP0437iA-2Bz0IwT-2FTTTv3uJVQTU-2BaiLWYoewpOwLVN-2BfxCq58=
+kMLPEKTGDjphhMTpzZlhONCA4ilQbQQtY1QGiNmcHYbO8PXukR9M1neNCK5fDmS6Aob7FBjfrwRX=
+odebnol3-2BTTrlD6tQACFlDn-2BSg1fQ-2F3zPA6Jqljhxm26vuhlszmikL0ftBtYOlN-2Fefc9=
+tj2H1BHdnRofF8-2F7eoaDCRoGFHCUSfn5MrVkPHftFZV97px4aQb0HIljqE9c2qhmbtMgMA-3D-=
+3D" target=3D"_blank" class=3D"gyg-footer__social-icon" style=3D"color: #fff=
+; display: inline-block; font-family: g,Open Sans,Roboto,Segoe UI,Arial,sans=
+-serif; font-size: 14px; font-weight: 400; line-height: 22px; margin: 0 16px=
+; text-decoration: underline;"><img src=3D"https://cdn.getyourguide.com/asse=
+ts/emails/icons/facebook_white_large.png" alt=3D"facebook_white_large" width=
+=3D"36" height=3D"36" border=3D"0" style=3D"height: 36px; margin-top: 9px; w=
+idth: 36px;" data-unique-identifier=3D""></a><a href=3D"https://u22105166.ct=
+.sendgrid.net/ls/click?upn=3Du001.cgvWDPhZtte8w9SmEnPFbCjhHpk4RN-2F6zAcN-2BR=
+TnP8FieWUT2GcRi23BdubzD1-2Fho4JmKe2PBx2BHDGQKFKAyQ-3D-3DzJ2y_-2ByBpxeespwHQx=
+jnexBCF51G4fIxOzmXtKlcK7Ub-2FXyxFn9OG6VBNEyiq-2FXMubh4RnaJrEvw6peMtdQRXIP043=
+7iA-2Bz0IwT-2FTTTv3uJVQTU-2BaiLWYoewpOwLVN-2BfxCq58kMLPEKTGDjphhMTpzZlhONCA4=
+ilQbQQtY1QGiNmcHYbg2Ykag-2Bu8xq8FCBLgH4fRUe5tggZAcrqV4Y5niRH1nnyWvhcoZY0inqZ=
+-2B1StXGayq3Edc-2FcJ8BOcq3H43oY1wJbZRuxpFPgaI8zdkVjKLJtpJQWIsP5l7UoiFjYZ8lIB=
+EzYtlbd1C16VgR3pXtpZcL0Osuh4e-2BlBXJ4DonfE79A-3D-3D" target=3D"_blank" class=
+=3D"gyg-footer__social-icon" style=3D"color: #fff; display: inline-block; fo=
+nt-family: g,Open Sans,Roboto,Segoe UI,Arial,sans-serif; font-size: 14px; fo=
+nt-weight: 400; line-height: 22px; margin: 0 16px; text-decoration: underlin=
+e;"><img src=3D"https://cdn.getyourguide.com/assets/emails/icons/instagram_w=
+hite_large.png" alt=3D"instagram_white_large" width=3D"36" height=3D"36" bor=
+der=3D"0" style=3D"height: 36px; margin-top: 9px; width: 36px;" data-unique-=
+identifier=3D""></a><a href=3D"https://u22105166.ct.sendgrid.net/ls/click?up=
+n=3Du001.cgvWDPhZtte8w9SmEnPFbG0mht5L0HOqBFGYjYhwKyVjyfYtEgQaZ4NgK-2FNUWJ7oc=
+fD9zGWfTaiDBg-2FBcp291A-3D-3DbJYZ_-2ByBpxeespwHQxjnexBCF51G4fIxOzmXtKlcK7Ub-=
+2FXyxFn9OG6VBNEyiq-2FXMubh4RnaJrEvw6peMtdQRXIP0437iA-2Bz0IwT-2FTTTv3uJVQTU-2=
+BaiLWYoewpOwLVN-2BfxCq58kMLPEKTGDjphhMTpzZlhONCA4ilQbQQtY1QGiNmcHYZyesLbAS7D=
+ijxGaBdSfKrW9IZpCAm3Jo2Lv-2F5P2LzBpYvTj5j-2FCxu3gV-2BeQd9nSfbRnamWoGJn6QTisp=
+PV8rNVJdfe8JKKUkXpPqFKMUQKrqoFFmGgjnEBwtDum1dxi3aAhjPuP6kI8wIUncbAbRuSVm1uwb=
+FskpN2zkzM7X9HRQ-3D-3D" target=3D"_blank" class=3D"gyg-footer__social-icon" s=
+tyle=3D"color: #fff; display: inline-block; font-family: g,Open Sans,Roboto,=
+Segoe UI,Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 2=
+2px; margin: 0 16px; text-decoration: underline;"><img src=3D"https://cdn.ge=
+tyourguide.com/assets/emails/icons/linkedin_white_large.png" alt=3D"linkedin=
+_white_large" width=3D"36" height=3D"36" border=3D"0" style=3D"height: 36px;=
+ margin-top: 9px; width: 36px;" data-unique-identifier=3D""></a><!--]--></td=
+></tr><!--[--><tr data-v-86b2439a=3D""><td data-v-86b2439a=3D"" style=3D"pad=
+ding: 24px; text-align: center;"><a href=3D"https://u22105166.ct.sendgrid.ne=
+t/ls/click?upn=3Du001.cgvWDPhZtte8w9SmEnPFbHmBGxfFiF1pT69VNBsatiVnfQ5-2BKjcJ=
+B2vGWpw-2FAdIPcV6A_-2ByBpxeespwHQxjnexBCF51G4fIxOzmXtKlcK7Ub-2FXyxFn9OG6VBNE=
+yiq-2FXMubh4RnaJrEvw6peMtdQRXIP0437iA-2Bz0IwT-2FTTTv3uJVQTU-2BaiLWYoewpOwLVN=
+-2BfxCq58kMLPEKTGDjphhMTpzZlhONCA4ilQbQQtY1QGiNmcHYZ2uGzJjrvSFXbPo-2Bb6O4-2B=
+Ra4S6B1HhTEPPOifIgsQQ-2BEJ32YAflB8-2BJ-2B87Oe1NFavDWIKhCmBHFjkj6NqL9AK2vp3IR=
+NfzS17c-2B3nhiDp4jCfbHMg5tPD-2Bi79-2B1aNdlVGIAo40iHhmoVC4KhMuduFLlcRyGFhFJqK=
+iujahHqBNrQ-3D-3D" target=3D"_blank" universal=3D"false" data-v-86b2439a=3D"=
+" style=3D"color: #fff; font-family: g,Open Sans,Roboto,Segoe UI,Arial,sans-=
+serif; font-size: 14px; font-weight: 400; line-height: 22px; margin: 0; text=
+-decoration: underline;"><!--[-->GetYourGuide<!--]--></a><span class=3D"emai=
+l-relay-customer-footer__separator" data-v-86b2439a=3D"" style=3D"color: var=
+(--surface-primary); font-family: g,Open Sans,Roboto,Segoe UI,Arial,sans-ser=
+if; font-size: 14px; font-weight: 400; line-height: 22px; margin: 0 8px;">|<=
+/span><a href=3D"https://u22105166.ct.sendgrid.net/ls/click?upn=3Du001.cgvWD=
+PhZtte8w9SmEnPFbHmBGxfFiF1pT69VNBsatiXWJxZ2GQ-2F6R6UOhkw0SPwE30ob_-2ByBpxees=
+pwHQxjnexBCF51G4fIxOzmXtKlcK7Ub-2FXyxFn9OG6VBNEyiq-2FXMubh4RnaJrEvw6peMtdQRX=
+IP0437iA-2Bz0IwT-2FTTTv3uJVQTU-2BaiLWYoewpOwLVN-2BfxCq58kMLPEKTGDjphhMTpzZlh=
+ONCA4ilQbQQtY1QGiNmcHYYd9qSE-2BijQ1If2dpQkCm6Dcw0Zr907suBwERWWItEEJqfcaYqM2q=
+D7SPHo6zAodzcMbz6f6X4mwJQmNHh-2BXlOccfKhB3TsuvglNUF5FD7hIOBIAN8sxU5nKqjrF8qg=
+BMMud1JAdfnXFlAeyoBF2ZTqTfA5NM-2FoYECB7MBfmueXzQ-3D-3D" target=3D"_blank" un=
+iversal=3D"false" data-v-86b2439a=3D"" style=3D"color: #fff; font-family: g,=
+Open Sans,Roboto,Segoe UI,Arial,sans-serif; font-size: 14px; font-weight: 40=
+0; line-height: 22px; margin: 0; text-decoration: underline;"><!--[-->FAQ<!-=
+-]--></a><!----><!----></td></tr><tr data-v-86b2439a=3D""><td colspan=3D"2" d=
+ata-v-86b2439a=3D"" style=3D"padding: 24px; text-align: center;"><span data-=
+v-86b2439a=3D"" style=3D"color: var(--surface-primary); font-family: g,Open S=
+ans,Roboto,Segoe UI,Arial,sans-serif; font-size: 14px; font-weight: 400; lin=
+e-height: 22px; margin: 0;">GetYourGuide receives and processes replies betw=
+een you and the activity provider for your security and better customer serv=
+ice.We recommend you contact the activity provider and make any payments thr=
+ough us to ensure you are protected under the Terms and Conditions for insta=
+nces like refunds and cancellations. Doing so also makes it easier for us to=
+ give you information about your booking, such as important changes to the i=
+tinerary or to a meeting or pickup point. <a href=3D"https://u22105166.ct.se=
+ndgrid.net/ls/click?upn=3Du001.cgvWDPhZtte8w9SmEnPFbHmBGxfFiF1pT69VNBsatiVnf=
+Q5-2BKjcJB2vGWpw-2FAdIPJtpE_-2ByBpxeespwHQxjnexBCF51G4fIxOzmXtKlcK7Ub-2FXyxFn=
+9OG6VBNEyiq-2FXMubh4RnaJrEvw6peMtdQRXIP0437iA-2Bz0IwT-2FTTTv3uJVQTU-2BaiLWYo=
+ewpOwLVN-2BfxCq58kMLPEKTGDjphhMTpzZlhONCA4ilQbQQtY1QGiNmcHYZjKLuHwJBRFMq-2Fv=
+NMyH7m-2B-2FSNIecu0jP2x-2ByhMOvxfIZVdXzvHJI7ADQxSERwcqvHiq8WV3-2FoKMRU3YK8Ir=
+haZzXDIJUUv-2FDDPDDOgXO6BBRL1Zu-2B-2FUNwqKjyyvJcqmmfKvnTC0N5hW7queq1UUKCk1fM=
+2IxMltoE1LE2n1gOpbA-3D-3D" target=3D"_blank" style=3D"color: #fff; font-fami=
+ly: g,Open Sans,Roboto,Segoe UI,Arial,sans-serif; font-size: 14px; font-weig=
+ht: 400; line-height: 22px; margin: 0; text-decoration: underline;"> Learn m=
+ore</a></span></td></tr><!--]--><tr><td style=3D"padding: 24px; text-align: c=
+enter;"><span class=3D"gyg-footer__legal-notice" style=3D"color: #fff; font-=
+family: g,Open Sans,Roboto,Segoe UI,Arial,sans-serif; font-size: 14px; font-=
+weight: 400; line-height: 22px; margin: 0;">GetYourGuide Deutschland GmbH, S=
+onnenburger Strasse 73, 10437 Berlin, Germany. Managing directors: Johannes R=
+eck, Tao Tao, Nils Chrestin. Registered at District Court of Charlottenburg H=
+RB 132059 B, VAT ID No. DE276456081. For more information, please view our <=
+a href=3D"https://u22105166.ct.sendgrid.net/ls/click?upn=3Du001.cgvWDPhZtte8=
+w9SmEnPFbHmBGxfFiF1pT69VNBsatiXkhRj8UpL3LQ9Fxe043AKEQtNO2HbXdIciLFtDimQhsg-3=
+D-3DW2Q3_-2ByBpxeespwHQxjnexBCF51G4fIxOzmXtKlcK7Ub-2FXyxFn9OG6VBNEyiq-2FXMub=
+h4RnaJrEvw6peMtdQRXIP0437iA-2Bz0IwT-2FTTTv3uJVQTU-2BaiLWYoewpOwLVN-2BfxCq58k=
+MLPEKTGDjphhMTpzZlhONCA4ilQbQQtY1QGiNmcHYadGjq4nMPvPxKtPsfuHqrt-2FNVkqP8vcbg=
+FsMf8vrWTRpXDzJSjNicuFPap977esSSq6-2BQKOfdRIOGIaYBPX2Ve2a6RcyqpftEiqyEDeTtLX=
+TwT1hZKrGBAcEz-2FC2KP1qShg1NLxcwEyE0Lh6uTV0la1KH5uRJh8Tf2g-2FAFsc7Z3A-3D-3D"=
+ style=3D"color: #fff; font-family: g,Open Sans,Roboto,Segoe UI,Arial,sans-s=
+erif; font-size: 14px; font-weight: 400; line-height: 22px; margin: 0; text-=
+decoration: underline;">Privacy Policy</a>.</span></td></tr><tr><td class=3D=
+"gyg-footer__logo" style=3D"padding: 24px; padding-bottom: 48px; text-align:=
+ center;"><img src=3D"https://cdn.getyourguide.com/assets/emails/icons/logo_=
+GYG_core_horizontal_white.png" width=3D"184" alt=3D"logo" data-unique-identi=
+fier=3D""></td></tr></tbody></table><!--]--></div>
+
+
+<img src=3D"https://u22105166.ct.sendgrid.net/wf/open?upn=3Du001.-2Bv2zQJ-2F6=
+kxbhtvbGh0iwLZcddhlyc1GNG5nBFCN7gF-2BdvQifTjwRBxWxL-2FPJ0zKWN7zHg93EwUjbWA34=
+S85bS92d6a-2BqWKuEjjUyXQ-2FoHsZ3AGorX83IA-2Frips1Q2Ut6k5fr7m4Ir0nlnifo9VZ8Cb=
+qYDFEGBnvagpbQBz4dCN-2BXRFo286p-2FeXY8A5lNmKp0wN9Aqlkek32fkSlLOn-2FIIjem8iNg=
+J3E-2FIMuMMEXvyL7PcAkL7ZRy0oPWuKBpoHzZbedcuE2hyeHXwjej2SiSMBrmy7-2BKMpBE1Wh0=
+aAqoiG9OsU8Xmy-2F-2FL1VKkb-2B75fRUiNC4LMwut8ef2LftbSxF-2BA-3D-3D" alt=3D"" w=
+idth=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1p=
+x !important;border-width:0 !important;margin-top:0 !important;margin-bottom=
+:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top=
+:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding=
+-left:0 !important;" data-unique-identifier=3D""></div></blockquote></body><=
+/html>=
+
+--Apple-Mail-7B15F9E3-E283-4FD3-81D1-A53BEBF5CE1C--
