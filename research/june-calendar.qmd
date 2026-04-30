@@ -3,6 +3,7 @@ title: "June 2026 — Trip Calendar"
 subtitle: "Florence · Naples · Puglia"
 categories: [planning, overview]
 toc: false
+page-layout: full
 ---
 
 ```{=html}
@@ -136,12 +137,12 @@ td.empty     { background: #fafafa; }
   <td class="florence">
     <span class="day-num">8</span>
     <span class="day-label">🏛 Day 4 — Florence</span>
-    <span class="day-detail">Accademia — David<br>Medici Chapels<br>Mercato Centrale</span>
+    <span class="day-detail">Ghiberti Pass<br>Baptistery + Duomo Museum<br>⚠️ Santa Reparata 10:30am sharp</span>
   </td>
   <td class="florence">
     <span class="day-num">9</span>
     <span class="day-label">🏛 Day 5 — Florence</span>
-    <span class="day-detail">Bargello Museum<br>Santa Croce<br>Local neighborhoods</span>
+    <span class="day-detail">Private Uffizi + Accademia<br>Tour 9:00am sharp<br>Via dei Castellani 14</span>
   </td>
   <td class="travel">
     <span class="day-num">10</span>
@@ -151,12 +152,12 @@ td.empty     { background: #fafafa; }
   <td class="naples">
     <span class="day-num">11</span>
     <span class="day-label">🏺 Day 7 — Naples</span>
-    <span class="day-detail">Herculaneum ruins<br>Ancient Roman city<br>MANN Museum option</span>
+    <span class="day-detail">Naples Walking Tour<br>Underground ruins + lunch<br>Pickup 8:30am Piazza Municipio</span>
   </td>
   <td class="naples">
     <span class="day-num">12</span>
     <span class="day-label">🏺 Day 8 — Naples</span>
-    <span class="day-detail">MANN Museum<br>Cappella Sansevero<br>Spaccanapoli</span>
+    <span class="day-detail">Herculaneum &amp; Vesuvius<br>Tour (details TBD)<br>Cappella Sansevero option</span>
   </td>
   <td class="naples-depart">
     <span class="day-num">13</span>
@@ -257,5 +258,9 @@ Use **File → Print** (Ctrl+P / Cmd+P). The navigation and sidebar hide automat
 |------|------|------|
 | Outbound flights (Lufthansa) | FMWYOJ | Jun 5–6 |
 | Return flights (Lufthansa/United) | FMWYOJ | Jun 20 |
+| Ghiberti Pass — Duomo complex | 87-MKTRBNH | Jun 8 |
+| Viator — Private Uffizi + Accademia | 1391099919 | Jun 9 |
 | Italo train Florence → Naples | PIDCMA | Jun 10 |
+| Naples Airbnb — Casa Wenner | HMTBH3HCCX | Jun 10–13 |
 | ITA flights Naples → Brindisi via Rome | IXYZMT | Jun 13 |
+| Hotel Executive Inn, Brindisi | 73435335535420 | Jun 13–14 |
