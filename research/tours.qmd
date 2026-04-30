@@ -15,7 +15,23 @@ While most of our Italy trip is self-guided, we're planning two organized tour e
 
 ---
 
-## Herculaneum Archaeological Tour (June 11)
+## Confirmed Bookings
+
+| Tour | Date | Ref | Status |
+|------|------|-----|--------|
+| Ghiberti Pass — Duomo complex (Florence) | Jun 8 | 87-MKTRBNH | ✅ Confirmed |
+| Private Uffizi + Accademia with David (Viator) | Jun 9 | 1391099919 | ✅ Confirmed |
+| Naples City Walking Tour w/ Underground Ruins (GetYourGuide) | Jun 11 | GYGWZAX648G5 | ✅ Confirmed |
+| Herculaneum & Vesuvius | Jun 12 | TBD | ✅ Confirmed (details TBD) |
+| Puglia Regional Tour | Jun 14–19 | TBD | 🔄 Being finalized |
+
+---
+
+## Herculaneum & Vesuvius Tour (June 12)
+
+### Status: Confirmed — Details Pending
+
+The Herculaneum & Vesuvius tour is confirmed for **June 12, 2026**. This section will be updated with booking reference, provider name, meeting point, and exact timing once the confirmation file is added to the reservations folder.
 
 ### Why Herculaneum?
 
@@ -234,6 +250,33 @@ A guided tour is **strongly recommended**. The difference between wandering alon
 **Not Needed:**
 - Large bags (bag check available but cumbersome)
 - Umbrellas (ruins partially exposed to elements)
+
+---
+
+## Naples City Walking Tour (June 11)
+
+### Confirmed Booking
+
+**Naples: City Walking Tour w/ Underground Roman Ruins Ticket**
+
+| Detail | Info |
+|--------|------|
+| **Type** | Semi-private group, max 8 people, with lunch |
+| **Date** | Thursday, June 11, 2026 |
+| **Pickup time** | **8:30 AM** — arrive 10 minutes early |
+| **Pickup location** | Outside Fontana del Nettuno, Piazza Municipio, 80133 Napoli |
+| **Booking ref** | GYGWZAX648G5 (GetYourGuide) |
+| **Provider** | WORLDTOURS S.r.l. |
+| **Contact** | Alessia |
+| **Includes** | Tour + underground ruins entry + lunch |
+
+**What to Bring:**
+- Comfortable walking shoes
+- Water bottle
+- Camera
+- Light layers (underground sections are cooler)
+
+**Meeting point note:** Fontana del Nettuno is the large Neptune fountain in front of Naples City Hall (Palazzo San Giacomo) on Piazza Municipio. Impossible to miss.
 
 ---
 
