@@ -1,78 +1,87 @@
 ---
-title: "Day 5: Florence - Bargello & Santa Croce"
-subtitle: "Sculpture & Florentine Tombs"
+title: "Day 5: Florence — Uffizi & Accademia"
+subtitle: "Private Tour: Uffizi Gallery + Accademia (David) — 9:00 AM"
 date: "2026-06-09"
 day-of-week: "Tuesday"
 location: "Florence"
-categories: [itinerary, florence, museums]
+categories: [itinerary, florence, museums, art]
 ---
 
 ## Overview
 
-**Focus:** Bargello Museum (sculpture), Santa Croce church, local neighborhoods
+**Confirmed booking: Private Tour of Uffizi and Accademia Gallery with David**
+
+A private English-language guided tour covering both the Uffizi Gallery and the Accademia (Michelangelo's David) — the two essential Florence museums in one morning.
+
+**Booking ref:** 1391099919 (Viator) | 2 adults | USD $536.82
 
 ---
 
-## Morning: Bargello Museum (9-11 AM)
+## Morning: Private Tour (9:00 AM–1 PM)
 
-**World's Best Renaissance Sculpture Collection**
+::: {.callout-important}
+## Meeting Point — 9:00 AM Sharp
 
-**Highlights:**
-- Donatello's bronze *David* (first nude since antiquity!)
-- Michelangelo early works
-- Verrocchio sculptures
-- Della Robbia ceramics
+**Via dei Castellani, 14, 50122 Firenze FI**
 
-**Why It's Great:**
-- Often overlooked - fewer crowds than Uffizi
-- Incredible collection in medieval palace
-- 1.5-2 hours sufficient
+This is the street running along the east side of the Uffizi, facing the Arno. Look for your guide at the entrance. Arrive by 8:50 AM.
 
----
+Cancellation deadline: **9:00 AM Central European Summer Time** (the day before).
+:::
 
-## Late Morning: Santa Croce (11:30 AM-12:30 PM)
+### What You'll See
 
-**Franciscan Church - Pantheon of Florence**
+**Uffizi Gallery**
 
-**Tombs of:**
-- Michelangelo
-- Galileo
-- Machiavelli
-- Rossini
+The world's finest collection of Italian Renaissance painting, housed in the building Vasari designed for the Medici.
 
-**Also:**
-- Giotto frescoes (Bardi and Peruzzi Chapels)
-- Pazzi Chapel (Brunelleschi)
-- Leather school (free entry from side)
+| Work | Artist | Why It Matters |
+|------|--------|---------------|
+| *Birth of Venus* | Botticelli | The defining image of Renaissance humanism |
+| *Primavera* | Botticelli | Mythological allegory; 500+ plant species identifiable |
+| *Annunciation* | Leonardo da Vinci | One of his earliest works; remarkable spatial depth |
+| *Doni Tondo* | Michelangelo | His only finished panel painting; precursor to the Sistine ceiling |
+| *Duke and Duchess of Urbino* | Piero della Francesca | Dual portraits; landscapes are the first true Italian landscapes |
+| *Venus of Urbino* | Titian | Benchmark for every reclining nude that followed |
 
-**Time:** 45-60 minutes
+A private guide makes the Uffizi genuinely comprehensible — the collection is enormous and context transforms everything.
 
----
+**Galleria dell'Accademia**
 
-## Afternoon: Santa Croce Neighborhood (1-5 PM)
-
-**Lunch:** Trattoria near Santa Croce piazza
-
-**Explore:**
-- Piazza Santa Croce (lively square)
-- Via de' Benci (restaurants, bars)
-- Local shops and markets
-- Less touristy than Duomo area
-
-**Activities:**
-- Shopping for souvenirs
-- Leather goods
-- Paper products (Florence famous for)
-- Gelato tasting (#3 this trip?)
+- **Michelangelo's David** — 17 feet of marble, carved when Michelangelo was 26. Stand in front and walk around it. The Prisoners (unfinished figures in the corridor) show his process: figures emerging from stone.
+- Musical instrument collection (Stradivari violins, etc.)
 
 ---
 
-## Evening: Casual Night
+## Afternoon: Free (1–6 PM)
 
-**Dinner:** Local trattoria, relaxed
+The morning tour ends around 1 PM. The afternoon is yours.
 
-**After:** Evening stroll, pack for tomorrow's departure to Naples
+**Options worth considering:**
+- Bargello Museum — Renaissance sculpture; Donatello's bronze David, early Michelangelo. Often uncrowded.
+- Santa Croce — Tombs of Michelangelo, Galileo, Machiavelli; Giotto frescoes
+- Boboli Gardens — If you want air and space
+- Lunch near the Uffizi and a long afternoon nap — equally valid
 
 ---
 
-**Previous:** [Day 4](day-04-2026-06-08-florence.qmd) | **Next:** [Day 6](day-06-2026-06-10-florence.qmd)
+## Evening: Last Night in Florence
+
+Pack for tomorrow's train to Naples (12:28pm departure — checkout by 11am).
+
+Dinner — last chance for:
+- Bistecca alla Fiorentina (the great T-bone, shared between two)
+- Final pasta, final wine, final gelato
+
+---
+
+## Checklist
+
+- [ ] Meeting point confirmed: Via dei Castellani 14 at 8:50 AM
+- [ ] Booking ref 1391099919 saved to phone
+- [ ] Afternoon activity chosen
+- [ ] Start packing for Naples tonight
+
+---
+
+**Previous:** [Day 4: Duomo Complex](day-04-2026-06-08-florence.qmd) | **Next:** [Day 6: Train to Naples](day-06-2026-06-10-florence.qmd)
