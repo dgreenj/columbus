@@ -1,5 +1,5 @@
 ---
-title: "Day 3: Florence - Duomo & Uffizi"
+title: "Day 3 — June 7: Florence - Duomo & Uffizi"
 subtitle: "First Full Day - Renaissance Art"
 date: "2026-06-07"
 day-of-week: "Sunday"

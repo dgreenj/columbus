@@ -1,5 +1,5 @@
 ---
-title: "Day 6: Florence to Naples"
+title: "Day 6 — June 10: Florence to Naples"
 subtitle: "Italo High-Speed Train — Arrives Naples 3:28pm"
 date: "2026-06-10"
 day-of-week: "Wednesday"

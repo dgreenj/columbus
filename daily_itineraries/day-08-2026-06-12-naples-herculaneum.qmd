@@ -1,5 +1,5 @@
 ---
-title: "Day 8: Naples — Herculaneum & Vesuvius"
+title: "Day 8 — June 12: Naples — Herculaneum & Vesuvius"
 subtitle: "Confirmed Tour — Details to be Updated When Confirmation File Is Available"
 date: "2026-06-12"
 day-of-week: "Friday"

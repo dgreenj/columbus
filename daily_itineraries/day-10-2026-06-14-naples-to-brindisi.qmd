@@ -1,5 +1,5 @@
 ---
-title: "Day 10: First Full Day in Puglia"
+title: "Day 10 — June 14: First Full Day in Puglia"
 subtitle: "Brindisi Orientation & Puglia Begins"
 date: "2026-06-14"
 day-of-week: "Sunday"

@@ -1,5 +1,5 @@
 ---
-title: "Day 2: Frankfurt to Florence"
+title: "Day 2 — June 6: Frankfurt to Florence"
 subtitle: "First Steps in Italy — Arrive Florence 6:30pm"
 date: "2026-06-06"
 day-of-week: "Saturday"

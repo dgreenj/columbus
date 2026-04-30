@@ -1,5 +1,5 @@
 ---
-title: "Day 4: Florence — Duomo Complex"
+title: "Day 4 — June 8: Florence — Duomo Complex"
 subtitle: "Ghiberti Pass: Baptistery, Opera del Duomo Museum & Santa Reparata"
 date: "2026-06-08"
 day-of-week: "Monday"

@@ -1,5 +1,5 @@
 ---
-title: "Day 15: Puglia - Tour Day 5"
+title: "Day 15 — June 19: Puglia - Tour Day 5"
 subtitle: "Tour Being Planned"
 date: "2026-06-19"
 day-of-week: "Friday"

@@ -1,5 +1,5 @@
 ---
-title: "Day 5: Florence — Uffizi & Accademia"
+title: "Day 5 — June 9: Florence — Uffizi & Accademia"
 subtitle: "Private Tour: Uffizi Gallery + Accademia (David) — 9:00 AM"
 date: "2026-06-09"
 day-of-week: "Tuesday"

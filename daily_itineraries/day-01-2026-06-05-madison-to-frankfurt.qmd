@@ -1,5 +1,5 @@
 ---
-title: "Day 1: Madison to Frankfurt"
+title: "Day 1 — June 5: Madison to Frankfurt"
 subtitle: "Departure Day — Wheels Up for Italy"
 date: "2026-06-05"
 day-of-week: "Friday"

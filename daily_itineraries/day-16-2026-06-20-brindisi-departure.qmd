@@ -1,5 +1,5 @@
 ---
-title: "Day 16: Departure from Brindisi"
+title: "Day 16 — June 20: Departure from Brindisi"
 subtitle: "Homeward Bound — Brindisi to Madison via Munich and Chicago"
 date: "2026-06-20"
 day-of-week: "Saturday"

@@ -1,5 +1,5 @@
 ---
-title: "Day 9: Depart Naples to Brindisi"
+title: "Day 9 — June 13: Depart Naples to Brindisi"
 subtitle: "Fly Naples → Rome → Brindisi — Arrive Puglia 6:25pm"
 date: "2026-06-13"
 day-of-week: "Saturday"

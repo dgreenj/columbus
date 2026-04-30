@@ -1,5 +1,5 @@
 ---
-title: "Day 7: Naples — City Walking Tour"
+title: "Day 7 — June 11: Naples — City Walking Tour"
 subtitle: "Underground Roman Ruins, Historic Center & Lunch — 8:30 AM"
 date: "2026-06-11"
 day-of-week: "Thursday"
