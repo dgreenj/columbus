@@ -1,107 +1,88 @@
 ---
-title: "Day 7: Naples — Herculaneum"
-subtitle: "Ancient Roman City & Archaeology"
+title: "Day 7: Naples — City Walking Tour"
+subtitle: "Underground Roman Ruins, Historic Center & Lunch — 8:30 AM"
 date: "2026-06-11"
 day-of-week: "Thursday"
-location: "Naples & Herculaneum"
-categories: [itinerary, naples, herculaneum, archaeology]
+location: "Naples"
+categories: [itinerary, naples, archaeology, walking]
 ---
 
 ## Overview
 
-**First full day in Naples.** Today's highlight is Herculaneum — an ancient Roman city buried in volcanic mud by Vesuvius in 79 AD, better preserved than Pompeii and more emotionally powerful. A licensed guide makes the difference here.
+**Confirmed booking: Naples City Walking Tour w/ Underground Roman Ruins Ticket**
+Semi-private group, max 8 people, with lunch included.
+
+**Booking ref:** GYGWZAX648G5 (GetYourGuide) | Provider: WORLDTOURS S.r.l. | Contact: Alessia
 
 ---
 
-## Morning: Herculaneum Tour (Depart ~8–9 AM)
+## Morning: Walking Tour (8:30 AM–~1 PM)
 
-### Tour Details
+::: {.callout-important}
+## Pickup — 8:30 AM Sharp
 
-**See:** [Tours Research - Herculaneum](../research/tours.qmd#herculaneum-archaeological-tour)
+**Outside Fontana del Nettuno, Piazza Municipio, 80133 Napoli**
 
-**Meeting:**
-- Check tour confirmation for exact time and meeting point
-- Likely hotel pickup OR meet at Ercolano Scavi train station
-- Bring: comfortable shoes, water, sun protection, camera
+Fontana del Nettuno is the large Neptune fountain in front of the Palazzo San Giacomo (Naples City Hall) on Piazza Municipio. Hard to miss.
 
-**Getting There (if independent):**
-- Circumvesuviana train from Napoli Porta Nolana or Centrale to **Ercolano Scavi** (~20 min)
-- €2.80 one-way; runs every 20–30 minutes
-- The station literally overlooks the excavated city
+**Arrive 10 minutes early** — 8:20 AM. Look for the WORLDTOURS guide.
+:::
 
-**At Herculaneum (~4–5 hours total):**
+### What the Tour Covers
 
-- Licensed archaeologist guide (worth every euro — the context transforms the experience)
-- 2-hour guided tour of ruins
+A semi-private walking tour (max 8 people) through Naples' historic center with entry to the underground Roman ruins and lunch included.
 
-**What You'll See:**
+**Above ground:**
+- Historic center streets and piazzas
+- Spaccanapoli — the ancient straight street following the Greek city grid
+- Churches and baroque architecture
+- Authentic Naples neighborhoods away from the waterfront
 
-| Site | Why It Matters |
-|------|----------------|
-| **The Boat Houses** | 300 skeletons of people who fled to the shore — most powerful moment on the site |
-| **House of Neptune & Amphitrite** | Vivid blue-and-gold mosaics, astonishingly preserved |
-| **Casa dei Cervi** | Elite villa with original frescoes and garden statues |
-| **Thermopolium** | Ancient fast-food counter with food residue still identifiable |
-| **Wooden structures** | Actual original wood — doors, furniture, beams — impossible at Pompeii |
+**Underground:**
+- Naples sits on top of a 2,400-year-old Greek and Roman city
+- The underground tour typically includes sections of the ancient Roman city below the modern streets
+- Cisterns, tunnels, and remains of Greek-era structures
 
-**Why Better than Pompeii:**
-- Upper floors of buildings are intact (Pompeii's collapsed)
-- Organic materials preserved — wood, cloth, bread, wine
-- Far less crowded
-- More manageable size (2 hours vs. a full day)
-- More emotionally powerful: the boat houses are unlike anything else in Italy
+**Lunch:**
+Included in the tour — typically at a local restaurant in the historic center.
 
 ---
 
-## Afternoon Options (2–6 PM)
+## Afternoon: Free (1–6 PM)
 
-**Option A: MANN Museum** (Recommended if energy remains)
+The tour ends around 1 PM. Afternoon is unscheduled.
 
-**See:** [Museums - MANN](../research/museums.qmd#mann)
+**Options:**
 
-- The National Archaeological Museum holds the treasures *removed* from Herculaneum and Pompeii
-- **Go AFTER Herculaneum** — the context transforms the objects completely
-- Highlights: Farnese Collection, Alexander Mosaic, Secret Cabinet (erotica from Pompeii)
-- Allow 2–3 hours; €18 entry; closed Tuesdays
-- Located in the Museo/Cavour area, easy taxi or metro from Ercolano
-
-**Option B: Cappella Sansevero**
-
-**See:** [Museums - Cappella Sansevero](../research/museums.qmd#cappella-sansevero)
-
-- The Veiled Christ — marble veil so lifelike people have refused to believe it's stone
-- **Book timed entry in advance** — tiny chapel, very limited slots
-- 30–45 minutes; €9 entry; no photography (seriously enforced)
-- In the historic center, easy to combine with an evening walk
-
-**Option C: Rest**
-
-Herculaneum is intense — emotionally and physically. Coming back to the hotel, resting, and saving the museums for tomorrow is completely valid.
+| Option | Notes |
+|--------|-------|
+| **Cappella Sansevero** | The Veiled Christ — one of the most extraordinary sculptures in existence. **Book timed entry in advance** — tiny chapel, very limited slots. €9, no photography. Near Piazza San Domenico Maggiore. |
+| **MANN Museum** | National Archaeological Museum — treasures from Pompeii and Herculaneum. 2–3 hours; €18. Metro to Museo stop. |
+| **Rest** | The walking tour is full-on. Returning to the Airbnb for a couple of hours is completely reasonable. |
 
 ---
 
 ## Evening: Naples (7–10 PM)
 
-**Spaccanapoli District:**
-- The ancient straight street cutting through historic Naples
-- Via dei Tribunali (the pizza street — different pizzerias than last night)
-- Street life, churches, hanging laundry, presepi workshops
-
 **Dinner:**
-- Try a different pizzeria if you loved last night's
-- Or seafood — Naples is a port city and the catch is fresh
-- Sfogliatella for dessert if you haven't yet
+- Another pizzeria if you can face it (Via dei Tribunali has different options than last night)
+- Seafood — Naples is a port city; fresh catch
+- Quartieri Spagnoli for a grittier local atmosphere
+
+**After dinner:** Short walk, early night — Herculaneum & Vesuvius tour tomorrow.
 
 ---
 
-## Notes & Reflections
+## Prepare for Tomorrow
 
-**Herculaneum Experience:**
+**Day 8 — Herculaneum & Vesuvius tour (details TBD — check confirmation):**
 
-**Most Powerful Moment:**
-
-**Understanding of Ancient Rome:**
+- [ ] Review tour confirmation for exact time and meeting point
+- [ ] Wear comfortable shoes (very uneven ancient surfaces at Herculaneum)
+- [ ] Bring: water, sunscreen, hat, camera, sturdy shoes for Vesuvius hike
+- [ ] Set alarm — likely an early start
+- [ ] Charge camera/phone
 
 ---
 
-**Previous:** [Day 6: Florence to Naples](day-06-2026-06-10-florence.qmd) | **Next:** [Day 8: Naples Museums & City](day-08-2026-06-12-naples-herculaneum.qmd)
+**Previous:** [Day 6: Florence to Naples](day-06-2026-06-10-florence.qmd) | **Next:** [Day 8: Herculaneum & Vesuvius](day-08-2026-06-12-naples-herculaneum.qmd)
