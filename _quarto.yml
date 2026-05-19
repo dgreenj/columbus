@@ -24,10 +24,10 @@ website:
           - text: "Pre-Departure Checklist"
             href: research/pre-departure-checklist.qmd
           - text: "---"
-          - text: "Flights"
+          - text: "Flights to Italy"
             href: research/flights.qmd
-          - text: "Trains"
-            href: research/trains.qmd
+          - text: "Travel in Italy"
+            href: research/travel-in-italy.qmd
           - text: "Accommodations"
             href: research/accommodations.qmd
           - text: "Tours"
@@ -42,6 +42,12 @@ website:
             href: research/restaurants.qmd
           - text: "Packing List"
             href: research/packing-list.qmd
+      - text: "Resources"
+        menu:
+          - text: "Flight Research"
+            href: resources/flight-research.qmd
+          - text: "Train Travel in Italy"
+            href: resources/train-travel.qmd
       - text: "Regions"
         menu:
           - text: "Florence"
@@ -85,7 +91,7 @@ website:
           - research/june-calendar.qmd
           - research/pre-departure-checklist.qmd
           - research/flights.qmd
-          - research/trains.qmd
+          - research/travel-in-italy.qmd
           - research/accommodations.qmd
           - research/tours.qmd
           - research/museums.qmd
@@ -93,6 +99,13 @@ website:
           - research/tickets-naples.qmd
           - research/restaurants.qmd
           - research/packing-list.qmd
+
+      - text: "---"
+
+      - section: "Resources"
+        contents:
+          - resources/flight-research.qmd
+          - resources/train-travel.qmd
 
       - text: "---"
 
