@@ -14,7 +14,9 @@
       "Bash(docker exec *)",
       "Bash(git -C /home/gramps/rstudio/quarto/columbus status --short)",
       "Bash(git *)",
-      "Bash(sudo chown *)"
+      "Bash(sudo chown *)",
+      "Skill(superpowers:writing-plans)",
+      "Skill(superpowers:subagent-driven-development)"
     ]
   }
 }
