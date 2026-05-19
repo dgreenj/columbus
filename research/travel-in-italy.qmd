@@ -1,0 +1,66 @@
+---
+title: "Travel in Italy"
+subtitle: "Booked Intra-Italy Transport"
+categories: [logistics, trains, flights, transportation]
+toc: true
+---
+
+## Overview
+
+Two legs move us between Italian cities during the trip:
+
+| Leg | Mode | Date | Operator | Booking |
+|-----|------|------|----------|---------|
+| Florence → Naples | Train (Italo #8902) | June 10 | Italo | PIDCMA |
+| Naples → Brindisi | Flight via Rome (AZ 1270/1623) | June 13 | ITA Airways | IXYZMT |
+
+For general Italian train information (booking tips, fare classes, station details), see [Train Travel in Italy](../resources/train-travel.qmd).
+
+---
+
+## Segment 1: Florence → Naples by Train — June 10
+
+**Booked:** Italo #8902 | **Ticket:** PIDCMA
+
+| Detail | Info |
+|--------|------|
+| **Route** | Firenze Santa Maria Novella (SMN) → Napoli Centrale |
+| **Departs** | 12:28pm |
+| **Arrives** | 3:28pm |
+| **Duration** | 3 hours |
+| **Car** | Salotto 1 (Lounge) |
+| **Seats** | Jane (1), Dan (2) |
+
+**What to expect:**
+- Modern high-speed Italo train; power outlets and WiFi at seats
+- Café/bar car available
+- Scenic route: Tuscan countryside → Apennines → Vesuvius views approaching Naples
+- Sit on the right side (west) for potential Vesuvius sighting on approach
+
+**At the stations:**
+
+*Firenze SMN:* Arrive 15–20 min early. Check departure boards for platform (binario). Station is central — walk to Duomo in 10 min.
+
+*Napoli Centrale:* Busy station — keep bags close. Official white taxi stand outside; Metro Lines 1 and 2 connect to the city.
+
+See [Day 7](../daily_itineraries/day-07-2026-06-11-florence-to-naples.qmd) for the full travel-day plan.
+
+---
+
+## Segment 2: Naples → Brindisi by Flight — June 13
+
+**Booked:** ITA Airways (AZ) | **Reservation:** IXYZMT | **Airline code:** BY4EV5
+
+::: {.callout-note}
+## Why via Rome?
+There are no direct commercial flights between Naples (NAP) and Brindisi (BDS) — the route is too short and thin for direct service. Routing via Rome Fiumicino (FCO) is the only way to fly this leg. Total journey time (~3.5 hours door-to-door from central Naples) is comparable to the 5.5-hour direct train that was the original plan.
+:::
+
+| Flight | Route | Departs | Arrives |
+|--------|-------|---------|---------|
+| AZ 1270 | NAP → FCO (Rome Fiumicino T1) | 3:05pm | 4:05pm |
+| AZ 1623 | FCO → BDS (Brindisi) | 5:15pm | 6:25pm |
+
+**Baggage:** 2 × 23kg checked + 1 × 8kg carry-on per person on both flights.
+
+See [Day 9](../daily_itineraries/day-09-2026-06-13-naples.qmd) for the full departure-day plan including Naples airport logistics.
