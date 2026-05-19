@@ -135,6 +135,6 @@ We land Frankfurt at 2:05pm and connect to Florence (LH 9498, departs 4:50pm, ar
 
 ## Links & Resources
 
-- [Flights Research](../research/flights.qmd) — Complete booking details
+- [Flights to Italy](../research/flights.qmd) — Complete booking details
 - [Packing List](../research/packing-list.qmd) — Final checklist
 - [Day 2: Arrive Florence](day-02-2026-06-06-arrive-florence.qmd)
