@@ -1,0 +1,268 @@
+---
+title: "Train Travel in Italy"
+subtitle: "Trenitalia & Italo — Reference Guide"
+categories: [resources, trains, transportation]
+toc: true
+---
+
+## Overview
+
+Italian trains are efficient, comfortable, and one of the best ways to travel between cities. This page covers general guidance for booking and riding Italian trains.
+
+For our specific booked train and flight segments between cities, see [Travel in Italy](../research/travel-in-italy.qmd).
+
+## Booking Websites
+
+- **[Trenitalia.com](https://www.trenitalia.com)** - Italy's national rail operator
+- **[Italotreno.it](https://www.italotreno.it)** - Private high-speed operator
+
+**Booking Window:** 2-4 weeks ahead for best "Super Economy" fares
+
+**Payment:** Major credit cards accepted, often cheaper to book directly vs. third-party sites
+
+---
+
+## Naples → Brindisi by Train (Research Notes)
+
+::: {.callout-note}
+## We changed this leg to a flight
+Our Naples→Brindisi segment is now a flight (ITA Airways AZ 1270/1623, June 13). See [Travel in Italy](../research/travel-in-italy.qmd) for the actual booking. Train research below is retained for reference.
+:::
+
+**Original planned route:** Naples → Brindisi by Intercity train (~5.5 hours direct)
+
+### Route Options
+
+| Route | Train Type | Duration | Changes | Class | Fare |
+|-------|------------|----------|---------|-------|------|
+| **Naples → Brindisi (IC)** | **Intercity Express** | **~5h 30m** | **0 (Direct)** | **1st + 2nd** | **€15-€40 (1st)** |
+| Naples → Bari | Frecciarossa/Italo | 3h 15-4h | 0-1 | Various | €20-€60 |
+| Naples → Brindisi (old route) | Frecce + Regional | 5-6h | 1 (Bari) | Various | €22-€75 |
+| Naples → Lecce | Frecciarossa | 5h 30-6h | 0-1 | Various | €25-€80 |
+
+**Key Decision:** Intercity (IC) is the clear winner for the train option — direct service, First Class available, no slow regional connections required.
+
+### First Class Options on IC
+
+| Option | Type | Duration | Class | Verdict |
+|---|---|---|---|---|
+| **Intercity (IC)** | Express conventional | ~5h 30m | **1st + 2nd Class** | ✅ Best train option |
+| Frecciarossa to Bari + Regional | High-speed + slow regional | 5–6h | Business on FS leg only | Regional leg IS slow |
+
+**Why Intercity (IC):**
+- Runs Naples → Brindisi without changing trains
+- Makes major stops only (Foggia, Bari, coastal towns)
+- First Class: reserved seat, more space, quieter car
+- Fares: €15–40 First Class with advance booking
+- Book at [trenitalia.com](https://www.trenitalia.com) — search Naples Centrale → Brindisi, filter by IC
+
+### Understanding Puglia Geography
+
+**The train journey IS a tour through Puglia:**
+
+| Stop | Notes |
+|------|-------|
+| Caserta | Royal Palace (Reggia di Caserta), visible from station |
+| Benevento | Roman Arch of Trajan |
+| Foggia | **Enter Puglia here** (gateway to Gargano Peninsula) |
+| Bari | Puglia's capital (~3.5h from Naples) |
+| Polignano a Mare | Dramatic cliffside town |
+| Ostuni | "White City" on hilltop |
+| Brindisi | Historic port city (~5.5h from Naples) |
+| Lecce | "Florence of the South" (~6h, 30 min beyond Brindisi) |
+
+### Scenic Journey Highlights
+
+**What You'll See:**
+- Crossing the Apennines (mountains)
+- Entering the Tavoliere delle Puglie (plains)
+- Adriatic coastline (sit on LEFT side after Foggia)
+- Olive groves stretching to horizon
+- Whitewashed towns on hillsides
+
+### Option B: Stop in Bari (If Time Allows)
+
+- Take morning train from Naples to Bari (3.5h)
+- Spend afternoon/evening in Bari Vecchia (old town)
+- Watch orecchiette ladies making pasta; visit Basilica di San Nicola
+- **Next morning:** Easy 1–1.5 hour regional train to Brindisi
+
+**Bari day trips:** Matera (1h), Alberobello (1.5h), Polignano a Mare (30 min)
+
+### Regional Connections Within Puglia
+
+| Route | Duration | Frequency | Price |
+|-------|----------|-----------|-------|
+| Bari → Brindisi | 1-1.5h | Frequent | €8-€15 |
+| Bari → Lecce | 1.5h | Hourly | €12-€25 |
+| Brindisi → Lecce | 30 min | Frequent | €5-€10 |
+
+---
+
+## General Train Travel Tips
+
+### Booking Strategy
+
+**When to Book:**
+- High-speed trains: 2-4 weeks ahead for Super Economy fares
+- Regional trains: Can buy same day (no reservations)
+
+**Where to Book:**
+- Trenitalia.com or Italotreno.it (direct booking best)
+- Omio, Rail Europe (third-party, often higher fees)
+- Station ticket windows (if you prefer in-person)
+
+### At the Station
+
+**Arrival Time:**
+- High-speed trains: Arrive 15-20 minutes early
+- Regional trains: Arrive 10 minutes early
+- Check platform (binario) on departure boards
+
+**Validating Tickets:**
+- E-tickets (QR code): No validation needed, show on phone
+- Paper tickets: MUST validate in yellow machines before boarding
+- Failure to validate = fine from conductor
+
+### On the Train
+
+**Luggage:**
+- Store large bags in designated racks (near doors or overhead)
+- Keep valuables with you
+- Watch bags during stops
+
+**Seats:**
+- High-speed: Assigned seats (on ticket)
+- Regional: Open seating (first-come, first-served)
+
+**Quiet Cars:**
+- Some trains have "Silenzio" cars (no phone calls, quiet conversations)
+
+### Train Classes Compared
+
+**Trenitalia Classes:**
+- **Standard/2nd Class:** Comfortable, affordable
+- **Premium:** More space, quieter
+- **Business:** Leather seats, welcome drink, snacks
+- **Executive:** Most spacious, full meal service (rare on our routes)
+
+**Italo Classes:**
+- **Smart:** Economy
+- **Comfort:** Business equivalent
+- **Prima:** First class equivalent
+
+---
+
+## Station Information
+
+### Firenze Santa Maria Novella (SMN)
+
+**Address:** Piazza della Stazione, 50123 Firenze
+**Key Features:**
+- Central location (walk to Duomo in 10 min)
+- Luggage storage (€6-€12 per bag per day)
+- Pharmacy, cafes, shops
+- Free WiFi
+
+**Getting to Hotels:**
+- Many Florence hotels walkable
+- Taxi stand outside main entrance
+- Trams and buses available
+
+### Napoli Centrale
+
+**Address:** Piazza Garibaldi, 80142 Napoli
+**Key Features:**
+- Main Naples station (also called "Garibaldi")
+- Can be crowded — watch belongings
+- Metro connections (Line 1 and 2)
+- Luggage storage available
+- Taxi stand (use official white taxis only)
+
+**Safety Note:**
+- Busy station attracts pickpockets
+- Keep bags close and zipped
+- Use official taxis (white with meters)
+
+### Bari Centrale
+
+**Address:** Piazza Aldo Moro, 70122 Bari
+**Key Features:**
+- Modern, clean station
+- Luggage storage
+- 15-20 min walk to Bari Vecchia (old town)
+- Good cafes and restaurants nearby
+
+### Brindisi Stazione
+
+**Address:** Piazza Vittorio Emanuele III, 72100 Brindisi
+**Key Features:**
+- Smaller station
+- 10 min walk to historic center
+- Taxi stand available
+
+---
+
+## Luggage Storage
+
+**Available at:**
+- Firenze SMN: Yes (€6-€12/bag/day)
+- Napoli Centrale: Yes
+- Bari Centrale: Yes
+- Brindisi: Limited
+
+**Useful For:**
+- Day trips from base city
+- Early hotel checkout but late train
+- Exploring city upon arrival before hotel check-in
+
+---
+
+## Important Links
+
+### Booking
+- [Trenitalia](https://www.trenitalia.com)
+- [Italo](https://www.italotreno.it)
+- [Omio](https://www.omio.com) (multi-modal search)
+
+### Station Info
+- [Firenze SMN](https://www.trenitalia.com/en/customer_information/stazioni/firenze_santa_maria_novella.html)
+- [Napoli Centrale](https://www.trenitalia.com/en/customer_information/stazioni/napoli_centrale.html)
+
+### Apps
+- **Trenitalia App** (iOS/Android) — Book, manage tickets, live updates
+- **Italo Treno App** — Same for Italo trains
+- **Google Maps** — Good for finding platforms and connections
+
+---
+
+## Train Travel Checklist
+
+### Before Booking
+- [ ] Check departure/arrival stations
+- [ ] Compare Trenitalia vs. Italo pricing
+- [ ] Decide on fare class
+- [ ] Note cancellation/change policies
+
+### After Booking
+- [ ] Save tickets to phone (screenshot or download PDF)
+- [ ] Add to calendar with station names and times
+- [ ] Note platform if known
+- [ ] Check for any schedule changes closer to date
+
+### Day Before Travel
+- [ ] Verify train status online
+- [ ] Check weather (impacts luggage choices)
+- [ ] Pack essentials in carry-on (water, snacks, book)
+- [ ] Charge phone/devices
+
+### Day of Travel
+- [ ] Arrive station 15-20 min early
+- [ ] Check departure board for platform (binario)
+- [ ] Have ticket ready (QR code or validated paper)
+- [ ] Confirm car/seat number on train
+- [ ] Enjoy the ride!
+
+---
+
+**See also:** [Flight Research](flight-research.qmd) — general flight options and guidance
