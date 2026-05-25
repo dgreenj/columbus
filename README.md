@@ -15,10 +15,12 @@ A comprehensive travel planning and documentation website for our June 2026 Ital
 
 - **Day 1 (Jun 5):** Madison → Chicago → Frankfurt (overnight flight, Premium Economy)
 - **Day 2 (Jun 6):** Arrive Florence via Frankfurt → Air Dolomiti (6:30pm FLR)
-- **Days 3-6 (Jun 6-9):** Florence (3 full days)
-- **Days 7-9 (Jun 10-12):** Naples + Herculaneum
-- **Day 10 (Jun 13):** Naples → Brindisi (Puglia)
-- **Days 11-16 (Jun 14-19):** Puglia tour (details TBD)
+- **Days 3-6 (Jun 7-10):** Florence
+- **Day 6 (Jun 10):** Florence → Naples (Italo train)
+- **Days 7-8 (Jun 11-12):** Naples (Walking Tour + Herculaneum & Vesuvius)
+- **Day 9 (Jun 13):** Naples → Brindisi (ITA Airways flights)
+- **Day 10 (Jun 14):** Brindisi orientation
+- **Days 11-15 (Jun 15-19):** Puglia tour (details TBD)
 - **Day 16 (Jun 20):** Departure from Brindisi (BDS → MUC → ORD → MSN)
 
 ### Website Structure
@@ -70,7 +72,7 @@ The site is automatically deployed to GitHub Pages via GitHub Actions when chang
 
 ### Puglia Section Status
 
-Days 11-16 (Puglia tour) are currently placeholders as the tour details are being finalized. These pages will be updated once the tour operator and itinerary are confirmed.
+Day 10 (Brindisi orientation) and Days 11-15 (Puglia tour) are currently placeholders as the tour details are being finalized. These pages will be updated once the tour operator and itinerary are confirmed.
 
 **Update Checklist:** See `docs/puglia-update-checklist.md` (to be created)
 

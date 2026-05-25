@@ -83,7 +83,7 @@ Confirm all hotel bookings, check-in times, and checkout deadlines.
 
 ## Tours
 
-- [ ] **Herculaneum guided tour** — book licensed guide for Jun 11; get meeting time/place in writing
+- [ ] **Herculaneum & Vesuvius tour (Jun 12)** — save Headout confirmation #31374926; meeting point is 9:20 AM at Via Galileo Ferraris n.40, Naples
 - [ ] **Puglia organized tour** — confirm tour operator; get daily schedule for Jun 15–19; confirm pickup/meeting details for each day
 - [ ] Save guide and tour operator phone numbers to your phone and written on paper
 
@@ -168,7 +168,7 @@ See the full [Packing List](packing-list.qmd) for a comprehensive item-by-item l
 ## One Week Before Departure (by May 29)
 
 - [ ] Reconfirm all hotel reservations (email or call each)
-- [ ] Reconfirm Herculaneum guided tour — get exact meeting time/place
+- [ ] Reconfirm Herculaneum & Vesuvius tour (Headout #31374926) — meeting 9:20 AM at Via Galileo Ferraris n.40, Naples, Jun 12
 - [ ] Reconfirm Puglia tour operator — confirm Jun 15–19 schedule
 - [ ] Check weather forecast for Florence, Naples, and Brindisi
 - [ ] Finalize packing; weigh bags

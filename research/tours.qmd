@@ -10,8 +10,8 @@ toc: true
 
 While most of our Italy trip is self-guided, we're planning two organized tour experiences:
 
-1. **Herculaneum Archaeological Tour** (June 11) - Confirmed priority
-2. **Puglia Regional Tour** (June 14-19) - Details being finalized
+1. **Herculaneum & Vesuvius Tour** (June 12) - Confirmed
+2. **Puglia Regional Tour** (June 15-19) - Details being finalized
 
 ---
 
@@ -22,16 +22,16 @@ While most of our Italy trip is self-guided, we're planning two organized tour e
 | Ghiberti Pass — Duomo complex (Florence) | Jun 8 | 87-MKTRBNH | ✅ Confirmed |
 | Private Uffizi + Accademia with David (Viator) | Jun 9 | 1391099919 | ✅ Confirmed |
 | Naples City Walking Tour w/ Underground Ruins (GetYourGuide) | Jun 11 | GYGWZAX648G5 | ✅ Confirmed |
-| Herculaneum & Vesuvius | Jun 12 | TBD | ✅ Confirmed (details TBD) |
-| Puglia Regional Tour | Jun 14–19 | TBD | 🔄 Being finalized |
+| Herculaneum & Vesuvius (Headout) | Jun 12 | #31374926 | ✅ Confirmed |
+| Puglia Regional Tour | Jun 15–19 | TBD | 🔄 Being finalized |
 
 ---
 
 ## Herculaneum & Vesuvius Tour (June 12)
 
-### Status: Confirmed — Details Pending
+### Status: Confirmed
 
-The Herculaneum & Vesuvius tour is confirmed for **June 12, 2026**. This section will be updated with booking reference, provider name, meeting point, and exact timing once the confirmation file is added to the reservations folder.
+The Herculaneum & Vesuvius tour is confirmed for **June 12, 2026** via Headout, booking reference **#31374926**. Meet at **9:20 AM at Via Galileo Ferraris n.40**, Naples.
 
 ### Why Herculaneum?
 
@@ -280,17 +280,17 @@ A guided tour is **strongly recommended**. The difference between wandering alon
 
 ---
 
-## Puglia Regional Tour (June 14-19)
+## Puglia Regional Tour (June 15-19)
 
 ### Status: Tour Being Finalized
 
-We're currently planning a **6-day organized tour of Puglia** from June 14-19, 2026. This section will be updated once tour details are confirmed.
+We're currently planning a **5-day organized tour of Puglia** from June 15-19, 2026. June 14 is a Brindisi orientation/buffer day. This section will be updated once tour details are confirmed.
 
 ### What We Know
 
-**Dates:** June 14-19, 2026 (6 days / 5 nights)
+**Dates:** June 15-19, 2026 (5 days / 4 nights on tour; arriving Brindisi June 14)
 **Region:** Puglia (southeastern Italy, the "heel of the boot")
-**Starting Point:** Brindisi (arriving June 13 from Naples)
+**Starting Point:** Brindisi (arriving June 13 from Naples; June 14 orientation day)
 **Tour Type:** Organized group or semi-private tour
 **Focus:** Culture, architecture, food, wine, coastal beauty
 

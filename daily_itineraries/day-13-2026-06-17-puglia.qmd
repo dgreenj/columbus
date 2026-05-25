@@ -11,7 +11,7 @@ status: "Placeholder - Tour Details TBD"
 ::: {.callout-warning}
 ## Placeholder Page - Tour Being Finalized
 
-This day is part of our 6-day Puglia organized tour (June 14-19). Specific itinerary will be updated once tour is confirmed.
+This day is part of our 5-day Puglia organized tour (June 15-19). Specific itinerary will be updated once tour is confirmed.
 
 **Expected Update:** Late March/early April 2026
 :::

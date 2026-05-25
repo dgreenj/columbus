@@ -1,6 +1,6 @@
 ---
 title: "Puglia Overview"
-subtitle: "Italy's Hidden Gem - 6 Days"
+subtitle: "Italy's Hidden Gem - 5-Day Tour"
 date: "2026-06-14"
 categories: [puglia, regions, planning]
 toc: true
@@ -10,7 +10,7 @@ status: "Tour Being Planned"
 ::: {.callout-warning}
 ## Tour Status: Being Planned
 
-The Puglia portion of our trip (June 14-19) is currently being finalized. This page contains general information about the region and expected highlights. Specific tour details, daily itineraries, and accommodations will be updated once the tour operator and schedule are confirmed.
+The Puglia portion of our trip (June 14–20; 5-day organized tour June 15–19) is currently being finalized. June 14 is a Brindisi orientation/buffer day. This page contains general information about the region and expected highlights. Specific tour details, daily itineraries, and accommodations will be updated once the tour operator and schedule are confirmed.
 
 **Expected Finalization:** Late March/early April 2026
 :::
@@ -21,7 +21,7 @@ The Puglia portion of our trip (June 14-19) is currently being finalized. This p
 
 **La Puglia** - The heel of Italy's boot, stretching 250 miles down the Adriatic coast. Italy's best-kept secret: stunning coastline, unique architecture, incredible food, authentic culture, and far fewer tourists than Tuscany or the Amalfi Coast.
 
-**Our Time Here:** 6 days (June 14-19) on organized tour
+**Our Time Here:** June 14 (Brindisi orientation) + 5-day organized tour June 15–19 + June 20 departure
 
 **Why Puglia?**
 - UNESCO trulli houses (unique cone-shaped buildings)
@@ -38,11 +38,11 @@ The Puglia portion of our trip (June 14-19) is currently being finalized. This p
 
 ### Arrival (June 13)
 
-Train from Naples to Brindisi (~5-6 hours), scenic journey through southern Italy. Overnight in Brindisi, tour begins June 14.
+Two ITA Airways flights from Naples to Brindisi via Rome (Day 9, June 13). Overnight in Brindisi; June 14 is a Brindisi orientation/buffer day. Tour begins June 15.
 
-### Tour Days (June 14-19)
+### Tour Days (June 15-19)
 
-**6 full days** exploring Puglia with organized tour (details to be confirmed):
+**5 full days** exploring Puglia with organized tour (details to be confirmed):
 - Expected highlights: Alberobello, Lecce, Polignano a Mare, Ostuni
 - Mix of coastal and inland towns
 - Cultural sites and natural beauty
@@ -379,7 +379,7 @@ Tours often include some of these:
 - Researching tour operators (Walks of Italy, Context Travel, Italian Days, local operators)
 - Evaluating itineraries and pricing
 - Reading reviews
-- Confirming availability for June 14-19 dates
+- Confirming availability for June 15-19 dates
 
 **Target Decision:** Late March/early April 2026
 
@@ -417,7 +417,7 @@ Tours often include some of these:
 
 ## Placeholder Daily Itineraries
 
-Days 11-16 (June 14-19) have placeholder itinerary pages with general Puglia information. These will be updated with specific tour details once confirmed.
+Days 11-15 (June 15-19) have placeholder itinerary pages with general Puglia information. These will be updated with specific tour details once confirmed.
 
 **See:**
 - [Day 11 Placeholder](../daily_itineraries/day-11-2026-06-15-puglia.qmd)
