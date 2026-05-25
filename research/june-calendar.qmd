@@ -157,7 +157,7 @@ td.empty     { background: #fafafa; }
   <td class="naples">
     <span class="day-num">12</span>
     <span class="day-label">🏺 Day 8 — Naples</span>
-    <span class="day-detail">Herculaneum &amp; Vesuvius<br>Tour (details TBD)<br>Cappella Sansevero option</span>
+    <span class="day-detail">Herculaneum &amp; Vesuvius<br>Meet 9:20am Via Galileo Ferraris<br>Booking #31374926</span>
   </td>
   <td class="naples-depart">
     <span class="day-num">13</span>
@@ -265,3 +265,5 @@ Use **File → Print** (Ctrl+P / Cmd+P). The navigation and sidebar hide automat
 | Naples Airbnb — Casa Wenner            | HMTBH3HCCX     | Jun 10–13 |
 | ITA flights Naples → Brindisi via Rome | IXYZMT         | Jun 13    |
 | Hotel Executive Inn, Brindisi          | 73435335535420 | Jun 13–14 |
+| Naples Walking Tour (GetYourGuide)     | GYGWZAX648G5   | Jun 11    |
+| Herculaneum & Vesuvius (Headout)       | #31374926      | Jun 12    |
