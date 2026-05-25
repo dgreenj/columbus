@@ -1,5 +1,5 @@
 ---
-title: "Day 3, June 7: Florence: Getting to Know the City"
+title: "Day 3 — June 7: Florence — Explore at Leisure"
 subtitle: "Day 3 - 6: Florence"
 date: "2026-06-07"
 day-of-week: "Sunday"
@@ -9,135 +9,107 @@ categories: [itinerary, florence, shopping, dining]
 
 ## Overview
 
-First full day in Florence! Today focuses on getting to know the city, shopping and dining.
-
-What follows are suggestions for the day. It's ours to do as we please.
+First full day in Florence. No timed entries, no museum queues — today is for discovering the city at your own pace. Wander, eat, sit in a piazza, and get your bearings.
 
 ------------------------------------------------------------------------
 
-## Morning: Duomo Complex (8 AM - 12 PM)
+## Morning: Coffee and the City Center
 
-### Breakfast (Whenever)
+### Breakfast
 
-**Café Breakfast:** - Find local café near hotel - Order: "Un cappuccino e un cornetto, per favore" - Stand at bar (cheaper) or sit (more expensive but relaxing) - Cost: €3-5 - Watch Florentines start their day
+Stand at the bar at a neighborhood café — order *un cappuccino e un cornetto, per favore*. Sitting down doubles the price and removes you from the local experience. Cost: €3–5.
 
-### Morning
+### San Lorenzo & Mercato Centrale
 
-**See:** [Museums Research - Duomo](../research/museums.qmd#duomo-complex)
+The San Lorenzo market area (leather goods, scarves, souvenirs) surrounds the Mercato Centrale covered market. The ground floor has butchers, cheese, and produce; the upstairs food court is excellent for a late-morning snack or early lunch. Lively and genuine.
 
-**What's Included in Combo Ticket (€30):** - Cathedral nave (free, but combo ticket needed for other sites) - Brunelleschi's Dome climb ⭐ **MUST DO** - Giotto's Bell Tower (Campanile) - Baptistery - Opera Museum - Crypt
+### Piazza della Repubblica
 
-**Priority Order:**
+Florence's main square — built on the old Roman forum grid, with grand 19th-century arcades. Have a coffee at one of the historic cafés (Gilli, Paszkowski) if you want to splurge. Watch the street performers and the Florentine pace.
 
-**1. Dome Climb (463 steps) - FIRST** - **Timed entry required** - check your booking time - Go early before heat of day - No elevator, narrow passages (not for claustrophobic) - Incredible views of Florence from top - See Vasari's Last Judgment frescoes up close - Allow 45-60 minutes
+### Piazza della Signoria & the Loggia
 
-**2. Cathedral Interior** - Free entry to nave - Massive scale, relatively simple interior - Look up at dome from inside - 20-30 minutes
+The political heart of Renaissance Florence. Donatello's *Judith and Holofernes*, Cellini's *Perseus*, and a copy of Michelangelo's *David* stand in the open-air Loggia dei Lanzi — no ticket, no queue. Walk through slowly.
 
-**3. Baptistery** - Ghiberti's "Gates of Paradise" bronze doors - Byzantine mosaics in dome - 20 minutes
-
-**4. Bell Tower (Optional)** - 414 steps, different views than dome - Skip if tired from dome climb
+The Uffizi facade runs along one side. You'll be inside it Tuesday — today, just walk past it.
 
 ------------------------------------------------------------------------
 
-## Afternoon: Uffizi Gallery (2 PM - 5 PM)
+## Afternoon: Oltrarno
 
-### Lunch (12:30-1:30 PM)
+### Cross the Ponte Vecchio
 
-**Options:** - **Mercato Centrale** (upstairs food court) - Quick, good, cheap - **All'Antico Vinaio** - Famous sandwiches (Via dei Neri) - Any trattoria near Duomo
+The 1345 medieval bridge, with jewelry shops built over the Arno. Cross it into the Oltrarno neighborhood — less touristed, quieter, more artisan.
 
-**Tip:** Light lunch - you'll be standing at Uffizi for 3 hours
+### Oltrarno Streets
 
-### Uffizi Gallery ⭐ **PRIORITY**
+- Artisan workshops: leather, wood, bookbinding — many still open to the street
+- Via Maggio and Via dei Serragli for antique shops
+- Piazza Santo Spirito — a neighborhood square with a local café culture; the Basilica di Santo Spirito (free, worth a look inside) faces it
 
-**See:** [Museums Research - Uffizi](../research/museums.qmd#uffizi-gallery)
+### Boboli Gardens (Optional)
 
-**Booking:** Check your timed entry - arrive 15 min early
-
-**Strategy:** - This is HUGE - pace yourself - Focus on highlights, don't try to see everything - Take breaks on benches
-
-**Must-See Rooms:**
-
-**Room 10-14: Botticelli** - *Birth of Venus* - *Primavera* - The reason you're here
-
-**Room 15: Leonardo da Vinci** - *Annunciation* - *Adoration of the Magi*
-
-**Room 35: Michelangelo** - *Doni Tondo* (Holy Family)
-
-**Room 90: Caravaggio** - *Medusa* - *Bacchus*
-
-**Also Great:** - Raphael, Titian, Giotto, Duccio - Rooftop café (Duomo views)
-
-**Time Needed:** 2.5-4 hours (depends on stamina)
+Formal Renaissance gardens behind Palazzo Pitti. €10 entry. Good option if you want green space and shade in the afternoon.
 
 ------------------------------------------------------------------------
 
-## Late Afternoon: Ponte Vecchio & River Walk
+## Late Afternoon: Arno and the Bridge
 
-### After Uffizi (5-6 PM)
-
-**Ponte Vecchio:** - Medieval bridge (1345) with jewelry shops - Walk across, browse shops (expensive!) - Views of Arno River - Only Florentine bridge Nazis didn't destroy in WWII
-
-**Oltrarno Stroll:** - Cross bridge into Oltrarno neighborhood - Less touristy, artisan workshops - Window-shop leather, antiques - Rest tired feet at café
+Stroll back along the Arno embankment (Lungarno Acciaiuoli or Lungarno Corsini). The views of Ponte Vecchio from upstream are the best photos you'll take of it. Find a bench and sit.
 
 ------------------------------------------------------------------------
 
 ## Evening: Piazzale Michelangelo Sunset
 
-### Sunset Views (7:30-9 PM)
+### Getting There (Arrive 30 Min Before Sunset)
 
-**Getting There:** - **Walk:** 20-25 min uphill from Ponte Vecchio - **Bus:** #12 or #13 from station area - **Taxi:** \~€10
+Sunset in Florence in June is around 8:30 PM.
 
-**At Piazzale Michelangelo:** - Panoramic Florence views - Bronze copy of David statue - Sunset over city (\~8:30 PM in June) - Street vendors, gelato cart - Bring camera!
+- **Walk:** 20–25 min uphill from Ponte Vecchio — earn the view
+- **Bus:** #12 or #13 from the station area
+- **Taxi:** ~€10
 
-**Time:** Arrive 30 min before sunset, stay through golden hour
+### At Piazzale Michelangelo
 
-------------------------------------------------------------------------
-
-## Dinner (9-10 PM)
-
-### Back in City Center
-
-**After Sunset:** - Walk or bus back down - Oltrarno dinner or centro storico
-
-**Restaurant Suggestions:** - See [Restaurants page](../research/restaurants.qmd#florence-restaurants) - Reserve if popular spot - Or ask hotel concierge
-
-**What to Try Tonight:** - Pappardelle al cinghiale (wild boar pasta) - Ribollita (Tuscan soup) - House Chianti wine
+Panoramic view of the entire city from the south hill. Bronze copy of *David* in the center. Street vendors, gelato cart, tourists from everywhere — none of that diminishes the view. Bring the camera and stay through golden hour.
 
 ------------------------------------------------------------------------
 
-## Reservations & Bookings
+## Dinner (9–10 PM)
 
--   [ ] Duomo dome climb (timed entry booked?)
--   [ ] Uffizi Gallery (timed entry booked?)
--   [ ] Dinner reservation (if needed)
+Walk or bus back down after sunset. Dinner in Oltrarno (convenient, less crowded than centro storico) or back in the center.
+
+**What to try tonight:**
+
+- *Pappardelle al cinghiale* — wide pasta with wild boar ragù (quintessentially Tuscan)
+- *Ribollita* — thick Tuscan bread and vegetable soup
+- House Chianti — ask for the *vino della casa rosso*, usually a carafe
+
+See [Restaurants](../research/restaurants.qmd#florence-restaurants) for specific spots.
 
 ------------------------------------------------------------------------
 
 ## What to Bring
 
--   [ ] Comfortable shoes (10,000+ steps today!)
--   [ ] Water bottle (refill at fountains)
--   [ ] Sunscreen, hat, sunglasses
--   [ ] Camera (fully charged)
--   [ ] Light jacket (museums can be cool)
--   [ ] Scarf (shoulders covered for cathedral)
--   [ ] Snacks (energy for museum marathons)
--   [ ] Museum confirmations (printed or phone)
+- [ ] Comfortable shoes (10,000+ steps)
+- [ ] Water bottle (refill at public fountains — they're everywhere)
+- [ ] Sunscreen, hat, sunglasses
+- [ ] Camera (charge it tonight for tomorrow's Duomo visit)
+- [ ] Light jacket (evenings cool)
+- [ ] Some cash for markets
 
 ------------------------------------------------------------------------
 
 ## Notes & Reflections
 
-**Duomo dome climb:**
+**First impressions of the city:**
 
-**Uffizi highlights:**
+**Best thing stumbled upon:**
 
-**Favorite artwork:**
-
-**Energy level:**
+**Favorite café:**
 
 **Steps walked today:**
 
 ------------------------------------------------------------------------
 
-**Previous:** [Day 2](day-02-2026-06-06-arrive-florence.qmd) \| **Next:** [Day 4](day-04-2026-06-08-florence.qmd)
+**Previous:** [Day 2: Arrive Florence](day-02-2026-06-06-arrive-florence.qmd) \| **Next:** [Day 4: Duomo Complex](day-04-2026-06-08-florence.qmd)
