@@ -99,8 +99,14 @@ Confirm all hotel bookings, check-in times, and checkout deadlines.
 
 - [x] **Naples City Walking Tour (Jun 11)** — ✅ booked, GetYourGuide ref GYGWZAX648G5; pickup 8:30 AM at Fontana del Nettuno, Piazza Municipio; lunch included; semi-private max 8
 - [x] **Herculaneum & Vesuvius tour (Jun 12)** — ✅ booked, Headout #31374926; meeting 9:20 AM at Via Galileo Ferraris n.40, Naples; includes Herculaneum site entry
-- [ ] **Puglia organized tour** — confirm tour operator; get daily schedule for Jun 15–19; confirm pickup/meeting details for each day
+- [x] **Puglia tour — Strada Toscana** — ✅ confirmed
+  - **Pickup: June 14, 12:30 PM, Brindisi Airport** — take taxi from Hotel Executive Inn (depart by 12:00 PM; ~10–15 min, ~€10–12)
+  - Meeting point TBA — will be sent via WhatsApp closer to arrival
+  - **If not at pickup point at 12:30, driver departs without you**
+  - Contacts: Pamela, Paola & Lisa Marlow | lisa@stradatoscana.com | 949-GO-ITALY
+- [ ] **Join WhatsApp group** — required before departure: [chat.whatsapp.com/EJXJTC2HAcwGLOheEWQi0I](https://chat.whatsapp.com/EJXJTC2HAcwGLOheEWQi0I)
 - [ ] Save all tour confirmation numbers and guide phone numbers to your phone
+  - Strada Toscana: lisa@stradatoscana.com | 949-GO-ITALY
 
 ---
 
@@ -128,7 +134,13 @@ See [Naples Pizza Guide](naples-pizza.qmd) for the full three-night assignment a
 ## Documents & Administration
 
 - [ ] Verify **both passports are valid** at least 6 months beyond Jun 20, 2026 (valid through Dec 2026+)
-- [ ] Purchase **travel insurance**: medical coverage, trip cancellation, baggage/delay
+- [x] **Travel insurance** — ✅ Two policies purchased:
+  - **Travel Guard** (Preferred plan): Policy **1002278870** — 2 travelers — $1,019.59
+    - Emergency (US toll-free): **1-800-826-1300** | International collect: 1-715-345-0505
+    - Claims: travelguard.com/claims
+  - **Generali Global Assistance**: Policy **26119X08XT**
+    - Emergency (US): **877-243-4135** | Worldwide collect: 240-330-1529
+    - Claims: generalitravel.com/claims
 - [ ] **Notify credit card companies** of travel dates: Italy, Germany — and confirm no foreign transaction fees
 - [ ] Identify a **backup credit card** and notify that bank too
 - [ ] Get some **euros in cash** before departing (~€100–200 for first day logistics before finding ATMs)
@@ -139,6 +151,8 @@ See [Naples Pizza Guide](naples-pizza.qmd) for the full three-night assignment a
 - [ ] Return flight reservation (FMWYOJ): BDS→MUC→ORD→MSN
 - [ ] Naples→Brindisi flight reservation (IXYZMT)
 - [ ] Italo train ticket (PIDCMA) — or save as PDF on phone
+- [ ] Travel Guard policy number (1002278870) — note emergency line: 1-800-826-1300 / 1-715-345-0505
+- [ ] Generali policy number (26119X08XT) — note emergency line: 877-243-4135 / 240-330-1529
 - [ ] Florence hotel confirmation
 - [ ] Naples hotel confirmation
 - [ ] Brindisi/Puglia hotel confirmation(s)
