@@ -21,7 +21,15 @@
       "Bash(wait)",
       "Bash(grep -v \"^$\")",
       "Bash(firecrawl search *)",
-      "Bash(firecrawl scrape *)"
+      "Bash(firecrawl scrape *)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_tabs",
+      "mcp__plugin_playwright_playwright__browser_fill_form",
+      "mcp__plugin_playwright_playwright__browser_press_key",
+      "mcp__plugin_playwright_playwright__browser_type",
+      "mcp__plugin_playwright_playwright__browser_evaluate"
     ]
   }
 }

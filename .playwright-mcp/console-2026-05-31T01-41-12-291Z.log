@@ -1,0 +1,15 @@
+[  201508ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://www.sevenrooms.com/booking/dining/widget/concettinaaitresantinapoli/book:0
+[  580335ms] [WARNING] Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 06-12-2026, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at te.createFromInputFallback (https://www.sevenrooms.com/static/52f6b0f6710c2e911e9f41ab00664f56cc58ca98/cdn/app/widget/dining.js:51:3)
+    at zi (https://www.sevenrooms.com/static/52f6b0f6710c2e911e9f41ab00664f56cc58ca98/cdn/app/widget/dining.js:51:27623)
+    at R0 (https://www.sevenrooms.com/static/52f6b0f6710c2e911e9f41ab00664f56cc58ca98/cdn/app/widget/dining.js:51:31794)
+    at Jo (https://www.sevenrooms.com/static/52f6b0f6710c2e911e9f41ab00664f56cc58ca98/cdn/app/widget/dining.js:51:31644)
+    at Vc (https://www.sevenrooms.com/static/52f6b0f6710c2e911e9f41ab00664f56cc58ca98/cdn/app/widget/dining.js:51:31328)
+    at N1 (https://www.sevenrooms.com/static/52f6b0f6710c2e911e9f41ab00664f56cc58ca98/cdn/app/widget/dining.js:51:32208)
+    at Gi (https://www.sevenrooms.com/static/52f6b0f6710c2e911e9f41ab00664f56cc58ca98/cdn/app/widget/dining.js:51:32247)
+    at te (https://www.sevenrooms.com/static/52f6b0f6710c2e911e9f41ab00664f56cc58ca98/cdn/app/widget/dining.js:48:352586)
+    at Pjt (https://www.sevenrooms.com/static/52f6b0f6710c2e911e9f41ab00664f56cc58ca98/cdn/app/widget/dining.js:961:354265)
+    at https://www.sevenrooms.com/static/52f6b0f6710c2e911e9f41ab00664f56cc58ca98/cdn/app/widget/dining.js:3902:63382 @ https://browser.sentry-cdn.com/7.12.1/bundle.min.js:1

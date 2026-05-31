@@ -1,0 +1,79 @@
+- generic [ref=e1]:
+  - main [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - button "Choose a language translation" [ref=e14]:
+            - generic [ref=e15] [cursor=pointer]:
+              - generic [ref=e16]:
+                - generic: 勵
+                - text: Italiano
+              - button ""
+          - img [ref=e20]
+        - generic [ref=e21]:
+          - button "INFORMAZIONI IMPORTANTI PER LA PRENOTAZIONE. See full special attention message." [ref=e23] [cursor=pointer]:
+            - text: INFORMAZIONI IMPORTANTI PER LA PRENOTAZIONE.
+            - generic [ref=e24]: 
+            - generic [ref=e25]: See full special attention message.
+          - generic [ref=e62]:
+            - generic [ref=e64]:
+              - button "decrement month" [ref=e73] [cursor=pointer]:
+                - generic [ref=e74]: 
+              - button "giugno 2026" [disabled] [ref=e75] [cursor=pointer]:
+                - generic [ref=e66]: giugno 2026
+              - button "increment month" [active] [ref=e67] [cursor=pointer]:
+                - generic [ref=e68]: 
+            - generic [ref=e70]:
+              - text: DOM LUN MAR MER GIO VEN SAB
+              - button "Monday, June 1st 2026, Available" [ref=e76] [cursor=pointer]: "1"
+              - button "Tuesday, June 2nd 2026, Available" [ref=e77] [cursor=pointer]: "2"
+              - button "Wednesday, June 3rd 2026, Available" [ref=e78] [cursor=pointer]: "3"
+              - button "Thursday, June 4th 2026, Available" [ref=e79] [cursor=pointer]: "4"
+              - button "Friday, June 5th 2026, Available" [ref=e80] [cursor=pointer]: "5"
+              - button "Saturday, June 6th 2026, Available" [ref=e81] [cursor=pointer]: "6"
+              - button "Sunday, June 7th 2026, Available" [ref=e82] [cursor=pointer]: "7"
+              - button "Monday, June 8th 2026, Available" [ref=e83] [cursor=pointer]: "8"
+              - button "Tuesday, June 9th 2026, Available" [ref=e84] [cursor=pointer]: "9"
+              - button "Wednesday, June 10th 2026, Available" [ref=e85] [cursor=pointer]: "10"
+              - button "Thursday, June 11th 2026, Available" [ref=e86] [cursor=pointer]: "11"
+              - button "Friday, June 12th 2026, Available" [ref=e87] [cursor=pointer]: "12"
+              - button "Saturday, June 13th 2026, Available" [ref=e88] [cursor=pointer]: "13"
+              - button "Sunday, June 14th 2026, Available" [ref=e89] [cursor=pointer]: "14"
+              - button "Monday, June 15th 2026, Available" [ref=e90] [cursor=pointer]: "15"
+              - button "Tuesday, June 16th 2026, Available" [ref=e91] [cursor=pointer]: "16"
+              - button "Wednesday, June 17th 2026, Available" [ref=e92] [cursor=pointer]: "17"
+              - button "Thursday, June 18th 2026, Available" [ref=e93] [cursor=pointer]: "18"
+              - button "Friday, June 19th 2026, Available" [ref=e94] [cursor=pointer]: "19"
+              - button "Saturday, June 20th 2026, Available" [ref=e95] [cursor=pointer]: "20"
+              - button "Sunday, June 21st 2026, Available" [ref=e96] [cursor=pointer]: "21"
+              - button "Monday, June 22nd 2026, Available" [ref=e97] [cursor=pointer]: "22"
+              - button "Tuesday, June 23rd 2026, Available" [ref=e98] [cursor=pointer]: "23"
+              - button "Wednesday, June 24th 2026, Available" [ref=e99] [cursor=pointer]: "24"
+              - button "Thursday, June 25th 2026, Available" [ref=e100] [cursor=pointer]: "25"
+              - button "Friday, June 26th 2026, Available" [ref=e101] [cursor=pointer]: "26"
+              - button "Saturday, June 27th 2026, Available" [ref=e102] [cursor=pointer]: "27"
+              - button "Sunday, June 28th 2026, Available" [ref=e103] [cursor=pointer]: "28"
+              - text: 29 30
+          - generic [ref=e37]:
+            - button "decrement Ospiti" [ref=e38] [cursor=pointer]:
+              - generic [ref=e39]: 
+            - button "2 Ospiti" [ref=e40] [cursor=pointer]:
+              - generic [ref=e41]: "2"
+              - generic [ref=e42]: Ospiti
+            - button "increment Ospiti" [ref=e43] [cursor=pointer]:
+              - generic [ref=e44]: 
+          - generic [ref=e48]:
+            - button "decrement Orario" [disabled]:
+              - generic: 
+            - button "12:00 PM Orario" [ref=e49] [cursor=pointer]:
+              - generic [ref=e50]: 12:00 PM
+              - generic [ref=e51]: Orario
+            - button "increment Orario" [ref=e52] [cursor=pointer]:
+              - generic [ref=e53]: 
+          - button "Cerca" [ref=e56] [cursor=pointer]
+      - generic [ref=e58]:
+        - text: Offerto da
+        - link "SEVENROOMS" [ref=e59] [cursor=pointer]:
+          - /url: https://sevenrooms.com/guest-thank-you/?utm_source=booking&utm_medium=product&utm_campaign=12_2025_widget
+  - iframe [ref=e61]:
+    

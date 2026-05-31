@@ -1,0 +1,108 @@
+- generic [ref=e1]:
+  - main [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e322]:
+        - generic:
+          - generic [ref=e323]:
+            - button "Back" [ref=e324] [cursor=pointer]:
+              - generic [ref=e325]: 
+            - text: ven, giu 12 · 2 Ospiti · 7:30 pm
+          - generic [ref=e326]: Il tuo tavolo non é piú trattenuto, puoi ancora provare a prenotarlo.
+        - generic [ref=e330]:
+          - text: INFORMAZIONI IMPORTANTI PER LA PRENOTAZIONE.
+          - button [ref=e331] [cursor=pointer]: 
+        - generic [ref=e333]:
+          - generic [ref=e334]: I tuoi dati
+          - generic [ref=e336]:
+            - generic [ref=e337]:
+              - generic [ref=e339]:
+                - generic [ref=e424]: Nome *
+                - textbox "First Name" [ref=e340]:
+                  - /placeholder: ""
+                  - text: Dan
+              - generic [ref=e342]:
+                - generic [ref=e425]: Cognome *
+                - textbox "Last Name" [ref=e343]:
+                  - /placeholder: ""
+                  - text: Green
+            - separator [ref=e344]
+            - generic [ref=e346]:
+              - generic [ref=e426]: Indirizzo email *
+              - textbox "Email" [ref=e347]:
+                - /placeholder: ""
+                - text: dgreenj@gmail.com
+            - separator [ref=e348]
+            - generic [ref=e357]:
+              - generic [ref=e427]: Numero di telefono
+              - textbox "Phone Number" [active] [ref=e359]:
+                - /placeholder: Numero di telefono
+                - text: +39 387 707861
+            - separator [ref=e360]
+            - textbox "Birthdate" [ref=e363]:
+              - /placeholder: Compleanno
+            - generic [ref=e364]:
+              - generic [ref=e365]: Lingua di comunicazione preferita
+              - button "Choose a language translation" [ref=e367]:
+                - generic [ref=e368] [cursor=pointer]:
+                  - generic [ref=e369]: Italiano
+                  - button ""
+        - generic [ref=e371]:
+          - generic [ref=e372]: Riepilogo
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - generic [ref=e375]: 
+              - generic [ref=e376]: Concettina ai Tre Santi - Napoli
+            - separator [ref=e377]
+            - generic [ref=e378]:
+              - generic [ref=e379]: 
+              - generic [ref=e381]:
+                - generic [ref=e382]: ven, giu 12 · 7:30 pm
+                - generic [ref=e383]: · PRENOTAZIONE A LA CARTE
+            - separator [ref=e384]
+            - generic [ref=e385]:
+              - generic [ref=e386]: 
+              - generic [ref=e388]: 2 Ospiti
+            - separator [ref=e389]
+            - generic [ref=e390]:
+              - generic [ref=e391]:
+                - generic [ref=e392]: 
+                - generic [ref=e393]: Restrizioni alimentari
+                - button "+ Aggiungi" [ref=e394] [cursor=pointer]
+              - separator [ref=e395]
+            - generic [ref=e396]:
+              - generic [ref=e397]:
+                - generic [ref=e398]: 
+                - generic [ref=e399]: Occasione speciale
+                - button "+ Aggiungi" [ref=e400] [cursor=pointer]
+              - separator [ref=e401]
+            - button "Note sulla Prenotazione" [ref=e402] [cursor=pointer]:
+              - generic [ref=e403]: 
+              - generic [ref=e404]: Note sulla Prenotazione
+            - separator [ref=e405]
+            - generic [ref=e406]:
+              - generic [ref=e407]:
+                - button "Agreed To Venue Specific Marketing Opt In" [ref=e408] [cursor=pointer]
+                - generic [ref=e409] [cursor=pointer]: Ricevi notizie e offerte via email per Concettina ai Tre Santi - Napoli
+                - button [ref=e410] [cursor=pointer]: 
+              - generic [ref=e411]:
+                - button "Agreed To Venue Group Marketing Opt In" [ref=e412] [cursor=pointer]
+                - generic [ref=e413] [cursor=pointer]: Ricevi notizie e offerte via email per tutte le nostre sedi
+                - button [ref=e414] [cursor=pointer]: 
+              - generic [ref=e415]:
+                - button "Agreed To Tailored Communication Opt In" [ref=e416] [cursor=pointer]
+                - generic [ref=e417] [cursor=pointer]: Accetto di ricevere comunicazioni personalizzate in base ai miei interessi, preferenze e interazioni con il ristorante
+                - button [ref=e418] [cursor=pointer]: 
+        - generic [ref=e419]:
+          - text: Facendo clic su "Invia" accetti SevenRooms'
+          - link "Termini di Servizio" [ref=e420] [cursor=pointer]:
+            - /url: https://sevenrooms.com/en/terms-of-service/
+          - text: e
+          - link "Politica GDPR" [ref=e421] [cursor=pointer]:
+            - /url: https://www.sevenrooms.com/gdpr-policy/ahNzfnNldmVucm9vbXMtc2VjdXJlchwLEg9uaWdodGxvb3BfVmVudWUYgIC4-uevwwoM
+        - button "Invia" [ref=e423] [cursor=pointer]
+      - generic [ref=e58]:
+        - text: Offerto da
+        - link "SEVENROOMS" [ref=e59] [cursor=pointer]:
+          - /url: https://sevenrooms.com/guest-thank-you/?utm_source=booking&utm_medium=product&utm_campaign=12_2025_widget
+  - iframe [ref=e61]:
+    

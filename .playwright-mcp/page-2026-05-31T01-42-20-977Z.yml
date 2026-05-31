@@ -1,0 +1,100 @@
+- generic [ref=e1]:
+  - main [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - button "Choose a language translation" [ref=e14]:
+            - generic [ref=e15] [cursor=pointer]:
+              - generic [ref=e16]:
+                - generic: 勵
+                - text: Italiano
+              - button ""
+          - img [ref=e20]
+        - generic [ref=e21]:
+          - button "INFORMAZIONI IMPORTANTI PER LA PRENOTAZIONE. See full special attention message." [ref=e23] [cursor=pointer]:
+            - text: INFORMAZIONI IMPORTANTI PER LA PRENOTAZIONE.
+            - generic [ref=e24]: 
+            - generic [ref=e25]: See full special attention message.
+          - generic [ref=e105]:
+            - button "decrement Data" [ref=e106] [cursor=pointer]:
+              - generic [ref=e107]: 
+            - button "ven, giu 12 Data" [ref=e108] [cursor=pointer]:
+              - generic [ref=e109]: ven, giu 12
+              - generic [ref=e110]: Data
+            - button "increment Data" [ref=e111] [cursor=pointer]:
+              - generic [ref=e112]: 
+          - generic [ref=e37]:
+            - button "decrement Ospiti" [ref=e38] [cursor=pointer]:
+              - generic [ref=e39]: 
+            - button "2 Ospiti" [ref=e40] [cursor=pointer]:
+              - generic [ref=e41]: "2"
+              - generic [ref=e42]: Ospiti
+            - button "increment Ospiti" [ref=e43] [cursor=pointer]:
+              - generic [ref=e44]: 
+          - generic [ref=e46]:
+            - generic [ref=e48]:
+              - button "decrement Orario" [disabled]:
+                - generic: 
+              - button "12:00 PM Orario" [ref=e49] [cursor=pointer]:
+                - generic [ref=e50]: 12:00 PM
+                - generic [ref=e51]: Orario
+              - button "increment Orario" [ref=e52] [cursor=pointer]:
+                - generic [ref=e53]: 
+            - generic [ref=e113]:
+              - generic [active] [ref=e114]: SELEZIONA L'ORARIO DESIDERATO
+              - generic [ref=e115]:
+                - button [ref=e117] [cursor=pointer]
+                - button [ref=e119] [cursor=pointer]
+                - button [ref=e121] [cursor=pointer]
+                - button "12:00 pm" [ref=e123] [cursor=pointer]
+                - button "12:15 pm" [ref=e125] [cursor=pointer]
+                - button "12:30 pm" [ref=e127] [cursor=pointer]
+                - button "12:45 pm" [ref=e129] [cursor=pointer]
+                - button "1:00 pm" [ref=e131] [cursor=pointer]
+                - button "1:15 pm" [ref=e133] [cursor=pointer]
+                - button "1:30 pm" [ref=e135] [cursor=pointer]
+                - button "1:45 pm" [ref=e137] [cursor=pointer]
+                - button "2:00 pm" [ref=e139] [cursor=pointer]
+                - button "2:15 pm" [ref=e141] [cursor=pointer]
+                - button "2:30 pm" [ref=e143] [cursor=pointer]
+                - button "2:45 pm" [ref=e145] [cursor=pointer]
+                - button "3:00 pm" [ref=e147] [cursor=pointer]
+                - button "3:15 pm" [ref=e149] [cursor=pointer]
+                - button "3:30 pm" [ref=e151] [cursor=pointer]
+                - button "3:45 pm" [ref=e153] [cursor=pointer]
+                - button "4:00 pm" [ref=e155] [cursor=pointer]
+                - button "4:15 pm" [ref=e157] [cursor=pointer]
+                - button "4:30 pm" [ref=e159] [cursor=pointer]
+                - button "4:45 pm" [ref=e161] [cursor=pointer]
+                - button "5:00 pm" [ref=e163] [cursor=pointer]
+                - button "5:15 pm" [ref=e165] [cursor=pointer]
+                - button "5:30 pm" [ref=e167] [cursor=pointer]
+                - button "5:45 pm" [ref=e169] [cursor=pointer]
+                - button "6:00 pm" [ref=e171] [cursor=pointer]
+                - button "6:15 pm" [ref=e173] [cursor=pointer]
+                - button "6:30 pm" [ref=e175] [cursor=pointer]
+                - button "6:45 pm" [ref=e177] [cursor=pointer]
+                - button "7:00 pm" [ref=e179] [cursor=pointer]
+                - button "7:15 pm" [ref=e181] [cursor=pointer]
+                - button "7:30 pm" [ref=e183] [cursor=pointer]
+                - button "7:45 pm" [ref=e185] [cursor=pointer]
+                - button "8:00 pm" [ref=e187] [cursor=pointer]
+                - button "8:15 pm" [ref=e189] [cursor=pointer]
+                - button "8:30 pm" [ref=e191] [cursor=pointer]
+                - button "8:45 pm" [ref=e193] [cursor=pointer]
+                - button "9:00 pm" [ref=e195] [cursor=pointer]
+                - button "9:15 pm" [ref=e197] [cursor=pointer]
+                - button "9:30 pm" [ref=e199] [cursor=pointer]
+                - button "9:45 pm" [ref=e201] [cursor=pointer]
+                - button "10:00 pm" [ref=e203] [cursor=pointer]
+                - button "10:15 pm" [ref=e205] [cursor=pointer]
+                - button "10:30 pm" [ref=e207] [cursor=pointer]
+                - button [ref=e209] [cursor=pointer]
+                - button [ref=e211] [cursor=pointer]
+          - button "Cerca" [ref=e56] [cursor=pointer]
+      - generic [ref=e58]:
+        - text: Offerto da
+        - link "SEVENROOMS" [ref=e59] [cursor=pointer]:
+          - /url: https://sevenrooms.com/guest-thank-you/?utm_source=booking&utm_medium=product&utm_campaign=12_2025_widget
+  - iframe [ref=e61]:
+    

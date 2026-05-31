@@ -1,0 +1,194 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the content" [ref=e2] [cursor=pointer]:
+    - /url: "#qodef-page-content"
+  - generic [ref=e3]:
+    - text: "\" \""
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "logo main" [ref=e6] [cursor=pointer]:
+          - /url: https://www.concettinaaitresanti.com/en/
+          - img "logo main" [ref=e7]
+        - link "a" [ref=e8] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e10]: a
+        - generic:
+          - link "M":
+            - /url: javascript:void(0)
+            - generic:
+              - generic: M
+          - navigation "Mobile Menu":
+            - list:
+              - listitem:
+                - link "Home":
+                  - /url: https://www.concettinaaitresanti.com/en/
+                  - generic:
+                    - text: Home
+                    - generic:
+                      - img
+              - listitem:
+                - link "Concettina":
+                  - /url: https://www.concettinaaitresanti.com/en/concettina/
+                  - generic:
+                    - text: Concettina
+                    - generic:
+                      - img
+              - listitem:
+                - link "Locations":
+                  - /url: https://www.concettinaaitresanti.com/en/locations/
+                  - generic:
+                    - text: Locations
+                    - generic:
+                      - img
+              - listitem:
+                - link "Events":
+                  - /url: https://www.concettinaaitresanti.com/en/events/
+                  - generic:
+                    - text: Events
+                    - generic:
+                      - img
+                - img
+              - listitem:
+                - link "Experience":
+                  - /url: https://www.concettinaaitresanti.com/en/experience/
+                  - generic:
+                    - text: Experience
+                    - generic:
+                      - img
+              - listitem:
+                - link "Taste":
+                  - /url: https://www.concettinaaitresanti.com/en/taste/
+                  - generic:
+                    - text: Taste
+                    - generic:
+                      - img
+              - listitem:
+                - link "Contacts":
+                  - /url: https://www.concettinaaitresanti.com/en/contacts/
+                  - generic: Contacts
+              - listitem:
+                - link "ITA":
+                  - /url: https://www.concettinaaitresanti.com/contacts/
+                  - generic:
+                    - generic: ITA
+                    - generic:
+                      - img
+    - main [ref=e13]:
+      - generic [ref=e16]:
+        - generic [ref=e22]:
+          - generic [ref=e24]:
+            - generic [ref=e27]:
+              - heading "Sanità district" [level=4] [ref=e28]
+              - heading "Naples" [level=2] [ref=e29]
+              - generic [ref=e30]:
+                - paragraph [ref=e31]
+                - paragraph [ref=e32]:
+                  - strong [ref=e33]: "ADDRESS:"
+                  - text: Via Arena della Sanità, 7 Bis, 80137 Napoli NA
+                - paragraph [ref=e34]:
+                  - strong [ref=e35]: "HOURS:"
+                  - text: Sunday - Thursday from 10.30am to 11.30pm
+                  - text: Friday and Saturday from 11:00 to 23:30
+                - paragraph [ref=e36]:
+                  - strong [ref=e37]: "PHONE:"
+                  - text: 081 290 037
+            - link "BOOK A TABLE" [ref=e40] [cursor=pointer]:
+              - /url: https://www.sevenrooms.com/reservations/concettinaaitresantinapoli
+              - generic [ref=e41]:
+                - text: BOOK A TABLE
+                - img [ref=e42]
+            - link "PRENOTA SU WHATSAPP" [ref=e46] [cursor=pointer]:
+              - /url: http://wa.me/393762136182
+              - generic [ref=e47]:
+                - text: PRENOTA SU WHATSAPP
+                - img [ref=e48]
+          - iframe [ref=e55]:
+            
+        - generic [ref=e61]:
+          - generic [ref=e63]:
+            - generic [ref=e66]:
+              - heading "Piazzetta Square" [level=4] [ref=e67]
+              - heading "Capri" [level=2] [ref=e68]
+              - generic [ref=e69]:
+                - paragraph [ref=e70]:
+                  - strong [ref=e71]: "ADDRESS:"
+                  - text: Via Madre Serafina, 6 - 80073 Capri (NA)
+                - paragraph [ref=e72]:
+                  - strong [ref=e73]: "HOURS:"
+                  - text: Lunedì - Domenica 12:00 - 15:00 | 19:00 - 23:30
+                - paragraph [ref=e74]:
+                  - strong [ref=e75]: TELEFONO
+                  - text: ": 081 976 28 72"
+            - link "BOOK A TABLE" [ref=e78] [cursor=pointer]:
+              - /url: https://www.sevenrooms.com/reservations/concettinaaitresanticapri
+              - generic [ref=e79]:
+                - text: BOOK A TABLE
+                - img [ref=e80]
+          - iframe [ref=e87]:
+            
+        - link [ref=e91] [cursor=pointer]:
+          - /url: "#"
+    - contentinfo [ref=e92]:
+      - generic [ref=e96]:
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - heading "Follow us" [level=2] [ref=e102]
+            - generic [ref=e103]:
+              - link "" [ref=e105] [cursor=pointer]:
+                - /url: https://www.facebook.com/PizzeriaDaConcettinaAiTreSanti
+                - generic [ref=e106]: 
+              - link "" [ref=e108] [cursor=pointer]:
+                - /url: https://www.instagram.com/concettina3santi/
+                - generic [ref=e109]: 
+              - link "" [ref=e111] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@concettina3santi?_t=8m7SI7Fcmrh&_r=1
+                - generic [ref=e112]: 
+          - heading "News & Press" [level=5] [ref=e113]
+          - link "Find out more" [ref=e115] [cursor=pointer]:
+            - /url: https://www.concettinaaitresanti.com/en/news-press/
+            - generic [ref=e116]:
+              - text: Find out more
+              - img [ref=e117]
+        - generic [ref=e121]:
+          - heading "Sanità" [level=5] [ref=e122]
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - generic [ref=e125]:
+                - text: Via Arena della Sanità, 7 Bis
+                - text: 80137 Napoli NA
+            - listitem [ref=e126]:
+              - generic [ref=e127]: + 39 081 290037
+            - listitem [ref=e128]:
+              - generic [ref=e129]: info@concettinaaitresanti.com
+        - generic [ref=e132]:
+          - heading "Capri" [level=5] [ref=e133]
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - generic [ref=e136]:
+                - text: Via Madre Serafina, 6
+                - text: 80073 Capri (NA)
+            - listitem [ref=e137]:
+              - generic [ref=e138]: +39 081 976 28 72
+            - listitem [ref=e139]:
+              - generic [ref=e140]:
+                - text: reservationcapri
+                - text: "@concettinaaitresanti.com"
+      - generic [ref=e145]:
+        - paragraph [ref=e150]:
+          - strong [ref=e152]:
+            - text: Concettina Ai Tre Santi © 2024 | Tutti i diritti riservati - Powered by
+            - link "EmilioLaMura" [ref=e153] [cursor=pointer]:
+              - /url: https://www.instagram.com/emilio.lamura/
+            - text: "&"
+            - link "Tellingweb" [ref=e154] [cursor=pointer]:
+              - /url: https://tellingweb.it
+        - paragraph [ref=e156]:
+          - link "Privacy Policy" [ref=e157] [cursor=pointer]:
+            - /url: https://www.iubenda.com/privacy-policy/81882742
+          - text: "|"
+          - link "Cookie Policy" [ref=e158] [cursor=pointer]:
+            - /url: https://www.iubenda.com/privacy-policy/81882742/cookie-policy
+    - img [ref=e160] [cursor=pointer]
+    - img [ref=e164] [cursor=pointer]
+  - generic [ref=e167]: tablet
+  - button "Le tue preferenze relative al consenso per le tecnologie di tracciamento" [ref=e185] [cursor=pointer]:
+    - generic [ref=e186]: Le tue preferenze relative al consenso per le tecnologie di tracciamento

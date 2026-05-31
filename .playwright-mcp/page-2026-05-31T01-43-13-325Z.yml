@@ -1,0 +1,31 @@
+- generic [ref=e1]:
+  - main [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e298]:
+        - generic:
+          - generic [ref=e299]:
+            - button "Back" [ref=e300] [cursor=pointer]:
+              - generic [ref=e301]: 
+            - text: ven, giu 12 · 2 Ospiti · 7:30 pm
+          - generic [ref=e303]:
+            - generic [ref=e304]: 
+            - text: Stiamo trattenendo questo tavolo per 4:59 minutes
+        - generic [ref=e305]: "Accedi per pagare più velocemente:"
+        - button "Facebook Icon Login with Facebook" [active] [ref=e306] [cursor=pointer]:
+          - img "Facebook Icon" [ref=e308]
+          - generic [ref=e309]: Login with Facebook
+        - region "Sign in with Google" [ref=e311] [cursor=pointer]:
+          - iframe [ref=e314]:
+            - button "Sign in with Google. Opens in new tab" [ref=f4e3] [cursor=pointer]:
+              - generic [ref=f4e5]:
+                - img [ref=f4e7]
+                - generic [ref=f4e14]: Sign in with Google
+        - generic [ref=e315]:
+          - generic [ref=e318]: O
+          - button "Continua come ospite" [ref=e321] [cursor=pointer]
+      - generic [ref=e58]:
+        - text: Offerto da
+        - link "SEVENROOMS" [ref=e59] [cursor=pointer]:
+          - /url: https://sevenrooms.com/guest-thank-you/?utm_source=booking&utm_medium=product&utm_campaign=12_2025_widget
+  - iframe [ref=e61]:
+    

@@ -1,0 +1,93 @@
+- generic [ref=e1]:
+  - main [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e284]:
+        - alert [ref=e285]: Dining Additional Selection
+        - generic [ref=e287]:
+          - generic [ref=e288]:
+            - generic [ref=e289]: PRENOTAZIONE A LA CARTE
+            - button "Close modal" [ref=e290] [cursor=pointer]: ×
+          - generic [ref=e292]:
+            - button "Seleziona" [active] [ref=e293] [cursor=pointer]
+            - generic [ref=e294]: 7:30 pm
+            - generic [ref=e295]: PRENOTAZIONE A LA CARTE
+          - paragraph [ref=e297]: Si comunica che il tavolo si intende riservato per un'ora. Selezionando questa opzione sceglierete la scelta alla carta, nel caso in cui voleste prenotare una delle nostre degustazioni vi preghiamo di scegliere l'esperienza corrispondente
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - button "Back" [ref=e217] [cursor=pointer]:
+            - generic [ref=e218]: 
+          - generic [ref=e219]: ven, giu 12 · 2 Ospiti · 7:30 pm
+        - generic [ref=e221]:
+          - generic [ref=e223]:
+            - alert "Availability found" [ref=e224]: Seleziona un orario a Concettina ai Tre Santi - Napoli
+            - generic [ref=e225]: Seleziona un orario a Concettina ai Tre Santi - Napoli
+            - generic [ref=e226]:
+              - button "7:00 pm PRENOTAZIONE A LA CARTE" [ref=e227] [cursor=pointer]:
+                - generic [ref=e228]: 7:00 pm
+                - generic [ref=e229]:
+                  - text: PRENOTAZIONE A LA CARTE
+                  - generic [ref=e230]: 
+              - button "7:00 pm TASTING MENÙ CONCETTINA STYLE" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]: 7:00 pm
+                - generic [ref=e233]:
+                  - text: TASTING MENÙ CONCETTINA STYLE
+                  - generic [ref=e234]: 
+              - button "7:15 pm PRENOTAZIONE A LA CARTE" [ref=e235] [cursor=pointer]:
+                - generic [ref=e236]: 7:15 pm
+                - generic [ref=e237]:
+                  - text: PRENOTAZIONE A LA CARTE
+                  - generic [ref=e238]: 
+              - button "7:30 pm PRENOTAZIONE A LA CARTE" [ref=e239] [cursor=pointer]:
+                - generic [ref=e240]: 7:30 pm
+                - generic [ref=e241]:
+                  - text: PRENOTAZIONE A LA CARTE
+                  - generic [ref=e242]: 
+              - button "7:45 pm PRENOTAZIONE A LA CARTE" [ref=e243] [cursor=pointer]:
+                - generic [ref=e244]: 7:45 pm
+                - generic [ref=e245]:
+                  - text: PRENOTAZIONE A LA CARTE
+                  - generic [ref=e246]: 
+              - button "8:00 pm PRENOTAZIONE A LA CARTE" [ref=e247] [cursor=pointer]:
+                - generic [ref=e248]: 8:00 pm
+                - generic [ref=e249]:
+                  - text: PRENOTAZIONE A LA CARTE
+                  - generic [ref=e250]: 
+              - button "8:15 pm PRENOTAZIONE A LA CARTE" [ref=e251] [cursor=pointer]:
+                - generic [ref=e252]: 8:15 pm
+                - generic [ref=e253]:
+                  - text: PRENOTAZIONE A LA CARTE
+                  - generic [ref=e254]: 
+              - button "8:30 pm PRENOTAZIONE A LA CARTE" [ref=e255] [cursor=pointer]:
+                - generic [ref=e256]: 8:30 pm
+                - generic [ref=e257]:
+                  - text: PRENOTAZIONE A LA CARTE
+                  - generic [ref=e258]: 
+              - button "8:45 pm PRENOTAZIONE A LA CARTE" [ref=e259] [cursor=pointer]:
+                - generic [ref=e260]: 8:45 pm
+                - generic [ref=e261]:
+                  - text: PRENOTAZIONE A LA CARTE
+                  - generic [ref=e262]: 
+              - button "9:00 pm PRENOTAZIONE A LA CARTE" [ref=e263] [cursor=pointer]:
+                - generic [ref=e264]: 9:00 pm
+                - generic [ref=e265]:
+                  - text: PRENOTAZIONE A LA CARTE
+                  - generic [ref=e266]: 
+              - button "9:15 pm PRENOTAZIONE A LA CARTE" [ref=e267] [cursor=pointer]:
+                - generic [ref=e268]: 9:15 pm
+                - generic [ref=e269]:
+                  - text: PRENOTAZIONE A LA CARTE
+                  - generic [ref=e270]: 
+              - button "9:15 pm TASTING MENÙ CONCETTINA STYLE" [ref=e271] [cursor=pointer]:
+                - generic [ref=e272]: 9:15 pm
+                - generic [ref=e273]:
+                  - text: TASTING MENÙ CONCETTINA STYLE
+                  - generic [ref=e274]: 
+          - button "Altre date con disponibilità" [ref=e278]:
+            - generic [ref=e279]: Altre date con disponibilità
+            - generic [ref=e281]: 
+      - generic [ref=e58]:
+        - text: Offerto da
+        - link "SEVENROOMS" [ref=e59] [cursor=pointer]:
+          - /url: https://sevenrooms.com/guest-thank-you/?utm_source=booking&utm_medium=product&utm_campaign=12_2025_widget
+  - iframe [ref=e61]:
+    
