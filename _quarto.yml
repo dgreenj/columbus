@@ -40,6 +40,8 @@ website:
             href: research/tickets-naples.qmd
           - text: "Restaurants"
             href: research/restaurants.qmd
+          - text: "Naples Pizza"
+            href: research/naples-pizza.qmd
           - text: "Packing List"
             href: research/packing-list.qmd
       - text: "Resources"
@@ -98,6 +100,7 @@ website:
           - research/tickets-florence.qmd
           - research/tickets-naples.qmd
           - research/restaurants.qmd
+          - research/naples-pizza.qmd
           - research/packing-list.qmd
 
       - text: "---"
