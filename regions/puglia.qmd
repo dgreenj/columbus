@@ -7,12 +7,12 @@ toc: true
 status: "Tour Being Planned"
 ---
 
-::: {.callout-warning}
-## Tour Status: Being Planned
+::: {.callout-note}
+## Tour Operator: Strada Toscana — Confirmed
 
-The Puglia portion of our trip (June 14–20; 5-day organized tour June 15–19) is currently being finalized. June 14 is a Brindisi orientation/buffer day. This page contains general information about the region and expected highlights. Specific tour details, daily itineraries, and accommodations will be updated once the tour operator and schedule are confirmed.
+The Puglia tour is confirmed with **Strada Toscana**. Pickup is **June 14 at 12:30 PM at Brindisi Airport**. Tour runs June 14–19; departure June 20.
 
-**Expected Finalization:** Late March/early April 2026
+Contact: Lisa Marlow — lisa@stradatoscana.com — 949-GO-ITALY
 :::
 
 ---
@@ -40,9 +40,9 @@ The Puglia portion of our trip (June 14–20; 5-day organized tour June 15–19)
 
 Two ITA Airways flights from Naples to Brindisi via Rome (Day 9, June 13). Overnight in Brindisi; June 14 is a Brindisi orientation/buffer day. Tour begins June 15.
 
-### Tour Days (June 15-19)
+### Tour Days (June 14–19)
 
-**5 full days** exploring Puglia with organized tour (details to be confirmed):
+**Tour starts June 14 at 12:30 PM** — Strada Toscana picks up at Brindisi Airport. Six days exploring Puglia:
 - Expected highlights: Alberobello, Lecce, Polignano a Mare, Ostuni
 - Mix of coastal and inland towns
 - Cultural sites and natural beauty
@@ -51,6 +51,23 @@ Two ITA Airways flights from Naples to Brindisi via Rome (Day 9, June 13). Overn
 ### Departure (June 20)
 
 Early morning travel from Puglia to Rome Fiumicino airport for departure flight to Madison.
+
+---
+
+## Tour Operator — Strada Toscana
+
+| | |
+|---|---|
+| **Company** | Strada Toscana — "experience Italy off the beaten path" |
+| **Guides** | Pamela, Paola & Lisa Marlow |
+| **Contact** | lisa@stradatoscana.com |
+| **Phone** | 949-GO-ITALY |
+| **Website** | stradatoscana.com |
+
+**WhatsApp group** (primary communication — join before departure):
+[chat.whatsapp.com/EJXJTC2HAcwGLOheEWQi0I](https://chat.whatsapp.com/EJXJTC2HAcwGLOheEWQi0I)
+
+All pickup locations, schedule updates, and last-minute changes come through the WhatsApp group. Keep phone on with data enabled on arrival day.
 
 ---
 
