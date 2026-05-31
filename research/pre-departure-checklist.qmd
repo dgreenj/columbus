@@ -9,10 +9,26 @@ toc-depth: 2
 ::: {.callout-note}
 ## Already Booked — Do Not Re-Book
 
+**Flights & Transport**
+
 - ✅ **Outbound flights** (FMWYOJ): MSN → ORD → Frankfurt → Florence, Jun 5–6
 - ✅ **Return flights** (FMWYOJ): Brindisi → Munich → Chicago → Madison, Jun 20
 - ✅ **Florence → Naples train** (PIDCMA): Italo #8902, Jun 10, departs 12:28pm, arrives 3:28pm — Salotto 1, seats 1 & 2
 - ✅ **Naples → Brindisi flights** (IXYZMT): AZ 1270 NAP→FCO 3:05pm + AZ 1623 FCO→BDS 5:15pm, Jun 13
+
+**Florence Museums & Tours**
+
+- ✅ **Ghiberti Pass** (Jun 8, ref 87-MKTRBNH): Baptistery (North Door), Opera del Duomo Museum, Santa Reparata — timed entry 10:30 AM. Note: does **not** include dome climb.
+- ✅ **Private Uffizi + Accademia tour** (Jun 9, Viator ref 1391099919): 9:00 AM meeting at Via dei Castellani 14
+
+**Naples Tours**
+
+- ✅ **Naples City Walking Tour** (Jun 11, GetYourGuide ref GYGWZAX648G5): pickup 8:30 AM, Fontana del Nettuno, Piazza Municipio — lunch included
+- ✅ **Herculaneum & Vesuvius day trip** (Jun 12, Headout #31374926): meet 9:20 AM at Via Galileo Ferraris n.40 — includes Herculaneum site entry
+
+**Restaurants**
+
+- ✅ **Concettina ai Tre Santi**, Naples (Jun 12): table for 2, 7:30 PM — confirmation at dgreenj@gmail.com
 :::
 
 ---
@@ -23,31 +39,30 @@ Book these as soon as possible — June is peak season and timed slots fill week
 
 ### Florence (Days 3–5, Jun 7–9)
 
-| Priority | Attraction | Day | Date | Cost |
-|----------|-----------|-----|------|------|
-| 🔴 **Book Now** | Duomo Complex combo (dome climb) | Day 3 | Sun Jun 7 | €30 |
-| 🔴 **Book Now** | Uffizi Gallery (timed entry) | Day 3 | Sun Jun 7 | ~€20 |
-| 🔴 **Book Now** | Galleria dell'Accademia (David) | Day 4 | Mon Jun 8 | €20 + €4 booking |
-| 🟡 Soon | Medici Chapels | Day 4 | Mon Jun 8 | ~€9 |
+Ghiberti Pass (Jun 8) and private Uffizi + Accademia tour (Jun 9) are confirmed — see Already Booked above.
+
+| Priority | Attraction | Day | Date | Notes |
+|----------|-----------|-----|------|-------|
+| 🟡 Consider | Duomo dome climb (Brunelleschi's Cupola) | Day 3 | Sun Jun 7 | Separate timed ticket — **not** included in Ghiberti Pass |
+| 🟡 Consider | Medici Chapels | Day 4 | Mon Jun 8 | ~€9 |
 | 🟢 Optional | Basilica di San Lorenzo / Laurentian Library | Day 4 | Mon Jun 8 | Varies |
 | 🟢 Optional | Palazzo Vecchio | Day 4 | Mon Jun 8 | ~€14 |
 | 🟢 Optional | Museum of San Marco | Day 4 or 5 | Mon–Tue | €4 (closed Tues) |
 
 **See:** [Florence Tickets page](tickets-florence.qmd) for booking links
 
-- [ ] Book **Uffizi Gallery** timed entry for Jun 7
-- [ ] Book **Duomo Complex** combo ticket / dome climb for Jun 7
-- [ ] Book **Galleria dell'Accademia** (David) for Jun 8
-- [ ] Book **Medici Chapels** for Jun 8
-- [ ] Decide on optional museums and book if desired
+- [ ] Decide on **Duomo dome climb** — if yes, book timed entry separately (not covered by Ghiberti Pass)
+- [ ] Decide on **Medici Chapels** and book if desired
+- [ ] Any other optional museums
 
 ### Naples (Days 7–9, Jun 11–13)
+
+Naples Walking Tour (Jun 11) and Herculaneum & Vesuvius tour including site entry (Jun 12) are confirmed — see Already Booked above.
 
 | Priority | Attraction | Day | Date | Cost |
 |----------|-----------|-----|------|------|
 | 🔴 **Book Now** | Cappella Sansevero (Veiled Christ) | Day 8 | Fri Jun 12 | €9 |
-| 🟡 Soon | Herculaneum (Parco Archeologico) | Day 7 | Thu Jun 11 | ~€13 |
-| 🟡 Soon | MANN Museum | Day 8 | Fri Jun 12 | €18 |
+| 🟢 Optional | MANN Museum | Day 8 | Fri Jun 12 | €18 (walk-in possible) |
 | 🟢 Optional | Napoli Sotterranea (10am slot) | Day 9 morning | Sat Jun 13 | ~€10 |
 
 ::: {.callout-warning}
@@ -59,8 +74,7 @@ This tiny chapel (Veiled Christ sculpture) has extremely limited timed slots and
 **See:** [Naples Tickets page](tickets-naples.qmd) for booking links
 
 - [ ] Book **Cappella Sansevero** timed entry for Jun 12 ← **Do this first**
-- [ ] Book **Herculaneum** entry for Jun 11 (confirm if guided tour includes admission)
-- [ ] Book **MANN Museum** for Jun 12 (walk-in sometimes possible but reserve to be safe)
+- [ ] Book **MANN Museum** for Jun 12 if desired (walk-in often possible but risky in June)
 - [ ] Book **Napoli Sotterranea** 10am slot for Jun 13 (optional — flight is 3pm, fits comfortably)
 
 ---
@@ -83,9 +97,10 @@ Confirm all hotel bookings, check-in times, and checkout deadlines.
 
 ## Tours
 
-- [ ] **Herculaneum & Vesuvius tour (Jun 12)** — save Headout confirmation #31374926; meeting point is 9:20 AM at Via Galileo Ferraris n.40, Naples
+- [x] **Naples City Walking Tour (Jun 11)** — ✅ booked, GetYourGuide ref GYGWZAX648G5; pickup 8:30 AM at Fontana del Nettuno, Piazza Municipio; lunch included; semi-private max 8
+- [x] **Herculaneum & Vesuvius tour (Jun 12)** — ✅ booked, Headout #31374926; meeting 9:20 AM at Via Galileo Ferraris n.40, Naples; includes Herculaneum site entry
 - [ ] **Puglia organized tour** — confirm tour operator; get daily schedule for Jun 15–19; confirm pickup/meeting details for each day
-- [ ] Save guide and tour operator phone numbers to your phone and written on paper
+- [ ] Save all tour confirmation numbers and guide phone numbers to your phone
 
 ---
 
@@ -173,7 +188,7 @@ See the full [Packing List](packing-list.qmd) for a comprehensive item-by-item l
 ## One Week Before Departure (by May 29)
 
 - [ ] Reconfirm all hotel reservations (email or call each)
-- [ ] Reconfirm Herculaneum & Vesuvius tour (Headout #31374926) — meeting 9:20 AM at Via Galileo Ferraris n.40, Naples, Jun 12
+- [ ] Reconfirm Herculaneum & Vesuvius tour (Headout #31374926) and Naples Walking Tour (GYGWZAX648G5) — verify nothing has changed
 - [ ] Reconfirm Puglia tour operator — confirm Jun 15–19 schedule
 - [ ] Check weather forecast for Florence, Naples, and Brindisi
 - [ ] Finalize packing; weigh bags
