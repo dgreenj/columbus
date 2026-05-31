@@ -68,10 +68,20 @@ If the tour finishes with time to spare before dinner:
 
 ## Evening: Farewell Naples (7–10 PM)
 
-**Final Dinner:**
-- Return to favorite pizzeria?
-- Or seafood at a Lungomare restaurant
-- Quartieri Spagnoli (Spanish Quarter) has excellent trattorie and a gritty local feel
+::: {.callout-tip}
+## Tonight: Concettina ai Tre Santi — Farewell Naples Pizza
+
+**Rated #2 in Naples.** Confirm your reservation via the web form if not already done.
+
+| | |
+|---|---|
+| **Address** | Via Arena della Sanità 137/bis, Rione Sanità |
+| **Dinner hours** | From 7:30 PM (Fri confirmed until 23:30) |
+| **Getting there** | ~20 min taxi from Airbnb |
+| **What to order** | Margherita — or explore the seasonal menu |
+
+→ [Full Naples Pizza Guide](../research/naples-pizza.qmd)
+:::
 
 **After Dinner:**
 - Final sfogliatella or pastiera (traditional Naples cake)
