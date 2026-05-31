@@ -119,18 +119,23 @@ The train arrives Napoli Centrale at 3:28 PM. Taxi from the station to Via Monte
 
 Naples invented pizza. Specifically, the Margherita was created here in 1889. Tonight you honor that.
 
-**See:** [Restaurants — Naples Pizza](../research/restaurants.qmd#pizza-essential)
+::: {.callout-tip}
+## Tonight: Da Attilio — First Pizza in Naples
 
-**Top options:**
+**Rated #1 in a 31-pizzeria independent head-to-head.** Walk-in only — no reservation needed.
 
-- **Da Michele** — Legendary, cash only, expect a line, worth it. Only two pizzas: Margherita or Marinara.
-- **Sorbillo** — Via dei Tribunali, excellent, often crowded
-- **50 Kalò** — More upscale, worth reserving ahead
+| | |
+|---|---|
+| **Address** | Via Pignasecca 17 (Mercato Pignasecca) |
+| **Walk from Airbnb** | ~15 minutes |
+| **Arrive by** | 7:00–7:30 PM |
+| **What to order** | Margherita |
+| **Price** | €8–14 per pizza |
 
-**What to order:**
-- *Margherita* (tomato, mozzarella, basil) — the original, invented here
-- *Marinara* (tomato, garlic, oregano, no cheese) — older than the Margherita, equally essential
-- Cost: €5–12 depending on place
+First night — keep it simple. Walk over, get a table, eat the best Margherita in the city.
+
+→ [Full Naples Pizza Guide](../research/naples-pizza.qmd)
+:::
 
 **After pizza:**
 - *Sfogliatella* — shell-shaped ricotta pastry, a Naples specialty — grab one from a pasticceria
