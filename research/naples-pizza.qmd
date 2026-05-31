@@ -87,7 +87,7 @@ Italy (CEST) is **7 hours ahead** of Madison (CDT).
 | | |
 |---|---|
 | **Address** | Via Arena della Sanità 137/bis, Rione Sanità, Napoli |
-| **Hours** | Fri–Sat confirmed 11:00–23:30; verify weekday hours via website |
+| **Hours** | Fri–Sat confirmed until 23:30; full hours — verify via website |
 | **Reservations** | Web form: [concettinaaitresanti.com/en/contacts](https://www.concettinaaitresanti.com/en/contacts/) |
 | **Price** | €10–18 per pizza |
 
