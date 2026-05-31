@@ -16,7 +16,12 @@
       "Bash(git *)",
       "Bash(sudo chown *)",
       "Skill(superpowers:writing-plans)",
-      "Skill(superpowers:subagent-driven-development)"
+      "Skill(superpowers:subagent-driven-development)",
+      "Skill(firecrawl:firecrawl-search)",
+      "Bash(wait)",
+      "Bash(grep -v \"^$\")",
+      "Bash(firecrawl search *)",
+      "Bash(firecrawl scrape *)"
     ]
   }
 }
