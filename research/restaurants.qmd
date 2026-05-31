@@ -71,22 +71,16 @@ Italian dining is an experience to savor. Key tips:
 
 ### Pizza (Essential!)
 
-**Da Michele** (Via Cesare Sersale)
-- Since 1870
-- Only 2 pizzas: Marinara or Margherita
-- Cash only, expect lines
-- €5-7 per pizza
+Naples invented pizza. You have three evenings there and three specific pizzerias pre-assigned — with reservations handled and call scripts included.
 
-**Sorbillo** (Via dei Tribunali)
-- Famous, always crowded
-- More variety than Da Michele
-- Reservations possible for dinner
-- €7-12
+::: {.callout-tip}
+## Full Naples Pizza Guide
 
-**50 Kalò** (Piazza Sannazzaro)
-- Modern, upscale pizza
-- Reservation essential
-- €12-18
+Six pizzeria profiles, the three-night assignment (June 10–12), reservation call scripts with Madison CDT timing, and what to order:
+
+**[→ Naples Pizza Guide](naples-pizza.qmd)**
+:::
+
 
 ### Seafood
 
