@@ -64,10 +64,21 @@ The tour ends around 1 PM. Afternoon is unscheduled.
 
 ## Evening: Naples (7–10 PM)
 
-**Dinner:**
-- Another pizzeria if you can face it (Via dei Tribunali has different options than last night)
-- Seafood — Naples is a port city; fresh catch
-- Quartieri Spagnoli for a grittier local atmosphere
+::: {.callout-tip}
+## Tonight: Starita a Materdei — Confirm Your Reservation
+
+**Since 1901.** Call ahead required — see the [pizza guide](../research/naples-pizza.qmd#call-this-week) for timing.
+
+| | |
+|---|---|
+| **Address** | Via Materdei 27/28 |
+| **Phone** | +39 081 544 1485 |
+| **Dinner hours** | 7:00–11:30 PM |
+| **Leave Airbnb by** | 7:00 PM (25 min walk or taxi) |
+| **What to order** | Margherita + try the *montanara* (fried pizza) |
+
+→ [Full Naples Pizza Guide](../research/naples-pizza.qmd)
+:::
 
 **After dinner:** Short walk, early night — Herculaneum & Vesuvius tour tomorrow.
 
