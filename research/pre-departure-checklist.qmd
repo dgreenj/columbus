@@ -104,7 +104,7 @@ June is busy — reserve ahead for any restaurant worth going to.
 
 See [Naples Pizza Guide](naples-pizza.qmd) for the full three-night assignment and call scripts.
 
-- [ ] **Concettina ai Tre Santi** (Fri Jun 12 — farewell pizza) — book via web form: [concettinaaitresanti.com/en/contacts](https://www.concettinaaitresanti.com/en/contacts/) — table for 2, 7:30 PM ← **Do this today**
+- [x] **Concettina ai Tre Santi** (Fri Jun 12 — farewell pizza) — ✅ **BOOKED** — table for 2, 7:30 PM, à la carte — confirmation sent to dgreenj@gmail.com
 - [ ] **Starita a Materdei** (Thu Jun 11 — post-tour dinner) — call +39 081 544 1485; table for 2, 7:30 PM; **call Tue June 2 or Wed June 3, 8:00–9:30 AM CDT**
 - [ ] **Da Attilio** (Wed Jun 10 — arrival night) — walk-in only; arrive by 7:00–7:30 PM; no reservation needed
 
