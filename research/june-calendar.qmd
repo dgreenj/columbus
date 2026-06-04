@@ -142,7 +142,7 @@ td.empty     { background: #fafafa; }
   <td class="florence">
     <span class="day-num">9</span>
     <span class="day-label">🏛 Day 5 — Florence</span>
-    <span class="day-detail">Private Uffizi + Accademia + David<br>Tour 9:00am sharp<br>Via dei Castellani 14</span>
+    <span class="day-detail">Private Uffizi + Accademia + David<br>Tour 9:00am sharp<br>Via dei Castellani 14<br>🍽 Del Fagioli 7:30pm</span>
   </td>
   <td class="travel">
     <span class="day-num">10</span>
@@ -261,6 +261,7 @@ Use **File → Print** (Ctrl+P / Cmd+P). The navigation and sidebar hide automat
 | Return flights (Lufthansa/United)      | FMWYOJ         | Jun 20    |
 | Ghiberti Pass — Duomo complex          | 87-MKTRBNH     | Jun 8     |
 | Viator — Private Uffizi + Accademia    | 1391099919     | Jun 9     |
+| Del Fagioli dinner                     | Confirmed      | Jun 9     |
 | Italo train Florence → Naples          | PIDCMA         | Jun 10    |
 | Naples Airbnb — Casa Wenner            | HMTBH3HCCX     | Jun 10–13 |
 | ITA flights Naples → Brindisi via Rome | IXYZMT         | Jun 13    |
