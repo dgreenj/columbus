@@ -72,7 +72,7 @@ Pack for tomorrow's train to Naples (12:28pm departure — **Aurora Piazzetta ch
 ::: {.callout-tip}
 ## Tonight: Del Fagioli — Last Dinner in Florence
 
-**Michelin Bib Gourmand.** Reservations required — confirm this is your booked night.
+**Michelin Bib Gourmand.** Reservation confirmed — 2 people, 7:30 PM.
 
 | | |
 |---|---|
@@ -91,6 +91,7 @@ Historic, rustic trattoria — open kitchen, familial atmosphere. The real thing
 
 - [ ] Meeting point confirmed: Via dei Castellani 14 at 8:50 AM
 - [ ] Booking ref 1391099919 saved to phone
+- [x] Del Fagioli reservation confirmed — 2 people, 7:30 PM
 - [ ] Afternoon activity chosen
 - [ ] Start packing for Naples tonight
 
