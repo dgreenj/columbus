@@ -1,0 +1,60 @@
+---
+title: "Florence Bookstores Worth Finding"
+subtitle: "A short list for the trip — from English titles to spectacular spaces"
+date: "2026-06-05"
+date-modified: last-modified
+author: "DJG"
+categories: [travel, florence, italy, columbus]
+description: "A quick-reference guide to Florence bookstores worth visiting, organized by English titles, atmosphere, and rare books."
+execute:
+  message: false
+  warning: false
+format:
+  html:
+    toc: true
+    toc-depth: 2
+  pdf:
+    toc: true
+    toc-depth: 2
+other-links:
+  - text: "Print this page"
+    href: "javascript:window.print()"
+    icon: printer
+---
+
+We're staying near the Duomo and Piazza della Signoria next week, and I did a little research on Florence bookstores worth making time for. Given my reading tastes — Conrad, McCarthy, Mantel, O'Brian, historical fiction, classics — there's a real chance I lose a couple of hours in at least one of these places.
+
+## English-Language Books
+
+**Paperback Exchange**
+The best-known English-language bookstore in Florence. Large selection of new and used titles, plus a book-exchange program. Only a few minutes from the Duomo, and consistently recommended by travelers and expats as the go-to spot for English books.
+
+**laFeltrinelli Book Store**
+Big mainstream bookstore with a solid English-language section. Easy walk from both the Duomo and the train station.
+
+**laFeltrinelli (Santa Maria Novella station)**
+The station branch is handy if you arrive by train and want something to read before you've even checked in.
+
+## Best Atmosphere
+
+**Todo Modo**
+Independent bookstore and café/wine bar — one of the more interesting literary spaces in the city. The kind of place you sit down with a book and suddenly it's been an hour.
+
+**Giunti Odeon**
+Built into a restored movie theater near Piazza Strozzi. Spectacular space. Worth a look even if you're not buying anything.
+
+**La Cité**
+Bookshop-café in the Oltrarno with readings, events, coffee, and wine. Apparently a local favorite rather than a tourist stop.
+
+## Rare & Antique Books
+
+**Libreria Gozzini**
+Historic antiquarian bookstore operating out of a Florentine palace. On the list if we have a slow afternoon.
+
+**Libreria Giorni**
+Small specialist rare-book shop near the Duomo.
+
+## If We Only Have Time for Two
+
+1. **Paperback Exchange** — for English books worth actually buying and carrying home.
+2. **Todo Modo** (or Giunti Odeon) — for the uniquely Florentine bookstore experience.

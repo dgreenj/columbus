@@ -1,6 +1,9 @@
 [
   {
     "listing": "/posts.html",
-    "items": []
+    "items": [
+      "/posts/florence/florence-bookstores.html",
+      "/posts/florence/florence-stationery.html"
+    ]
   }
 ]
