@@ -8,8 +8,8 @@ Add two pre-written Florence reference posts to the columbus site's existing blo
 
 ## Source Files
 
-- `in-box/florence-bookstores.qmd`
-- `in-box/florence-stationery.qmd`
+-   `in-box/florence-bookstores.qmd`
+-   `in-box/florence-stationery.qmd`
 
 Both originated in cogitate and carry cogitate-specific front matter that must be stripped before use here.
 
@@ -17,7 +17,7 @@ Both originated in cogitate and carry cogitate-specific front matter that must b
 
 Both posts go into `posts/florence/`, matching the existing regional subfolder structure:
 
-```
+```         
 posts/
   florence/
     florence-bookstores.qmd
@@ -31,7 +31,7 @@ posts/
 
 Strip cogitate-specific fields from each post. Retain:
 
-```yaml
+``` yaml
 title: "..."
 subtitle: "..."
 date: "2026-06-05"
@@ -51,7 +51,7 @@ Rename title from `"Things to See & Do"` to `"Notes & Guides"`. No other changes
 
 No structural changes needed. Update one label:
 
-- Sidebar "Additional Resources" section: rename `"All Blog Posts"` → `"Notes & Guides"`
+-   Sidebar "Additional Resources" section: rename `"All Blog Posts"` → `"Notes & Guides"`
 
 ## `posts/_metadata.yml`
 
@@ -59,6 +59,6 @@ No changes. Already provides: `freeze: true`, `author: 'Dan Green'`, `toc: true`
 
 ## Out of Scope
 
-- Navbar "Blog" label — left as-is
-- Any changes to naples/ or puglia/ subfolders
-- Re-rendering the full site (render the two new posts only)
+-   Navbar "Blog" label — left as-is
+-   Any changes to naples/ or puglia/ subfolders
+-   Re-rendering the full site (render the two new posts only)

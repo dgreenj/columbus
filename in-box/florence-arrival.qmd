@@ -1,0 +1,29 @@
+---
+title: "We Made It to Florence"
+subtitle: "Overnight from Chicago, a taxi from FLR, and the best carbonara we've ever had"
+date: "2026-06-06"
+date-modified: last-modified
+author: "DJG"
+categories: [travel, florence, italy, food, columbus]
+description: "Landing in Florence after an overnight flight, settling into the Airbnb, and making the arrival official with a near-perfect first dinner."
+execute:
+  message: false
+  warning: false
+format:
+  html:
+    toc: true
+    toc-depth: 2
+  pdf:
+    toc: true
+    toc-depth: 2
+other-links:
+  - text: "Print this page"
+    href: "javascript:window.print()"
+    icon: printer
+---
+
+After flying all night from Chicago and connecting through Frankfurt, we arrived in Florence right on the planned 6:30 PM local arrival. The long-haul exhaustion was real, but so was the relief of finally being in Italy.
+
+From Florence Airport we took a taxi into the city to the Airbnb at **Aurora apartments Piazzetta, Via Por Santa Maria, 8** — a central landing point just steps from the old heart of Florence. Bags down, travel day behind us, the first evening could begin properly.
+
+Dinner was at **Mangiafoco Osteria Tartuferia**, which turned out to be exactly the right first-night choice: excellent food, an extensive wine list, and the sort of meal that makes arrival feel official. The carbonara was the best carbonara ever; the steak was remarkable. After a night in the air and a day of airport logistics, it was a perfect way to spend the first evening in Florence.
