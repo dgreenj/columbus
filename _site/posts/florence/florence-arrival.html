@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -263,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">June 8, 2026</p>
+        <p class="date-modified">June 9, 2026</p>
       </div>
     </div>
       
@@ -631,6 +634,13 @@ ul.task-list li input[type="checkbox"] {
 <p>After flying all night from Chicago and connecting through Frankfurt, we arrived in Florence right on the planned 6:30 PM local arrival. The long-haul exhaustion was real, but so was the relief of finally being in Italy.</p>
 <p>From Florence Airport we took a taxi into the city to the Airbnb at <strong>Aurora apartments Piazzetta, Via Por Santa Maria, 8</strong> — a central landing point just steps from the old heart of Florence. Bags down, travel day behind us, the first evening could begin properly.</p>
 <p>Dinner was at <strong>Mangiafoco Osteria Tartuferia</strong>, which turned out to be exactly the right first-night choice: excellent food, an extensive wine list, and the sort of meal that makes arrival feel official. The carbonara was the best carbonara ever; the steak was remarkable. After a night in the air and a day of airport logistics, it was a perfect way to spend the first evening in Florence.</p>
+<p>The next morning the city came in quietly. Warm light through the Airbnb window, a pigeon on the ledge outside, the neighborhood sounds starting up below. After all the airports and transit and logistics, this was the moment Florence actually arrived.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/pigeon.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="First morning light from the Airbnb window"><img src="images/pigeon.jpeg" class="img-fluid figure-img" alt="First morning light from the Airbnb window"></a></p>
+<figcaption>First morning light from the Airbnb window</figcaption>
+</figure>
+</div>
 
 
 
@@ -1060,6 +1070,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
