@@ -1,0 +1,837 @@
+Delivered-To: dgreenj@gmail.com
+Received: by 2002:a05:7412:d88d:b0:1d7:71f2:7141 with SMTP id il13csp2327061rdb;
+        Tue, 9 Jun 2026 04:58:13 -0700 (PDT)
+X-Received: by 2002:a05:7300:3250:b0:2f5:5dd3:1fd8 with SMTP id 5a478bee46e88-3077aea9ef1mr12446617eec.8.1781006292729;
+        Tue, 09 Jun 2026 04:58:12 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1781006292; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=HW4X69S0hjPfVBzoDFvF0TRrDoFrgxSHNhAIJjHWYIAbgqI13EPZNqJV4VPIh7Q3Mm
+         +gyZuIFHlBV5oIOxGEjdVgD2lvTZ9oW3gx4GOIo0EsqiSEWqVkwOb9iGqKgML9czqYBm
+         leCBWbgoy7mEut2RJ9iX48rDcKRk1o+DlL28bZEgyLbo1B+6rmwKyWfHU+E0RrACcfuJ
+         DF7OWkMSoGNQOv6st4MM/EnD+NimX1Sscb7aon4xfgWEyrqeN5YipluNx+UpIhR5HdHD
+         JRM3RFOL6YbtqwlgHmhY8bnGqa+6S6qkNnrK0JqUR3/MUR2mAdUDLvIwMLPUkAzHLFTb
+         5arw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=AeoMvu74RaA9yY8b8AtetOquV36Zn1IYKmIO8kEIBi0=;
+        fh=yufzpB4K7P1IKVnjYGdXUDrt0JiPLgukl6TcRPsvHaE=;
+        b=RKCm4mqljBY/w/cYgknjikUzEuHcYEbpF6NBYfm4lzD07mAlN58XjCN0KEDSAcpm6A
+         954p8JPw07FfLlW58hygn+cemlxIzQP4IOZVZwpV0Sl1ozW++ixj3ClVc08F8MobXKsN
+         lkhCp683foKakWEz2FxtYMEOgesNg7i8EkL9OyZmJwtOKsWn/oec6QC8kXuVvHB3DYac
+         AcTArR+7WXwDCPEa5s/iQ38Xdn5aBBUbn7R9Sbxe2lzC42R2FKMbc2B+iOfQxNiKrFqy
+         iRUuKDS8Ru0QNrPYw/o7/G0jKG7urLlXs9tYMMozW1Vbe3Kpq0FQK8a0I+Rvynvq/rgd
+         j4CA==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b="qFyLn/Nw";
+       arc=pass (i=1);
+       spf=pass (google.com: domain of bluemooney1024@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=bluemooney1024@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <bluemooney1024@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id 5a478bee46e88-3074de2a8cesor4998725eec.25.2026.06.09.04.58.12
+        for <dgreenj@gmail.com>
+        (Google Transport Security);
+        Tue, 09 Jun 2026 04:58:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bluemooney1024@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20251104 header.b="qFyLn/Nw";
+       arc=pass (i=1);
+       spf=pass (google.com: domain of bluemooney1024@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=bluemooney1024@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1781006292; cv=none;
+        d=google.com; s=arc-20240605;
+        b=WEc99H/41csZmTc7WdXFaulaxNM8Y+M8fisyq3OkYazTajnYqFjLqiwucPQamwZOdM
+         mIGWN4N8fRMcDAcD4no4F1909wI5+3nIg1gevq0uCgIyliAkIG4sBf4X5XnMRfVH+uTl
+         ieMPVVVTSL9lDcj68IeDZgTO/Pp/nkgR6ojwi4iU7V8cxZOPF5GTPOcLQ20hFT0FW22k
+         fczH+JkH8sn1LXBn9wcopreQA9kUdWuLptQOknRMlt8CoxsREX4Mb6iwooB/7NtDi1We
+         2x4tc3fplNublMBhab9YQWaoZujrIl1Fd3Edga8vuLtjwdMuA/lp1efLJGWFwG0MaeV7
+         J4OA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=AeoMvu74RaA9yY8b8AtetOquV36Zn1IYKmIO8kEIBi0=;
+        fh=yufzpB4K7P1IKVnjYGdXUDrt0JiPLgukl6TcRPsvHaE=;
+        b=PwRrMsklDrIi3eJdTpaNau39b2f2wm2mJmd2yn0I29PyituxEOZwp/jYPCD/iF+LsT
+         eIT4lvStMT4nTyte5On+KaG+Z9FdGyBf546/nhxbIHmMA2JvfrB54oIYgNlQswjw01zK
+         ErF3sfGLz7K3j9kI94gDl3HaWygrfeVKqRvmw+q4HwUAmUybnApTpl78cNAFS7kLivhd
+         p+j/aoMma1KVDbXnP++1KGqT8y36kn82e2JS195HcA6jqqZrmR3lPfaRqarPMflPsb6x
+         MUIYHLAgIMVPxg/zCq3uIJCQVVvOm+trC/AO5d5Pb/iszs3V4nYO517h6vgxsOc5nN7J
+         D+1Q==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1781006292; x=1781611092; dara=google.com;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=AeoMvu74RaA9yY8b8AtetOquV36Zn1IYKmIO8kEIBi0=;
+        b=qFyLn/NwV/qp8LUpMz59P/otJoZo3PvQE0AVJBREdc7DbGztjCovMCi+qIElk5Muzf
+         8XLcBlqGt1TEQmFulDttqmwCWYPQTYQSpg1JCjkBX2jcTjmutkiMSRo3cDfWbaSlgOxV
+         CjgOgsl+4/woxx+K6Uo1KOmXJOM5vBpNmm2dCN1l4eH+wmDucysrJERTpkwX2ujptZzY
+         VkSs/P0Yq5Rj45ALjty0bkreWpgOiO/h7WfhJN+i06YCRLGXoVSUO5OVY+0qgkkgrhYo
+         Nvpx1soi8jW27wkZeG5W+3CjCZq0PHAPUGkXKpwbfyo/VWzLLxIU4cHKCLlW3T8aTR+u
+         YwwQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1781006292; x=1781611092;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=AeoMvu74RaA9yY8b8AtetOquV36Zn1IYKmIO8kEIBi0=;
+        b=k4zGJOKMhRpiyEF/BkN58A0/tDXnW7m72/mftHkBEBDW7N1WpInUUSwasqz/PJGRjU
+         qkfxPZJAD278dVZXCX3OLaz+JQnBSHgDAGP1jhc4nzkGgKfofhOiQDsY8EP6diZ6PmD+
+         zPHFB8v81Ncai37NnWBNwi0cqNWNWGttEpoBssGh2RZT4DpMhN91JAOhiCpXJsAczPmt
+         WyKM9wbjiz0k4M1o+stWHjUdZfLS2TK/vOC6mncsjBGeY7Si624tVnoTNHQOpiwykiG8
+         ySLfwifGBtZVD4DNGrD/UWfh9xab5nU9nQK90yEBNkyVb6uh+SI4qNb0/I1RKKAy8OhH
+         klAg==
+X-Gm-Message-State: AOJu0YwBS+onKNo9xeceYecUVFNKNG0cigqVF22VeaUuf8YCcffZsSWZ
+	Zw3xh2gD9dfRmz3V8WfY7aASi6zKJuiXSctNKDtXRLFEhbAmsYRBNeVRzzMjKhLEz1u1ImlXnG3
+	oGAQkQpqE15t8LYb9dXWL+ZZTKlJHIiOW7g==
+X-Gm-Gg: Acq92OHz9krJJD6AMpWyant8ClCfCftV9h5pRsWu9/zkrzSv811epPz+GiW7OCz+FCM
+	l5Pc6oeqxaOwHyjX7HKZKfz5C8Jt+CU9T/tjC2F+Iq9ivqWmxJCYJwRNoiiXv9Qr04HcWOJBf9j
+	Rfo1mUe7jdXyICEDonlkiybyfSGbEFexNOTNEohFU2uDq4lCWPKL3VywSc/95xFJK37yiSHhhjg
+	mZB9lMLDWixx+QZrG/bQYsGJd1cKTAl3MNV2P8SEk/VgVBjlEsChzgewJfWdLwGMZL8Db2yInXe
+	YyfDS8RvbgQNANknvZawhCbHi6W0
+X-Received: by 2002:a05:693c:2c01:b0:304:ba84:a0cc with SMTP id
+ 5a478bee46e88-3077b33261cmr12506601eec.33.1781006291782; Tue, 09 Jun 2026
+ 04:58:11 -0700 (PDT)
+MIME-Version: 1.0
+References: <LYL625L9JZJ@zendesk.com> <LYL625L9JZJ_6a27ff81e46b6_828e6da5af2607_sprut@zendesk.com>
+ <LYL625L9JZJ_6a27ff9d7df50_1373fe021fa259_sprut@zendesk.com>
+In-Reply-To: <LYL625L9JZJ_6a27ff9d7df50_1373fe021fa259_sprut@zendesk.com>
+From: Jane M M <bluemooney1024@gmail.com>
+Date: Tue, 9 Jun 2026 13:57:58 +0200
+X-Gm-Features: AVVi8CdUJ9muStReMTQWN5hkr1M0xNv1JPZ_2T2JNvSIAuALFosh5jEonNXVZBM
+Message-ID: <CAPHZsRquw_zOKbPkQ7md1F3OWBSikf2Y0TTaHMafxABd-AqQhg@mail.gmail.com>
+Subject: Fwd: Tickets for From Naples: Mount Vesuvius & Herculaneum or Pompeii
+ Day Trip - From Naples Center: Mount Vesuvius & Herculaneum (Booking ID: 31374926)
+To: Dan Green <dgreenj@gmail.com>
+Content-Type: multipart/alternative; boundary="0000000000005d51770653d0d799"
+
+--0000000000005d51770653d0d799
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Naples Info
+
+Jane
+
+
+---------- Forwarded message ---------
+From: Headout <bookings@headout.com>
+Date: Tue, Jun 9, 2026 at 1:57=E2=80=AFPM
+Subject: Tickets for From Naples: Mount Vesuvius & Herculaneum or Pompeii
+Day Trip - From Naples Center: Mount Vesuvius & Herculaneum (Booking ID:
+31374926)
+To: Jane M Mooney <bluemooney1024@gmail.com>
+
+
+*Headout* (Headout)
+
+Jun 9, 2026, 17:27 GMT+5:30
+[image: Logo]
+Booking ID
+31374926
+[image: Confirmation Illustration]
+Hi Jane M,
+Your payment was successful!
+Meet your host at the designated meeting point. Do check the location
+instructions to get there.
+From Naples: Mount Vesuvius & Herculaneum or Pompeii Day Trip
+From Naples Center: Mount Vesuvius & Herculaneum
+Experience date
+June 12, 2026
+Guests
+2 Adults
+Start time
+09:20 AM
+Purchased by
+Jane M Mooney
+Access your tickets faster offline with the Headout app
+Just open your tickets in the app and you'll be ready to go.
+[image: Icon] Access your tickets offline
+[image: Icon] Get real-time updates on the go
+[image: Icon] Get app-only exclusive deals [image: Offline Ticket Access
+Illustration]
+View tickets in app <https://headout.app.link/ENKwazpuP3b>
+Essential information
+When to arrive
+Don=E2=80=99t miss a moment, arrive 20 minutes early to make the most out o=
+f your
+experience. If you=E2=80=99re late, we won=E2=80=99t be able to refund your=
+ ticket.
+Bring your ID
+Carry a government-approved valid photo ID for easy verification.
+Where to go?
+Head to this location to start your experience.
+[image: Location Icon] Meeting point
+Via Galileo Ferraris n.40, Naples, Italy
+Get directions here <https://maps.app.goo.gl/K8URk1GY6piqCLyW9>
+Additional information
+
+*Note:* *This booking is inclusive of a** =E2=82=AC11,68** entry ticket + b=
+ooking
+fees*
+
+
+Booking policy
+You can cancel for free until 09:20 AM on 11 June, 2026. You can also
+choose to reschedule before 09:20 AM local time on 11 June, 2026.
+Partner details
+Local partner details
+AROUND VESUVIO
++39 348 4544045 <+39%20348%204544045>
+Partner ref. number
+47e9ffa771b9f09d825dc99fbafbf767
+Need help?
+Have questions or need to make changes? Quickly modify your booking, learn
+more about your experience, or contact us directly=E2=80=94all in one place=
+.
+Visit help center
+<https://www.headout.com/en/manage-booking/?bookingId=3D31374926&emailId=3D=
+bluemooney1024@gmail.com&secureBookingId=3D2hgrNdAYEz_DPBZLRh4aN2APfAfR3H9N=
+jddWz_lBXPUPgpm4yLg6PCMok2BgzDw-eaFwv9bLEUlMSOq-lmc2zA=3D=3D&utm_source=3De=
+mail_footer&utm_medium=3Dhard_push&utm_campaign=3D26770894&ci=3D7&cm=3Db_31=
+374926>
+
+ZD_REDACT_MARKER
+With =E2=9D=A4=EF=B8=8F from Headout
+Headout Inc., 82 Nassau St #60351
+<https://headout.zendesk.com/hc/requests/60351> New York, NY 10038
+=C2=A9 All Rights Reserved
+| Sent at: Tue, 09 Jun 2026 11:56:51 GMT
+
+[LYL625-L9JZJ]
+
+--0000000000005d51770653d0d799
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div><br></div><div dir=3D"auto">Naples Info<br clear=3D"all"><br clear=3D"=
+all"><div><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmai=
+l_signature">Jane <br><br></div></div></div><div><br><div class=3D"gmail_qu=
+ote gmail_quote_container"><div dir=3D"ltr" class=3D"gmail_attr">----------=
+ Forwarded message ---------<br>From: <strong class=3D"gmail_sendername" di=
+r=3D"auto">Headout</strong> <span dir=3D"auto">&lt;<a href=3D"mailto:bookin=
+gs@headout.com">bookings@headout.com</a>&gt;</span><br>Date: Tue, Jun 9, 20=
+26 at 1:57=E2=80=AFPM<br>Subject: Tickets for From Naples: Mount Vesuvius &=
+amp; Herculaneum or Pompeii Day Trip - From Naples Center: Mount Vesuvius &=
+amp; Herculaneum (Booking ID: 31374926)<br>To: Jane M Mooney &lt;<a href=3D=
+"mailto:bluemooney1024@gmail.com">bluemooney1024@gmail.com</a>&gt;<br></div=
+><br><br><u></u>
+ =20
+ =20
+
+<div>
+<div style=3D"color:#ffffff"></div>
+   =20
+    <p dir=3D"ltr"></p><div style=3D"margin-top:25px"><table width=3D"100%"=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presentation">  <=
+tbody><tr>    <td width=3D"100%" style=3D"padding:15px 0;border-top:1px dot=
+ted #c5c5c5">      <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" style=3D"table-layout:fixed" role=3D"presentation">        <=
+tbody><tr>                    <td width=3D"100%" style=3D"padding:0;margin:=
+0" valign=3D"top">            <p style=3D"font-family:&#39;Lucida Grande&#3=
+9;,&#39;Lucida Sans Unicode&#39;,&#39;Lucida Sans&#39;,Verdana,Tahoma,sans-=
+serif;font-size:15px;line-height:18px;margin-bottom:0;margin-top:0;padding:=
+0;color:#1b1d1e" dir=3D"ltr">                                              =
+  <strong>Headout</strong> (Headout)                                       =
+   </p>            <p style=3D"font-family:&#39;Lucida Grande&#39;,&#39;Luc=
+ida Sans Unicode&#39;,&#39;Lucida Sans&#39;,Verdana,Tahoma,sans-serif;font-=
+size:13px;line-height:25px;margin-bottom:15px;margin-top:0;padding:0;color:=
+#bbbbbb" dir=3D"ltr">              Jun 9, 2026, 17:27 GMT+5:30            <=
+/p>                                    <div dir=3D"auto" style=3D"color:#2b=
+2e2f;line-height:22px;margin:15px 0"></div></td></tr></tbody></table></td><=
+/tr></tbody></table></div></div><div><div style=3D"margin-top:25px"><table =
+width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"pre=
+sentation"><tbody><tr><td width=3D"100%" style=3D"padding:15px 0;border-top=
+:1px dotted #c5c5c5"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" style=3D"table-layout:fixed" role=3D"presentation"><tbody>=
+<tr><td width=3D"100%" style=3D"padding:0;margin:0" valign=3D"top"><div dir=
+=3D"auto" style=3D"color:#2b2e2f;line-height:22px;margin:15px 0"><div style=
+=3D"background-color:#f8f6ff"><table width=3D"100%" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"background-color:#f8f6ff;border-collapse:collapse;fon=
+t-size:1em;width:100%" bgcolor=3D"#F8F6FF"><tbody><tr><td height=3D"40px" s=
+tyle=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;bord=
+er:1px none #ddd" valign=3D"top"></td></tr></tbody></table><div style=3D"ba=
+ckground:#330066;background-color:#330066;border-radius:12px 12px 0 0;max-w=
+idth:600px;margin:0px auto"><table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" style=3D"background:#330066;background-color:#330=
+066;width:100%;border-radius:12px 12px 0 0;border-collapse:collapse;font-si=
+ze:1em" width=3D"100%" bgcolor=3D"#330066"><tbody><tr><td style=3D"directio=
+n:ltr;font-size:0px;text-align:center;border-collapse:collapse;vertical-ali=
+gn:top;margin:0;padding:32px 0 0;border:1px none #ddd" align=3D"center" val=
+ign=3D"top"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td style=
+=3D"width:100%;border-collapse:collapse;vertical-align:top;margin:0;padding=
+:0 24px;border:1px none #ddd" width=3D"100%" valign=3D"top"><table width=3D=
+"100%" style=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><=
+tr><td align=3D"left" width=3D"100%" style=3D"border-collapse:collapse;vert=
+ical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"><tab=
+le width=3D"100%" style=3D"border-collapse:collapse;font-size:1em;width:100=
+%"><tbody><tr><td valign=3D"middle" style=3D"border-collapse:collapse;verti=
+cal-align:top;margin:0;padding:0;border:1px none #ddd"><div style=3D"displa=
+y:flex"><img src=3D"https://cdn-imgix-open.headout.com/emails/assets/headou=
+t-logo-white-oct.png?auto=3Dcompress" width=3D"131px" style=3D"display:bloc=
+k;height:auto;line-height:100%;outline:none;text-decoration:none;max-width:=
+100%;border-width:0" alt=3D"Logo"></div></td><td align=3D"right" valign=3D"=
+middle" style=3D"border-collapse:collapse;vertical-align:top;margin:0;paddi=
+ng:0;border:1px none #ddd"><span style=3D"font-size:14px;line-height:20px;f=
+ont-weight:400;text-align:left;color:#fff;margin:0;padding:0">Booking ID</s=
+pan><br><span style=3D"font-size:18px;line-height:20px;font-weight:500;text=
+-align:left;color:#fff;margin:0;padding:0">31374926</span></td></tr></tbody=
+></table></td></tr><tr><td height=3D"20px" style=3D"border-collapse:collaps=
+e;vertical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top=
+"></td></tr><tr><td align=3D"left" style=3D"border-collapse:collapse;vertic=
+al-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"><table=
+ width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collaps=
+e:collapse;font-size:1em;width:100%"><tbody><tr><td width=3D"70%" style=3D"=
+border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px n=
+one #ddd" valign=3D"top"></td><td width=3D"30%" valign=3D"middle" align=3D"=
+right" rowspan=3D"6" style=3D"border-collapse:collapse;vertical-align:top;m=
+argin:0;padding:0;border:1px none #ddd"><img src=3D"https://cdn-imgix-open.=
+headout.com/emails/assets/confirmed-illustration.png" width=3D"85.5px" styl=
+e=3D"display:block;vertical-align:middle;height:auto;line-height:100%;outli=
+ne:none;text-decoration:none;max-width:100%;border-width:0" alt=3D"Confirma=
+tion Illustration"></td></tr><tr><td style=3D"font-size:21px;line-height:27=
+px;font-weight:700;text-align:left;color:#fff;word-break:break-all;border-c=
+ollapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd=
+" align=3D"left" valign=3D"top">Hi Jane M,</td></tr><tr><td height=3D"4px" =
+style=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;bor=
+der:1px none #ddd" valign=3D"top"></td></tr><tr><td style=3D"font-size:21px=
+;line-height:27px;font-weight:700;text-align:left;color:#fff;border-collaps=
+e:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" alig=
+n=3D"left" valign=3D"top">Your payment was successful!</td></tr><tr><td hei=
+ght=3D"8px" style=3D"border-collapse:collapse;vertical-align:top;margin:0;p=
+adding:0;border:1px none #ddd" valign=3D"top"></td></tr></tbody></table></t=
+d></tr></tbody></table></td></tr></tbody></table><table width=3D"100%" cell=
+padding=3D"0" cellspacing=3D"0" style=3D"background-color:#fff;border-colla=
+pse:collapse;font-size:1em;width:100%" bgcolor=3D"#FFF"><tbody><tr><td styl=
+e=3D"vertical-align:top;border-collapse:collapse;background:#fff 0% 0%/cove=
+r;margin:0;padding:0;border:1px none #ddd" valign=3D"top" width=3D"100%" he=
+ight=3D"27" bgcolor=3D"#FFF"><img src=3D"https://cdn-imgix.headout.com/asse=
+ts/images/emails/social/booking-confirmed-border-edge-illustration.png" sty=
+le=3D"vertical-align:top;height:auto;line-height:100%;outline:none;text-dec=
+oration:none;max-width:100%;border-width:0" width=3D"100%"></td></tr></tbod=
+y></table></td></tr></tbody></table></div><div style=3D"background:#ffffff;=
+background-color:#ffffff;border-radius:0 0 12px 12px;max-width:600px;margin=
+:0px auto"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" style=3D"background:#ffffff;background-color:#ffffff;width:100%;bo=
+rder-radius:0 0 12px 12px;border-collapse:collapse;font-size:1em" bgcolor=
+=3D"#FFFFFF"><tbody><tr><td style=3D"direction:ltr;font-size:0px;text-align=
+:center;border-collapse:collapse;vertical-align:top;margin:0;padding:24px;b=
+order:1px none #ddd" align=3D"center" valign=3D"top"><table align=3D"center=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"background:tran=
+sparent;background-color:transparent;width:100%;border-collapse:collapse;fo=
+nt-size:1em" bgcolor=3D"transparent"><tbody><tr><td style=3D"border-collaps=
+e:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" vali=
+gn=3D"top"><div style=3D"max-width:552px;margin:0px auto"><table align=3D"c=
+enter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%=
+;border-collapse:collapse;font-size:1em"><tbody><tr><td style=3D"direction:=
+ltr;font-size:0px;text-align:center;border-collapse:collapse;vertical-align=
+:top;margin:0;padding:0;border:1px none #ddd" align=3D"center" valign=3D"to=
+p"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"borde=
+r-collapse:collapse;font-size:1em;width:100%"></table><table width=3D"100%"=
+ cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font=
+-size:1em;width:100%"><tbody><tr><td style=3D"border-collapse:collapse;vert=
+ical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"><tab=
+le width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"background-c=
+olor:#f1f5ff;border-left-width:6px;border-left-color:#114cd6;border-left-st=
+yle:solid;border-radius:4px;display:block;border-collapse:collapse;font-siz=
+e:1em;width:100%;padding:12px" bgcolor=3D"#F1F5FF"><tbody><tr><td style=3D"=
+border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px n=
+one #ddd" valign=3D"top"><table width=3D"100%" cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody>=
+<tr><td style=3D"font-size:14px;line-height:20px;font-weight:300;text-align=
+:left;color:#6f6f6f;border-collapse:collapse;vertical-align:top;margin:0;pa=
+dding:0;border:1px none #ddd" align=3D"left" valign=3D"top">Meet your host =
+at the designated meeting point. Do check the location instructions to get =
+there.</td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td=
+ height=3D"20px" style=3D"border-collapse:collapse;vertical-align:top;margi=
+n:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr></tbody></tabl=
+e></td></tr><tr><td style=3D"font-size:17px;line-height:20px;font-weight:70=
+0;text-align:left;color:#444;border-collapse:collapse;vertical-align:top;ma=
+rgin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"top">From N=
+aples: Mount Vesuvius &amp; Herculaneum or Pompeii Day Trip</td></tr><tr><t=
+d height=3D"8px" style=3D"border-collapse:collapse;vertical-align:top;margi=
+n:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr><tr><td style=
+=3D"font-size:14px;line-height:20px;font-weight:300;text-align:left;color:#=
+666;border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1=
+px none #ddd" align=3D"left" valign=3D"top">From Naples Center: Mount Vesuv=
+ius &amp; Herculaneum</td></tr><tr><td height=3D"32px" style=3D"border-coll=
+apse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" v=
+align=3D"top"></td></tr></tbody></table><table width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;wi=
+dth:100%"><tbody><tr><td style=3D"font-size:14px;line-height:20px;font-weig=
+ht:300;text-align:left;color:#666;border-collapse:collapse;vertical-align:t=
+op;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"top">E=
+xperience date</td></tr><tr><td style=3D"font-size:14px;line-height:20px;fo=
+nt-weight:700;text-align:left;color:#444;border-collapse:collapse;vertical-=
+align:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D=
+"top">June 12, 2026</td></tr><tr><td height=3D"16px" style=3D"border-collap=
+se:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" val=
+ign=3D"top"></td></tr><tr><td style=3D"font-size:14px;line-height:20px;font=
+-weight:300;text-align:left;color:#666;border-collapse:collapse;vertical-al=
+ign:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"t=
+op">Guests</td></tr><tr><td style=3D"font-size:14px;line-height:20px;font-w=
+eight:700;text-align:left;color:#444;border-collapse:collapse;vertical-alig=
+n:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"top=
+">2 Adults</td></tr><tr><td height=3D"16px" style=3D"border-collapse:collap=
+se;vertical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"to=
+p"></td></tr><tr><td style=3D"font-size:14px;line-height:20px;font-weight:3=
+00;text-align:left;color:#666;border-collapse:collapse;vertical-align:top;m=
+argin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"top">Start=
+ time</td></tr><tr><td style=3D"font-size:14px;line-height:20px;font-weight=
+:700;text-align:left;color:#444;border-collapse:collapse;vertical-align:top=
+;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"top">09:=
+20 AM</td></tr><tr><td height=3D"16px" style=3D"border-collapse:collapse;ve=
+rtical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"></=
+td></tr><tr><td style=3D"font-size:14px;line-height:20px;font-weight:300;te=
+xt-align:left;color:#666;border-collapse:collapse;vertical-align:top;margin=
+:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"top">Purchased =
+by</td></tr><tr><td style=3D"font-size:14px;line-height:20px;font-weight:70=
+0;text-align:left;color:#444;word-break:break-all;border-collapse:collapse;=
+vertical-align:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" =
+valign=3D"top">Jane M Mooney</td></tr></tbody></table><table width=3D"100%"=
+ cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font=
+-size:1em;width:100%"><tbody><tr><td height=3D"24px" style=3D"border-collap=
+se:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" val=
+ign=3D"top"></td></tr></tbody></table><table width=3D"100%" cellpadding=3D"=
+0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:=
+100%"><tbody><tr><td style=3D"border-collapse:collapse;vertical-align:top;m=
+argin:0;padding:0;border-color:#e2e2e2 #ddd #ddd;border-style:solid none no=
+ne;border-width:1px" valign=3D"top"></td></tr></tbody></table><table width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:coll=
+apse;font-size:1em;width:100%"><tbody><tr><td height=3D"24px" style=3D"bord=
+er-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none =
+#ddd" valign=3D"top"></td></tr></tbody></table><table width=3D"100%" cellpa=
+dding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1=
+em;width:100%"><tbody><tr><td style=3D"font-size:17px;line-height:20px;font=
+-weight:700;text-align:left;color:#444;border-collapse:collapse;vertical-al=
+ign:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"t=
+op">Access your tickets faster offline with the Headout app</td></tr><tr><t=
+d height=3D"8px" style=3D"border-collapse:collapse;vertical-align:top;margi=
+n:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr><tr><td style=
+=3D"font-size:14px;line-height:20px;font-weight:300;text-align:left;color:#=
+666;border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1=
+px none #ddd" align=3D"left" valign=3D"top">Just open your tickets in the a=
+pp and you&#39;ll be ready to go.</td></tr><tr><td height=3D"24px" style=3D=
+"border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px =
+none #ddd" valign=3D"top"></td></tr></tbody></table><table width=3D"100%" c=
+ellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-s=
+ize:1em;width:100%"><tbody><tr><td width=3D"70%" valign=3D"middle" style=3D=
+"border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px =
+none #ddd"><table width=3D"100%" style=3D"border-collapse:collapse;font-siz=
+e:1em;width:100%"><tbody><tr><td width=3D"18px" style=3D"border-collapse:co=
+llapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" valign=
+=3D"top"><img src=3D"https://cdn-imgix-open.headout.com/emails/assets/coupo=
+n.png" width=3D"18px" style=3D"display:block;height:auto;line-height:100%;o=
+utline:none;text-decoration:none;max-width:100%;border-width:0" alt=3D"Icon=
+"></td><td width=3D"10px" style=3D"border-collapse:collapse;vertical-align:=
+top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"></td><td align=
+=3D"left" style=3D"font-size:14px;line-height:20px;font-weight:300;text-ali=
+gn:left;color:#444;border-collapse:collapse;vertical-align:top;margin:0;pad=
+ding:0;border:1px none #ddd" valign=3D"top">Access your tickets offline</td=
+></tr><tr><td height=3D"16px" style=3D"border-collapse:collapse;vertical-al=
+ign:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr><=
+tr><td width=3D"18px" style=3D"border-collapse:collapse;vertical-align:top;=
+margin:0;padding:0;border:1px none #ddd" valign=3D"top"><img src=3D"https:/=
+/cdn-imgix-open.headout.com/emails/assets/flash.png" width=3D"18px" style=
+=3D"display:block;height:auto;line-height:100%;outline:none;text-decoration=
+:none;max-width:100%;border-width:0" alt=3D"Icon"></td><td width=3D"10px" s=
+tyle=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;bord=
+er:1px none #ddd" valign=3D"top"></td><td align=3D"left" style=3D"font-size=
+:14px;line-height:20px;font-weight:300;text-align:left;color:#444;border-co=
+llapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd"=
+ valign=3D"top">Get real-time updates on the go</td></tr><tr><td height=3D"=
+16px" style=3D"border-collapse:collapse;vertical-align:top;margin:0;padding=
+:0;border:1px none #ddd" valign=3D"top"></td></tr><tr><td width=3D"18px" st=
+yle=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;borde=
+r:1px none #ddd" valign=3D"top"><img src=3D"https://cdn-imgix-open.headout.=
+com/emails/assets/love-heart-pin.png" width=3D"18px" style=3D"display:block=
+;height:auto;line-height:100%;outline:none;text-decoration:none;max-width:1=
+00%;border-width:0" alt=3D"Icon"></td><td width=3D"10px" style=3D"border-co=
+llapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd"=
+ valign=3D"top"></td><td align=3D"left" style=3D"font-size:14px;line-height=
+:20px;font-weight:300;text-align:left;color:#444;border-collapse:collapse;v=
+ertical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top">G=
+et app-only exclusive deals</td></tr></tbody></table></td><td width=3D"30%"=
+ valign=3D"middle" align=3D"right" style=3D"border-collapse:collapse;vertic=
+al-align:top;margin:0;padding:0;border:1px none #ddd"><img src=3D"https://c=
+dn-imgix-open.headout.com/emails/assets/offline-ticket-access.png" width=3D=
+"110px" style=3D"display:block;height:auto;line-height:100%;outline:none;te=
+xt-decoration:none;max-width:100%;border-width:0" alt=3D"Offline Ticket Acc=
+ess Illustration"></td></tr><tr><td height=3D"24px" style=3D"border-collaps=
+e:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" vali=
+gn=3D"top"></td></tr></tbody></table><table width=3D"100%" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:1=
+00%"><tbody><tr><td style=3D"border-collapse:collapse;vertical-align:top;ma=
+rgin:0;padding:0;border:1px none #ddd" valign=3D"top"><table width=3D"100%"=
+ cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:separate;font=
+-size:1em;width:100%"><tbody><tr><td align=3D"center" style=3D"background-c=
+olor:#8000ff;border-radius:8px;border-collapse:collapse;vertical-align:top;=
+margin:0;padding:0 4px;border:1px none #ddd" bgcolor=3D"#8000FF" valign=3D"=
+top"><a href=3D"https://headout.app.link/ENKwazpuP3b" style=3D"font-size:16=
+px;line-height:16px;font-weight:700;border-radius:8px;width:100%;background=
+-color:#8000ff;color:#fff;display:inline-block;text-decoration:none;padding=
+:16px 0" rel=3D"noreferrer" target=3D"_blank">View tickets in app</a></td><=
+/tr></tbody></table></td></tr></tbody></table><table width=3D"100%" cellpad=
+ding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1e=
+m;width:100%"><tbody><tr><td height=3D"24px" style=3D"border-collapse:colla=
+pse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"t=
+op"></td></tr></tbody></table><table width=3D"100%" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:100%"><t=
+body><tr><td style=3D"border-collapse:collapse;vertical-align:top;margin:0;=
+padding:0;border-color:#e2e2e2 #ddd #ddd;border-style:solid none none;borde=
+r-width:1px" valign=3D"top"></td></tr></tbody></table><table width=3D"100%"=
+ cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font=
+-size:1em;width:100%"><tbody><tr><td height=3D"24px" style=3D"border-collap=
+se:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" val=
+ign=3D"top"></td></tr></tbody></table><table width=3D"100%" cellpadding=3D"=
+0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:=
+100%"><tbody><tr><td style=3D"font-size:17px;line-height:20px;font-weight:7=
+00;text-align:left;color:#444;border-collapse:collapse;vertical-align:top;m=
+argin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"top">Essen=
+tial information</td></tr><tr><td height=3D"20px" style=3D"border-collapse:=
+collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" valign=
+=3D"top"></td></tr></tbody></table><table width=3D"100%" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:100=
+%"><tbody><tr><td width=3D"12px" valign=3D"top" style=3D"border-collapse:co=
+llapse;vertical-align:top;margin:0;padding:4px 0 0;border:1px none #ddd"><i=
+mg src=3D"https://cdn-imgix-open.headout.com/emails/assets/clock.png" width=
+=3D"12px" style=3D"display:block;height:auto;line-height:100%;outline:none;=
+text-decoration:none;max-width:100%;border-width:0" alt=3D""></td><td width=
+=3D"8px" style=3D"border-collapse:collapse;vertical-align:top;margin:0;padd=
+ing:0;border:1px none #ddd" valign=3D"top"></td><td valign=3D"top" style=3D=
+"border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px =
+none #ddd"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td style=
+=3D"font-size:15px;line-height:22px;font-weight:700;text-align:left;color:#=
+444;border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1=
+px none #ddd" align=3D"left" valign=3D"top">When to arrive</td></tr><tr><td=
+ height=3D"6px" style=3D"border-collapse:collapse;vertical-align:top;margin=
+:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr><tr><td style=
+=3D"font-size:14px;line-height:20px;font-weight:300;text-align:left;color:#=
+666;border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1=
+px none #ddd" align=3D"left" valign=3D"top">Don=E2=80=99t miss a moment, ar=
+rive 20 minutes early to make the most out of your experience. If you=E2=80=
+=99re late, we won=E2=80=99t be able to refund your ticket.</td></tr></tbod=
+y></table></td></tr><tr><td height=3D"16px" style=3D"border-collapse:collap=
+se;vertical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"to=
+p"></td></tr><tr><td width=3D"12px" valign=3D"top" style=3D"border-collapse=
+:collapse;vertical-align:top;margin:0;padding:4px 0 0;border:1px none #ddd"=
+><img src=3D"https://cdn-imgix-open.headout.com/emails/assets/users.png" wi=
+dth=3D"12px" style=3D"display:block;height:auto;line-height:100%;outline:no=
+ne;text-decoration:none;max-width:100%;border-width:0" alt=3D""></td><td wi=
+dth=3D"8px" style=3D"border-collapse:collapse;vertical-align:top;margin:0;p=
+adding:0;border:1px none #ddd" valign=3D"top"></td><td valign=3D"top" style=
+=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1=
+px none #ddd"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td sty=
+le=3D"font-size:15px;line-height:22px;font-weight:700;text-align:left;color=
+:#444;border-collapse:collapse;vertical-align:top;margin:0;padding:0;border=
+:1px none #ddd" align=3D"left" valign=3D"top">Bring your ID</td></tr><tr><t=
+d height=3D"6px" style=3D"border-collapse:collapse;vertical-align:top;margi=
+n:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr><tr><td style=
+=3D"font-size:14px;line-height:20px;font-weight:300;text-align:left;color:#=
+666;border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1=
+px none #ddd" align=3D"left" valign=3D"top">Carry a government-approved val=
+id photo ID for easy verification.</td></tr></tbody></table></td></tr></tbo=
+dy></table><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td heigh=
+t=3D"24px" style=3D"border-collapse:collapse;vertical-align:top;margin:0;pa=
+dding:0;border:1px none #ddd" valign=3D"top"></td></tr></tbody></table><tab=
+le width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-colla=
+pse:collapse;font-size:1em;width:100%"><tbody><tr><td style=3D"border-colla=
+pse:collapse;vertical-align:top;margin:0;padding:0;border-color:#e2e2e2 #dd=
+d #ddd;border-style:solid none none;border-width:1px" valign=3D"top"></td><=
+/tr></tbody></table><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><=
+td height=3D"24px" style=3D"border-collapse:collapse;vertical-align:top;mar=
+gin:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr></tbody></ta=
+ble><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"bord=
+er-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td style=3D"font=
+-size:17px;line-height:20px;font-weight:700;text-align:left;color:#444;bord=
+er-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none =
+#ddd" align=3D"left" valign=3D"top">Where to go?</td></tr><tr><td height=3D=
+"8px" style=3D"border-collapse:collapse;vertical-align:top;margin:0;padding=
+:0;border:1px none #ddd" valign=3D"top"></td></tr><tr><td style=3D"font-siz=
+e:14px;line-height:20px;font-weight:300;text-align:left;color:#666;border-c=
+ollapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd=
+" align=3D"left" valign=3D"top">Head to this location to start your experie=
+nce.</td></tr><tr><td height=3D"16px" style=3D"border-collapse:collapse;ver=
+tical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"></t=
+d></tr><tr><td style=3D"border-collapse:collapse;vertical-align:top;margin:=
+0;padding:0;border:1px none #ddd" valign=3D"top"><table width=3D"100%" cell=
+padding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size=
+:1em;width:100%"><tbody><tr><td style=3D"border-collapse:collapse;vertical-=
+align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"><table wi=
+dth=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:c=
+ollapse;font-size:1em;width:100%"><tbody><tr><td style=3D"border-collapse:c=
+ollapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" valign=
+=3D"top"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td style=3D=
+"border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px =
+none #ddd" valign=3D"top"><table width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody=
+><tr><td width=3D"26px" align=3D"center" valign=3D"top" style=3D"border-col=
+lapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd">=
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-c=
+ollapse:collapse;font-size:1em;width:100%"><tbody><tr><td align=3D"center" =
+style=3D"border-radius:999px;border-collapse:collapse;vertical-align:top;ma=
+rgin:0;padding:0;border:1px none #ddd" valign=3D"top"><img src=3D"https://c=
+dn-imgix-open.headout.com/emails/assets/meeting-point.png" alt=3D"Location =
+Icon" style=3D"width:16px;display:block;border-radius:999px;height:auto;lin=
+e-height:100%;outline:none;text-decoration:none;max-width:100%;padding:3px;=
+border:2px solid #e2e2e2" width=3D"16"></td></tr></tbody></table></td><td w=
+idth=3D"7px" style=3D"border-collapse:collapse;vertical-align:top;margin:0;=
+padding:0;border:1px none #ddd" valign=3D"top"></td><td align=3D"left" vali=
+gn=3D"middle" style=3D"font-size:17px;line-height:20px;font-weight:700;text=
+-align:left;color:#444;vertical-align:middle;border-collapse:collapse;margi=
+n:0;padding:0;border:1px none #ddd">Meeting point</td></tr></tbody></table>=
+</td></tr><tr><td style=3D"border-collapse:collapse;vertical-align:top;marg=
+in:0;padding:0;border:1px none #ddd" valign=3D"top"><table width=3D"100%" c=
+ellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-s=
+ize:1em;width:100%"><tbody><tr><td style=3D"border-collapse:collapse;vertic=
+al-align:top;margin:0;padding:0 0 0 12px;border:1px none #ddd" valign=3D"to=
+p"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"paddi=
+ng-left:11px;border-collapse:collapse;font-size:1em;width:100%"><tbody><tr>=
+<td style=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0=
+ 0 0 19px;border-color:#ddd #ddd #ddd transparent;border-style:none none no=
+ne dashed;border-width:1px 1px 1px 2px" valign=3D"top"><table width=3D"100%=
+" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;fon=
+t-size:1em;width:100%"><tbody><tr><td height=3D"8px" style=3D"border-collap=
+se:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" val=
+ign=3D"top"></td></tr><tr><td style=3D"font-size:14px;line-height:20px;font=
+-weight:300;text-align:left;color:#666;border-collapse:collapse;vertical-al=
+ign:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"t=
+op">Via Galileo Ferraris n.40, Naples, Italy</td></tr><tr><td height=3D"8px=
+" style=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;b=
+order:1px none #ddd" valign=3D"top"></td></tr><tr><td style=3D"font-size:14=
+px;line-height:20px;font-weight:300;text-align:left;color:#666;border-colla=
+pse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" al=
+ign=3D"left" valign=3D"top"><a href=3D"https://maps.app.goo.gl/K8URk1GY6piq=
+CLyW9" style=3D"color:#e5006e;text-decoration:none;border-bottom-width:1px;=
+border-bottom-color:#e5006e;border-bottom-style:solid" rel=3D"noreferrer" t=
+arget=3D"_blank">Get directions here</a></td></tr><tr><td style=3D"border-c=
+ollapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd=
+" valign=3D"top"><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" =
+style=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td =
+height=3D"16px" style=3D"border-collapse:collapse;vertical-align:top;margin=
+:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr><tr><td style=
+=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1=
+px none #ddd" valign=3D"top"><img src=3D"https://cdn-imgix.headout.com/medi=
+a/images/27126f9338d2e20869f1c3ed71619241-24256-50827-pompeii%2C-herculaneu=
+m%2C-and-vesuvius-day-trip-around-vesuvio.png?fm=3Djpg&amp;h=3D600" width=
+=3D"100%" style=3D"display:block;border-radius:4px;height:auto;line-height:=
+100%;outline:none;text-decoration:none;max-width:100%;border-width:0"></td>=
+</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></=
+td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table=
+></td></tr></tbody></table></td></tr></tbody></table><table width=3D"100%" =
+cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-=
+size:1em;width:100%"><tbody><tr><td height=3D"24px" style=3D"border-collaps=
+e:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" vali=
+gn=3D"top"></td></tr></tbody></table><table width=3D"100%" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:1=
+00%"><tbody><tr><td style=3D"border-collapse:collapse;vertical-align:top;ma=
+rgin:0;padding:0;border-color:#e2e2e2 #ddd #ddd;border-style:solid none non=
+e;border-width:1px" valign=3D"top"></td></tr></tbody></table><table width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:coll=
+apse;font-size:1em;width:100%"><tbody><tr><td height=3D"24px" style=3D"bord=
+er-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none =
+#ddd" valign=3D"top"></td></tr></tbody></table><table width=3D"100%" cellpa=
+dding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1=
+em;width:100%"><tbody><tr><td style=3D"font-size:17px;line-height:20px;font=
+-weight:700;text-align:left;color:#444;border-collapse:collapse;vertical-al=
+ign:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"t=
+op">Additional information</td></tr><tr><td height=3D"20px" style=3D"border=
+-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #d=
+dd" valign=3D"top"></td></tr><tr><td style=3D"font-size:14px;line-height:20=
+px;font-weight:300;text-align:left;color:#666;border-collapse:collapse;vert=
+ical-align:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" vali=
+gn=3D"top"><p dir=3D"ltr" style=3D"display:block;color:#2b2e2f;line-height:=
+22px;margin:13px 0 0.5rem"><i><b style=3D"font-weight:600;font-size:14px"><=
+strong style=3D"font-weight:600;font-size:14px;white-space:pre-wrap">Note:<=
+/strong></b></i><b style=3D"font-weight:600;font-size:14px"><strong style=
+=3D"font-weight:600;font-size:14px;white-space:pre-wrap"> </strong></b><i><=
+b style=3D"font-weight:600;font-size:14px"><strong style=3D"font-weight:600=
+;font-size:14px;white-space:pre-wrap">This booking is inclusive of a</stron=
+g></b></i><b style=3D"font-weight:600;font-size:14px"><strong style=3D"font=
+-weight:600;font-size:14px;white-space:pre-wrap"> =E2=82=AC11,68</strong></=
+b><i><b style=3D"font-weight:600;font-size:14px"><strong style=3D"font-weig=
+ht:600;font-size:14px;white-space:pre-wrap"> entry ticket + booking fees</s=
+trong></b></i></p><p dir=3D"ltr" style=3D"display:block;color:#2b2e2f;line-=
+height:22px;margin:13px 0 0.5rem"><br></p></td></tr></tbody></table><table =
+width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse=
+:collapse;font-size:1em;width:100%"><tbody><tr><td height=3D"24px" style=3D=
+"border-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px =
+none #ddd" valign=3D"top"></td></tr></tbody></table><table width=3D"100%" c=
+ellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-s=
+ize:1em;width:100%"><tbody><tr><td style=3D"border-collapse:collapse;vertic=
+al-align:top;margin:0;padding:0;border-color:#e2e2e2 #ddd #ddd;border-style=
+:solid none none;border-width:1px" valign=3D"top"></td></tr></tbody></table=
+><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-=
+collapse:collapse;font-size:1em;width:100%"><tbody><tr><td height=3D"24px" =
+style=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;bor=
+der:1px none #ddd" valign=3D"top"></td></tr></tbody></table><table width=3D=
+"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collaps=
+e;font-size:1em;width:100%"><tbody><tr><td style=3D"font-size:17px;line-hei=
+ght:20px;font-weight:700;text-align:left;color:#444;border-collapse:collaps=
+e;vertical-align:top;margin:0;padding:0;border:1px none #ddd" align=3D"left=
+" valign=3D"top">Booking policy</td></tr><tr><td height=3D"20px" style=3D"b=
+order-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px no=
+ne #ddd" valign=3D"top"></td></tr><tr><td style=3D"font-size:14px;line-heig=
+ht:20px;font-weight:300;text-align:left;color:#666;border-collapse:collapse=
+;vertical-align:top;margin:0;padding:0;border:1px none #ddd" align=3D"left"=
+ valign=3D"top">You can cancel for free until 09:20 AM on 11 June, 2026. Yo=
+u can also choose to reschedule before 09:20 AM local time on 11 June, 2026=
+.</td></tr></tbody></table><table width=3D"100%" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:100%"><tbod=
+y><tr><td height=3D"24px" style=3D"border-collapse:collapse;vertical-align:=
+top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr></tbo=
+dy></table><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td style=
+=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;border-c=
+olor:#e2e2e2 #ddd #ddd;border-style:solid none none;border-width:1px" valig=
+n=3D"top"></td></tr></tbody></table><table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:10=
+0%"><tbody><tr><td height=3D"24px" style=3D"border-collapse:collapse;vertic=
+al-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"></td><=
+/tr></tbody></table><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><=
+td style=3D"font-size:17px;line-height:20px;font-weight:700;text-align:left=
+;color:#444;border-collapse:collapse;vertical-align:top;margin:0;padding:0;=
+border:1px none #ddd" align=3D"left" valign=3D"top">Partner details</td></t=
+r><tr><td height=3D"20px" style=3D"border-collapse:collapse;vertical-align:=
+top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr></tbo=
+dy></table><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td width=
+=3D"70%" style=3D"border-collapse:collapse;vertical-align:top;margin:0;padd=
+ing:0;border:1px none #ddd" valign=3D"top"><table width=3D"100%" cellpaddin=
+g=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;w=
+idth:100%"><tbody><tr><td style=3D"font-size:14px;line-height:20px;font-wei=
+ght:300;text-align:left;color:#666;border-collapse:collapse;vertical-align:=
+top;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"top">=
+Local partner details</td></tr><tr><td height=3D"2px" style=3D"border-colla=
+pse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" va=
+lign=3D"top"></td></tr><tr><td style=3D"font-size:14px;line-height:20px;fon=
+t-weight:300;text-align:left;color:#444;border-collapse:collapse;vertical-a=
+lign:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"=
+top">AROUND VESUVIO</td></tr><tr><td height=3D"2px" style=3D"border-collaps=
+e:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" vali=
+gn=3D"top"></td></tr><tr><td style=3D"font-size:14px;line-height:20px;font-=
+weight:300;text-align:left;color:#666;border-collapse:collapse;vertical-ali=
+gn:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"to=
+p"><a href=3D"tel:+39%20348%204544045" style=3D"color:#e5006e;text-decorati=
+on:none;border-bottom-width:1px;border-bottom-color:#e5006e;border-bottom-s=
+tyle:solid" rel=3D"noreferrer" target=3D"_blank">+39 348 4544045</a></td></=
+tr><tr><td height=3D"10px" style=3D"border-collapse:collapse;vertical-align=
+:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr><tr>=
+<td style=3D"font-size:14px;line-height:20px;font-weight:300;text-align:lef=
+t;color:#666;border-collapse:collapse;vertical-align:top;margin:0;padding:0=
+;border:1px none #ddd" align=3D"left" valign=3D"top">Partner ref. number</t=
+d></tr><tr><td height=3D"2px" style=3D"border-collapse:collapse;vertical-al=
+ign:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"></td></tr><=
+tr><td style=3D"font-size:14px;line-height:20px;font-weight:300;text-align:=
+left;color:#444;border-collapse:collapse;vertical-align:top;margin:0;paddin=
+g:0;border:1px none #ddd" align=3D"left" valign=3D"top">47e9ffa771b9f09d825=
+dc99fbafbf767</td></tr></tbody></table></td><td width=3D"30%" valign=3D"top=
+" style=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;b=
+order:1px none #ddd"></td></tr></tbody></table></div></td></tr></tbody></ta=
+ble><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"bord=
+er-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td height=3D"24p=
+x" style=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;=
+border:1px none #ddd" valign=3D"top"></td></tr></tbody></table><table width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:coll=
+apse;font-size:1em;width:100%"><tbody><tr><td style=3D"border-collapse:coll=
+apse;vertical-align:top;margin:0;padding:0;border-color:#e2e2e2 #ddd #ddd;b=
+order-style:solid none none;border-width:1px" valign=3D"top"></td></tr></tb=
+ody></table><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody><tr><td heigh=
+t=3D"24px" style=3D"border-collapse:collapse;vertical-align:top;margin:0;pa=
+dding:0;border:1px none #ddd" valign=3D"top"></td></tr></tbody></table><tab=
+le width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-colla=
+pse:collapse;font-size:1em;width:100%"><tbody><tr><td style=3D"font-size:17=
+px;line-height:20px;font-weight:700;text-align:left;color:#444;border-colla=
+pse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" al=
+ign=3D"left" valign=3D"top">Need help?</td></tr><tr><td height=3D"20px" sty=
+le=3D"border-collapse:collapse;vertical-align:top;margin:0;padding:0;border=
+:1px none #ddd" valign=3D"top"></td></tr><tr><td style=3D"font-size:14px;li=
+ne-height:20px;font-weight:300;text-align:left;color:#666;border-collapse:c=
+ollapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" align=
+=3D"left" valign=3D"top">Have questions or need to make changes? Quickly mo=
+dify your booking, learn more about your experience, or contact us directly=
+=E2=80=94all in one place.</td></tr><tr><td height=3D"40px" style=3D"border=
+-collapse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #d=
+dd" valign=3D"top"></td></tr><tr><td style=3D"border-collapse:collapse;vert=
+ical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top"><tab=
+le width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-colla=
+pse:separate;font-size:1em;width:100%"><tbody><tr><td align=3D"center" styl=
+e=3D"background-color:#fff;border-radius:8px;border-collapse:collapse;verti=
+cal-align:top;margin:0;padding:0 4px;border:1px solid #8000ff" bgcolor=3D"#=
+FFF" valign=3D"top"><a href=3D"https://www.headout.com/en/manage-booking/?b=
+ookingId=3D31374926&amp;emailId=3Dbluemooney1024@gmail.com&amp;secureBookin=
+gId=3D2hgrNdAYEz_DPBZLRh4aN2APfAfR3H9NjddWz_lBXPUPgpm4yLg6PCMok2BgzDw-eaFwv=
+9bLEUlMSOq-lmc2zA=3D=3D&amp;utm_source=3Demail_footer&amp;utm_medium=3Dhard=
+_push&amp;utm_campaign=3D26770894&amp;ci=3D7&amp;cm=3Db_31374926" style=3D"=
+font-size:16px;line-height:16px;font-weight:700;border-radius:8px;width:100=
+%;background-color:#fff;color:#8000ff;display:inline-block;text-decoration:=
+none;padding:16px 0" rel=3D"noreferrer" target=3D"_blank">Visit help center=
+</a></td></tr></tbody></table></td></tr></tbody></table><table width=3D"100=
+%" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;fo=
+nt-size:1em;width:100%"><tbody><tr><td height=3D"24px" style=3D"border-coll=
+apse:collapse;vertical-align:top;margin:0;padding:0;border:1px none #ddd" v=
+align=3D"top"></td></tr></tbody></table><table width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;wi=
+dth:100%"><tbody><tr><td style=3D"border-collapse:collapse;vertical-align:t=
+op;margin:0;padding:0;border-color:#e2e2e2 #ddd #ddd;border-style:solid non=
+e none;border-width:1px" valign=3D"top"></td></tr></tbody></table><div styl=
+e=3D"display:none">ZD_REDACT_MARKER</div><table width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;font-size:1em;wi=
+dth:100%"><tbody><tr><td height=3D"24px" style=3D"border-collapse:collapse;=
+vertical-align:top;margin:0;padding:0;border:1px none #ddd" valign=3D"top">=
+</td></tr></tbody></table><table width=3D"100%" cellpadding=3D"0" cellspaci=
+ng=3D"0" style=3D"border-collapse:collapse;font-size:1em;width:100%"><tbody=
+><tr><td style=3D"font-size:12px;line-height:18px;font-weight:300;text-alig=
+n:left;color:#666;border-collapse:collapse;vertical-align:top;margin:0;padd=
+ing:0;border:1px none #ddd" align=3D"left" valign=3D"top">With =E2=9D=A4=EF=
+=B8=8F from Headout</td></tr><tr><td style=3D"font-size:10px;line-height:14=
+px;font-weight:300;text-align:left;color:#666;border-collapse:collapse;vert=
+ical-align:top;margin:0;padding:0;border:1px none #ddd" align=3D"left" vali=
+gn=3D"top">Headout Inc., 82 Nassau St <a href=3D"https://headout.zendesk.co=
+m/hc/requests/60351" rel=3D"ticket" target=3D"_blank">#60351</a> New York, =
+NY 10038</td></tr><tr><td style=3D"font-size:10px;line-height:14px;font-wei=
+ght:300;text-align:left;color:#666;border-collapse:collapse;vertical-align:=
+top;margin:0;padding:0;border:1px none #ddd" align=3D"left" valign=3D"top">=
+=C2=A9 All Rights Reserved</td></tr></tbody></table></td></tr></tbody></tab=
+le></div></div><div style=3D"background:#f8f6ff;background-color:#f8f6ff;bo=
+rder-radius:0 0 12px 12px;max-width:600px;margin:0px auto"><table align=3D"=
+center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"backgroun=
+d:#f8f6ff;background-color:#f8f6ff;width:100%;border-radius:0 0 12px 12px;b=
+order-collapse:collapse;font-size:1em" bgcolor=3D"#F8F6FF"><tbody><tr><td s=
+tyle=3D"direction:ltr;font-size:0px;text-align:center;border-collapse:colla=
+pse;vertical-align:top;margin:0;padding:0 24px;border:1px none #ddd" align=
+=3D"center" valign=3D"top"><div style=3D"height:40px;line-height:40px">=E2=
+=80=8A</div></td></tr></tbody></table></div></div></td></tr></tbody></table=
+></td></tr></tbody></table></div></div><div><div style=3D"margin-top:25px">=
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=
+=3D"presentation"><tbody><tr><td width=3D"100%" style=3D"padding:15px 0;bor=
+der-top:1px dotted #c5c5c5"><table width=3D"100%" cellpadding=3D"0" cellspa=
+cing=3D"0" border=3D"0" style=3D"table-layout:fixed" role=3D"presentation">=
+<tbody><tr><td width=3D"100%" style=3D"padding:0;margin:0" valign=3D"top"><=
+div dir=3D"auto" style=3D"color:#2b2e2f;line-height:22px;margin:15px 0"><di=
+v style=3D"display:none;opacity:0;color:#ffffff;width:0;height:0">| Sent at=
+: Tue, 09 Jun 2026 11:56:51 GMT</div></div><p dir=3D"ltr">                 =
+     </p></td>        </tr>      </tbody></table>    </td>  </tr></tbody></=
+table></div><p dir=3D"ltr"><img src=3D"https://script.google.com/macros/s/A=
+KfycbyPYqZ8AYYzGzcigPf8CCJVmtxSPraGaZuGNR3Jrt8aaiVqwDg/exec?tid=3D31858521&=
+amp;ts=3D2026-06-09T17:27:17+05:30&amp;account=3DHeadout+Ops&amp;agent=3DHe=
+adout&amp;user=3DJane" alt=3D""></p>
+   =20
+<span style=3D"color:#ffffff" aria-hidden=3D"true">[LYL625-L9JZJ]</span>
+
+<div style=3D"display:none">  <div>          </div></div></div></div></div>
+
+--0000000000005d51770653d0d799--
