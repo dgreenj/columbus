@@ -101,7 +101,8 @@ Confirm all hotel bookings, check-in times, and checkout deadlines.
 - [x] **Herculaneum & Vesuvius tour (Jun 12)** — ✅ booked, Headout #31374926; meeting 9:20 AM at Via Galileo Ferraris n.40, Naples; includes Herculaneum site entry
 - [x] **Puglia tour — Strada Toscana** — ✅ confirmed
   - **Pickup: June 14, 12:30 PM, Brindisi Airport** — take taxi from Hotel Executive Inn (depart by 12:00 PM; ~10–15 min, ~€10–12)
-  - Meeting point TBA — will be sent via WhatsApp closer to arrival
+  - Meeting point: **arrivals area, look for STRADA TOSCANA sign** — hotel is Masseria dei Monaci (~2 hrs drive)
+  - **Eat lunch before pickup** — no food allowed on vehicle
   - **If not at pickup point at 12:30, driver departs without you**
   - Contacts: Pamela, Paola & Lisa Marlow | lisa@stradatoscana.com | 949-GO-ITALY
 - [ ] **Join WhatsApp group** — required before departure: [chat.whatsapp.com/EJXJTC2HAcwGLOheEWQi0I](https://chat.whatsapp.com/EJXJTC2HAcwGLOheEWQi0I)
@@ -116,9 +117,7 @@ June is busy — reserve ahead for any restaurant worth going to.
 
 ### Florence
 
-- [ ] **Del Fagioli** (Corso dei Tintori 47R) — **call +39 055 244285** to reserve; table for 2, prefer **Tuesday June 9** at 7:30 PM (backup: Monday June 8); Michelin Bib Gourmand, classic Tuscan trattoria — bistecca alla fiorentina, pici with aglione, pappa al pomodoro
-  - **Call Monday June 1 or Tuesday June 2, 8:00–9:30 AM CDT** (= 3:00–4:30 PM Italy)
-  - Say: *"Hello, I'd like to reserve a table for 2 people for Tuesday June 9th at 7:30 PM."*
+- [x] **Del Fagioli** (Corso dei Tintori 47R) — ✅ **BOOKED** — table for 2, 7:30 PM Tuesday June 9
 - [ ] Any other special Florence dinners — ask hotel on arrival for current favorites
 
 ### Naples
