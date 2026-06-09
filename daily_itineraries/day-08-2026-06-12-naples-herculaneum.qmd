@@ -16,10 +16,14 @@ categories: [itinerary, naples, museums]
 
 | | |
 |---|---|
-| **Provider** | Naples Tickets by Headout |
+| **Provider** | Around Vesuvio (via Headout) |
 | **Booking Reference** | #31374926 |
 | **Meet** | 9:20 AM — Via Galileo Ferraris n.40, Naples IT 80142 (Naples Center) |
+| **Day-of contact** | +39 348 4544045 |
+| **Entry fee** | €11.68 included in booking |
 | **Free cancellation** | Until 9:20 AM, June 11, 2026 |
+| **Directions** | [Google Maps →](https://maps.app.goo.gl/K8URk1GY6piqCLyW9) |
+| **Offline tickets** | Download the Headout app — tickets available offline |
 :::
 
 ::: {.layout-ncol=2}

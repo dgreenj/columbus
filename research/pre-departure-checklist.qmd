@@ -168,6 +168,7 @@ See [Naples Pizza Guide](naples-pizza.qmd) for the full three-night assignment a
 - [ ] **International phone/data plan** — confirm Italy coverage; add international data package if needed
 - [ ] Download **offline maps** for Florence, Naples, and Brindisi (Google Maps — do at home, not the airport; large files)
 - [ ] Download **Google Translate** Italian language pack for offline use
+- [ ] Download **Headout app** — store Jun 12 Herculaneum & Vesuvius tickets offline (Booking #31374926)
 - [ ] Download **Trenitalia app** (useful for Naples Circumvesuviana updates)
 - [ ] Download **Lufthansa app** — check in for flights 24 hours before departure
 - [ ] Download **ITA Airways app** or save AZ boarding passes for Jun 13 flights
