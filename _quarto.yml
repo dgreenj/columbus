@@ -150,15 +150,15 @@ website:
         contents:
           - text: "Puglia Overview"
             href: regions/puglia.qmd
-          - text: "Day 11 (Jun 15) - Placeholder"
+          - text: "Day 11 (Jun 15) — Otranto"
             href: daily_itineraries/day-11-2026-06-15-puglia.qmd
-          - text: "Day 12 (Jun 16) - Placeholder"
+          - text: "Day 12 (Jun 16) — Lecce"
             href: daily_itineraries/day-12-2026-06-16-puglia.qmd
-          - text: "Day 13 (Jun 17) - Placeholder"
+          - text: "Day 13 (Jun 17) — Ostuni → Putignano"
             href: daily_itineraries/day-13-2026-06-17-puglia.qmd
-          - text: "Day 14 (Jun 18) - Placeholder"
+          - text: "Day 14 (Jun 18) — Alberobello"
             href: daily_itineraries/day-14-2026-06-18-puglia.qmd
-          - text: "Day 15 (Jun 19) - Placeholder"
+          - text: "Day 15 (Jun 19) — Matera"
             href: daily_itineraries/day-15-2026-06-19-puglia.qmd
 
       - text: "---"
