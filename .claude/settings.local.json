@@ -29,7 +29,11 @@
       "mcp__plugin_playwright_playwright__browser_fill_form",
       "mcp__plugin_playwright_playwright__browser_press_key",
       "mcp__plugin_playwright_playwright__browser_type",
-      "mcp__plugin_playwright_playwright__browser_evaluate"
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "Skill(firecrawl:firecrawl-scrape)",
+      "Bash(quarto render *)",
+      "Bash(cat)",
+      "Read(//tmp/**)"
     ]
   }
 }

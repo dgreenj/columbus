@@ -1,0 +1,49 @@
+---
+title: "Florence's Final Day: Uffizi, Accademia, and Palazzo Strozzi"
+subtitle: "From Botticelli to Rothko, David to Del Fagioli — a perfect last day in the city"
+date: "2026-06-09"
+date-modified: last-modified
+author: "DJG"
+categories: [italy, travel, florence, museums, food, columbus]
+description: "A day of Renaissance art, modern color fields, and a proper Florentine farewell dinner to close out five days in Florence."
+execute:
+  message: false
+  warning: false
+format:
+  html:
+    toc: true
+    toc-depth: 2
+  pdf:
+    toc: true
+    toc-depth: 2
+other-links:
+  - text: "Print this page"
+    href: "javascript:window.print()"
+    icon: printer
+---
+
+June 9 became a clean survey of Florence across centuries: Renaissance painting and sculpture in the morning, modern color fields in the afternoon, and the practical business of leaving the city in the evening.
+
+## Uffizi: The Medici Collection
+
+The day began at the Uffizi with a private tour in English focused on the Medici collection. The guide used the rooms as a visual history lesson in the transition from medieval art to the Renaissance — religious forms, human bodies, space, perspective, patronage, and civic ambition all changing at once. Without context the Uffizi can become a long procession of gold halos and crowded rooms; with context, the shift in Western art becomes visible wall by wall.
+
+The highlights included paintings by Botticelli, Michelangelo, and Leonardo da Vinci, along with sculpture connected to Donatello. The force of the morning was not only the list of famous names, though the list was formidable. It was the sense of Florence as a workshop of transition, with the Medici collection serving as both treasury and argument.
+
+## Accademia: Prisoners and David
+
+From there the tour continued to the Accademia. The Medici musical instrument collection made a quieter counterpoint to the morning's paintings — another reminder that Renaissance patronage was not confined to canvas and marble. Then came Michelangelo's unfinished Prisoners and finally David.
+
+The Prisoners matter because they show the struggle still inside the stone: figures half-emerged, half-captive. Then David stands at the end of that argument, fully released, which is a rather good trick for a block of marble and a young sculptor with dangerous confidence.
+
+## Afternoon: Gelato, Errands, Rothko
+
+The afternoon turned practical: a walk through Florence for last-minute business, with a gelato snack folded in because there are civilized ways to run errands and barbarous ways, and Florence rewards the civilized.
+
+From there, Palazzo Strozzi for the Mark Rothko exhibition — a sharp change of register after the morning's Renaissance density. Fewer saints and patrons, more color, silence, and the modern problem of standing before a painting until it starts doing something back.
+
+## Last Dinner: Del Fagioli
+
+The evening was the last night in Florence, and Del Fagioli was exactly the right final dinner: one of the few remaining family trattorias in the city, small, quiet, and lovely in atmosphere. Dinner was properly Florentine — Florentine steak, white beans, green beans, roast potatoes with rosemary, and fried squash blossoms — followed by lemon mousse for dessert, and a Tuscan rosé throughout.
+
+Then the less glamorous but necessary rite of packing for the next day's train to Naples. A good final sequence, all told: Medici splendor, Michelangelo's stone, Rothko's color, gelato, a family trattoria dinner, and bags by the door before the road south.
