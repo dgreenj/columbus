@@ -1,46 +1,45 @@
 ---
-title: "Day 14 — June 18: Puglia - Tour Day 4"
-subtitle: "Tour Being Planned"
+title: "Day 14 — June 18: Alberobello"
+subtitle: "UNESCO trulli, dry-stone architecture, and an evening food experience"
 date: "2026-06-18"
 day-of-week: "Thursday"
-location: "Puglia"
-categories: [itinerary, puglia, placeholder]
-status: "Placeholder - Tour Details TBD"
+location: "Alberobello / Putignano"
+categories: [itinerary, puglia, alberobello]
 ---
 
-::: {.callout-warning}
-## Placeholder Page - Tour Being Finalized
+## Day at a Glance
 
-This day is part of our 5-day Puglia organized tour (June 15-19). Specific itinerary will be updated once tour is confirmed.
-
-**Expected Update:** Late March/early April 2026
-:::
-
-## Overview
-
-**Day 4 of Puglia tour.** Details to be added when tour operator and schedule are finalized.
-
-**See:** [Puglia Overview](../regions/puglia.qmd) for region information
+| | |
+|---|---|
+| **Date** | Thursday, June 18 |
+| **Base** | Petrantiche Albergo Diffuso, Putignano (Night 2 of 3) |
+| **Meals included** | Breakfast + Dinner (food experience) |
+| **Transport** | Tour drivers (all included) |
 
 ---
 
-## Expected Highlights
+## Morning
 
-Based on typical Puglia tours, this day might include visits to:
-- Historic towns (Alberobello, Lecce, Ostuni, Polignano a Mare)
-- UNESCO World Heritage sites
-- Baroque architecture
-- Coastal scenery
-- Wine/olive oil tastings
-- Regional cuisine experiences
+After breakfast, drivers to **Alberobello** — known for its trulli, the characteristic limestone dwellings with conical roofs built in a prehistoric dry-stone technique still practiced in the region. Dating back centuries, Alberobello has the highest concentration and best-preserved examples. UNESCO World Heritage since 1996.
 
-**This page will be updated with:**
-- Specific itinerary for today
-- Accommodation details
-- Meal plans
-- Activities and timing
-- Free time opportunities
+Walking tour of the trulli district.
+
+## Afternoon
+
+Free time and lunch on your own in Alberobello. Return to Putignano to relax and refresh before the evening.
+
+## Evening
+
+Return to Alberobello for a **food experience** (details and meeting time provided by Pamela & Paola on the day — monitor the WhatsApp group).
 
 ---
 
-**Previous:** [Day 13](day-13-2026-06-17-puglia.qmd) | **Next:** [Day 15](day-15-2026-06-19-puglia.qmd)
+## Practical Notes
+
+- Lunch on your own in Alberobello — €15–25; cafés and trattorias near the trulli district
+- Morning walking tour is optimal — beats peak heat and afternoon crowds
+- Check WhatsApp group for food experience meeting point and time
+
+---
+
+**Previous:** [Day 13: Ostuni → Putignano](day-13-2026-06-17-puglia.qmd) | **Next:** [Day 15: Matera](day-15-2026-06-19-puglia.qmd)

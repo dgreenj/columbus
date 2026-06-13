@@ -1,46 +1,48 @@
 ---
-title: "Day 15 — June 19: Puglia - Tour Day 5"
-subtitle: "Tour Being Planned"
+title: "Day 15 — June 19: Matera"
+subtitle: "UNESCO cave city, a lunch in a cave, and a farewell dinner"
 date: "2026-06-19"
 day-of-week: "Friday"
-location: "Puglia"
-categories: [itinerary, puglia, placeholder]
-status: "Placeholder - Tour Details TBD"
+location: "Matera / Putignano"
+categories: [itinerary, puglia, matera]
 ---
 
-::: {.callout-warning}
-## Placeholder Page - Tour Being Finalized
+## Day at a Glance
 
-This day is part of our 5-day Puglia organized tour (June 15-19). Specific itinerary will be updated once tour is confirmed.
-
-**Expected Update:** Late March/early April 2026
-:::
-
-## Overview
-
-**Day 5 of Puglia tour.** Details to be added when tour operator and schedule are finalized.
-
-**See:** [Puglia Overview](../regions/puglia.qmd) for region information
+| | |
+|---|---|
+| **Date** | Friday, June 19 |
+| **Base** | Petrantiche Albergo Diffuso, Putignano (last night) |
+| **Meals included** | Breakfast + Lunch + Dinner |
+| **Transport** | Tour drivers (all included) |
 
 ---
 
-## Expected Highlights
+## Morning
 
-Based on typical Puglia tours, this day might include visits to:
-- Historic towns (Alberobello, Lecce, Ostuni, Polignano a Mare)
-- UNESCO World Heritage sites
-- Baroque architecture
-- Coastal scenery
-- Wine/olive oil tastings
-- Regional cuisine experiences
+After breakfast, drivers to **Matera** (Basilicata) — a UNESCO World Heritage site and one of the oldest continuously inhabited cities in the world. The Sassi di Matera are ancient cave dwellings and rock churches with evidence of human settlement from the Palaeolithic period. A local guide leads exploration of the historic core.
 
-**This page will be updated with:**
-- Specific itinerary for today
-- Accommodation details
-- Meal plans
-- Activities and timing
-- Free time opportunities
+## Midday
+
+**Lunch at a cave restaurant** (included with local wine) — a Matera specialty.
+
+## Afternoon
+
+Return to Putignano. Free time for last-minute shopping or optional shuttle to Alberobello.
+
+## Evening
+
+**Farewell dinner** at a local trattoria (included with local wine) — a celebration of the week together.
 
 ---
 
-**Previous:** [Day 14](day-14-2026-06-18-puglia.qmd) | **Next:** [Day 16](day-16-2026-06-20-brindisi-departure.qmd)
+## Practical Notes
+
+- Matera is ~1.5 hours from Putignano, in Basilicata (not technically Puglia)
+- Extensive walking on uneven stone paths — best footwear choice of the trip
+- Bring a light layer: cave interiors stay cool regardless of outside temperature
+- Last night at Petrantiche — pack bags tonight for tomorrow's early group transport to Brindisi Airport
+
+---
+
+**Previous:** [Day 14: Alberobello](day-14-2026-06-18-puglia.qmd) | **Next:** [Day 16: Departure](day-16-2026-06-20-brindisi-departure.qmd)
