@@ -17,7 +17,13 @@ There is also the paradox of the thing: this priceless work of art is still a **
 
 Lunch was in the harbor overlooking the Adriatic in Otranto: fresh vegetables, sea bream, a light torte, and lots of fruit. It sounds exactly right for the place — water in front of you, clean food, and nothing heavy enough to deaden the afternoon.
 
-But the cathedral was the highlight beyond a doubt. The mosaic is the most remarkable Dan has ever seen: not a panel, not a chapel detail, not one decorative field, but the entire cathedral floor, with each section depicting different stories. **Pictures will be added later**, because this is one of those cases where prose can point, but the eye has to do its own work.
+But the cathedral was the highlight beyond a doubt. The mosaic is the most remarkable Dan has ever seen: not a panel, not a chapel detail, not one decorative field, but the entire cathedral floor, with each section depicting different stories. This is one of those cases where prose can point, but the eye has to do its own work.
+
+![Otranto Cathedral’s pale stone facade and rose window in the midday square.](images/otranto-cathedral-facade-rose-window.jpeg){fig-alt="The pale stone facade of Otranto Cathedral with a large rose window, an open doorway, and visitors gathered in the sunlit square outside."}
+
+![The Tree of Life mosaic stretches across the nave floor of Otranto Cathedral.](images/otranto-cathedral-tree-of-life-nave-floor.jpeg){fig-alt="The interior of Otranto Cathedral with rows of chairs and columns above a broad medieval floor mosaic filled with animals, figures, and branching forms."}
+
+![Animals and branching forms in a close view of the Otranto Cathedral floor mosaic.](images/otranto-cathedral-mosaic-animals-detail.jpeg){fig-alt="A close view of Otranto Cathedral's floor mosaic showing stylized animals and branching shapes made from small pale, tan, and reddish stone tesserae."}
 
 The evening plan added one more coastal turn to the day. At **17:00**, the group met in the courtyard for pickup. The first stop was **Il Faro** at **Punta Palascia / Cape Otranto**, the easternmost point of Italy; the second was **Porto Badisco**, for bar food, drinks, fun friends, and great sea views. Return to Masseria dei Monaci was scheduled for **19:30**. It makes a good closing shape for the day: cathedral floor in the morning, harbor lunch at midday, and then lighthouse, inlet, drinks, and sea views before returning home.
 
@@ -35,6 +41,6 @@ This is still a partial note. More can be added later from the day itself: first
 - **Interpretive theme:** sacred space as encyclopedia; biblical, legendary, animal, and moral imagery held together in one visual field.
 - **Lunch:** harbor meal overlooking the Adriatic in Otranto — fresh vegetables, sea bream, light torte, lots of fruit.
 - **Cathedral verdict:** highlight of the day beyond a doubt; the most remarkable mosaic Dan has ever seen, covering the entire cathedral floor section by section.
-- **Photo pending:** pictures will be added later, especially to document the Tree of Life, the floor’s scale and texture, and the fact that this priceless work remains walked on.
+- **Photos added:** cathedral facade and rose window; wide nave-floor view of the Tree of Life mosaic; close animal-and-branch detail from the floor mosaic.
 - **Evening plan/photo:** 17:00 courtyard pickup; first stop Il Faro at Punta Palascia / Cape Otranto, the easternmost point of Italy; second stop Porto Badisco for bar food, drinks, fun friends, and great sea views; return to Masseria dei Monaci scheduled for 19:30. Photo staged as `images/punta-palascia-lighthouse-easternmost-italy.jpeg`.
 - **Still needed:** Dan’s own sensory details — guide, light, crowd, cathedral atmosphere, what stood out beyond the mosaic, and how the evening at Il Faro / Porto Badisco actually felt.
