@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -640,7 +643,25 @@ ul.task-list li input[type="checkbox"] {
 <p>Naples airport was Naples distilled into airport form: frenetic, self-assured, and organized according to some native logic that makes sense to insiders and no one else. This is not necessarily a defect, but it is not exactly a comfort either.</p>
 <p>ITA Airways — Alitalia in its older and more familiar skin — eventually got us from Naples to Brindisi after two delayed flights. It was a long travel day, but we made it.</p>
 <p>Brindisi, by contrast, began quietly. <strong>Hotel Executive Inn</strong> is nice and quiet, and after Naples that is not a small virtue. Better still, it has a pillow menu: five different pillows to choose from. Civilization takes many forms; sometimes it is marble, sometimes Roman columns, and sometimes it is being allowed to choose the object on which your exhausted head will land.</p>
-<p>Dinner was at <strong>Windsurf on the Harbor</strong>, where we met <strong>Pietro</strong>, the owner. Both pastas were wonderful: ragù and vegetarian <strong>orecchiette</strong>. The wine was a Puglian-varietal rosé, with a bottle photograph still to be added later. A good first night in Puglia, after the usual aviation nonsense had been endured.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/brindisi-roman-column-stairway.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Brindisi’s broad stairway and Roman column under a clear Puglian sky."><img src="images/brindisi-roman-column-stairway.jpeg" class="img-fluid figure-img" alt="A broad stone stairway in Brindisi rises between pale buildings toward a tall Roman column beneath a deep blue sky."></a></p>
+<figcaption>Brindisi’s broad stairway and Roman column under a clear Puglian sky.</figcaption>
+</figure>
+</div>
+<p>Dinner was at <strong>Windsurf on the Harbor</strong>, where we met <strong>Pietro</strong>, the owner. Both pastas were wonderful: ragù and vegetarian <strong>orecchiette</strong>. The wine was the first Puglian rosé of the trip: <strong>Tenute Rubino Oltremé Susumaniello Rosato Salento 2025</strong>, cold on the table by the harbor. A good first night in Puglia, after the usual aviation nonsense had been endured.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/first-puglian-rose-tenute-rubino-oltreme-front.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="The first Puglian rosé: Tenute Rubino Oltremé Susumaniello Rosato Salento at dinner in Brindisi."><img src="images/first-puglian-rose-tenute-rubino-oltreme-front.jpeg" class="img-fluid figure-img" alt="A chilled bottle of Tenute Rubino Oltremé Susumaniello Rosato Salento stands on an outdoor restaurant table beside a metal wine bucket at dusk."></a></p>
+<figcaption>The first Puglian rosé: Tenute Rubino Oltremé Susumaniello Rosato Salento at dinner in Brindisi.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/first-puglian-rose-tenute-rubino-oltreme-back.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Back label of the Tenute Rubino Susumaniello Rosato 2025 bottle."><img src="images/first-puglian-rose-tenute-rubino-oltreme-back.jpeg" class="img-fluid figure-img" alt="The back label of a Tenute Rubino Salento rosato bottle shows Susumaniello Rosato 2025, with the harbor terrace blurred behind it."></a></p>
+<figcaption>Back label of the Tenute Rubino Susumaniello Rosato 2025 bottle.</figcaption>
+</figure>
+</div>
 <section id="retrospective-notes-partial" class="level2">
 <h2 class="anchored" data-anchor-id="retrospective-notes-partial">Retrospective Notes — Partial</h2>
 <ul>
@@ -652,8 +673,8 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Dinner:</strong> Windsurf on the Harbor.</li>
 <li><strong>Person met:</strong> Pietro, the owner.</li>
 <li><strong>Food:</strong> Pasta for both: ragù and vegetarian orecchiette.</li>
-<li><strong>Wine:</strong> Puglian-varietal rosé; bottle photo pending.</li>
-<li><strong>Status:</strong> Partial; add bottle photo and any later detail when available.</li>
+<li><strong>Wine:</strong> First Puglian rosé of the trip — Tenute Rubino Oltremé Susumaniello Rosato Salento 2025.</li>
+<li><strong>Status:</strong> Partial; add any later detail when available.</li>
 </ul>
 
 
@@ -1085,6 +1106,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
