@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -640,6 +643,12 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Yesterday was a travel day out of Brindisi and down toward Otranto, and the first clear impression is that Brindisi is a delightful harbor town — a working port with an unhurried waterfront, and a far cry from frenetic Naples. Naples had its force, its density, its noise, and its layers, but it may also be a place I do not need to hurry back to. Brindisi, by contrast, felt like the shoulders dropping: harbor water, boats, Mediterranean light, and enough historical depth to remind you that quiet places are not empty places.</p>
 <p>From Brindisi we joined the Strada Toscana group and moved south toward our base near Otranto: <strong>Masseria dei Monaci</strong>, a restored masseria close to the Adriatic. The place has the right first-day geometry: big blue sky, hot dry air, stone, olive trees, and the sea opening eastward. From here the Adriatic is not just scenery but orientation. Albania sits out there across the water, visible enough on a clear day to make the coast feel less like the edge of Italy and more like one side of a narrow historical corridor.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/otranto-harbor-arrival-blue-sky.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Arrival in Otranto: stone walls, small boats, turquoise harbor water, and a wide Puglian sky."><img src="images/otranto-harbor-arrival-blue-sky.jpeg" class="img-fluid figure-img" alt="Otranto harbor on a clear day, with small boats moored in blue-green water below pale stone buildings and old harbor walls under a deep blue sky."></a></p>
+<figcaption>Arrival in Otranto: stone walls, small boats, turquoise harbor water, and a wide Puglian sky.</figcaption>
+</figure>
+</div>
 <p>This is only a start. More detail should be added later: the feel of the drive, first impressions of the masseria, dinner/welcome details, the group, and anything specific about the room, the view, the food, or the heat that should not be lost.</p>
 <section id="notes-to-expand" class="level2">
 <h2 class="anchored" data-anchor-id="notes-to-expand">Notes to expand</h2>
@@ -1086,6 +1095,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
