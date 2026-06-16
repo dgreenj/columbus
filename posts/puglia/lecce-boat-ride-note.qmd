@@ -7,7 +7,11 @@ categories: [italy, travel, puglia, lecce, boat]
 description: "A schedule-anchor post for Lecce, lunch at Giardino Segreto, and the planned Otranto boat ride with Michele and company."
 ---
 
-Tomorrow’s itinerary is Lecce during the day, with Masseria dei Monaci as the base for the last night there.
+Today’s recap begins in Lecce, with Masseria dei Monaci as the base for the last night there. The morning’s architectural proof was **Santa Croce**, where Lecce’s Baroque stonework does not so much decorate the facade as overrun it — saints, scrolls, animals, columns, and a rose window all crowding forward like the building had been waiting centuries to show off.
+
+![Approaching Santa Croce through the narrow streets of Lecce, the ornate facade appearing between pale stone buildings and café umbrellas.](images/lecce-santa-croce-street-approach.jpeg){fig-alt="A narrow stone street in Lecce leading toward the ornate facade of Santa Croce, with pedestrians walking between pale buildings, café umbrellas on one side, and the church's rose window visible ahead."}
+
+![Santa Croce in Lecce, close enough to see the rose window, carved columns, statues, animals, and the dense Baroque ornament that gives the city its swagger.](images/lecce-santa-croce-baroque-facade.jpeg){fig-alt="Close view of the upper facade of Santa Croce in Lecce, showing a large circular rose window surrounded by elaborate carved stonework, statues, columns, animals, scrolls, and decorative reliefs beneath a cloudy sky."}
 
 ## Detailed schedule
 
@@ -32,4 +36,4 @@ This should be treated as a schedule anchor for the June 16 recap and itinerary,
 - **Evening anchor:** 5:20 PM Pamela’s shuttle to the port of Otranto; 6:00 PM boat tour with Michele & co. + aperitivo; return to the masseria at 8:00 PM.
 - **Must remember:** bring passport for the boat tour.
 - **Base/accommodation:** Masseria dei Monaci.
-- **Still needed:** Lecce highlights, lunch details, boat route, sea/weather, photos, aperitivo, and final verdict.
+- **Lecce highlight:** Santa Croce — Baroque facade, rose window, carved saints, animals, columns, and the usual Lecce refusal to leave a surface undecorated.
