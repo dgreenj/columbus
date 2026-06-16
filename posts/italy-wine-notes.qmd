@@ -1,0 +1,39 @@
+---
+title: "Wines of the Trip"
+subtitle: "A running bottle list from Florence, Naples, Brindisi, Lecce, and the rest of Italy."
+date: "2026-06-16"
+date-modified: last-modified
+categories: [italy, travel, wine, food, puglia]
+description: "A periodically updated wine post for notable bottles from the Italy trip, with photos, links, and meal context."
+---
+
+Some trip details belong in the daily recaps. Wines do not. Wines deserve their own ledger, because otherwise a good bottle disappears into the soup of travel logistics and later no one remembers what was poured where. This post is the running list.
+
+## Sanchirico Lutroc — lunch in Lecce
+
+**Where:** Lunch at **Giardino Segreto**, Lecce, June 16.  
+**Producer:** [Sanchirico Cantina e Vigneti nel Salento](https://sanchirico.net/tabella-lutroc/)  
+**Bottle:** **Lutroc**; the label in the lunch photo appears to read **Malvasia Nera**.  
+**From the producer’s linked nutrition page:** 14.00% ABV; 92 kcal per 100 ml; 4.0 g carbohydrates per 100 ml, including 0.9 g sugars.
+
+![Sanchirico Lutroc on the lunch table in Lecce, with red wine poured, water glasses, flowers, and olive oil beside the bottle.](puglia/images/sanchirico-lutroc-lunch-wine-giardino-segreto.jpeg){fig-alt="A bottle of Sanchirico Lutroc wine stands on a yellow tablecloth at lunch, with red wine in a glass, water glasses, a small vase of pink flowers, a bottle of olive oil, and a diner seated behind it."}
+
+This was the lunch wine, and it deserves the same treatment as the churches: name it, place it, and do not let it vanish into the day’s recap like a receipt in a coat pocket.
+
+## Tenute Rubino Oltremé Susumaniello Rosato Salento 2025 — first Puglian rosé
+
+**Where:** Dinner at **Windsurf on the Harbor**, Brindisi, June 13.  
+**Producer:** Tenute Rubino.  
+**Bottle:** **Oltremé Susumaniello Rosato Salento 2025**.  
+**Context:** The first Puglian rosé of the trip, cold on the harbor table after the long Naples-to-Brindisi travel day.
+
+![The first Puglian rosé: Tenute Rubino Oltremé Susumaniello Rosato Salento at dinner in Brindisi.](naples/images/first-puglian-rose-tenute-rubino-oltreme-front.jpeg){fig-alt="A chilled bottle of Tenute Rubino Oltremé Susumaniello Rosato Salento stands on an outdoor restaurant table beside a metal wine bucket at dusk."}
+
+![Back label of the Tenute Rubino Susumaniello Rosato 2025 bottle.](naples/images/first-puglian-rose-tenute-rubino-oltreme-back.jpeg){fig-alt="The back label of a Tenute Rubino Salento rosato bottle shows Susumaniello Rosato 2025, with the harbor terrace blurred behind it."}
+
+## Notes to update
+
+- Add new bottles here as they appear, even if the daily post also mentions them.
+- Keep bottle names, producer, place, date, and meal context together.
+- Link producer pages when Dan supplies them or when they can be verified without guessing.
+- Use photos as evidence, but do not invent vintage, grape, or tasting notes not visible or supplied.
