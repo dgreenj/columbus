@@ -1,0 +1,28 @@
+---
+title: "Basilica di Santa Croce, Lecce"
+subtitle: "Baroque stonework, a rose window, and a relic of the Cross in Lecce’s great basilica."
+date: "2026-06-16"
+date-modified: last-modified
+categories: [italy, travel, puglia, lecce, basilica, baroque]
+description: "A focused Lecce post on the Basilica di Santa Croce: its exuberant Baroque facade, narrow-street approach, rose window, and relic of the Cross."
+---
+
+Lecce’s **Basilica di Santa Croce** is not just another ornate church facade. It is the city’s Baroque temperament made visible: pale stone worked until it seems almost restless, with saints, scrolls, animals, columns, carved reliefs, and a great rose window all pressing outward from the front of the building.
+
+It is also, properly, a **basilica** — and one with a relic of the Cross. That matters. The exterior may look like stone exuberance for its own sake, but the name is not decorative: *Santa Croce*, Holy Cross, anchors the building’s identity as much as the facade announces Lecce’s appetite for carved abundance.
+
+![Approaching Santa Croce through the narrow streets of Lecce, the ornate facade appearing between pale stone buildings and café umbrellas.](images/lecce-santa-croce-street-approach.jpeg){fig-alt="A narrow stone street in Lecce leading toward the ornate facade of Santa Croce, with pedestrians walking between pale buildings, café umbrellas on one side, and the church's rose window visible ahead."}
+
+The first view comes almost theatrically, not from a grand open square but through the city’s narrow stone streets. That approach helps the building do its work. The facade appears framed between palazzi and balconies, as though Lecce has been holding it back until the last possible moment.
+
+![The Baroque facade of Basilica di Santa Croce in Lecce, with its rose window, carved figures, animals, columns, and dense stone ornament.](images/lecce-santa-croce-baroque-facade.jpeg){fig-alt="Close view of the upper facade of Basilica di Santa Croce in Lecce, showing a large circular rose window surrounded by elaborate carved stonework, statues, columns, animals, scrolls, and decorative reliefs beneath a cloudy sky."}
+
+Up close, the facade stops being a single composition and becomes a crowd. The rose window centers it, but the surrounding stone refuses to stay quiet: figures, beasts, capitals, scrolls, and layered ornament all make their claims. Some churches aim for solemn restraint. Santa Croce, sensibly enough, decided that restraint was a northern disease.
+
+## Notes to expand
+
+- **Place:** Basilica di Santa Croce, Lecce.
+- **Identity:** Basilica, not cathedral.
+- **Relic:** Contains a relic of the Cross.
+- **Visual character:** Baroque facade, rose window, carved saints, animals, columns, and dense Lecce stone ornament.
+- **Photos added:** street approach and close facade view.
