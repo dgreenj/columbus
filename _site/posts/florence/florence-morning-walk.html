@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -263,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">June 8, 2026</p>
+        <p class="date-modified">June 16, 2026</p>
       </div>
     </div>
       
@@ -632,6 +635,12 @@ ul.task-list li input[type="checkbox"] {
 <p>Coffee and pastry came at <strong>Caffè Bellini</strong>, across the street from the <strong>Giardino di Boboli</strong>. A good Florentine morning needs very little ceremony: a bridge, a café, something sweet, and enough time not to hurry.</p>
 <p>Brunch was at <strong>Osteria Belguardo</strong>, with fried sage, calamari, spinach salad, and peas with prosciutto. That made the morning feel less like sightseeing and more like settling into the rhythm of the place: walk, look, eat well, keep a few possibilities open.</p>
 <p>Later, the walk carried through the courtyard of the <strong>Uffizi Gallery</strong>, past the tower, and into the civic heart of Florence at <strong>Palazzo Vecchio</strong>. Outside, in <strong>Piazza della Signoria</strong>, stood the outdoor copy of Michelangelo’s <em>David</em> — the sort of public art that makes a city feel less like a museum and more like a civilization that left its doors open.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/uffizi-courtyard-palazzo-vecchio-evening.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Evening in the Uffizi courtyard, where the long stone corridor frames the Palazzo Vecchio tower like Florence arranged itself for the walker’s benefit."><img src="images/uffizi-courtyard-palazzo-vecchio-evening.jpeg" class="img-fluid figure-img" alt="Evening view down the Uffizi courtyard in Florence, with long Renaissance arcades on both sides, people strolling through the stone-paved passage, and the Palazzo Vecchio tower rising in the warm light beyond."></a></p>
+<figcaption>Evening in the Uffizi courtyard, where the long stone corridor frames the Palazzo Vecchio tower like Florence arranged itself for the walker’s benefit.</figcaption>
+</figure>
+</div>
 <p>That statue also became a family thread: the text exchange with the grandson about <em>David</em>, along with the photos, belongs in the final record of this trip — not lost in the heathen swamp of message history.</p>
 <p>Dinner was outdoors by <strong>Palazzo Vecchio</strong>: pizza, burrata, salad, and rosé. The evening finished in the proper Italian manner, with gelato on the walk back to the Airbnb.</p>
 
@@ -1063,6 +1072,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

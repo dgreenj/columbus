@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -264,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">June 8, 2026</p>
+        <p class="date-modified">June 16, 2026</p>
       </div>
     </div>
       
@@ -633,6 +636,12 @@ ul.task-list li input[type="checkbox"] {
 <p>Rather than spend the morning standing in that line, the better move was to tour the <strong>Baptistery</strong> first. The visit was somewhat diminished by the dome refurbishment — less visible than expected — but still worth seeing as part of the complex.</p>
 <p>From there, the route continued to the <strong>Opera del Duomo Museum</strong>, where there was no line. This proved to be one of the morning’s best decisions. The museum holds a remarkable collection: <strong>Ghiberti’s original brass doors</strong>, <strong>Michelangelo’s Pietà</strong>, extensive statuary, <strong>Donatello’s wooden Mary Magdalene</strong> — haunting — and a creepy collection of reliquaries. Some museums try to impress by accumulation; this one does so by putting several centuries of faith, civic pride, craftsmanship, and mortal anxiety in the same building.</p>
 <p>After the museum, the route returned to the <strong>Santa Reparata entrance</strong> for the cathedral. Inside, the dome could be seen from the cathedral proper, and then the visit continued below to the excavated remains of the earlier cathedral layers. The lower level preserved much of the floor of the central portion of the original cathedral, tomb covers, including one connected with the Medici, and the archaeological bones of Florence’s sacred history.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/florence-duomo-dome-interior-selfie.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Inside Florence Cathedral, looking up past the nave and stone arches to the painted dome — proof that the Duomo Complex had, at last, been done properly."><img src="images/florence-duomo-dome-interior-selfie.jpeg" class="img-fluid figure-img" alt="Two visitors take a selfie inside Florence Cathedral, with stone arches, stained-glass windows, and the brightly painted interior of the Duomo dome rising above them."></a></p>
+<figcaption>Inside Florence Cathedral, looking up past the nave and stone arches to the painted dome — proof that the Duomo Complex had, at last, been done properly.</figcaption>
+</figure>
+</div>
 <p>Late afternoon turned from cathedral stone to the river and the Oltrarno. The walk went along the <strong>Ponte Vecchio</strong> toward the <strong>Boboli Gardens</strong>, with a stop at <strong>Pin Art — Bottega d’Oltrarno</strong> for drawing pencils. From there came the return to <strong>Cappelli Antonio Gatto</strong>, the custom hat shop that had been closed on the earlier attempt. This time the shop was open, and both of us bought hats. Pictures to follow; a hat bought in Florence deserves photographic evidence, if only to silence future barbarians.</p>
 <p>The day closed with dinner, a little clothes shopping for Dan, and gelato before calling it a night. A properly Florentine finish: sacred architecture in the morning, artisan shops in the late afternoon, and gelato at the end because civilization occasionally gets something right.</p>
 
@@ -1064,6 +1073,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
