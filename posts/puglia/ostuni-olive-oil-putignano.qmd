@@ -1,13 +1,23 @@
 ---
 title: "Ostuni, Olive Oil, and Putignano"
-subtitle: "A June 17 scaffold for the White City, Masseria Rienzo, and the move to Putignano."
+subtitle: "The White City, a cream-filled pasticciotto at a gas station, Masseria Rienzo, and the move to Putignano."
 date: "2026-06-17"
 date-modified: last-modified
 categories: [italy, travel, puglia, ostuni, putignano, food]
-description: "A June 17 Puglia day post, starting with the working itinerary: breakfast, Ostuni, Masseria Rienzo for olive oil tasting and lunch, Putignano, aperitivo, and pizza night."
+description: "A June 17 Puglia day post: breakfast, Ostuni and its white stone lanes, a cream-filled pasticciotto at a gas station, Masseria Rienzo for olive oil tasting and lunch, Putignano, aperitivo, and pizza night."
 ---
 
 June 17 begins as a working day-post, to be filled in as the evidence arrives. The route is north through **Ostuni**, onward to **Masseria Rienzo** for olive oil and lunch, and then into **Putignano** for the next base. A sensible plan, provided no one lets aperitivo become a committee meeting.
+
+Ostuni did what Ostuni is supposed to do: white stone, hard sunlight, steep lanes, and views out over the lower country toward the Adriatic. The city’s whiteness is not subtle. It bounces the sun back at you like a civic policy.
+
+![Ostuni from above: white buildings and a stone wall falling away toward the green plain and the Adriatic horizon.](images/ostuni-view-over-white-city-to-adriatic.jpeg){fig-alt="View from Ostuni across white buildings and a pale stone wall toward a broad green plain, distant hills, and a faint blue Adriatic horizon under a clear sky, with an old stone building at the right edge."}
+
+![A steep white stairway in Ostuni, squeezed between whitewashed stone walls under a deep blue sky.](images/ostuni-white-stairway-alley.jpeg){fig-alt="Narrow Ostuni stairway climbing between rough whitewashed stone walls, with potted plants, railings, sharp sun and shadow, and a deep blue sky above."}
+
+There was also a cream-filled pastry at a gas station — proof, if any more were required, that Italy has an unfair advantage in even its utilitarian food infrastructure. The sign in town names the thing properly: **pasticciotti tradizionali**, Ostuni. A gas-station pasticciotto with crema is still a cream-filled pastry worth remembering, because civilization occasionally appears beside a fuel pump and refuses to apologize.
+
+![A sign in Ostuni advertising pasticciotti tradizionali, showing a cream-filled pastry and a whole golden pastry.](images/ostuni-traditional-pasticciotti-sign.jpeg){fig-alt="Wall sign reading 'Pasticciotti tradizionali' and 'Ostuni,' with photos of a cut-open pastry filled with yellow cream and a whole golden-brown pastry, mounted on a white wall in sunlight."}
 
 ## Schedule for Wednesday, June 17
 
@@ -26,7 +36,8 @@ June 17 begins as a working day-post, to be filled in as the evidence arrives. T
 ## Notes to expand
 
 - **Morning:** Breakfast, pickup, and first impressions of Ostuni.
-- **Ostuni:** Historic center shopping, wandering, views, and whatever the White City decides to reveal.
+- **Ostuni:** Historic center shopping, wandering, whitewashed stone lanes, views over the plain, and whatever the White City decides to reveal.
+- **Gas-station pastry:** cream-filled pasticciotto / pasticciotti tradizionali; good enough to deserve a note, which says something about Italian gas stations.
 - **Masseria Rienzo:** Olive oil tasting, light lunch, and any bottle-worthy details.
 - **Putignano:** Arrival, check-in at Hotel Pietrantiche, room/base notes, and free time.
 - **Evening:** Aperitivo reconnaissance, followed by pizza night at Primiata Pizzeria.
