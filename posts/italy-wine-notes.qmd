@@ -9,6 +9,28 @@ description: "A periodically updated wine post for notable bottles from the Ital
 
 Some trip details belong in the daily recaps. Wines do not. Wines deserve their own ledger, because otherwise a good bottle disappears into the soup of travel logistics and later no one remembers what was poured where. This post is the running list.
 
+## Varvaglione IDEA Rosa di Primitivo — pizzeria lunch in Puglia
+
+**Where:** Pizzeria lunch in Puglia, June 18.
+**Producer:** Varvaglione.
+**Bottle:** **IDEA Rosa di Primitivo**; back label reads **Rosato di Primitivo Puglia Indicazione Geografica Protetta**.
+**Context:** A chilled rosato on the pizzeria table, with the label helpfully doing the archival work before lunch could turn into mere memory.
+
+![Varvaglione IDEA Rosa di Primitivo, chilled on the pizzeria table in Puglia.](puglia/images/varvaglione-idea-rosa-primitivo-front.jpeg){fig-alt="A clear bottle of pale rosé wine labeled IDEA Rosa di Primitivo by Varvaglione stands on a wooden restaurant table, with water bottles, a metal ice bucket, red placemats, and a chalkboard menu behind it."}
+
+![Back label of the Varvaglione IDEA Rosato di Primitivo Puglia bottle.](puglia/images/varvaglione-idea-rosato-primitivo-back.jpeg){fig-alt="Back view of a chilled rosé bottle labeled IDEA Rosato di Primitivo Puglia Indicazione Geografica Protetta, with a QR code and small producer text visible on the lower label at a restaurant table."}
+
+## Coppi Senatore Primitivo Gioia del Colle 2017 — pizzeria lunch in Puglia
+
+**Where:** Pizzeria lunch in Puglia, June 18.
+**Producer:** Coppi.
+**Bottle:** **Senatore Primitivo Gioia del Colle 2017**; back label reads **Denominazione di Origine Controllata**.
+**Context:** The red alongside the rosato: a Primitivo with the year, appellation, and producer all visible, which is civilized behavior from a bottle.
+
+![Coppi Senatore Primitivo 2017 on the pizzeria table in Puglia.](puglia/images/coppi-senatore-primitivo-front.jpeg){fig-alt="A dark wine bottle labeled Senatore Primitivo 2017 by Coppi stands on a wooden restaurant table, with gold contour-line artwork on the front label, a water bottle, metal ice bucket, red placemats, and chalkboard menu behind it."}
+
+![Back label of the Coppi Senatore Primitivo Gioia del Colle 2017 bottle.](puglia/images/coppi-senatore-primitivo-back.jpeg){fig-alt="Back view of a dark wine bottle labeled Senatore Primitivo Gioia del Colle Denominazione di Origine Controllata 2017 by Coppi, showing 75 cl and 13.5 percent alcohol near the bottom of the label."}
+
 ## Masseria Busciglio Rosato — tonight’s first wine
 
 **Where:** Evening of June 17 in Puglia.  
