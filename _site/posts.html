@@ -81,7 +81,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -633,7 +634,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="YXJjaGFlb2xvZ3k=">archaeology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXJyaXZhbA==">arrival <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXJ0">art <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YmFyb3F1ZQ==">baroque <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YmFzaWxpY2E=">basilica <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ym9hdA==">boat <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ym9va3M=">books <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YnJpbmRpc2k=">brindisi <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2F0aGVkcmFs">cathedral <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGluaW5n">dining <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZmxvcmVuY2U=">florence <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Zm9vZA==">food <span class="quarto-category-count">(3)</span></div><div class="category" data-category="aGVyY3VsYW5ldW0=">herculaneum <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aXRhbHk=">italy <span class="quarto-category-count">(10)</span></div><div class="category" data-category="bGVjY2U=">lecce <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bWV0cm8=">metro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9zYWlj">mosaic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bXVzZXVtcw==">museums <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmFwbGVz">naples <span class="quarto-category-count">(4)</span></div><div class="category" data-category="b2x0cmFybm8=">oltrarno <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3RyYW50bw==">otranto <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cGFydGlhbA==">partial <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cGFydGlhbC1kcmFmdA==">partial-draft <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGl6emE=">pizza <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHVnbGlh">puglia <span class="quarto-category-count">(6)</span></div><div class="category" data-category="cm9tYW4=">roman <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2VhZm9vZA==">seafood <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2hvcHBpbmc=">shopping <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3RhdGlvbmVyeQ==">stationery <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhaW4=">train <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhdmVs">travel <span class="quarto-category-count">(10)</span></div><div class="category" data-category="dmVzdXZpdXM=">vesuvius <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2Fsa2luZw==">walking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2luZQ==">wine <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(19)</span></div><div class="category" data-category="YWxiZXJvYmVsbG8=">alberobello <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXJjaGFlb2xvZ3k=">archaeology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YXJyaXZhbA==">arrival <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXJ0">art <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YmFyb3F1ZQ==">baroque <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YmFzaWxpY2E=">basilica <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ym9hdA==">boat <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ym9va3M=">books <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YnJpbmRpc2k=">brindisi <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2F0aGVkcmFs">cathedral <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29hc3Q=">coast <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGluaW5n">dining <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZmxvcmVuY2U=">florence <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Zm9vZA==">food <span class="quarto-category-count">(6)</span></div><div class="category" data-category="aGVyY3VsYW5ldW0=">herculaneum <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aXRhbHk=">italy <span class="quarto-category-count">(14)</span></div><div class="category" data-category="bGVjY2U=">lecce <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bHVuY2g=">lunch <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWV0cm8=">metro <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bW9zYWlj">mosaic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bXVzZXVtcw==">museums <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmFwbGVz">naples <span class="quarto-category-count">(5)</span></div><div class="category" data-category="b2x0cmFybm8=">oltrarno <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3N0dW5p">ostuni <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3RyYW50bw==">otranto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cGFydGlhbA==">partial <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cGFydGlhbC1kcmFmdA==">partial-draft <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGl6emE=">pizza <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHVnbGlh">puglia <span class="quarto-category-count">(9)</span></div><div class="category" data-category="cHV0aWduYW5v">putignano <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cm9tYW4=">roman <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2VhZm9vZA==">seafood <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2hvcHBpbmc=">shopping <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3RhdGlvbmVyeQ==">stationery <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhaW4=">train <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhdmVs">travel <span class="quarto-category-count">(14)</span></div><div class="category" data-category="dmVzdXZpdXM=">vesuvius <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2Fsa2luZw==">walking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2luZQ==">wine <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -674,10 +675,84 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="aXRhbHklMkN0cmF2ZWwlMkN3aW5lJTJDZm9vZCUyQ3B1Z2xpYQ==" data-listing-date-sort="1781586000000" data-listing-file-modified-sort="1781622067620" data-listing-date-modified-sort="1781622067000" data-listing-reading-time-sort="2" data-listing-word-count-sort="362">
+<div class="g-col-1" data-index="0" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNhbGJlcm9iZWxsbyUyQ3B1dGlnbmFubyUyQ2Zvb2Q=" data-listing-date-sort="1781758800000" data-listing-file-modified-sort="1781809045319" data-listing-date-modified-sort="1781809045000" data-listing-reading-time-sort="4" data-listing-word-count-sort="674">
+<a href="./posts/puglia/alberobello-lunch-chocolate-salami.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/puglia/images/alberobello-trulli-fiat-street.jpeg" alt="A small white Fiat is parked on a pale stone street in Alberobello, with whitewashed trulli buildings, gray conical stone roofs, white painted roof symbols, potted plants, pedestrians, and dark cypress trees under a clear blue sky." style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Alberobello Lunch and Chocolate Salami
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('aXRhbHk='); return false;">italy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJhdmVs'); return false;">travel</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHVnbGlh'); return false;">puglia</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWxiZXJvYmVsbG8='); return false;">alberobello</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHV0aWduYW5v'); return false;">putignano</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Zm9vZA=='); return false;">food</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A June 18 Puglia day post seeded from Alberobello lunch notes: trulli in the morning, lunch in town, pizzeria wines, and chocolate salami for dessert.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Dan Green
+</div>
+<div class="listing-date">
+June 18, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNvc3R1bmklMkNwdXRpZ25hbm8lMkNmb29k" data-listing-date-sort="1781672400000" data-listing-file-modified-sort="1781809045328" data-listing-date-modified-sort="1781809045000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1095">
+<a href="./posts/puglia/ostuni-olive-oil-putignano.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/puglia/images/ostuni-view-over-white-city-to-adriatic.jpeg" alt="View from Ostuni across white buildings and a pale stone wall toward a broad green plain, distant hills, and a faint blue Adriatic horizon under a clear sky, with an old stone building at the right edge." style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ostuni, Olive Oil, and Putignano
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('aXRhbHk='); return false;">italy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJhdmVs'); return false;">travel</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHVnbGlh'); return false;">puglia</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3N0dW5p'); return false;">ostuni</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHV0aWduYW5v'); return false;">putignano</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Zm9vZA=='); return false;">food</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A June 17 Puglia day post: breakfast, Ostuni and its white stone lanes, a cream-filled pasticciotto at a gas station, Masseria Rienzo for olive oil tasting and lunch…</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Dan Green
+</div>
+<div class="listing-date">
+June 17, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="aXRhbHklMkN0cmF2ZWwlMkN3aW5lJTJDZm9vZCUyQ3B1Z2xpYQ==" data-listing-date-sort="1781586000000" data-listing-file-modified-sort="1781809045317" data-listing-date-modified-sort="1781809045000" data-listing-reading-time-sort="7" data-listing-word-count-sort="1211">
 <a href="./posts/italy-wine-notes.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts/puglia/images/sanchirico-lutroc-lunch-wine-giardino-segreto.jpeg" alt="A bottle of Sanchirico Lutroc wine stands on a yellow tablecloth at lunch, with red wine in a glass, water glasses, a small vase of pink flowers, a bottle of olive oil, and a diner seated behind it." style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts/puglia/images/elia-rosarina-2025-rosato-front.jpeg" alt="Front view of an amber glass wine bottle on a restaurant table, labeled Elia Rosarina 2025 Rosato with a bee illustration and pink lettering, beside a pale ice bucket draped with a red-and-white checkered cloth." style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Wines of the Trip
@@ -709,7 +784,7 @@ June 16, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNsZWNjZSUyQ2JvYXQlMkNmb29kJTJDcm9tYW4=" data-listing-date-sort="1781586000000" data-listing-file-modified-sort="1781623076311" data-listing-date-modified-sort="1781623076000" data-listing-reading-time-sort="3" data-listing-word-count-sort="580">
+<div class="g-col-1" data-index="3" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNsZWNjZSUyQ2JvYXQlMkNmb29kJTJDcm9tYW4=" data-listing-date-sort="1781586000000" data-listing-file-modified-sort="1781809045328" data-listing-date-modified-sort="1781809045000" data-listing-reading-time-sort="4" data-listing-word-count-sort="667">
 <a href="./posts/puglia/lecce-boat-ride-note.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/puglia/images/lecce-giardino-segreto-lunch-plate.jpeg" alt="A white rectangular lunch plate at Giardino Segreto with tuna topped with cherry tomatoes and oil, shredded cabbage and carrot salad, lemon slices, a fork and knife, a glass of red wine, water glasses, and bottles on a yellow tablecloth." style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -748,7 +823,7 @@ June 16, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNsZWNjZSUyQ2Jhc2lsaWNhJTJDYmFyb3F1ZQ==" data-listing-date-sort="1781586000000" data-listing-file-modified-sort="1781622869428" data-listing-date-modified-sort="1781622869000" data-listing-reading-time-sort="5" data-listing-word-count-sort="959">
+<div class="g-col-1" data-index="4" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNsZWNjZSUyQ2Jhc2lsaWNhJTJDYmFyb3F1ZQ==" data-listing-date-sort="1781586000000" data-listing-file-modified-sort="1781622869428" data-listing-date-modified-sort="1781622869000" data-listing-reading-time-sort="5" data-listing-word-count-sort="959">
 <a href="./posts/puglia/lecce-santa-croce-basilica.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/puglia/images/lecce-santa-croce-street-approach.jpeg" alt="A narrow stone street in Lecce leading toward the ornate facade of Santa Croce, with pedestrians walking between pale buildings, café umbrellas on one side, and the church's round window visible ahead." style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -785,13 +860,13 @@ June 16, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNvdHJhbnRvJTJDY2F0aGVkcmFsJTJDbW9zYWljJTJDcGFydGlhbA==" data-listing-date-sort="1781499600000" data-listing-file-modified-sort="1781550537151" data-listing-date-modified-sort="1781550537000" data-listing-reading-time-sort="5" data-listing-word-count-sort="915">
+<div class="g-col-1" data-index="5" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNvdHJhbnRvJTJDY2F0aGVkcmFsJTJDYmFzaWxpY2ElMkNtb3NhaWM=" data-listing-date-sort="1781499600000" data-listing-file-modified-sort="1781809045328" data-listing-date-modified-sort="1781809045000" data-listing-reading-time-sort="4" data-listing-word-count-sort="759">
 <a href="./posts/puglia/otranto-cathedral-tree-of-life.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/puglia/images/otranto-cathedral-facade-rose-window.jpeg" alt="The pale stone facade of Otranto Cathedral with a large rose window, an open doorway, and visitors gathered in the sunlit square outside." style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Otranto Cathedral and the Tree of Life
+Otranto Cathedral: Basilica of the Annunciation and the Tree of Life
 </h5>
 <div class="listing-categories">
 
@@ -805,13 +880,13 @@ Otranto Cathedral and the Tree of Life
 
 <div class="listing-category" onclick="window.quartoListingCategory('Y2F0aGVkcmFs'); return false;">cathedral</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('bW9zYWlj'); return false;">mosaic</div>
+<div class="listing-category" onclick="window.quartoListingCategory('YmFzaWxpY2E='); return false;">basilica</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cGFydGlhbA=='); return false;">partial</div>
+<div class="listing-category" onclick="window.quartoListingCategory('bW9zYWlj'); return false;">mosaic</div>
 
 </div>
 <div class="card-text listing-description delink">
-<p>Otranto Cathedral’s Tree of Life mosaic, harbor lunch, and the evening coast at Punta Palascia and Porto Badisco.</p>
+<p>A focused post on Otranto Cathedral — officially the Basilica of the Annunciation of the Virgin Mary — its 12th-century Tree of Life mosaic, layered architecture, and the…</p>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -824,7 +899,44 @@ June 15, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNicmluZGlzaSUyQ290cmFudG8lMkNwYXJ0aWFsLWRyYWZ0" data-listing-date-sort="1781413200000" data-listing-file-modified-sort="1781550537148" data-listing-date-modified-sort="1781550537000" data-listing-reading-time-sort="3" data-listing-word-count-sort="489">
+<div class="g-col-1" data-index="6" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNvdHJhbnRvJTJDbHVuY2glMkNjb2FzdA==" data-listing-date-sort="1781499600000" data-listing-file-modified-sort="1781809045329" data-listing-date-modified-sort="1781809045000" data-listing-reading-time-sort="2" data-listing-word-count-sort="390">
+<a href="./posts/puglia/otranto-harbor-punta-palascia-porto-badisco.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts/puglia/images/punta-palascia-lighthouse-easternmost-italy.jpeg" alt="A white lighthouse complex at Punta Palascia on a rocky coastal slope above the Adriatic Sea, with low vegetation, stone walls, and hazy blue water beyond." style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Otranto Harbor, Punta Palascia, and Porto Badisco
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('aXRhbHk='); return false;">italy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJhdmVs'); return false;">travel</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHVnbGlh'); return false;">puglia</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3RyYW50bw=='); return false;">otranto</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bHVuY2g='); return false;">lunch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29hc3Q='); return false;">coast</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>The non-cathedral half of June 15 in Otranto: harbor lunch, fresh fish and fruit, then Punta Palascia / Cape Otranto and Porto Badisco before returning to Masseria dei…</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Dan Green
+</div>
+<div class="listing-date">
+June 15, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="aXRhbHklMkN0cmF2ZWwlMkNwdWdsaWElMkNicmluZGlzaSUyQ290cmFudG8lMkNwYXJ0aWFsLWRyYWZ0" data-listing-date-sort="1781413200000" data-listing-file-modified-sort="1781809045319" data-listing-date-modified-sort="1781809045000" data-listing-reading-time-sort="4" data-listing-word-count-sort="620">
 <a href="./posts/puglia/brindisi-to-otranto-travel-day.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/puglia/images/otranto-harbor-arrival-blue-sky.jpeg" alt="Otranto harbor on a clear day, with small boats moored in blue-green water below pale stone buildings and old harbor walls under a deep blue sky." style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -861,7 +973,7 @@ June 14, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="aXRhbHklMkN0cmF2ZWwlMkNuYXBsZXMlMkNicmluZGlzaSUyQ3B1Z2xpYSUyQ3BhcnRpYWw=" data-listing-date-sort="1781326800000" data-listing-file-modified-sort="1781549229044" data-listing-date-modified-sort="1781549229000" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
+<div class="g-col-1" data-index="8" data-categories="aXRhbHklMkN0cmF2ZWwlMkNuYXBsZXMlMkNicmluZGlzaSUyQ3B1Z2xpYSUyQ3BhcnRpYWw=" data-listing-date-sort="1781326800000" data-listing-file-modified-sort="1781549229044" data-listing-date-modified-sort="1781549229000" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
 <a href="./posts/naples/naples-to-brindisi.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/naples/images/brindisi-roman-column-stairway.jpeg" alt="A broad stone stairway in Brindisi rises between pale buildings toward a tall Roman column beneath a deep blue sky." style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -898,10 +1010,10 @@ June 13, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="aXRhbHklMkN0cmF2ZWwlMkNuYXBsZXMlMkNoZXJjdWxhbmV1bSUyQ3Zlc3V2aXVzJTJDcGFydGlhbA==" data-listing-date-sort="1781240400000" data-listing-file-modified-sort="1781548424882" data-listing-date-modified-sort="1781548424000" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="g-col-1" data-index="9" data-categories="aXRhbHklMkN0cmF2ZWwlMkNuYXBsZXMlMkNoZXJjdWxhbmV1bSUyQ3Zlc3V2aXVzJTJDYXJjaGFlb2xvZ3k=" data-listing-date-sort="1781240400000" data-listing-file-modified-sort="1781809045317" data-listing-date-modified-sort="1781809045000" data-listing-reading-time-sort="4" data-listing-word-count-sort="606">
 <a href="./posts/naples/herculaneum-vesuvius.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top"><img src="posts/naples/images/vesuvius-crater-dan-jane-selfie.jpeg" alt="Dan and Jane take a selfie on a sunny path at Mount Vesuvius, wearing hats and sunglasses, with steep dark crater walls, rough volcanic rock, a wooden railing, and blue sky behind them." style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Herculaneum and Vesuvius
@@ -918,11 +1030,11 @@ Herculaneum and Vesuvius
 
 <div class="listing-category" onclick="window.quartoListingCategory('dmVzdXZpdXM='); return false;">vesuvius</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cGFydGlhbA=='); return false;">partial</div>
+<div class="listing-category" onclick="window.quartoListingCategory('YXJjaGFlb2xvZ3k='); return false;">archaeology</div>
 
 </div>
 <div class="card-text listing-description delink">
-<p>A partial note from the Herculaneum and Mount Vesuvius day: volcanic logistics, missing hiking poles, and pizza notes still waiting for pictures.</p>
+<p>A focused June 12 post on Herculaneum and Mount Vesuvius, pairing the Roman city preserved by eruption with the crater above Naples.</p>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -935,7 +1047,42 @@ June 12, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="aXRhbHklMkN0cmF2ZWwlMkNuYXBsZXMlMkNhcmNoYWVvbG9neSUyQ21ldHJvJTJDYXJ0JTJDc2VhZm9vZA==" data-listing-date-sort="1781154000000" data-listing-file-modified-sort="1781548424882" data-listing-date-modified-sort="1781548424000" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
+<div class="g-col-1" data-index="10" data-categories="aXRhbHklMkN0cmF2ZWwlMkNuYXBsZXMlMkNmb29kJTJDcGFydGlhbA==" data-listing-date-sort="1781240400000" data-listing-file-modified-sort="1781809045319" data-listing-date-modified-sort="1781809045000" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
+<a href="./posts/naples/naples-june-12-general.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Naples June 12: Between Volcanoes and Pizza
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('aXRhbHk='); return false;">italy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJhdmVs'); return false;">travel</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmFwbGVz'); return false;">naples</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Zm9vZA=='); return false;">food</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGFydGlhbA=='); return false;">partial</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A separate general June 12 Naples post for logistics, food notes, and the non-archaeology parts of the Herculaneum and Vesuvius day.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Dan Green
+</div>
+<div class="listing-date">
+June 12, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="aXRhbHklMkN0cmF2ZWwlMkNuYXBsZXMlMkNhcmNoYWVvbG9neSUyQ21ldHJvJTJDYXJ0JTJDc2VhZm9vZA==" data-listing-date-sort="1781154000000" data-listing-file-modified-sort="1781548424882" data-listing-date-modified-sort="1781548424000" data-listing-reading-time-sort="3" data-listing-word-count-sort="516">
 <a href="./posts/naples/naples-walking-tour-underground.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -974,7 +1121,7 @@ June 11, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="aXRhbHklMkN0cmF2ZWwlMkNmbG9yZW5jZSUyQ25hcGxlcyUyQ3RyYWluJTJDcGl6emE=" data-listing-date-sort="1781067600000" data-listing-file-modified-sort="1781548424882" data-listing-date-modified-sort="1781548424000" data-listing-reading-time-sort="2" data-listing-word-count-sort="389">
+<div class="g-col-1" data-index="12" data-categories="aXRhbHklMkN0cmF2ZWwlMkNmbG9yZW5jZSUyQ25hcGxlcyUyQ3RyYWluJTJDcGl6emE=" data-listing-date-sort="1781067600000" data-listing-file-modified-sort="1781548424882" data-listing-date-modified-sort="1781548424000" data-listing-reading-time-sort="2" data-listing-word-count-sort="389">
 <a href="./posts/naples/florence-to-naples.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -1011,7 +1158,7 @@ June 10, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="aXRhbHklMkN0cmF2ZWwlMkNmbG9yZW5jZSUyQ211c2V1bXMlMkNmb29k" data-listing-date-sort="1780981200000" data-listing-file-modified-sort="1781086532054" data-listing-date-modified-sort="1781086532000" data-listing-reading-time-sort="3" data-listing-word-count-sort="442">
+<div class="g-col-1" data-index="13" data-categories="aXRhbHklMkN0cmF2ZWwlMkNmbG9yZW5jZSUyQ211c2V1bXMlMkNmb29k" data-listing-date-sort="1780981200000" data-listing-file-modified-sort="1781086532054" data-listing-date-modified-sort="1781086532000" data-listing-reading-time-sort="3" data-listing-word-count-sort="442">
 <a href="./posts/florence/florence-final-day-uffizi-accademia-strozzi.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -1046,7 +1193,7 @@ June 9, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="ZmxvcmVuY2UlMkNtdXNldW1zJTJDYXJ0JTJDb2x0cmFybm8=" data-listing-date-sort="1780894800000" data-listing-file-modified-sort="1781622067620" data-listing-date-modified-sort="1781622067000" data-listing-reading-time-sort="3" data-listing-word-count-sort="438">
+<div class="g-col-1" data-index="14" data-categories="ZmxvcmVuY2UlMkNtdXNldW1zJTJDYXJ0JTJDb2x0cmFybm8=" data-listing-date-sort="1780894800000" data-listing-file-modified-sort="1781622067620" data-listing-date-modified-sort="1781622067000" data-listing-reading-time-sort="3" data-listing-word-count-sort="438">
 <a href="./posts/florence/florence-duomo-complex.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/florence/images/florence-duomo-dome-interior-selfie.jpeg" alt="Two visitors take a selfie inside Florence Cathedral, with stone arches, stained-glass windows, and the brightly painted interior of the Duomo dome rising above them." style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -1079,7 +1226,7 @@ June 8, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="ZmxvcmVuY2UlMkN3YWxraW5nJTJDZGluaW5n" data-listing-date-sort="1780808400000" data-listing-file-modified-sort="1781622067620" data-listing-date-modified-sort="1781622067000" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
+<div class="g-col-1" data-index="15" data-categories="ZmxvcmVuY2UlMkN3YWxraW5nJTJDZGluaW5n" data-listing-date-sort="1780808400000" data-listing-file-modified-sort="1781622067620" data-listing-date-modified-sort="1781622067000" data-listing-reading-time-sort="2" data-listing-word-count-sort="306">
 <a href="./posts/florence/florence-morning-walk.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/florence/images/uffizi-courtyard-palazzo-vecchio-evening.jpeg" alt="Evening view down the Uffizi courtyard in Florence, with long Renaissance arcades on both sides, people strolling through the stone-paved passage, and the Palazzo Vecchio tower rising in the warm light beyond." style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -1110,7 +1257,7 @@ June 7, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="ZmxvcmVuY2UlMkNkaW5pbmclMkNhcnJpdmFs" data-listing-date-sort="1780722000000" data-listing-file-modified-sort="1781037886534" data-listing-date-modified-sort="1781037886000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="g-col-1" data-index="16" data-categories="ZmxvcmVuY2UlMkNkaW5pbmclMkNhcnJpdmFs" data-listing-date-sort="1780722000000" data-listing-file-modified-sort="1781037886534" data-listing-date-modified-sort="1781037886000" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <a href="./posts/florence/florence-arrival.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img src="posts/florence/images/pigeon.jpeg" alt="First morning light from the Airbnb window" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -1141,7 +1288,7 @@ June 6, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="ZmxvcmVuY2UlMkNib29rcyUyQ3Nob3BwaW5n" data-listing-date-sort="1780635600000" data-listing-file-modified-sort="1780674279001" data-listing-date-modified-sort="1780674279000" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
+<div class="g-col-1" data-index="17" data-categories="ZmxvcmVuY2UlMkNib29rcyUyQ3Nob3BwaW5n" data-listing-date-sort="1780635600000" data-listing-file-modified-sort="1780674279001" data-listing-date-modified-sort="1780674279000" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
 <a href="./posts/florence/florence-bookstores.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -1172,7 +1319,7 @@ June 5, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="ZmxvcmVuY2UlMkNzdGF0aW9uZXJ5JTJDc2hvcHBpbmc=" data-listing-date-sort="1780635600000" data-listing-file-modified-sort="1780674382099" data-listing-date-modified-sort="1780674382000" data-listing-reading-time-sort="2" data-listing-word-count-sort="312">
+<div class="g-col-1" data-index="18" data-categories="ZmxvcmVuY2UlMkNzdGF0aW9uZXJ5JTJDc2hvcHBpbmc=" data-listing-date-sort="1780635600000" data-listing-file-modified-sort="1780674382099" data-listing-date-modified-sort="1780674382000" data-listing-reading-time-sort="2" data-listing-word-count-sort="312">
 <a href="./posts/florence/florence-stationery.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -1205,6 +1352,9 @@ June 5, 2026
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
