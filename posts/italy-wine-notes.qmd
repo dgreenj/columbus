@@ -9,6 +9,20 @@ description: "A periodically updated wine post for notable bottles from the Ital
 
 Some trip details belong in the daily recaps. Wines do not. Wines deserve their own ledger, because otherwise a good bottle disappears into the soup of travel logistics and later no one remembers what was poured where. This post is the running list.
 
+## Elia Rosarina Rosato 2025 — tonight’s rosé
+
+**Where:** Evening of June 18 in Puglia.  
+**Producer / label:** Elia.  
+**Bottle:** **Rosarina 2025 Rosato**; back label identifies **Salento Susumaniello 2025**.  
+**Visible label facts:** 12.5% vol.; 750 ml; contains sulfites.  
+**Context:** Dan sent this as tonight’s rosé and noted the lovely color — a pink-gold rosato glowing through the bottle, which is enough reason to preserve it before the evening blurs.
+
+![Elia Rosarina 2025 Rosato, tonight’s rosé in Puglia.](puglia/images/elia-rosarina-2025-rosato-front.jpeg){fig-alt="Front view of an amber glass wine bottle on a restaurant table, labeled Elia Rosarina 2025 Rosato with a bee illustration and pink lettering, beside a pale ice bucket draped with a red-and-white checkered cloth."}
+
+![Back label of the Elia Rosarina 2025 Rosato bottle.](puglia/images/elia-rosarina-2025-rosato-back.jpeg){fig-alt="Back view of the Elia Rosarina wine bottle on a restaurant table, showing a narrow white label with text including Salento Susumaniello 2025, 12.5 percent alcohol by volume, 750 ml, and contains sulfites."}
+
+A good rosé color is not a small thing. It is the bottle announcing itself before the glass does.
+
 ## Varvaglione IDEA Rosa di Primitivo — pizzeria lunch in Puglia
 
 **Where:** Pizzeria lunch in Puglia, June 18.
