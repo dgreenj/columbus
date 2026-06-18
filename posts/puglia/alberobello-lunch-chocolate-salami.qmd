@@ -9,6 +9,22 @@ description: "A June 18 Puglia day post seeded from Alberobello lunch notes: tru
 
 June 18 is the Alberobello day: out from **Petrantiche Albergo Diffuso** in Putignano after breakfast, into the trulli district for the morning, and then lunch on our own in Alberobello before returning to Putignano to cool down and gather strength for the evening food experience.
 
+The morning tour was the trulli doing what trulli do best: whitewashed walls, dry-stone conical roofs, pale paving, hard blue sky, and roof symbols painted in white as if the town had decided ordinary architecture was insufficiently theatrical. A small white Fiat parked among the cones looked less like transportation than a prop left there by a competent stage manager.
+
+![A white Fiat parked on a pale stone street among Alberobello’s trulli during the morning tour.](images/alberobello-trulli-fiat-street.jpeg){fig-alt="A small white Fiat is parked on a pale stone street in Alberobello, with whitewashed trulli buildings, gray conical stone roofs, white painted roof symbols, potted plants, pedestrians, and dark cypress trees under a clear blue sky."}
+
+![Walking past a row of Alberobello trulli with white symbols painted on the conical roofs.](images/alberobello-trulli-symbols-walking-tour.jpeg){fig-alt="Visitors walk along a pale cobbled street beside a row of whitewashed trulli buildings with gray conical stone roofs, white painted roof symbols, white finials, potted flowers, vines, and cypress trees under a deep blue sky."}
+
+From above, Alberobello becomes a whole field of stone cones: white walls below, stacked gray roof courses above, the streets threading between them, and small birds cutting across the sky. The closer rooftop view shows the less polished working edges as well — pots gathered in a courtyard, a rusting corrugated roof, clipped greenery, and the trulli roofs still rising behind it all. That is often the better proof: the famous form not as postcard, but as neighborhood.
+
+![A rooftop panorama over Alberobello’s trulli district, with conical roofs spread across the town.](images/alberobello-trulli-rooftop-panorama.jpeg){fig-alt="Elevated view across Alberobello, showing many white buildings with gray conical trulli roofs, pale streets, trees, shadows on nearby rooftops, and small birds in a clear blue sky."}
+
+![A rooftop view over Alberobello, with clay pots and greenery in the foreground and trulli roofs beyond.](images/alberobello-trulli-rooftop-courtyard-pots.jpeg){fig-alt="View from above a courtyard in Alberobello, with a rust-streaked corrugated roof, large clay pots, clipped greenery, whitewashed walls, nearby trulli roofs, and many more conical roofs across the town under a blue sky."}
+
+The descent back toward the district narrowed the view into stone steps, high walls, deep shade, and a bright opening below where the trulli start again. Three people on the stairway give the scene its scale: the architecture is not just quaint; it channels you downhill like water.
+
+![A stone stairway in Alberobello descending toward the trulli district.](images/alberobello-stairway-to-trulli-district.jpeg){fig-alt="A broad stone stairway descends between pale stone and whitewashed walls toward Alberobello’s trulli district, with three people walking down, handrails along the walls, strong sun and shadow, and conical roofs visible in the distance under a clear blue sky."}
+
 Lunch supplied an important dessert note: **[chocolate salami](https://en.wikipedia.org/wiki/Chocolate_salami)**. This is not salami, which would make it a poor dessert and a suspicious sausage. It is the chocolate-and-biscuit log sliced to look like salami, a trick that Italy has decided is entirely reasonable. On this point Italy is correct.
 
 The lunch wines are already in the running bottle ledger — [Varvaglione IDEA Rosa di Primitivo and Coppi Senatore Primitivo Gioia del Colle 2017](../italy-wine-notes.qmd) — because wines belong in the wine post, not scattered around like crumbs after dessert.
@@ -23,7 +39,7 @@ The lunch wines are already in the running bottle ledger — [Varvaglione IDEA R
 
 ## Notes to expand
 
-- **Alberobello:** Trulli district, dry-stone architecture, crowds/heat, guide notes, and any good visual details from the walk.
+- **Alberobello:** Trulli district morning tour, dry-stone conical roofs, whitewashed walls, painted roof symbols, rooftop views, the stairway descent back toward the district, crowds/heat, guide notes, and any good visual details from the walk.
 - **Lunch:** Pizzeria lunch in Alberobello; connect to the two wines already recorded in the wine ledger.
 - **Dessert:** Chocolate salami — link saved, identify it plainly, and do not let the name confuse future prose.
 - **Evening:** Food experience details once they arrive.
