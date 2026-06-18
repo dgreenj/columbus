@@ -1,10 +1,10 @@
 ---
 title: "Alberobello Lunch and Chocolate Salami"
-subtitle: "Trulli in the morning, lunch on your own, pizzeria wines, and dessert that looks like sausage only to confuse the innocent."
+subtitle: "Trulli in the morning, lunch on your own, pizzeria wines, dessert that looks like sausage, and more pasta at Scinuà in Putignano."
 date: "2026-06-18"
 date-modified: last-modified
 categories: [italy, travel, puglia, alberobello, putignano, food]
-description: "A June 18 Puglia day post seeded from Alberobello lunch notes: trulli in the morning, lunch in town, pizzeria wines, and chocolate salami for dessert."
+description: "A June 18 Puglia day post seeded from Alberobello lunch notes: trulli in the morning, lunch in town, pizzeria wines, chocolate salami for dessert, and dinner at Scinuà in Putignano."
 ---
 
 June 18 is the Alberobello day: out from **Petrantiche Albergo Diffuso** in Putignano after breakfast, into the trulli district for the morning, and then lunch on our own in Alberobello before returning to Putignano to cool down and gather strength for the evening food experience.
@@ -29,17 +29,25 @@ Lunch supplied an important dessert note: **[chocolate salami](https://en.wikipe
 
 The lunch wines are already in the running bottle ledger — [Varvaglione IDEA Rosa di Primitivo and Coppi Senatore Primitivo Gioia del Colle 2017](../italy-wine-notes.qmd) — because wines belong in the wine post, not scattered around like crumbs after dessert.
 
+Dinner moved the day back to **Scinuà** in Putignano — a restaurant card promising, in its own crooked way, *dove la cucina...* and then the evidence: a small glass starter, and yes, more pasta. The pasta arrived green and generous, with flowers, herbs, croutons, and crisp red bits over a white sauce. I will not pretend to know its official name from the photograph alone; the important fact is that Putignano supplied another bowl and nobody behaved as if this were a problem.
+
+![Scinuà’s orange restaurant card at dinner in Putignano.](images/putignano-scinua-restaurant-card.jpeg){fig-alt="An orange restaurant card on a gray tabletop reads Scinuà in large dark lettering, with smaller vertical text reading dove la cucina."}
+
+![A small glass starter at Scinuà in Putignano, with crisp bread, onion, herbs, and vegetables.](images/putignano-scinua-dinner-small-salad.jpeg){fig-alt="A small clear glass cup on a white plate holds a starter with pieces of toasted bread, sliced red onion, green vegetables, herbs, and a pale crisp garnish on a restaurant table."}
+
+![More pasta at Scinuà in Putignano, green and covered with flowers, herbs, croutons, and crisp red pieces.](images/putignano-scinua-pasta-zucchini-flowers.jpeg){fig-alt="A bowl of green pasta sits on a tan paper placemat, topped with orange zucchini flowers, basil leaves, croutons, crisp red pieces, and streaks of white sauce, with a glass and fork nearby."}
+
 ## Schedule for Thursday, June 18
 
 | Time | Plan |
 |---|---|
 | **Morning** | Breakfast, then drivers to **Alberobello** for the trulli district walking tour |
 | **Afternoon** | Free time and lunch on your own in Alberobello; return to **Putignano** to relax and refresh |
-| **Evening** | Return to Alberobello for the food experience |
+| **Evening** | Dinner at **Scinuà** in **Putignano** — more pasta, plus the restaurant-card proof |
 
 ## Notes to expand
 
 - **Alberobello:** Trulli district morning tour, dry-stone conical roofs, whitewashed walls, painted roof symbols, rooftop views, the stairway descent back toward the district, crowds/heat, guide notes, and any good visual details from the walk.
 - **Lunch:** Pizzeria lunch in Alberobello; connect to the two wines already recorded in the wine ledger.
 - **Dessert:** Chocolate salami — link saved, identify it plainly, and do not let the name confuse future prose.
-- **Evening:** Food experience details once they arrive.
+- **Evening:** Scinuà dinner in Putignano; more pasta, the restaurant card, starter glass, and any later dish names Dan supplies.
