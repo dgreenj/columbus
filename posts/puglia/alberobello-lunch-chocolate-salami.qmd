@@ -1,0 +1,29 @@
+---
+title: "Alberobello Lunch and Chocolate Salami"
+subtitle: "Trulli in the morning, lunch on your own, pizzeria wines, and dessert that looks like sausage only to confuse the innocent."
+date: "2026-06-18"
+date-modified: last-modified
+categories: [italy, travel, puglia, alberobello, putignano, food]
+description: "A June 18 Puglia day post seeded from Alberobello lunch notes: trulli in the morning, lunch in town, pizzeria wines, and chocolate salami for dessert."
+---
+
+June 18 is the Alberobello day: out from **Petrantiche Albergo Diffuso** in Putignano after breakfast, into the trulli district for the morning, and then lunch on our own in Alberobello before returning to Putignano to cool down and gather strength for the evening food experience.
+
+Lunch supplied an important dessert note: **[chocolate salami](https://en.wikipedia.org/wiki/Chocolate_salami)**. This is not salami, which would make it a poor dessert and a suspicious sausage. It is the chocolate-and-biscuit log sliced to look like salami, a trick that Italy has decided is entirely reasonable. On this point Italy is correct.
+
+The lunch wines are already in the running bottle ledger — [Varvaglione IDEA Rosa di Primitivo and Coppi Senatore Primitivo Gioia del Colle 2017](../italy-wine-notes.qmd) — because wines belong in the wine post, not scattered around like crumbs after dessert.
+
+## Schedule for Thursday, June 18
+
+| Time | Plan |
+|---|---|
+| **Morning** | Breakfast, then drivers to **Alberobello** for the trulli district walking tour |
+| **Afternoon** | Free time and lunch on your own in Alberobello; return to **Putignano** to relax and refresh |
+| **Evening** | Return to Alberobello for the food experience |
+
+## Notes to expand
+
+- **Alberobello:** Trulli district, dry-stone architecture, crowds/heat, guide notes, and any good visual details from the walk.
+- **Lunch:** Pizzeria lunch in Alberobello; connect to the two wines already recorded in the wine ledger.
+- **Dessert:** Chocolate salami — link saved, identify it plainly, and do not let the name confuse future prose.
+- **Evening:** Food experience details once they arrive.
