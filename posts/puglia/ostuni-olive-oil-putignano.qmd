@@ -4,7 +4,7 @@ subtitle: "The White City, a cream-filled pasticciotto at a gas station, Masseri
 date: "2026-06-17"
 date-modified: last-modified
 categories: [italy, travel, puglia, ostuni, putignano, food]
-description: "A June 17 Puglia day post: breakfast, Ostuni and its white stone lanes, a cream-filled pasticciotto at a gas station, Masseria Rienzo for olive oil tasting and lunch, Putignano, aperitivo, and pizza night."
+description: "A June 17 Puglia day post: breakfast, Ostuni and its white stone lanes, a cream-filled pasticciotto at a gas station, Masseria Rienzo for olive oil tasting and lunch, Putignano, aperitivo, and dinner at Premiata Pizzeria."
 ---
 
 June 17 begins as a working day-post, to be filled in as the evidence arrives. The route is north through **Ostuni**, onward to **Masseria Rienzo** for olive oil and lunch, and then into **Putignano** for the next base. A sensible plan, provided no one lets aperitivo become a committee meeting.
@@ -31,6 +31,14 @@ The historic center also has the **Seat of the Knights of Malta**: pale stone bu
 
 ![The Seat of the Knights of Malta in the historic center, with pale stone facades opening onto a small paved square.](images/putignano-seat-knights-of-malta.jpeg){fig-alt="Sunlit stone-paved square in a historic center, with pale limestone buildings, balconies, a large churchlike facade with steps and a circular window detail, outdoor cafe tables, potted trees, overhead string lights, and several people walking under a clear blue sky."}
 
+Dinner was at **Premiata Pizzeria**, properly announced by a black sign promising a “culinary experience,” and then delivered in the more reliable language of hot crust, cheese, cured meat, red peppers, and a table that had already begun to look lived-in. The walk there through Putignano’s historic center was nearly as good: stone paving underfoot, pale facades on either side, string lights overhead, and the evening sky going deep blue above the tower.
+
+![The Premiata Pizzeria sign in Putignano before dinner.](images/putignano-premiata-pizzeria-sign.jpeg){fig-alt="A black wall sign mounted on rough stone reads 'Premiata Pizzeria' and 'Culinary Experience,' with a red and cream logo above the lettering and warm light falling across the sign."}
+
+![Evening in Putignano’s historic center, with restaurants open under string lights and a tower lit against the blue sky.](images/putignano-evening-street-dinner.jpeg){fig-alt="A stone-paved street in Putignano at dusk, lined with pale historic buildings, restaurant tables, potted plants, string lights, and a square tower with illuminated openings under a deep blue evening sky."}
+
+![Pizza dinner at Premiata Pizzeria in Putignano, after the evidence had already begun disappearing.](images/putignano-premiata-pizzeria-dinner.jpeg){fig-alt="A partly eaten pizza sits on a ceramic plate at a restaurant table, topped with melted cheese, slices of cured meat, small white cheese pieces, and red pepper strips, with water glasses, another plate, and small bruschetta-style bites nearby."}
+
 ## Schedule for Wednesday, June 17
 
 | Time | Plan |
@@ -43,7 +51,7 @@ The historic center also has the **Seat of the Knights of Malta**: pale stone bu
 | **After arrival** | Check in at **Hotel Pietrantiche** |
 | **Afternoon** | Free time |
 | **18:00** | Aperitivo somewhere 😂 |
-| **19:30** | Pizza night at **Primiata Pizzeria** |
+| **19:30** | Pizza night at **Premiata Pizzeria** |
 
 ## Notes to expand
 
@@ -52,4 +60,4 @@ The historic center also has the **Seat of the Knights of Malta**: pale stone bu
 - **Gas-station pastry:** cream-filled pasticciotto / pasticciotti tradizionali; good enough to deserve a note, which says something about Italian gas stations.
 - **Masseria Rienzo:** Olive oil tasting, light lunch, the 3,000-year-old olive tree, and any bottle-worthy details.
 - **Putignano:** Arrival, check-in at Hotel Pietrantiche, room/base notes, historic-center balcony view, Seat of the Knights of Malta, and free time.
-- **Evening:** Aperitivo reconnaissance, followed by pizza night at Primiata Pizzeria.
+- **Evening:** Aperitivo reconnaissance, followed by pizza night at Premiata Pizzeria.
