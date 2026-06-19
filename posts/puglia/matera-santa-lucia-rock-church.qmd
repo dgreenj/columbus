@@ -1,21 +1,31 @@
 ---
-title: "Matera: Santa Lucia Rock Church"
+title: "Matera: Santa Lucia alle Malve Rock Church"
 subtitle: "A cave church of saints, fresco fragments, and the Norman world pressing at the edges."
 date: "2026-06-19"
 date-modified: last-modified
 categories: [italy, travel, basilicata, matera, rock-church, frescoes]
-description: "A focused Matera post on the Church of Santa Lucia rock church, its surviving frescoes of the Virgin Mary, Saint Michael, monastic saints, and the layered Byzantine and Norman world around the Sassi."
+description: "A focused Matera post on the rock church of Santa Lucia alle Malve, its surviving frescoes of the Virgin Mary, Saint Michael, monastic saints, and the layered Byzantine and Norman world around the Sassi."
 ---
 
 Matera's rock churches do not behave like ordinary churches. They are carved out of the city itself: tufa walls, uneven chambers, niches and columns cut from stone, and frescoes surviving where damp, smoke, damage, and time have not quite finished their work.
 
-This one gets its own post because the wall is doing more than decoration. The frescoes belong to the long sacred life of the Sassi: Byzantine and Italo-Byzantine forms, monastic memory, Latin and Greek worlds rubbing shoulders, and the Norman presence in southern Italy not far away. Dan's field note was blunt: **William the Conqueror was here.** Whether taken literally or as shorthand for the Norman century, the point stands — this cave church belongs to the same rough medieval world in which Normans were remaking both England and the south of Italy.
+This one gets its own post because the wall is doing more than decoration. The on-site materials name the place **Santa Lucia alle Malve**, a *chiesa rupestre* — a rock-cut church. The frescoes belong to the long sacred life of the Sassi: Byzantine and Italo-Byzantine forms, monastic memory, Latin and Greek worlds rubbing shoulders, and the Norman presence in southern Italy not far away. Dan's field note was blunt: **William the Conqueror was here.** Whether taken literally or as shorthand for the Norman century, the point stands — this cave church belongs to the same rough medieval world in which Normans were remaking both England and the south of Italy.
 
-![The Virgin Mary and Saint Michael painted in adjacent arched niches inside the Santa Lucia rock church.](images/matera-santa-lucia-virgin-mary-saint-michael.jpeg){fig-alt="Two frescoed arched niches in a rock-cut church show the Virgin Mary holding the Christ Child on the left and an armored haloed Saint Michael on the right, with carved stone columns and pitted tufa walls around them."}
+![The Santa Lucia alle Malve reproduction board inside the rock church, with numbered fresco images for visitors.](images/matera-santa-lucia-reproduction-board.jpeg){fig-alt="A display board titled Santa Lucia alle Malve shows numbered photographic reproductions of frescoes and interior views for visitors inside the rock church."}
+
+The reproduction board is useful evidence in its own right. It names the site plainly — **Santa Lucia alle Malve** — and turns the cave wall into a numbered map of surviving saints, interiors, fragments, and devotional panels.
+
+![The Virgin Mary and Saint Michael painted in adjacent arched niches inside the Santa Lucia alle Malve rock church.](images/matera-santa-lucia-virgin-mary-saint-michael.jpeg){fig-alt="Two frescoed arched niches in a rock-cut church show the Virgin Mary holding the Christ Child on the left and an armored haloed Saint Michael on the right, with carved stone columns and pitted tufa walls around them."}
 
 The clearest pairing is the Virgin and Child beside Saint Michael. The Virgin sits solemnly under a painted arch, dark mantle and gold halo intact enough to hold the eye. Michael stands armed in the next niche, frontal and formal, the old protector of thresholds and combat still watching from a wall that has lost plenty but not its authority.
 
 ![Two haloed monastic saints painted on a pale rock wall in Santa Lucia.](images/matera-santa-lucia-monastic-saints.jpeg){fig-alt="Two narrow fresco panels on a pale stone wall show haloed bearded saints in long robes, one holding a staff and the other holding a scroll with writing, with damaged plaster around the figures."}
+
+![The sixteenth-century Madonna with Child fresco at Santa Lucia alle Malve.](images/matera-santa-lucia-madonna-child-sixteenth-century.jpeg){fig-alt="A sixteenth-century fresco of the Madonna with Child painted on a rough stone pier, with Mary seated on a throne against a red background and holding the Christ Child on her lap."}
+
+A separate label identifies this panel as **Madonna con il Bambino, sec. XVI** — **Madonna with Child, 16th century**. That late date matters. The cave is not just one medieval moment preserved in amber; it kept accumulating devotion, painting, damage, and repair.
+
+![The on-site label identifying the Madonna with Child fresco as sixteenth century.](images/matera-santa-lucia-madonna-child-label.jpeg){fig-alt="A white museum label from Oltre l'Arte reads 'Madonna con il Bambino, sec. XVI' and 'Madonna with Child, XVI cent.' with Braille below."}
 
 Other panels show monastic saints — lean, frontal, severe, and haloed — with staffs, scrolls, and inscriptions. Their faces are not sentimental. They look like men who have been standing in the cave long enough to know that tourists eventually leave and stone remains.
 
@@ -27,15 +37,18 @@ Some fragments survive only as clues: half a female saint's face, a word fragmen
 
 The damage also makes the place legible as a working sacred site across centuries. Paint, plaster, carved stone, repairs, erosion, and holes in the tufa all occupy the same surface. No one layer gets the whole wall to itself.
 
+![Visitors looking at a larger wall of fresco registers in the Santa Lucia alle Malve rock church.](images/matera-santa-lucia-fresco-wall-visitors.jpeg){fig-alt="Visitors stand behind a red barrier in a rock-cut chapel, looking at a large damaged fresco wall with upper and lower registers of haloed saints and a seated Virgin figure."}
+
 ![A larger wall of fresco registers in the Santa Lucia rock church, with saints above and below.](images/matera-santa-lucia-fresco-registers.jpeg){fig-alt="A large frescoed wall in a rock-cut chapel shows damaged upper and lower registers of haloed saints, including a seated Virgin figure in the lower row, with visitors standing behind a red barrier."}
 
 The larger fresco wall gathers the whole problem together: upper and lower registers, bishops or saints, a seated Virgin figure below, and enough missing plaster to remind you that survival is never neutral. It is a wall of saints, but also a wall of absences.
 
 ## Notes to expand
 
-- **Site:** Church of Santa Lucia rock church, Matera.
+- **Site:** Santa Lucia alle Malve, Matera; on-site board identifies it as a *chiesa rupestre* / rupestrian church.
 - **Context:** Rock-cut sacred space in the Sassi, with frescoes painted directly onto tufa/plaster surfaces.
 - **Visible iconography:** Virgin Mary and Child; Saint Michael; monastic saints with staff and scroll; damaged fragments of female saints and other holy figures.
+- **On-site label:** “Madonna con il Bambino, sec. XVI” / “Madonna with Child, XVI cent.” for the Madonna-and-Child panel on the stone pier.
 - **Style:** Byzantine / Italo-Byzantine visual vocabulary — frontal saints, gold halos, dark grounds, formal icon-like poses.
 - **Historical thread:** Dan noted the Norman connection: "William the Conqueror was here." Worth checking whether this refers to a specific visit, a guide's Norman shorthand, or the broader Norman presence in southern Italy.
-- **Still needed:** exact church dedication used by the local guide/signage; any official dating for the fresco cycles; whether individual saints in the damaged fragments are identified on site.
+- **Still needed:** official dating for the fresco cycles beyond the labeled 16th-century Madonna with Child; whether individual saints in the damaged fragments are identified on site.
