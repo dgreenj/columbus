@@ -1,10 +1,10 @@
 ---
 title: "Alberobello Lunch and Chocolate Salami"
-subtitle: "Trulli in the morning, lunch on your own, pizzeria wines, dessert that looks like sausage, and more pasta at Scinuà in Putignano."
+subtitle: "Trulli in the morning, lunch on your own, pizzeria wines, dessert that looks like sausage, and contemporary Apulian pasta at Scinuà in Putignano."
 date: "2026-06-18"
 date-modified: last-modified
 categories: [italy, travel, puglia, alberobello, putignano, food]
-description: "A June 18 Puglia day post seeded from Alberobello lunch notes: trulli in the morning, lunch in town, pizzeria wines, chocolate salami for dessert, and dinner at Scinuà in Putignano."
+description: "A June 18 Puglia day post seeded from Alberobello lunch notes: trulli in the morning, lunch in town, pizzeria wines, chocolate salami for dessert, and dinner at Scinuà in Putignano with contemporary Apulian pasta."
 ---
 
 June 18 is the Alberobello day: out from **Petrantiche Albergo Diffuso** in Putignano after breakfast, into the trulli district for the morning, and then lunch on our own in Alberobello before returning to Putignano to cool down and gather strength for the evening food experience.
@@ -29,13 +29,17 @@ Lunch supplied an important dessert note: **[chocolate salami](https://en.wikipe
 
 The lunch wines are already in the running bottle ledger — [Varvaglione IDEA Rosa di Primitivo and Coppi Senatore Primitivo Gioia del Colle 2017](../italy-wine-notes.qmd) — because wines belong in the wine post, not scattered around like crumbs after dessert.
 
-Dinner moved the day back to **Scinuà** in Putignano — a restaurant card promising, in its own crooked way, *dove la cucina...* and then the evidence: a small glass starter, and yes, more pasta. The pasta arrived green and generous, with flowers, herbs, croutons, and crisp red bits over a white sauce. I will not pretend to know its official name from the photograph alone; the important fact is that Putignano supplied another bowl and nobody behaved as if this were a problem.
+Dinner moved the day back to **Scinuà**, **Via Santa Lucia 18**, in Putignano. The two of us went there for contemporary Apulian cuisine after making pasta during the cooking class and lunch earlier in the day, which is either excellent thematic continuity or a refusal to learn moderation. We both had pasta.
+
+First came a small peach and red onion salad with croutons and a little finely chopped thyme — a compact, bright thing in a glass, and a useful reminder that even the small courses here were not just filler.
 
 ![Scinuà’s orange restaurant card at dinner in Putignano.](images/putignano-scinua-restaurant-card.jpeg){fig-alt="An orange restaurant card on a gray tabletop reads Scinuà in large dark lettering, with smaller vertical text reading dove la cucina."}
 
-![A small glass starter at Scinuà in Putignano, with crisp bread, onion, herbs, and vegetables.](images/putignano-scinua-dinner-small-salad.jpeg){fig-alt="A small clear glass cup on a white plate holds a starter with pieces of toasted bread, sliced red onion, green vegetables, herbs, and a pale crisp garnish on a restaurant table."}
+![A small peach and red onion salad at Scinuà in Putignano, with croutons and finely chopped thyme.](images/putignano-scinua-dinner-small-salad.jpeg){fig-alt="A small clear glass cup on a white plate holds a peach and red onion salad with croutons, finely chopped thyme, green vegetables, and a pale crisp garnish on a restaurant table."}
 
-![More pasta at Scinuà in Putignano, green and covered with flowers, herbs, croutons, and crisp red pieces.](images/putignano-scinua-pasta-zucchini-flowers.jpeg){fig-alt="A bowl of green pasta sits on a tan paper placemat, topped with orange zucchini flowers, basil leaves, croutons, crisp red pieces, and streaks of white sauce, with a glass and fork nearby."}
+One pasta looked like rigatoni — round tubular noodles — though it had a different name. The sauce was a light cream with zucchini and squash or zucchini blossoms, green and generous under flowers, herbs, croutons, and crisp red pieces. The other pasta was **orecchiette**, with a braised tomato sauce and what seemed like spare rib meat. After a day that had already involved making pasta, this was not restraint. It was research.
+
+![Pasta at Scinuà in Putignano, with tubular noodles, zucchini or squash blossoms, herbs, croutons, and a light cream sauce.](images/putignano-scinua-pasta-zucchini-flowers.jpeg){fig-alt="A bowl of tubular pasta sits on a tan paper placemat, topped with orange zucchini or squash blossoms, basil leaves, croutons, crisp red pieces, and streaks of light cream sauce, with a glass and fork nearby."}
 
 ## Schedule for Thursday, June 18
 
@@ -43,11 +47,11 @@ Dinner moved the day back to **Scinuà** in Putignano — a restaurant card prom
 |---|---|
 | **Morning** | Breakfast, then drivers to **Alberobello** for the trulli district walking tour |
 | **Afternoon** | Free time and lunch on your own in Alberobello; return to **Putignano** to relax and refresh |
-| **Evening** | Dinner at **Scinuà** in **Putignano** — more pasta, plus the restaurant-card proof |
+| **Evening** | Dinner at **Scinuà**, **Via Santa Lucia 18**, in **Putignano** — contemporary Apulian cuisine, peach-red onion salad, and two pastas |
 
 ## Notes to expand
 
 - **Alberobello:** Trulli district morning tour, dry-stone conical roofs, whitewashed walls, painted roof symbols, rooftop views, the stairway descent back toward the district, crowds/heat, guide notes, and any good visual details from the walk.
 - **Lunch:** Pizzeria lunch in Alberobello; connect to the two wines already recorded in the wine ledger.
 - **Dessert:** Chocolate salami — link saved, identify it plainly, and do not let the name confuse future prose.
-- **Evening:** Scinuà dinner in Putignano; more pasta, the restaurant card, starter glass, and any later dish names Dan supplies.
+- **Evening:** Scinuà dinner at Via Santa Lucia 18 in Putignano; contemporary Apulian cuisine after the pasta-making class/lunch earlier in the day; peach and red onion salad with croutons and finely chopped thyme; tubular pasta with light cream sauce, zucchini and squash or zucchini blossoms; orecchiette with braised tomato sauce and what seemed like spare rib meat.
