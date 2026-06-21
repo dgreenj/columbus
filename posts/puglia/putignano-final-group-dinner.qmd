@@ -9,6 +9,8 @@ description: "A final-night Putignano dinner note from June 19: outdoor group di
 
 After Matera, the last full night came back to **Putignano** for the group dinner at **Osteria Botteghe Antiche**, **Piazza Plebiscito 8**. The piazza is the heart of old town, with a few bars and restaurants directly in it, and **San Pietro Apostolo** nearby — considered the main church of Putignano. The original church dated to around the year **1000**, but by the fifteenth century it had become too old, too dilapidated, and too small for the town's needs. In **1477**, it was rebuilt by **Balì Carafa**, the local ruler from the **Knights of Jerusalem**, later the Knights of Malta.
 
+The order's name carries a great deal of medieval geography in a small phrase. The **Knights Hospitaller** began as the Order of St. John in Jerusalem, built around a hospital for pilgrims and recognized by Pope Paschal II in **1113**. After the Crusader states fell, the order shifted its base westward: first through Cyprus and Rhodes, and then to **Malta** in the sixteenth century. So “Knights of Jerusalem” and “Knights of Malta” are not two unrelated groups, but different historical names for the same long-lived Catholic military-hospitaller order as its center of gravity moved across the Mediterranean.
+
 That gave the square more weight than a pleasant dinner setting alone would have done. Piazza Plebiscito was not just a convenient place to eat; it was the old town's center of gravity, with the church, the bars, the restaurants, and the Friday-night life all gathered together. The square was full of people and families, warm, lively, and inviting: a truly marvelous place for the last night of the trip.
 
 We ate outside with the group: red-and-white checked tablecloths, wine glasses, the old town around us, and the trip beginning to understand that it was almost over.
@@ -33,6 +35,8 @@ The wine from this dinner is entered separately in the running ledger: [Tormares
 - **Place:** Osteria Botteghe Antiche, Piazza Plebiscito 8, old Putignano.
 - **Piazza:** Piazza Plebiscito, the heart of old town, with bars and restaurants directly in the square.
 - **Nearby church:** San Pietro Apostolo, considered the main church of Putignano; original church dated to around the year 1000; rebuilt in 1477 by Balì Carafa, local ruler from the Knights of Jerusalem / later Knights of Malta, because the earlier church had become too old, dilapidated, and small for the town's needs.
+- **Knights context:** Knights of Jerusalem / Knights of Malta refers to the Knights Hospitaller / Order of St. John: founded around a pilgrim hospital in Jerusalem, papally recognized in 1113, later based successively in Cyprus, Rhodes, and Malta.
 - **Setting:** Outdoor group dinner with red-and-white checked tablecloths; Friday night square full of people and families, warm and inviting.
+- **Sources checked:** Sovereign Military Order of Malta history page; Wikipedia summary for Knights Hospitaller for the basic Jerusalem → Cyprus/Rhodes → Malta sequence.
 - **Key food note:** fried “balls” on the large plate turned out to be hyacinth bulbs.
 - **Wine:** Tormaresca Calafuria Salento IGT 2023, already logged in the wine post.
