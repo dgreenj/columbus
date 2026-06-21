@@ -1,0 +1,62 @@
+---
+title: "Cardo and Decumanus: The Roman Street Grid"
+subtitle: "What those street names mean when your guide keeps saying 'Cardo IV'"
+date: "2026-06-21"
+date-modified: last-modified
+author: "DJG"
+categories: [travel, history, italy, columbus]
+description: "A quick explainer on how Romans organized their cities — north-south cardines, east-west decumani — so ancient sites suddenly start to make sense."
+execute:
+  message: false
+  warning: false
+format:
+  html:
+    toc: true
+    toc-depth: 2
+  pdf:
+    toc: true
+    toc-depth: 2
+other-links:
+  - text: "Print this page"
+    href: "javascript:window.print()"
+    icon: printer
+---
+
+Somewhere on this trip, a guide said "turn left at Cardo III" and I nodded like I knew what that meant. I didn't. Here's what I looked up later.
+
+## The Basic Grid
+
+Roman city planners used two types of streets to organize everything:
+
+- **Cardo** — runs north–south. The main one was called the *Cardo Maximus*.
+- **Decumanus** — runs east–west. The main one was the *Decumanus Maximus*.
+
+Together they form a grid, and their intersection was typically the center of city life — near the forum, the temples, the baths, the shops.
+
+The modern analogy is almost too simple: cardo = avenues (north–south), decumanus = streets (east–west). Once you have that, any Roman city plan starts to make sense.
+
+## Why It Matters When You're Walking Around
+
+In a site like Herculaneum, the excavated city is laid out in blocks (*insulae*) separated by cardines running toward the sea and decumani crossing them. When a guide says "we're on Cardo IV" or "this is the Decumanus Maximus," they're just telling you your coordinates in the Roman grid.
+
+There could be several parallel cardines (the plural is *cardines*) and several decumani — numbered out from the center. The Cardo Maximus and Decumanus Maximus were the main arteries; everything else was smaller and numbered outward.
+
+## The Center Was Always the Forum
+
+The intersection of the two main streets almost always put you near:
+
+- The **forum** (marketplace, civic center, political hub)
+- Temples
+- Public buildings
+- Shops and baths
+
+If you're ever disoriented in a Roman ruin, find the forum and you've found the center. Everything else radiates from there.
+
+## Quick Reference
+
+| Term | Direction | Main Street | Plural |
+|------|-----------|-------------|--------|
+| Cardo | North–South | Cardo Maximus | Cardines |
+| Decumanus | East–West | Decumanus Maximus | Decumani |
+
+It's a small thing, but knowing it makes the whole experience land differently. The Romans weren't just building streets — they were imposing a coordinate system on the landscape, and they did it the same way wherever they went.

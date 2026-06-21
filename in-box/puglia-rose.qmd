@@ -1,0 +1,114 @@
+---
+title: "The Rosés of Puglia"
+subtitle: "What to drink — and why — in Italy's great rosato region"
+date: "2026-06-21"
+date-modified: last-modified
+author: "DJG"
+categories: [travel, wine, italy, puglia, columbus]
+description: "A grape-by-grape guide to Puglian rosato, from the classic Negroamaro of Salento to the rising-star Susumaniello of Brindisi."
+execute:
+  message: false
+  warning: false
+format:
+  html:
+    toc: true
+    toc-depth: 2
+  pdf:
+    toc: true
+    toc-depth: 2
+other-links:
+  - text: "Print this page"
+    href: "javascript:window.print()"
+    icon: printer
+---
+
+We got back from Puglia yesterday, and before I lose the thread, I want to write down what I learned about the wine — specifically the rosé, which turned out to be the story of the whole trip.
+
+I knew Puglia had rosé. I didn't know it had *this much rosé*, or that it had been doing serious rosé before Provence made it fashionable. The famous Five Roses from Leone de Castris, bottled in 1943, is often cited as Italy's first commercially important rosato. That's not a quirky footnote — it tells you something about how deeply rosé is woven into the region's wine culture.
+
+Here's what I found worth knowing.
+
+## The Grapes
+
+| Grape | Where in Puglia | Rosé Color | Typical Flavors | Structure |
+|-------|----------------|------------|-----------------|-----------|
+| Negroamaro | Salento, Lecce, Brindisi | Deep salmon to cherry pink | Cherry, raspberry, pomegranate, herbs | Medium-bodied, savory |
+| Primitivo | Manduria, Gioia del Colle | Bright pink | Strawberry, watermelon, spice | Fuller, richer |
+| Susumaniello | Brindisi | Pale to medium pink | Red currant, citrus, rose petals | Fresh, elegant |
+| Bombino Nero | Castel del Monte | Pale salmon | Strawberry, peach, flowers | Light and delicate |
+| Nero di Troia | Northern Puglia | Medium pink | Cranberry, wild berries, herbs | Structured, mineral |
+| Malvasia Nera | Throughout Salento | Usually blended | Plum, violets | Softens blends |
+
+## Negroamaro — The One You'll See Everywhere
+
+This is the signature grape for Puglian rosé, and the name is a little misleading — "black and bitter" — because the rosés are vibrant and food-friendly, not harsh. What you get:
+
+- Cherry and raspberry fruit
+- Mediterranean herbs
+- A slight savory bitterness on the finish
+- Enough body to actually pair with food
+
+Think Provence rosé with more personality. It's great with seafood pasta, burrata, grilled octopus, pizza — basically everything you're going to eat in Puglia.
+
+Look for: Five Roses (Leone de Castris), Salice Salentino Rosato DOC.
+
+## Primitivo — Rich and Fruity
+
+Primitivo is genetically almost identical to Zinfandel, which I didn't know going in. In rosé form it becomes much fresher than you'd expect — strawberry, watermelon, red cherry, white pepper, with a fuller mouthfeel and slightly higher alcohol than a typical Provence pour.
+
+Think: White Zinfandel's sophisticated Italian cousin. Works well with charcuterie, grilled pork, tomato dishes. Wines from Manduria tend to be bigger than those from Gioia del Colle.
+
+## Susumaniello — The One Worth Seeking Out
+
+Nearly extinct not long ago, Susumaniello is now one of Puglia's most exciting grapes. The rosé is pale to medium pink and tastes like red currants, pink grapefruit, rose petals, and a salty sea-breeze minerality. Less heavy than Primitivo, more elegant than Negroamaro.
+
+Think: somewhere between Provence and Etna rosé. Fantastic with shellfish, raw tuna, shrimp risotto.
+
+Look for: Tenute Rubino Susumaniello Rosato.
+
+## Bombino Nero — Light and Floral
+
+The grape of the Castel del Monte Rosato DOC. Bombino Nero gives color quickly without excessive tannin, which makes it ideal for pale, delicate rosés — wild strawberry, peach, white flowers, citrus. Light body, crisp acidity. Think Italian rosé with a touch of Pinot Noir character.
+
+Look for: Rivera Pungirosa.
+
+## Nero di Troia — The Structured One
+
+Common in northern Puglia. Cranberry, red cherry, herbal notes, mineral finish. These rosés can actually age, and they have more tannic structure than anything else in the category. Think rosé with some of the seriousness of a red wine.
+
+## The Regional Styles
+
+| Style | Grape | Character |
+|-------|-------|-----------|
+| Salento | Negroamaro | Darker pink, savory, best with meals |
+| Manduria | Primitivo | Rich, fruity, higher alcohol |
+| Brindisi | Susumaniello | Fresh and elegant |
+| Castel del Monte | Bombino Nero | Pale, refined |
+
+## Bottles Worth Seeking Out
+
+**Easier to find:**
+
+- Leone de Castris Five Roses — the Negroamaro blend that started it all
+
+**More serious:**
+
+- Cantele Negroamaro Rosato
+- Tormaresca Calafuria
+- Tenute Rubino Susumaniello Rosato
+- Rivera Pungirosa (Bombino Nero)
+- Varvaglione 12 e Mezzo Rosato
+
+## Puglia vs. Provence
+
+One thing that kept coming up: Puglian rosato isn't really an aperitif wine. Compared to Provence:
+
+| | Provence | Puglia |
+|-|----------|--------|
+| Color | Pale | Often deeper pink |
+| Fruit | Delicate | Riper |
+| Body | Very light | More texture |
+| Character | Mineral | Savory and herbal |
+| Role | Poolside sipper | Built for food |
+
+Puglia's rosé is less about looking good on a terrace and more about sitting down to a meal — which suits the food perfectly. It might be one of Italy's most underrated wine styles, and I say that having now drunk a fair amount of it at lunch.
