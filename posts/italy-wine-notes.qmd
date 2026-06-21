@@ -9,6 +9,8 @@ description: "A periodically updated wine post for notable bottles from the Ital
 
 Some trip details belong in the daily recaps. Wines do not. Wines deserve their own ledger, because otherwise a good bottle disappears into the soup of travel logistics and later no one remembers what was poured where. This post is the running list.
 
+For the larger grape-by-grape lesson from Puglia — why Negroamaro, Primitivo, Susumaniello, Bombino Nero, and the rest make rosato such a serious regional style — see [The Rosés of Puglia](puglia/puglia-rose.qmd). This page remains the bottle ledger; that one is the field guide.
+
 ## Elia Rosarina Rosato 2025 — tonight’s rosé
 
 **Where:** Evening of June 18 in Puglia.  

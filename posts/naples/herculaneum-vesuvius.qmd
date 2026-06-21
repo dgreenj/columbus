@@ -25,6 +25,10 @@ The crater is hard country: dark rock, loose reddish gravel, steep walls, patche
 
 Herculaneum brings the scale back down from mountain to room. The survival of color is the shock: wall painting, decorative panels, mosaic work, and the clear outlines of interior space. The place does not need much help from imagination. The walls still argue for themselves.
 
+The other useful lesson was smaller, but it made the streets intelligible: the Roman grid. A **cardo** runs north--south; a **decumanus** runs east--west. The chief versions, the **Cardo Maximus** and **Decumanus Maximus**, formed the civic spine of a Roman town, with smaller cardines and decumani laying out the blocks, or *insulae*. Once we had that in hand, a guide saying “Cardo IV” stopped sounding like ritual Latin and started functioning as coordinates.
+
+In Herculaneum, that grid pulls the ruin back into city life. The streets are not just corridors between preserved rooms; they are the organizing frame that connected houses, shops, baths, and public space. Find the forum and the main axes, and the site is no longer a picturesque scatter of walls. It becomes a town with a plan — imposed, walked, buried, and then uncovered again.
+
 ![A richly decorated room at Herculaneum, with a central wall mosaic framed by surviving painted plaster.](images/herculaneum-wall-mosaic-fresco-room.jpeg){fig-alt="Interior room at Herculaneum with cracked plaster walls, red and ocher painted sections, a colorful central wall mosaic showing two human figures beneath an architectural arch, and worn stone flooring in front."}
 
 The floor mosaics make the same point in another register. Pattern survives. Domestic order survives. Someone chose geometry, borders, repetitions, and little centers inside the grid. Then the mountain did what mountains do, and the floor remained.
@@ -40,4 +44,5 @@ This is why pairing Herculaneum and Vesuvius works so well. The mountain gives t
 - **Vesuvius note:** hiking poles traveled all the way to Europe but did not make the hike.
 - **Images added:** Dan and Jane at the crater; wide crater view; Herculaneum wall mosaic/fresco room; Herculaneum geometric floor mosaic.
 - **Theme:** catastrophe paired with its source; human rooms and decorative survivals set against volcanic scale.
+- **Roman grid note:** cardo = north--south; decumanus = east--west; Herculaneum reads more clearly once the street grid becomes coordinates rather than jargon.
 - **Still needed:** guide details, order of visits, strongest Herculaneum impressions, actual difficulty of the Vesuvius walk, and any particular site names from Herculaneum worth naming precisely.
