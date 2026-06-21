@@ -13,6 +13,14 @@ The order's name carries a great deal of medieval geography in a small phrase. T
 
 That gave the square more weight than a pleasant dinner setting alone would have done. Piazza Plebiscito was not just a convenient place to eat; it was the old town's center of gravity, with the church, the bars, the restaurants, and the Friday-night life all gathered together. The square was full of people and families, warm, lively, and inviting: a truly marvelous place for the last night of the trip.
 
+Our own lodging in Putignano had already been making the same point in a quieter way. The sign read **Petrantiche**, historical center of Apulie — a very modern metal plaque for a place built into old stone.
+
+![The Petrantiche sign at our lodging in Putignano.](images/putignano-petrantiche-lodging-sign.jpeg){fig-alt="A brushed metal wall plaque for Petrantiche, with the words historical center of Apulie and registration numbers below, mounted on a pale interior wall."}
+
+Then there was the window inscription: **1702**, not as the building's beginning, but as a marker of when it had been updated. Once that one appeared, others began to show up too. Putignano was not performing oldness for visitors; it was simply old, and the stones kept saying so if one bothered to look.
+
+![A 1702 inscription carved above a stone window in Putignano.](images/putignano-1702-window-inscription.jpeg){fig-alt="A weathered stone wall in Putignano with a dark window set into it and the number 1702 carved above the window opening."}
+
 We ate outside with the group: red-and-white checked tablecloths, wine glasses, the old town around us, and the trip beginning to understand that it was almost over.
 
 The most interesting plate was the one with the fried “balls.” They turned out to be **hyacinth bulbs** — not meatballs, not croquettes, not some harmless anonymous fritter, but bulbs. This is why one takes notes. Italy can still produce a small culinary ambush after two weeks of evidence.
@@ -36,6 +44,8 @@ The wine from this dinner is entered separately in the running ledger: [Tormares
 - **Piazza:** Piazza Plebiscito, the heart of old town, with bars and restaurants directly in the square.
 - **Nearby church:** San Pietro Apostolo, considered the main church of Putignano; original church dated to around the year 1000; rebuilt in 1477 by Balì Carafa, local ruler from the Knights of Jerusalem / later Knights of Malta, because the earlier church had become too old, dilapidated, and small for the town's needs.
 - **Knights context:** Knights of Jerusalem / Knights of Malta refers to the Knights Hospitaller / Order of St. John: founded around a pilgrim hospital in Jerusalem, papally recognized in 1113, later based successively in Cyprus, Rhodes, and Malta.
+- **Lodging:** Petrantiche in Putignano; modern sign at the place we stayed in the historical center.
+- **Old-town fabric:** window inscription “1702” marks an update to the building rather than its origin; after noticing it, similar dated inscriptions appeared elsewhere.
 - **Setting:** Outdoor group dinner with red-and-white checked tablecloths; Friday night square full of people and families, warm and inviting.
 - **Sources checked:** Sovereign Military Order of Malta history page; Wikipedia summary for Knights Hospitaller for the basic Jerusalem → Cyprus/Rhodes → Malta sequence.
 - **Key food note:** fried “balls” on the large plate turned out to be hyacinth bulbs.
