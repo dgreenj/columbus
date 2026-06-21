@@ -21,7 +21,7 @@ For the larger grape-by-grape lesson from Puglia — why Negroamaro, Primitivo, 
 
 **Visible label facts:** Rosato; Salento; 750 ml; bottled by Tormaresca Soc. Agr. a r.l., San Pietro Vernotico (BR).
 
-**Context:** The final group dinner wine: a chilled rosato on a red-and-white checked tablecloth, with bread on the table and the street close enough to become part of the photograph.
+**Context:** The final group dinner wine: a chilled rosato on a red-and-white checked tablecloth, with bread on the table and the street close enough to become part of the photograph. See also the [final group dinner in Putignano](puglia/putignano-final-group-dinner.qmd).
 
 ![Tormaresca Calafuria Salento IGT 2023 at the final group dinner.](puglia/images/tormaresca-calafuria-salento-igt-2023-front.jpeg){fig-alt="A chilled clear bottle of pink Tormaresca Calafuria Salento IGT 2023 rosato stands on a red-and-white checked outdoor restaurant table beside a bread basket, with a stone street and building facade behind it."}
 

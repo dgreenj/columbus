@@ -1,0 +1,32 @@
+---
+title: "Final Group Dinner in Putignano"
+subtitle: "Dinner outside in the old town, beside the main square and church, with hyacinth bulbs earning the evening's oddest-food prize."
+date: "2026-06-19"
+date-modified: last-modified
+categories: [italy, travel, puglia, putignano, food]
+description: "A final-night Putignano dinner note from June 19: outdoor group dinner near the main square and church in the old town, with fried hyacinth bulbs, soup, dessert, and the final group wine."
+---
+
+After Matera, the last full night came back to **Putignano** for the group dinner. I did not get the restaurant name, which is irritating but survivable. It was in the main square next to the main church in old Putignano, and we ate outside with the group: red-and-white checked tablecloths, wine glasses, the street close by, and the trip beginning to understand that it was almost over.
+
+The most interesting plate was the one with the fried “balls.” They turned out to be **hyacinth bulbs** — not meatballs, not croquettes, not some harmless anonymous fritter, but bulbs. This is why one takes notes. Italy can still produce a small culinary ambush after two weeks of evidence.
+
+![The final dinner plate in Putignano, with cured meat, cheese, powder, dark sauce, and fried hyacinth bulbs.](images/putignano-final-dinner-hyacinth-bulbs-plate.jpeg){fig-alt="A plate on a red-and-white checked tablecloth holds a slice of cured meat, several pale round slices of cheese, a small pile of tan powder, dark sauce, and three browned fried hyacinth bulbs, with a wine glass above the plate."}
+
+There was also a bright orange soup or sauce course, served in a broad white bowl with herbs, small crisp bits, and red and green garnish. The exact name can wait for a menu or memory to rescue it; visually, it belongs to the same final-night table.
+
+![A bright orange soup or sauce course at the final group dinner in Putignano.](images/putignano-final-dinner-orange-soup.jpeg){fig-alt="A wide white bowl on a red-and-white checked tablecloth holds a small pool of bright orange soup or sauce, topped with herbs, crisp browned bits, and red and green garnish, with wine and water glasses above the bowl."}
+
+Dessert was pastry, powdered sugar, and yellow cream: a square layered pastry base with a curled yellow topping, served on a pale plate under the indoor-or-evening restaurant light. A proper sweet ending, and less alarming than the bulbs.
+
+![Pastry dessert with powdered sugar and yellow cream at the final group dinner.](images/putignano-final-dinner-pastry-dessert.jpeg){fig-alt="A square layered pastry dessert dusted with powdered sugar sits on a pale plate, topped with curled yellow cream, with red-and-white checked tablecloth, wine glass, water glasses, and fork around it."}
+
+The wine from this dinner is entered separately in the running ledger: [Tormaresca Calafuria Salento IGT 2023](../italy-wine-notes.qmd). The bottle did its archival duty. The hyacinth bulbs did the stranger work of making the meal memorable.
+
+## Notes to expand
+
+- **Date:** Friday, June 19, 2026 — final full night of the trip.
+- **Place:** Old Putignano, in the main square next to the main church; restaurant name not recorded.
+- **Setting:** Outdoor group dinner with red-and-white checked tablecloths.
+- **Key food note:** fried “balls” on the large plate turned out to be hyacinth bulbs.
+- **Wine:** Tormaresca Calafuria Salento IGT 2023, already logged in the wine post.
