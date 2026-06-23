@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -643,6 +646,12 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Spelling first, because food deserves that much respect: the pasta is <strong>orecchiette</strong> — “little ears” — not orchietti. This companion note belongs beside the <a href="../../posts/puglia/courgette-zucchini-cream-sauce-cooking-class.html">Courgette Zucchini Cream Sauce</a> recipe because the sauce is only half the lesson. The other half is the flour.</p>
 <p>The flour in the cooking-class discussion was <strong>La Molisana Semola Rimacinata di Grano Italiano</strong>: re-milled Italian durum-wheat semolina. This is not the coarse yellow semolina that often turns up in U.S. supermarkets. It is a much finer durum flour, used across southern Italy for fresh pasta, orecchiette, cavatelli, focaccia, and some breads.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/domenico-bianco-semolina-flours-class.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Domenico Bianco explaining the semolina flour used in the Puglia cooking class."><img src="images/domenico-bianco-semolina-flours-class.jpg" class="img-fluid figure-img" alt="Domenico Bianco stands at a wooden cooking-class table in a stone-walled kitchen, wearing an apron and gesturing while explaining the recipe, with bowls, a knife, water glasses, and a bag of semolina flour in front of him."></a></p>
+<figcaption>Domenico Bianco explaining the semolina flour used in the Puglia cooking class.</figcaption>
+</figure>
+</div>
 <p>For handmade Pugliese pasta, the useful target is therefore <strong>semola rimacinata</strong> — finely re-milled durum wheat. If the flour is too coarse, the dough can feel gritty and reluctant. If it is too soft and wheat-flour-like, it may lose the firm chew that makes orecchiette worth the trouble.</p>
 <section id="source" class="level2">
 <h2 class="anchored" data-anchor-id="source">Source</h2>
@@ -1120,6 +1129,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
