@@ -16,6 +16,8 @@ format:
 
 Taralli are the sort of snack that make industrial crackers look ashamed of themselves: rings of flour, olive oil, white wine, and salt, shaped by hand, boiled, dried, and baked until crisp. This version comes from the June 18 Puglia cooking class / food experience.
 
+![Taralli on the cooking-class table, served beside bowls and place settings.](images/taralli-cooking-class-table.jpg){fig-alt="A white bowl of golden-brown ring-shaped taralli sits on a wooden table beside a large white bowl with pale food in liquid, a smaller bowl with a spoon, drinking glasses, white plates, and woven placemats."}
+
 ## Source
 
 - **Recipe source:** Domenico Bianco, “Taralli,” in **PK recipes**, PDF created in Canva, dated May 8, 2026.
