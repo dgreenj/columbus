@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -264,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">June 21, 2026</p>
+        <p class="date-modified">June 23, 2026</p>
       </div>
     </div>
       
@@ -646,6 +649,12 @@ ul.task-list li input[type="checkbox"] {
 <p>We got back from Puglia yesterday, and before we lose the thread, we should write down what we learned about the wine — specifically the rosé, which turned out to be the story of the whole trip.</p>
 <p>We knew Puglia had rosé. We didn’t know it had <em>this much rosé</em>, or that it had been doing serious rosé before Provence made it fashionable. The famous Five Roses from Leone de Castris, bottled in 1943, is often cited as Italy’s first commercially important rosato. That’s not a quirky footnote — it tells you something about how deeply rosé is woven into the region’s wine culture.</p>
 <p>Here is what we found worth knowing. For the actual bottles we drank and photographed, see the running ledger: <a href="../../posts/italy-wine-notes.html">Wines of the Trip</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/elia-rosarina-2025-rosato-bottle.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Elia Rosarina 2025 rosato on the table during the Puglia trip."><img src="images/elia-rosarina-2025-rosato-bottle.jpg" class="img-fluid figure-img" alt="A bottle labeled Elia Rosarina 2025 Rosato stands on a white table, with a bee illustration on the label, a red-and-white check cloth over a container behind it, water drops on the tabletop, and glasses and place settings nearby."></a></p>
+<figcaption>Elia Rosarina 2025 rosato on the table during the Puglia trip.</figcaption>
+</figure>
+</div>
 <section id="the-grapes" class="level2">
 <h2 class="anchored" data-anchor-id="the-grapes">The Grapes</h2>
 <table class="caption-top table">
@@ -1262,6 +1271,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -642,6 +645,12 @@ ul.task-list li input[type="checkbox"] {
 
 <p>June 18 was the Alberobello / Putignano day of the Puglia tour: trulli in the morning, lunch and heat in the middle of the day, and the evening food experience that produced these recipes. This one is <strong>la focaccia barese</strong> — Bari-style focaccia with a semolina-and-flour dough, cherry tomatoes, olives, oregano, olive oil, and the practical instruction that the base must be well cooked.</p>
 <p>The source PDF keeps Domenico’s final blessing, which is not a measurement but may be the most Italian ingredient in the document: <em>be patient, let the energy of love become the best ingredient for any recipe.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/focaccia-barese-cooking-class-table.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Focaccia Barese on the cooking-class table, cut into squares and topped with roasted tomatoes and olives."><img src="images/focaccia-barese-cooking-class-table.jpg" class="img-fluid figure-img" alt="A round focaccia cut into square pieces sits on a white plate on a wooden table, topped with roasted red tomatoes, olives, oregano, and browned edges, with plates, woven placemats, glasses, forks, and people eating nearby."></a></p>
+<figcaption>Focaccia Barese on the cooking-class table, cut into squares and topped with roasted tomatoes and olives.</figcaption>
+</figure>
+</div>
 <section id="source" class="level2">
 <h2 class="anchored" data-anchor-id="source">Source</h2>
 <ul>
@@ -1159,6 +1168,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
