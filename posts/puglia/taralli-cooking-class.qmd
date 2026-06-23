@@ -1,0 +1,70 @@
+---
+title: "Taralli"
+subtitle: "A June 18 Puglia cooking-class recipe for boiled-and-baked olive-oil and white-wine taralli."
+date: "2026-06-18"
+date-modified: last-modified
+categories: [italy, puglia, recipe, cooking-class, alberobello, taralli]
+description: "Taralli from the June 18 Puglia cooking class during the Strada Toscana tour, transcribed from Domenico Bianco's PK recipes PDF."
+format:
+  html:
+    toc: true
+    toc-depth: 2
+  pdf:
+    toc: true
+    toc-depth: 2
+---
+
+Taralli are the sort of snack that make industrial crackers look ashamed of themselves: rings of flour, olive oil, white wine, and salt, shaped by hand, boiled, dried, and baked until crisp. This version comes from the June 18 Puglia cooking class / food experience.
+
+## Source
+
+- **Recipe source:** Domenico Bianco, “Taralli,” in **PK recipes**, PDF created in Canva, dated May 8, 2026.
+- **Trip context:** June 18, 2026 cooking class / food experience during the Strada Toscana Puglia tour; Columbus itinerary context: `daily_itineraries/day-14-2026-06-18-puglia.qmd` and `regions/puglia.qmd`.
+- **Original PDF:** [PK Taralli recipe](files/pk-taralli-recipe.pdf)
+
+## Ingredients
+
+- 500 g flour — a mix of not-strong flours, such as whole wheat flour, type 1 flour, and 00 flour
+- 180 g extra-virgin olive oil — about 35–38% of the flour weight
+- 200 g white wine — about 40% of the flour weight; the source notes to add 20 g more because some may be reduced during boiling
+- 10 g salt
+
+The source notes that the oil and wine quantities can change depending on the flour. If using more whole wheat flour relative to 00 flour, reduce the oil to about **150 g** and increase the wine to about **220 g**.
+
+## Preparation
+
+### 1. Make the dough
+
+In a large bowl, pour in the flour, olive oil, and salt. Add the wine while mixing with a fork or by hand.
+
+When the dough comes together in the bowl, move it to a kneading board. Work the dough with strength but slowly until it is smooth. Cover with kitchen film and a tea towel.
+
+### 2. Rest and shape
+
+After the dough rests for **10 minutes**, take a piece of dough and roll it by hand on the board into a large, thick rope.
+
+Cut the rope into large cube-like pieces. Roll each piece by hand into a rope about as thick as a middle finger, then close it into a ring.
+
+Put the shaped taralli on a large tray covered with baking foil. Continue until all the dough is shaped.
+
+### 3. Boil
+
+In a large saucepan, bring **5 litres water** to a boil.
+
+Once boiling, add about **10 taralli at a time**. Stir gently with a spoon. Wait for the taralli to rise naturally to the surface, then quickly remove them from the water.
+
+Place the boiled taralli on a large surface covered with baking paper — a baking tray, large plate, or kneading board. Continue boiling the taralli in batches of 10.
+
+### 4. Dry
+
+Leave the boiled taralli to dry in a ventilated place, or in the kitchen with a slightly open window, for at least **2 hours**, until quite dry.
+
+### 5. Bake
+
+Bake at **190°C** for **20–30 minutes**, depending on the oven.
+
+## Notes
+
+- The boil-and-dry step is not ornament. It gives taralli their proper texture.
+- The dough should be smooth before shaping; rough dough will make a rough ring, and then everyone must pretend not to notice.
+- Flour choice matters. Whole wheat absorbs differently, so the recipe gives sensible room to adjust oil and wine.
