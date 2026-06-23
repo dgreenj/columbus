@@ -15,7 +15,7 @@ The Italo ride to Naples was in the **club car / private Salotto cabin**, a thre
 
 A car brought Dan and Jane from Napoli Centrale to **Casa Wenner Large — Naples Center Chiaia Plebiscito**, the Airbnb on Via Monte di Dio. The apartment is pretty great: quiet, with its own enclosed courtyard, a rustic garden, and a view over the Gulf of Naples. The plants here are tropical and big, which makes the enclosed garden feel more southern immediately — a different climate and a different city, not merely the next stop on the same itinerary.
 
-Dinner was at **10 Diego Vitagliano**, Diego Vitagliano's flagship pizzeria. The "10" is a nod to Diego Maradona's jersey number — Maradona being nearly a patron saint in Naples — and also to the shared first name. It was a good first Naples dinner in exactly the right category: pizza, serious pizza, and outstanding.
+Dinner was at **10 Diego Vitagliano**, Diego Vitagliano's flagship pizzeria. The "10" is a nod to Diego Maradona's jersey number — Maradona being nearly a patron saint in Naples — and also to the shared first name. It was a good first Naples dinner in exactly the right category: pizza, serious pizza, and outstanding. The focused pizza note is now here: [Pizza at 10 Diego Vitagliano](pizza-at-10-diego-vitagliano.qmd).
 
 ## Retrospective Notes
 
@@ -30,3 +30,4 @@ Dinner was at **10 Diego Vitagliano**, Diego Vitagliano's flagship pizzeria. The
 - **Dinner:** 10 Diego Vitagliano, the flagship restaurant of Diego Vitagliano.
 - **Name note:** The "10" refers to Diego Maradona's jersey number and to the shared name Diego; Maradona is nearly a patron saint in Naples.
 - **Pizza verdict:** Outstanding.
+- **Pizza post:** [Pizza at 10 Diego Vitagliano](pizza-at-10-diego-vitagliano.qmd).

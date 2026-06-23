@@ -13,7 +13,7 @@ This general note keeps the rest of the day: Naples logistics, food, and whateve
 
 The practical lesson of the day remains excellent and irritating: hiking poles can cross the Atlantic, survive the packing system, sit ready for exactly the right day, and still not make it to **Mount Vesuvius**. A small lesson in logistics, paid for on volcanic gravel.
 
-Food notes began to collect around the edges of the day as well: **CROCCANTI**, and pizza at **10 Diego** — specifically **PARIGINA**. There will be a picture, which is good, because some things should be documented visually before anyone tries to improve them with prose.
+Food notes began to collect around the edges of the day as well: **CROCCANTI**, and pizza at **10 Diego** — specifically **PARIGINA**. The pizza picture now has its own post: [Pizza at 10 Diego Vitagliano](pizza-at-10-diego-vitagliano.qmd). This is good, because some things should be documented visually before anyone tries to improve them with prose.
 
 ## Notes to expand
 
@@ -21,6 +21,6 @@ Food notes began to collect around the edges of the day as well: **CROCCANTI**, 
 - **General day role:** keep logistics, food, transit, and Naples odds-and-ends here.
 - **Packed-but-not-used item:** hiking poles traveled all the way to Europe but did not make the Vesuvius hike.
 - **Food note:** CROCCANTI.
-- **Pizza note:** 10 Diego — PARIGINA.
-- **Photo still expected:** pizza / food picture if available later.
+- **Pizza note:** 10 Diego — PARIGINA; see [Pizza at 10 Diego Vitagliano](pizza-at-10-diego-vitagliano.qmd).
+- **Photo status:** pizza picture added to the focused 10 Diego post.
 - **Still needed:** timing, transit, lunch/dinner order, where CROCCANTI fits in the day, and any details from Naples outside the Herculaneum/Vesuvius visit.
