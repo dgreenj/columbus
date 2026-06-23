@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -267,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">June 15, 2026</p>
+        <p class="date-modified">June 23, 2026</p>
       </div>
     </div>
       
@@ -640,6 +643,12 @@ ul.task-list li input[type="checkbox"] {
 
 <p>The Naples walking tour began and ended at <strong>Fontana del Nettuno</strong>, with Toledo folded into the route and the historic center doing what Naples does: narrow streets, crowds, vendors, people, artists, noise, and movement in every direction. It was the sort of city walk where the streets themselves seem to be talking over the guide.</p>
 <p>A major stop was the <strong>Cathedral of San Gennaro</strong>, Naples’ patron saint, who protects the city from disaster — with volcanic eruption always one of the great ever-present possibilities here. From there the tour moved through layers of the city above and below ground: present-day Naples on the surface, ancient Naples underneath.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/cathedral-san-gennaro-interior-naples.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Interior of the Cathedral of San Gennaro in Naples, looking down the nave toward the glowing altar."><img src="images/cathedral-san-gennaro-interior-naples.jpg" class="img-fluid figure-img" alt="Interior nave of the Cathedral of San Gennaro in Naples, with rows of wooden pews, marble columns and arches, an ornate gilded ceiling, patterned stone floor, and sunlight glowing around the high altar."></a></p>
+<figcaption>Interior of the Cathedral of San Gennaro in Naples, looking down the nave toward the glowing altar.</figcaption>
+</figure>
+</div>
 <p>Along the way Dan and Jane took the Metro, entering through one of the newest and most artistic subway stations in the world, with incredible tile work and extensive new mosaics everywhere. The subway itself was nothing like Japan: far fewer people, trains not packed, and no sense of being carried along by a human river. Naples may be chaotic above ground, but the Metro was surprisingly uncrowded.</p>
 <p>The underground portion was an archaeological tour through the ancient street plan: the <strong>cardo</strong>, the north-south avenues, and the <strong>decumanus</strong>, the east-west streets, forming the old grid of the city. It was another version of Naples’ central fact: every modern street seems to have another city underneath it, still organizing the life above.</p>
 <p>After the tour and lunch, they returned to the <strong>Gallerie d’Italia</strong> on Toledo to see <strong>Caravaggio’s <em>Martyrdom of Saint Ursula</em></strong> and <strong>Artemisia Gentileschi’s <em>Samson and Delilah</em></strong>. The day also covered the major surface landmarks — the castle, the opera house, and Galleria Umberto I — enough to feel that they had hit the highlights of Naples.</p>
@@ -1092,6 +1101,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

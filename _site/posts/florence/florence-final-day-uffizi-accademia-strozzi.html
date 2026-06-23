@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -265,7 +268,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">June 10, 2026</p>
+        <p class="date-modified">June 23, 2026</p>
       </div>
     </div>
       
@@ -644,6 +647,12 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="uffizi-the-medici-collection">Uffizi: The Medici Collection</h2>
 <p>We began the day at the Uffizi with a private tour in English focused on the Medici collection. Our guide used the rooms as a visual history lesson in the transition from medieval art to the Renaissance — religious forms, human bodies, space, perspective, patronage, and civic ambition all changing at once. Without context the Uffizi can become a long procession of gold halos and crowded rooms; with context, the shift in Western art becomes visible wall by wall.</p>
 <p>The highlights included paintings by Botticelli, Michelangelo, and Leonardo da Vinci, along with sculpture connected to Donatello. What struck us most was not only the list of famous names, though the list was formidable. It was the sense of Florence as a workshop of transition, with the Medici collection serving as both treasury and argument.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/uffizi-top-floor-arno-ponte-vecchio.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="From the upper floor of the Uffizi, looking west over the Arno toward the Ponte Vecchio."><img src="images/uffizi-top-floor-arno-ponte-vecchio.jpg" class="img-fluid figure-img" alt="Elevated view from the Uffizi side of the Arno River in Florence, looking toward the Ponte Vecchio, with the Vasari Corridor and tiled roofs on the right, ocher riverside buildings on the left, small rowing boats on the water, distant bridges, and a clear blue sky."></a></p>
+<figcaption>From the upper floor of the Uffizi, looking west over the Arno toward the Ponte Vecchio.</figcaption>
+</figure>
+</div>
 </section>
 <section id="accademia-prisoners-and-david" class="level2">
 <h2 class="anchored" data-anchor-id="accademia-prisoners-and-david">Accademia: Prisoners and David</h2>
@@ -1089,6 +1098,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

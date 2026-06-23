@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-c2a2b33a2403f3aeb1bae2766a504955.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -266,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">June 15, 2026</p>
+        <p class="date-modified">June 23, 2026</p>
       </div>
     </div>
       
@@ -639,6 +642,12 @@ ul.task-list li input[type="checkbox"] {
 
 <p>The day began pleasantly and practically: coffee, quiche, and packing in Florence before the train south. It was not a museum morning or a forced march through another checklist, just the civilized work of closing one chapter of the trip and getting the bags ready for the next.</p>
 <p>The Italo ride to Naples was in the <strong>club car / private Salotto cabin</strong>, a three-hour pocket of calm for the trip south. It turned out to be the last quiet for a while. After Florence’s composed stone and proportion, Naples announced itself with noise, speed, density, and hills: traffic moving through narrow streets at high speed and with rules that were not obvious to outsiders, climbing and dropping everywhere.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/italo-salottino-private-cabin-florence-naples.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="The private Salottino cabin on the Italo high-speed train from Florence to Naples."><img src="images/italo-salottino-private-cabin-florence-naples.jpg" class="img-fluid figure-img" alt="Entrance to Salottino Uno on an Italo high-speed train, with numbered private cabin seats, red leather train seats, and a window visible inside the compartment."></a></p>
+<figcaption>The private Salottino cabin on the Italo high-speed train from Florence to Naples.</figcaption>
+</figure>
+</div>
 <p>A car brought Dan and Jane from Napoli Centrale to <strong>Casa Wenner Large — Naples Center Chiaia Plebiscito</strong>, the Airbnb on Via Monte di Dio. The apartment is pretty great: quiet, with its own enclosed courtyard, a rustic garden, and a view over the Gulf of Naples. The plants here are tropical and big, which makes the enclosed garden feel more southern immediately — a different climate and a different city, not merely the next stop on the same itinerary.</p>
 <p>Dinner was at <strong>10 Diego Vitagliano</strong>, Diego Vitagliano’s flagship pizzeria. The “10” is a nod to Diego Maradona’s jersey number — Maradona being nearly a patron saint in Naples — and also to the shared first name. It was a good first Naples dinner in exactly the right category: pizza, serious pizza, and outstanding.</p>
 <section id="retrospective-notes" class="level2">
@@ -1086,6 +1095,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
