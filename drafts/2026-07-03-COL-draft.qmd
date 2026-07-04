@@ -1,0 +1,66 @@
+I attempted to write the file directly to the columbus Quarto project (`posts/naples/naples-traffic-chaos.qmd`), but file writes to that path were blocked in this session. Here is the complete `.qmd` content for you to save manually:
+
+```markdown
+---
+title: "Naples Traffic: First Impressions"
+subtitle: "A voice recording on the chaos of Neapolitan traffic, scooters, and narrow streets."
+date: "2026-07-03"
+author: "DJG"
+categories: [italy, travel, naples, transportation]
+description: "Notes from a short recording made after arriving in Naples, describing the density of traffic, scooter riding habits, and the adjustment period required to tolerate the ride."
+---
+
+## Overview
+
+This page is a supplementary write-up of a short voice recording (COL-2026-07-03 12:31:19, roughly 11 seconds of transcribed speech) made shortly after arriving in Naples. The recording captures an immediate, visceral first reaction to Neapolitan traffic — before any of the archaeology, food, or logistics notes from the rest of the trip.
+
+## The Opening Line
+
+The recording opens with a quote from Jane, delivered within the first hundred feet of leaving on the road in Naples:
+
+> "There should be dead people everywhere."
+
+That line frames the whole recording. It was not an exaggeration made in hindsight — it was said in the moment, while the traffic was actually happening around the car.
+
+## Traffic Density
+
+The recording describes Naples traffic as:
+
+- Cars bumper to bumper, side by side
+- Sometimes four and five lanes deep, despite this not being how the road is marked
+- Scooters weaving in and out between the cars continuously
+
+The combination of packed car lanes and scooters threading through the gaps is what produced the "dead people everywhere" reaction — the expectation, from the passenger seat, that a collision was imminent and unavoidable.
+
+## Scooter Riding Habits
+
+A specific detail singled out in the recording is how many people ride on a single scooter. Rather than one rider alone, the recording describes scooters often carrying:
+
+- One person plus another person, or
+- One person plus one child, with another child standing in front of the driver
+
+This detail is presented as part of what made the scene feel chaotic and, in the recording's own word, "insane" — not just the density of vehicles, but the number of people, including children, riding exposed on scooters within that density.
+
+## The Adjustment Period
+
+Both speakers reportedly wondered "what we'd gotten ourselves into" during this initial exposure to the traffic. The recording notes it took about a day before they could keep their eyes open while riding in a cab through it — a concrete, specific detail about the emotional/physical toll of watching the traffic rather than an abstract complaint.
+
+## Beyond the Main Roads: Narrow Streets
+
+The recording draws a distinction between two different traffic environments in Naples:
+
+1. **Wide roads** — crowded, multi-lane, bumper-to-bumper, with scooters weaving through.
+2. **Narrow streets** — once off the main roads, the streets narrow considerably, with really tight turns, and still people and scooters everywhere.
+
+So the chaos wasn't confined to one type of road — it changed character (wide and dense vs. narrow and tight) but didn't let up.
+
+## Key Takeaways
+
+- Naples traffic made an immediate, strong impression — strong enough to produce the line "there should be dead people everywhere" within the first hundred feet of driving.
+- Wide roads in Naples can run four to five lanes deep in practice, with scooters cutting between cars.
+- Scooters frequently carry more than one rider — often a second adult, or a parent with one or two children, including a child standing in front of the driver.
+- It took about a day of exposure before it was tolerable to keep watching the road from inside a cab.
+- Even away from the crowded main roads, narrow streets with tight turns kept people and scooters in close proximity to traffic.
+```
+
+Note: I found an existing raw transcript stub already at `transcripts/2026-07-03-COL-transcript.qmd` (title "Naples Traffic Chaos Trip Recording"). The polished version above is designed as a companion post at `posts/naples/naples-traffic-chaos.qmd`, following that folder's naming/style conventions (kebab-case filename, `categories: [italy, travel, naples, ...]`, `description` field). Since I couldn't write to disk this session, you'll need to save it there yourself, or ask again in an interactive session where file-write permission can be granted.
