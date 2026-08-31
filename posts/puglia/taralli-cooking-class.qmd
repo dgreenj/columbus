@@ -22,6 +22,7 @@ Taralli are the sort of snack that make industrial crackers look ashamed of them
 
 - **Original class recipe source:** Domenico Bianco, “Taralli,” in **PK recipes**, PDF created in Canva, dated May 8, 2026.
 - **Additional classic plain taralli recipe:** Giovanni Siracusa.
+- **Wine note:** [Monte Antico Bianco Toscana IGT](https://monteantico.com/monte-antico-bianco/) technical sheet, consulted for varietals and producer notes.
 - **Trip context:** June 18, 2026 cooking class / food experience during the Strada Toscana Puglia tour; Columbus itinerary context: `daily_itineraries/day-14-2026-06-18-puglia.qmd` and `regions/puglia.qmd`.
 - **Original PDF:** [PK Taralli recipe](files/pk-taralli-recipe.pdf)
 
@@ -86,9 +87,18 @@ Giovanni Siracusa's version is the classic plain taralli formula: 00 flour, dry 
 5. Flash-boil the taralli in batches for about **1 minute**, then drain them on a cloth.
 6. Transfer to a parchment-lined baking sheet and bake at **375°F (190°C)** for **25–30 minutes**, until golden and crispy.
 
+## Wine note: Monte Antico Bianco Toscana IGT 2024
+
+Dan marked this as a good taralli wine, with the important household warning that drinking it gives him a massive headache. The bottle in the photos is **Monte Antico Bianco Toscana IGT 2024**, 12.5% ABV, imported by Empson (U.S.A.) Inc. The producer's technical sheet identifies the blend as **Trebbiano, Malvasia, and Vermentino**. That makes sense with taralli: Trebbiano for lemony acidity, Vermentino for salt and coastal snap, and Malvasia for the aromatic lift.
+
+![Monte Antico Bianco Toscana IGT 2024, the taralli wine.](images/monte-antico-bianco-toscana-2024-front.jpg){fig-alt="Front view of a green screwcap bottle labeled Monte Antico Toscana Bianco Indicazione Geografica Tipica on a wooden kitchen counter."}
+
+![Back label of Monte Antico Bianco Toscana IGT 2024.](images/monte-antico-bianco-toscana-2024-back.jpg){fig-alt="Back view of the Monte Antico Bianco Toscana IGT 2024 bottle showing label text, a QR code, 12.5 percent alcohol by volume, 750 ml, importer information, and a government warning."}
+
 ## Notes
 
 - The boil-and-dry step is not ornament. It gives taralli their proper texture.
 - The dough should be smooth before shaping; rough dough will make a rough ring, and then everyone must pretend not to notice.
 - Flour choice matters. Whole wheat absorbs differently, so the recipe gives sensible room to adjust oil and wine.
 - Giovanni Siracusa's plain version uses all 00 flour and a larger batch size; the cooking-class version above keeps the flour mix more flexible.
+- Monte Antico Bianco is a useful pairing note, but not a painless one for Dan. File under “good with taralli; approach with suspicion.”
