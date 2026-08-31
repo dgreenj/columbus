@@ -53,15 +53,19 @@ Put the shaped taralli on a large tray covered with baking foil. Continue until 
 
 ### 3. Boil
 
-In a large saucepan, bring **5 litres water** to a boil.
+In a large saucepan, bring **5 litres water** to a vigorous boil.
 
-Once boiling, add about **10 taralli at a time**. Stir gently with a spoon. Wait for the taralli to rise naturally to the surface, then quickly remove them from the water.
+Once boiling, add about **10 taralli at a time**. Keep the water boiling hard and let each batch boil for **1 to 1½ minutes**. They are done boiling when they float to the top. Stir gently only as needed, then quickly remove them from the water.
 
-Place the boiled taralli on a large surface covered with baking paper — a baking tray, large plate, or kneading board. Continue boiling the taralli in batches of 10.
+![Taralli boiling vigorously in a saucepan.](images/taralli-vigorous-boil.jpg){fig-alt="A metal saucepan on a stovetop filled with vigorously boiling water, with taralli barely visible under the bubbles."}
+
+Place the boiled taralli on a rack or large surface covered with baking paper — a baking tray, large plate, or kneading board. Continue boiling the taralli in batches of 10.
 
 ### 4. Dry
 
-Leave the boiled taralli to dry in a ventilated place, or in the kitchen with a slightly open window, for at least **2 hours**, until quite dry.
+Rack-dry the boiled taralli for **1 to 2 hours** before baking, until the surface is no longer wet.
+
+![Boiled taralli rack-drying before baking.](images/taralli-rack-drying-before-bake.jpg){fig-alt="An overhead view of taralli on a wire rack set in a sheet pan beside a saucepan of boiling water, with another tray of shaped unboiled taralli waiting on parchment."}
 
 ### 5. Bake
 
@@ -84,8 +88,8 @@ Giovanni Siracusa's version is the classic plain taralli formula: 00 flour, dry 
 2. If using a stand mixer, add the oil, wine, and salt first, then gradually add the flour.
 3. Work the dough for about **10 minutes**, until smooth. Let it rest for **10 minutes**.
 4. Roll small pieces of dough into thin ropes and shape them into rings.
-5. Flash-boil the taralli in batches for about **1 minute**, then drain them on a cloth.
-6. Transfer to a parchment-lined baking sheet and bake at **375°F (190°C)** for **25–30 minutes**, until golden and crispy.
+5. Boil the taralli in batches of about **10 at a time** for **1 to 1½ minutes**, keeping the water at a vigorous boil. They are done when they float to the top.
+6. Rack-dry the boiled taralli for **1 to 2 hours**, then transfer to a parchment-lined baking sheet and bake at **375°F (190°C)** for **25–30 minutes**, until golden and crispy.
 
 ## Ingredient notes from Dan's kitchen
 
@@ -107,7 +111,7 @@ Dan marked this as a good taralli wine, with the important household warning tha
 
 ## Notes
 
-- The boil-and-dry step is not ornament. It gives taralli their proper texture.
+- The boil-and-dry step is not ornament. Boil about 10 at a time, keep the water vigorous, pull them when they float, and give them 1 to 2 hours on a rack before baking.
 - The dough should be smooth before shaping; rough dough will make a rough ring, and then everyone must pretend not to notice.
 - Flour choice matters. Whole wheat absorbs differently, so the recipe gives sensible room to adjust oil and wine. For the all-00 version, Dan prefers Caputo Doppio Zero over King Arthur 00 flour.
 - Giovanni Siracusa's plain version uses all 00 flour and a larger batch size; the cooking-class version above keeps the flour mix more flexible.
