@@ -20,7 +20,8 @@ Taralli are the sort of snack that make industrial crackers look ashamed of them
 
 ## Source
 
-- **Recipe source:** Domenico Bianco, “Taralli,” in **PK recipes**, PDF created in Canva, dated May 8, 2026.
+- **Original class recipe source:** Domenico Bianco, “Taralli,” in **PK recipes**, PDF created in Canva, dated May 8, 2026.
+- **Additional classic plain taralli recipe:** Giovanni Siracusa.
 - **Trip context:** June 18, 2026 cooking class / food experience during the Strada Toscana Puglia tour; Columbus itinerary context: `daily_itineraries/day-14-2026-06-18-puglia.qmd` and `regions/puglia.qmd`.
 - **Original PDF:** [PK Taralli recipe](files/pk-taralli-recipe.pdf)
 
@@ -65,8 +66,29 @@ Leave the boiled taralli to dry in a ventilated place, or in the kitchen with a 
 
 Bake at **190°C** for **20–30 minutes**, depending on the oven.
 
+## Giovanni Siracusa's classic plain taralli
+
+Giovanni Siracusa's version is the classic plain taralli formula: 00 flour, dry white wine, extra-virgin olive oil, and sea salt. The base recipe can take fennel seeds, black pepper, rosemary, or chili flakes if you want a flavored batch. This quantity makes around **100 taralli**.
+
+### Ingredients
+
+- 1000 g 00 flour
+- 360 g dry white wine
+- 220 g extra-virgin olive oil
+- 20 g sea salt
+
+### Directions
+
+1. Add the flour to a large bowl and create a well in the center. Mix the olive oil, white wine, and salt together, then pour into the well and start incorporating the flour.
+2. If using a stand mixer, add the oil, wine, and salt first, then gradually add the flour.
+3. Work the dough for about **10 minutes**, until smooth. Let it rest for **10 minutes**.
+4. Roll small pieces of dough into thin ropes and shape them into rings.
+5. Flash-boil the taralli in batches for about **1 minute**, then drain them on a cloth.
+6. Transfer to a parchment-lined baking sheet and bake at **375°F (190°C)** for **25–30 minutes**, until golden and crispy.
+
 ## Notes
 
 - The boil-and-dry step is not ornament. It gives taralli their proper texture.
 - The dough should be smooth before shaping; rough dough will make a rough ring, and then everyone must pretend not to notice.
 - Flour choice matters. Whole wheat absorbs differently, so the recipe gives sensible room to adjust oil and wine.
+- Giovanni Siracusa's plain version uses all 00 flour and a larger batch size; the cooking-class version above keeps the flour mix more flexible.
